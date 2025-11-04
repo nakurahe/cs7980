@@ -17,7 +17,8 @@ class SlideDetector:
         text_similarity_threshold: float = 0.75,
         min_slide_duration: float = 3.0,
         ocr_confidence_threshold: float = 0.70,
-        incremental_merge: bool = True
+        incremental_merge: bool = True,
+        remove_duplicates: bool = True
     ):
         """
         Initialize slide detector
@@ -27,11 +28,13 @@ class SlideDetector:
             min_slide_duration: Minimum duration for a slide in seconds
             ocr_confidence_threshold: Minimum OCR confidence to accept (0-1)
             incremental_merge: Whether to merge incremental slides
+            remove_duplicates: Remove slides with identical text (default: True)
         """
         self.text_similarity_threshold = text_similarity_threshold
         self.min_slide_duration = min_slide_duration
         self.ocr_confidence_threshold = ocr_confidence_threshold
         self.incremental_merge = incremental_merge
+        self.remove_duplicates = remove_duplicates
         
         self.ocr_engine = OCREngine()
         self.text_comparator = TextComparator()
@@ -215,4 +218,64 @@ class SlideDetector:
             duration_ms = slide["end_time_ms"] - slide["start_time_ms"]
             slide["duration"] = duration_ms / 1000
         
+        # Remove duplicates if enabled
+        if self.remove_duplicates:
+            slides = self._remove_duplicate_slides(slides)
+        
         return slides
+    
+    def _remove_duplicate_slides(self, slides: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """
+        Remove consecutive duplicate slides (same text during continuous time span).
+        Keeps slides when instructor revisits them later in the video.
+        
+        Args:
+            slides: List of slides (must be in chronological order)
+            
+        Returns:
+            Deduplicated list of slides
+        """
+        if not slides:
+            return slides
+        
+        unique_slides = []
+        duplicates_removed = 0
+        
+        for i, slide in enumerate(slides):
+            current_text = self.ocr_engine.normalize_text(slide["extracted_text"])
+            
+            # Always keep the first slide
+            if i == 0:
+                unique_slides.append(slide)
+                continue
+            
+            # Compare with the immediately previous slide only
+            previous_text = self.ocr_engine.normalize_text(unique_slides[-1]["extracted_text"])
+            
+            # Check if this is the same as the previous slide
+            is_duplicate = False
+            
+            # Exact match
+            if current_text == previous_text:
+                is_duplicate = True
+            else:
+                # Check high similarity for minor OCR variations
+                similarity = self.text_comparator.calculate_similarity(
+                    current_text, previous_text, method="levenshtein"
+                )
+                if similarity > 0.99:  # 99% similar = duplicate
+                    is_duplicate = True
+            
+            if not is_duplicate:
+                # Different from previous slide - keep it
+                # (This includes cases where instructor returns to an earlier slide)
+                unique_slides.append(slide)
+            else:
+                # Same as previous slide - this is a consecutive duplicate
+                duplicates_removed += 1
+        
+        if duplicates_removed > 0:
+            print(f"\n🔍 Removed {duplicates_removed} consecutive duplicate slide(s)")
+            print(f"   (Kept slides when instructor revisits them later)")
+        
+        return unique_slides

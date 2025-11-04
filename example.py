@@ -49,6 +49,7 @@ def main():
         
         # Advanced options
         incremental_merge=True,          # Merge incremental slides (bullets appearing)
+        remove_duplicates=True,          # Remove consecutive duplicates (keeps revisited slides)
         progress_callback=None           # Optional: function for progress updates
     )
     

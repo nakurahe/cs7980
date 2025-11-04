@@ -20,6 +20,7 @@ def extract_slides(
     image_quality: int = 85,
     include_text_in_json: bool = True,
     incremental_merge: bool = True,
+    remove_duplicates: bool = True,
     progress_callback: Optional[Callable] = None
 ) -> Dict[str, Any]:
     """
@@ -44,6 +45,9 @@ def extract_slides(
         include_text_in_json: Include extracted text in JSON output (default: True)
         incremental_merge: Merge incremental slides into one (default: True)
                           E.g., bullet points appearing one by one
+        remove_duplicates: Remove consecutive duplicate slides (default: True)
+                          Removes same slide during continuous time span,
+                          but keeps it when instructor revisits later
         progress_callback: Optional callback function for progress updates
                           Receives dict with keys: frame_count, total_frames, progress, slides_found
     
@@ -111,7 +115,8 @@ def extract_slides(
                 text_similarity_threshold=text_similarity_threshold,
                 min_slide_duration=min_slide_duration,
                 ocr_confidence_threshold=ocr_confidence_threshold,
-                incremental_merge=incremental_merge
+                incremental_merge=incremental_merge,
+                remove_duplicates=remove_duplicates
             )
             
             # Detect slides
