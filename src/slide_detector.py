@@ -259,12 +259,28 @@ class SlideDetector:
             if current_text == previous_text:
                 is_duplicate = True
             else:
-                # Check high similarity for minor OCR variations
-                similarity = self.text_comparator.calculate_similarity(
-                    current_text, previous_text, method="levenshtein"
-                )
-                if similarity > 0.99:  # 99% similar = duplicate
-                    is_duplicate = True
+                # For consecutive slides, use word-based comparison to handle OCR errors
+                # Extract meaningful words from both texts
+                current_words = self.text_comparator.extract_meaningful_words(current_text)
+                previous_words = self.text_comparator.extract_meaningful_words(previous_text)
+                
+                # If both have meaningful words, compare them
+                if current_words and previous_words:
+                    # Calculate Jaccard similarity (word overlap)
+                    intersection = len(current_words.intersection(previous_words))
+                    union = len(current_words.union(previous_words))
+                    word_similarity = intersection / union if union > 0 else 0
+                    
+                    # High word overlap means same slide (tolerant of OCR errors in formulas)
+                    if word_similarity > 0.85:  # 85% word overlap
+                        is_duplicate = True
+                else:
+                    # Fallback to character-level similarity if no meaningful words
+                    char_similarity = self.text_comparator.calculate_similarity(
+                        current_text, previous_text, method="levenshtein"
+                    )
+                    if char_similarity > 0.95:  # Very high similarity needed
+                        is_duplicate = True
             
             if not is_duplicate:
                 # Different from previous slide - keep it

@@ -5,6 +5,7 @@ import Levenshtein
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
+import re
 
 
 class TextComparator:
@@ -18,6 +19,52 @@ class TextComparator:
             max_features=1000
         )
     
+    def clean_ocr_noise(self, text: str) -> str:
+        """
+        Remove OCR noise and artifacts to improve comparison
+        
+        Args:
+            text: Input text with potential OCR errors
+            
+        Returns:
+            Cleaned text focusing on readable content
+        """
+        # Remove single special characters and artifacts
+        text = re.sub(r'[°•★☆◆◇□■▪▫●○◎⊙⊕⊗⊘⊙⊚⊛⊜⊝←→↑↓↔↕⇄⇅⇆⇋⇌]', '', text)
+        
+        # Remove excessive punctuation (likely OCR errors)
+        text = re.sub(r'[=+\-*/]{2,}', '', text)  # Multiple math symbols
+        text = re.sub(r'[_]{2,}', '', text)  # Multiple underscores
+        
+        # Remove random single characters between spaces
+        text = re.sub(r'\s[a-zA-Z]\s', ' ', text)
+        
+        # Remove multiple spaces
+        text = re.sub(r'\s+', ' ', text)
+        
+        # Remove trailing/leading whitespace
+        text = text.strip()
+        
+        return text
+    
+    def extract_meaningful_words(self, text: str) -> Set[str]:
+        """
+        Extract meaningful words (3+ characters) for comparison
+        
+        Args:
+            text: Input text
+            
+        Returns:
+            Set of meaningful words
+        """
+        # Clean the text first
+        cleaned = self.clean_ocr_noise(text)
+        
+        # Extract words that are 3+ characters
+        words = re.findall(r'\b[a-zA-Z]{3,}\b', cleaned.lower())
+        
+        return set(words)
+    
     def calculate_similarity(self, text1: str, text2: str, method: str = "hybrid") -> float:
         """
         Calculate similarity between two text strings
@@ -25,7 +72,7 @@ class TextComparator:
         Args:
             text1: First text
             text2: Second text
-            method: Comparison method ("levenshtein", "tfidf", "hybrid")
+            method: Comparison method ("levenshtein", "tfidf", "hybrid", "word_overlap")
             
         Returns:
             Similarity score (0-1, where 1 is identical)
@@ -40,6 +87,8 @@ class TextComparator:
             return self._levenshtein_similarity(text1, text2)
         elif method == "tfidf":
             return self._tfidf_similarity(text1, text2)
+        elif method == "word_overlap":
+            return self._word_overlap_similarity(text1, text2)
         elif method == "hybrid":
             # Use both methods and average
             lev_sim = self._levenshtein_similarity(text1, text2)
