@@ -44,3 +44,6 @@ tests/test_output/
 # OS
 .DS_Store
 Thumbs.db
+
+# test videos
+test_video.mp4
