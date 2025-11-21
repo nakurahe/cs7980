@@ -1,0 +1,148 @@
+{
+  "videoFile": "test_video.mp4",
+  "totalSlides": 14,
+  "processingTime": 77.56,
+  "extractionDate": "2025-11-12T15:35:04.425498",
+  "slides": [
+    {
+      "imageFile": "slide_001.jpg",
+      "startTime": "00:00:49",
+      "endTime": "00:01:01",
+      "startTimeMs": 49493,
+      "endTimeMs": 61371,
+      "duration": 11.88,
+      "extractedText": "What is Unit Testing?\n° A unit test is a small, automated test that rit es ~.\nchecks the correctness of an individual a Oy —_ \\ aD\nunit of code (usually a method). A A eye) Ki Hh)\n° It ensures that a specific piece of code hk) ~~\nbehaves as expected. roe SSN",
+      "ocrConfidence": 0.81
+    },
+    {
+      "imageFile": "slide_002.jpg",
+      "startTime": "00:01:02",
+      "endTime": "00:01:20",
+      "startTimeMs": 62361,
+      "endTimeMs": 80179,
+      "duration": 17.82,
+      "extractedText": "What is Unit Testing?\n° Aunit test is a small, automated test that a es .\nchecks the correctness of an individual fi cn , FR\nunit of code (usually a method). Se | Oe an\n° It ensures that a specific piece of code +k ef Ne .\nbehaves as expected. yy WAN y",
+      "ocrConfidence": 0.79
+    },
+    {
+      "imageFile": "slide_003.jpg",
+      "startTime": "00:01:26",
+      "endTime": "00:01:32",
+      "startTimeMs": 86118,
+      "endTimeMs": 92057,
+      "duration": 5.94,
+      "extractedText": "What is Unit Testing?\n° A unit test is a small, automated test that a ==)\nadivi Cl i ES] DP\nchecks the correctness of an individual /; ee = a\nunit of code (usually a method). aa aan\ne It ensures that a specific piece of code MEL ey. NY of\nbehaves as expected. SZ\nie",
+      "ocrConfidence": 0.73
+    },
+    {
+      "imageFile": "slide_004.jpg",
+      "startTime": "00:01:32",
+      "endTime": "00:01:39",
+      "startTimeMs": 92057,
+      "endTimeMs": 99976,
+      "duration": 7.92,
+      "extractedText": "What is Unit Testing?\n° Aunit test is a small, automated test that eu ily =a ™\nchecks the correctness of an individual f re po! ap\nunit of code (usually a method). a “ee PSSA) a\n° It ensures that a specific piece of code (i ZA .\nbehaves as expected. & \\, aS NW",
+      "ocrConfidence": 0.76
+    },
+    {
+      "imageFile": "slide_005.jpg",
+      "startTime": "00:01:44",
+      "endTime": "00:01:54",
+      "startTimeMs": 104925,
+      "endTimeMs": 114824,
+      "duration": 9.9,
+      "extractedText": "What is Unit Testing?\n¢ A unit test is a small, automated test that ran ees ~\nchecks the correctness of an individual f au =)\n. A> aa fa ae qld ‘\nunit of code (usually a method). foe fe Noone IL\n° It ensures that a specific piece of code Ney we\nbehaves as expected. AIDS Wy",
+      "ocrConfidence": 0.73
+    },
+    {
+      "imageFile": "slide_006.jpg",
+      "startTime": "00:01:56",
+      "endTime": "00:02:03",
+      "startTimeMs": 116804,
+      "endTimeMs": 123733,
+      "duration": 6.93,
+      "extractedText": "Why is Unit Testing Important?\n° Catches bugs early =)\n° Improves code quality LAMP SSS |e\n° Facilitates refactoring CLS ro",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_007.jpg",
+      "startTime": "00:02:03",
+      "endTime": "00:02:07",
+      "startTimeMs": 123733,
+      "endTimeMs": 127692,
+      "duration": 3.96,
+      "extractedText": "Why is Unit Testing Important?\nImproves code quality fs nh fee\\ i a\n° Facilitates refactoring —_ el Ke WI.",
+      "ocrConfidence": 0.72
+    },
+    {
+      "imageFile": "slide_008.jpg",
+      "startTime": "00:02:14",
+      "endTime": "00:02:27",
+      "startTimeMs": 134621,
+      "endTimeMs": 147489,
+      "duration": 12.87,
+      "extractedText": "Why is Unit Testing Important?\n° Catches bugs early ra es |\nIm proves code q uality fi i 1 5 ‘ ui |\n° Facilitates refactoring ee",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_009.jpg",
+      "startTime": "00:02:28",
+      "endTime": "00:02:43",
+      "startTimeMs": 148479,
+      "endTimeMs": 163327,
+      "duration": 14.85,
+      "extractedText": "Why is Unit Testing Important?\n° Catches bugs early rai eS\n° Improves code quality as A ZA)\n¢ Facilitates refactoring eye\nan 4",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_010.jpg",
+      "startTime": "00:02:54",
+      "endTime": "00:03:01",
+      "startTimeMs": 174216,
+      "endTimeMs": 181145,
+      "duration": 6.93,
+      "extractedText": "Why is Unit Testing Important?\n° Catches bugs early Pi TEs\n° Improves code quality as a va)\n° Facilitates refactoring = ee ME\nNES",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_011.jpg",
+      "startTime": "00:03:06",
+      "endTime": "00:03:15",
+      "startTimeMs": 186094,
+      "endTimeMs": 195003,
+      "duration": 8.91,
+      "extractedText": "Why is Unit Testing Important?\n° Catches bugs early ra es .\n° Improves code quality A oe\n° Facilitates refactoring rere —\nSe ih",
+      "ocrConfidence": 0.72
+    },
+    {
+      "imageFile": "slide_012.jpg",
+      "startTime": "00:03:15",
+      "endTime": "00:03:21",
+      "startTimeMs": 195003,
+      "endTimeMs": 201932,
+      "duration": 6.93,
+      "extractedText": "JUnit\neo, . . aff Tt SS\n° JUnit is a popular unit testing nn aN\nframework for Java i Po He\ne We can write and execute tests to Bo RS ae biti\nverify the correctness of our code ean",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_013.jpg",
+      "startTime": "00:03:24",
+      "endTime": "00:03:45",
+      "startTimeMs": 204902,
+      "endTimeMs": 225689,
+      "duration": 20.79,
+      "extractedText": "JUnit\n° JUnit is a popular unit testing nae — \\:\nframework for Java / ane FS] A\n° We can write and execute tests to aaa eq\nverify the correctness of our code WR =\neS\nSe RHEE BY",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_014.jpg",
+      "startTime": "00:03:45",
+      "endTime": "00:03:49",
+      "startTimeMs": 225689,
+      "endTimeMs": 229648,
+      "duration": 3.96,
+      "extractedText": "JUnit\n° JUnit is a popular unit testing ei ees ~\nframework for Java { ont pm | Mm\n° We can write and execute tests to fe ae mui\nverify the correctness of our code ia\nca |S\nIN",
+      "ocrConfidence": 0.73
+    }
+  ]
+}

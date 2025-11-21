@@ -1,0 +1,412 @@
+[
+  {
+    "start": 0.0,
+    "end": 6.88,
+    "text": "I'm going to talk to you about unit testing and particularly how to unit test"
+  },
+  {
+    "start": 6.88,
+    "end": 12.96,
+    "text": "Python functions. This is a very very very very important topic. Welcome to 5130"
+  },
+  {
+    "start": 12.96,
+    "end": 16.96,
+    "text": "by the way this is Lino Coria. I'm saying it's super important this is"
+  },
+  {
+    "start": 16.96,
+    "end": 21.6,
+    "text": "something I didn't know how to do and it wasn't until I joined industry that I"
+  },
+  {
+    "start": 21.6,
+    "end": 26.52,
+    "text": "realized that I was missing this big important part in my code that not only"
+  },
+  {
+    "start": 26.52,
+    "end": 30.0,
+    "text": "do you write functions a bunch of algorithms that and run them and say"
+  },
+  {
+    "start": 30.0,
+    "end": 33.84,
+    "text": "here they are you need to show that they're actually working and you do this"
+  },
+  {
+    "start": 33.84,
+    "end": 40.92,
+    "text": "by unit testing. So first of all what is a unit test? A unit test is an automated"
+  },
+  {
+    "start": 40.92,
+    "end": 47.58,
+    "text": "check that verifies that your function is working correctly and I'm going to give"
+  },
+  {
+    "start": 47.58,
+    "end": 51.66,
+    "text": "you some examples a little later but why do we want to unit test? Well we want to"
+  },
+  {
+    "start": 51.66,
+    "end": 56.94,
+    "text": "catch bugs early right? We want to make sure that we find the errors before"
+  },
+  {
+    "start": 56.94,
+    "end": 60.96,
+    "text": "let's say we're if we're doing some machine learning before we're training any"
+  },
+  {
+    "start": 60.96,
+    "end": 66.9,
+    "text": "expensive models but also before our code goes into production. We also want to"
+  },
+  {
+    "start": 66.9,
+    "end": 72.0,
+    "text": "enable confident refactoring. This means refactoring means that we sometimes need"
+  },
+  {
+    "start": 72.0,
+    "end": 75.66,
+    "text": "to improve our code and we want to make sure that by improving it we're not"
+  },
+  {
+    "start": 75.66,
+    "end": 79.94,
+    "text": "breaking it and so if we have a bunch of unit tests we can check that nothing got"
+  },
+  {
+    "start": 79.94,
+    "end": 86.12,
+    "text": "broken if we had to refactor some stuff. We also want to document expected"
+  },
+  {
+    "start": 86.12,
+    "end": 90.76,
+    "text": "behavior that means you write your unit test and say this is the kind of behavior"
+  },
+  {
+    "start": 90.76,
+    "end": 94.98,
+    "text": "that I am expecting for any of my functions. So let's say you have a function"
+  },
+  {
+    "start": 94.98,
+    "end": 101.38,
+    "text": "that adds a plus b right and so the arguments are two integers a and b and so"
+  },
+  {
+    "start": 101.38,
+    "end": 107.18,
+    "text": "you say when I get integers that are positive you know I'm expecting positive"
+  },
+  {
+    "start": 107.18,
+    "end": 111.1,
+    "text": "results when I get two integers that are negative I'm expecting a negative result"
+  },
+  {
+    "start": 111.1,
+    "end": 115.82,
+    "text": "or when one of them is zero. Anyways you think of all these possible things of"
+  },
+  {
+    "start": 115.82,
+    "end": 120.3,
+    "text": "course you cannot write unit tests for every single a and b but you can think of"
+  },
+  {
+    "start": 120.3,
+    "end": 124.3,
+    "text": "what are the cases right and maybe adding a and b is not like a great example but"
+  },
+  {
+    "start": 124.3,
+    "end": 130.9,
+    "text": "dividing a divided by b you can think okay when a and b are positive I will I'm"
+  },
+  {
+    "start": 130.9,
+    "end": 135.36,
+    "text": "expecting a positive result when a and b are both negative I'm also expecting a"
+  },
+  {
+    "start": 135.36,
+    "end": 140.46,
+    "text": "positive result when a is positive b is negative or a is negative b is positive"
+  },
+  {
+    "start": 140.46,
+    "end": 145.5,
+    "text": "I expect negative and when b is zero I expect that it throws an exception right"
+  },
+  {
+    "start": 145.5,
+    "end": 149.8,
+    "text": "bunch of different tests you have to write a unit test for each one of these"
+  },
+  {
+    "start": 149.8,
+    "end": 157.5,
+    "text": "sort of cases so this way you're documenting expected behavior and also you"
+  },
+  {
+    "start": 157.5,
+    "end": 162.62,
+    "text": "want to ensure reproducibility you want to verify that the results are"
+  },
+  {
+    "start": 162.62,
+    "end": 167.82,
+    "text": "consistent so these are I would say some of the main reasons why we need to"
+  },
+  {
+    "start": 167.82,
+    "end": 174.22,
+    "text": "unit test. When you're writing unit tests you need to make sure that you cover"
+  },
+  {
+    "start": 174.22,
+    "end": 178.84,
+    "text": "anything everything right a lot of I see this with a lot of students who are"
+  },
+  {
+    "start": 178.84,
+    "end": 183.56,
+    "text": "learning to code they essentially just cover the normal cases right like they"
+  },
+  {
+    "start": 183.56,
+    "end": 188.66,
+    "text": "think of a and b and they go for positive values negative values but they"
+  },
+  {
+    "start": 188.66,
+    "end": 194.26,
+    "text": "forget about division by zero or they don't think about oh what if you know"
+  },
+  {
+    "start": 194.26,
+    "end": 198.86,
+    "text": "instead of an integer I have this like very small fraction what happens then"
+  },
+  {
+    "start": 198.86,
+    "end": 203.4,
+    "text": "right so what if it's empty what if I don't provide this but like you have to"
+  },
+  {
+    "start": 203.4,
+    "end": 207.96,
+    "text": "think about all these things right so when you do unit tests you need to make"
+  },
+  {
+    "start": 207.96,
+    "end": 213.4,
+    "text": "sure that you're covering everything normal cases but also edge cases and error"
+  },
+  {
+    "start": 213.4,
+    "end": 216.54,
+    "text": "conditions like when your code is going to throw an error you have to throw that it"
+  },
+  {
+    "start": 216.54,
+    "end": 219.54,
+    "text": "actually throws the error so keep this in mind"
+  },
+  {
+    "start": 219.54,
+    "end": 226.78,
+    "text": "we're going to use pytest. Pytest is the probably the most popular python testing"
+  },
+  {
+    "start": 226.78,
+    "end": 233.72,
+    "text": "framework it's simple to use it's powerful and it's used in industry and so"
+  },
+  {
+    "start": 233.72,
+    "end": 239.84,
+    "text": "every test that you're going to write is essentially just a function but this"
+  },
+  {
+    "start": 239.84,
+    "end": 244.08,
+    "text": "function the name of the function is going to start with the word test underscore"
+  },
+  {
+    "start": 244.08,
+    "end": 251.24,
+    "text": "okay and so this is how pytest is going to know that your function that you wrote"
+  },
+  {
+    "start": 251.24,
+    "end": 256.32,
+    "text": "it's actually a test right so you start the name of your function with test"
+  },
+  {
+    "start": 256.32,
+    "end": 260.86,
+    "text": "underscore and then pytest already know that already knows that this is going to"
+  },
+  {
+    "start": 260.86,
+    "end": 266.06,
+    "text": "be a test function and you're going to use some statements that use the word"
+  },
+  {
+    "start": 266.06,
+    "end": 271.24,
+    "text": "assert that you're going to verify expected behavior like assert that this is"
+  },
+  {
+    "start": 271.24,
+    "end": 275.64,
+    "text": "equal to this or something like verify that this is actually happening and so"
+  },
+  {
+    "start": 275.64,
+    "end": 281.12,
+    "text": "we're going to use pytest and when you have written after you have written all"
+  },
+  {
+    "start": 281.12,
+    "end": 288.32,
+    "text": "your tests you just go to the console and you just say pytest test let's say you"
+  },
+  {
+    "start": 288.32,
+    "end": 294.92,
+    "text": "have all your tests on a file called test basic.py so you just said pytest test"
+  },
+  {
+    "start": 294.92,
+    "end": 301.12,
+    "text": "underscore basic.py it looks for all the tests and runs them i'm going to in the"
+  },
+  {
+    "start": 301.12,
+    "end": 308.68,
+    "text": "next video i'm going to show you how i do this in pycharm here are some useful pytest"
+  },
+  {
+    "start": 308.68,
+    "end": 314.88,
+    "text": "commands just to run all the tests you just go pytest it runs everything and if"
+  },
+  {
+    "start": 314.88,
+    "end": 319.92,
+    "text": "everything's okay you don't really hear from pytest so if you really want to hear what is happening"
+  },
+  {
+    "start": 319.92,
+    "end": 326.96,
+    "text": "you do pytest dash v which makes it verbose and means it explains things a little bit"
+  },
+  {
+    "start": 326.96,
+    "end": 333.08,
+    "text": "more carefully and if you want to run specific tests then you say pytest you know"
+  },
+  {
+    "start": 333.08,
+    "end": 339.04,
+    "text": "dash k and then you enter the name of the function test that you wanted to to run"
+  },
+  {
+    "start": 339.04,
+    "end": 346.76,
+    "text": "okay so i'm going to show you how i run unit test in a little bit but here are best practices"
+  },
+  {
+    "start": 346.76,
+    "end": 355.54,
+    "text": "things that you need to do test only one thing per test meaning if you write a function that"
+  },
+  {
+    "start": 355.54,
+    "end": 362.42,
+    "text": "adds two numbers and then you have another function that multiplies two numbers do not"
+  },
+  {
+    "start": 362.42,
+    "end": 366.52,
+    "text": "write a test where you have to add and then multiply and then get a result and now the idea"
+  },
+  {
+    "start": 366.52,
+    "end": 373.12,
+    "text": "is to write unit test tiny test so you test each function right i test that it adds the numbers"
+  },
+  {
+    "start": 373.12,
+    "end": 379.32,
+    "text": "correctly go now i test that it multiplies the numbers correctly that's a different test this is"
+  },
+  {
+    "start": 379.32,
+    "end": 386.54,
+    "text": "this is very important or don't test like a bunch of cases in the same test do little test very that's"
+  },
+  {
+    "start": 386.54,
+    "end": 394.02,
+    "text": "why you know unit unit test uh the names of your tests need to be descriptive descriptive right and here"
+  },
+  {
+    "start": 394.02,
+    "end": 400.4,
+    "text": "in the don'ts i already have like do not name them like test one test two test three instead it's like"
+  },
+  {
+    "start": 400.4,
+    "end": 409.4,
+    "text": "test adding positive numbers two positive numbers or test adding one positive one negative things like that"
+  },
+  {
+    "start": 409.4,
+    "end": 417.42,
+    "text": "remember to always test edge cases and also errors keep the test independence i said don't put all your tests"
+  },
+  {
+    "start": 417.42,
+    "end": 424.36,
+    "text": "in one single function right and before you submit any code you need to run the test to make sure that your"
+  },
+  {
+    "start": 424.36,
+    "end": 432.72,
+    "text": "code is working now do not test library code you don't have to test numpy numpy functions or pandas functions"
+  },
+  {
+    "start": 432.72,
+    "end": 437.46,
+    "text": "because they have already been tested right so you don't have to worry about that is code that you write"
+  },
+  {
+    "start": 437.46,
+    "end": 443.62,
+    "text": "right and do not make tests depend on each other like i can run this but first i have to run this other test now"
+  },
+  {
+    "start": 443.62,
+    "end": 451.7,
+    "text": "each test is independent from the other test and again don't use vague names like test one test two etc"
+  },
+  {
+    "start": 451.7,
+    "end": 457.36,
+    "text": "okay well thank you so much i'm lino kodia in the following video i'm going to show you how i use"
+  },
+  {
+    "start": 457.36,
+    "end": 462.08,
+    "text": "uh pycharm and i how i run py test there okay see you"
+  }
+]

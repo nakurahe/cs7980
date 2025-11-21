@@ -1,0 +1,78 @@
+{
+  "videoFile": "test_video.mp4",
+  "totalSlides": 7,
+  "processingTime": 136.55,
+  "extractionDate": "2025-11-12T16:02:20.018891",
+  "slides": [
+    {
+      "imageFile": "slide_001.jpg",
+      "startTime": "00:00:00",
+      "endTime": "00:00:10",
+      "startTimeMs": 0,
+      "endTimeMs": 10889,
+      "duration": 10.89,
+      "extractedText": "Overview of List<> interface\nand its key methods\naddQ), removeO, getO, etc. iyi es |\nLino Coria VY",
+      "ocrConfidence": 0.76
+    },
+    {
+      "imageFile": "slide_002.jpg",
+      "startTime": "00:00:10",
+      "endTime": "00:02:09",
+      "startTimeMs": 10889,
+      "endTimeMs": 129679,
+      "duration": 118.79,
+      "extractedText": "The List<> Interface\n° List<> is a part of java.util package and extends Collection<>.\n° It is an ordered collection that allows duplicates.\n° Implementations include ArrayList<> and LinkedList<>.\noS tS 7A. uy\nae . is \\",
+      "ocrConfidence": 0.93
+    },
+    {
+      "imageFile": "slide_003.jpg",
+      "startTime": "00:02:09",
+      "endTime": "00:02:52",
+      "startTimeMs": 129679,
+      "endTimeMs": 172245,
+      "duration": 42.57,
+      "extractedText": "Key Methods of List<> (at\nAN: ‘\\ = ny\n1. add CE e) - Adds an element to the list. mae\n2. remove Cint index) - Removes an element at a specific\nposition.\n3. getCint index) - Retrieves an element at a specific position.\n4. setCint index, E element) - Updates an element at a\nspecific index.\n5. sizeQ - Returns the number of elements in the list.",
+      "ocrConfidence": 0.88
+    },
+    {
+      "imageFile": "slide_004.jpg",
+      "startTime": "00:02:52",
+      "endTime": "00:05:18",
+      "startTimeMs": 172245,
+      "endTimeMs": 318753,
+      "duration": 146.51,
+      "extractedText": "1 package moduleQ04;\n2\n3 import java.util.ArrayList;\n4 import java.util.List;\n5\n6(> |public class ListExampleo1 {\n7> public static void main(String[] args) {\n8 List<String> fruits = new ArrayList<>();\n9 fruits.add(\"Apple\"); !\n10 fruits.add(\"Banana\"); LO a eS e\n, 41 fruits.add(\"Cherry\"); fi, NS ‘ A\n13 fruits.set(1, \"BLlueberry\"); b FS\n14 fruits. remove ((o:)\"Cherry\") ; As =, Dy\n15 System.out.println(fruits) ; Cais JAlys\n16 } a Rese\n17 }",
+      "ocrConfidence": 0.74
+    },
+    {
+      "imageFile": "slide_005.jpg",
+      "startTime": "00:05:18",
+      "endTime": "00:05:47",
+      "startTimeMs": 318753,
+      "endTimeMs": 347461,
+      "duration": 28.71,
+      "extractedText": "e i fa See a\n||| Summary of Key Operations ie\nA PANES, [ED\nAWA ay\nay;\nMethod esoription—=S=«éiMect—SSSSS~*\nadd(\"Apple\") Adds 'Apple' to the list [\"Apple\"]\naddc\"Banana\") Adds 'Banana' to the list [\"Apple\", \"Banana\"]\naddc\"Cherry\") Adds 'Cherry' to the list [\"Apple\", \"Banana\", \"Cherry\"]\n4 4 Replaces 'Banana' with [\"Apple\", \"Blueberry\",\nset(1, \"Blueberry\") 'Blueberry' \"Cherry\"]\nremove(\"Cherry\") Removes 'Cherry' [\"Apple\", \"Blueberry\"]",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_006.jpg",
+      "startTime": "00:05:47",
+      "endTime": "00:05:59",
+      "startTimeMs": 347461,
+      "endTimeMs": 359340,
+      "duration": 11.88,
+      "extractedText": "||| Summary of Key Operations (“#e\"\nMethod ——=~=~S=«~@Deseription —CiRect\nadd(\"Apple\") Adds ‘Apple' to the list [\"Apple\"]\naddC\"Banana\") Adds 'Banana' to the list [\"Apple\", \"Banana\"]\naddc\"Cherry\") Adds 'Cherry' to the list [\"Apple\", \"Banana\", \"Cherry\"]\n4 4 Replaces 'Banana' with [\"Apple\", \"Blueberry\",\nset(1, \"Blueberry\") 'Blueberry' \"Cherry\"]\nremove(\"Cherry\") Removes 'Cherry' [\"Apple\", \"Blueberry\"]",
+      "ocrConfidence": 0.74
+    },
+    {
+      "imageFile": "slide_007.jpg",
+      "startTime": "00:05:59",
+      "endTime": "00:06:22",
+      "startTimeMs": 359340,
+      "endTimeMs": 382108,
+      "duration": 22.77,
+      "extractedText": "Ac (2e- Panis\nNS)\nCs\nMore List<> Operations\nExplore the full list of List<> methods in the official Java\ndocumentation\n_ a",
+      "ocrConfidence": 0.84
+    }
+  ]
+}

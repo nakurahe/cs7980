@@ -1,0 +1,612 @@
+[
+  {
+    "start": 0.0,
+    "end": 14.0,
+    "text": "Hello again, my name is Lino Coria and we are going to talk today about an interface in Java that is called list and two of its implementations array list and linked list."
+  },
+  {
+    "start": 15.76,
+    "end": 23.28,
+    "text": "We already talked about what is an array, what is a list in very general terms, but now we're going to get Java specific."
+  },
+  {
+    "start": 23.28,
+    "end": 30.24,
+    "text": "So in Java terms, what is list list is an interface in Java's collection framework."
+  },
+  {
+    "start": 30.98,
+    "end": 39.98,
+    "text": "It defines an order collection of elements or an order sequence of elements and it allows duplicates and it maintains insertion order."
+  },
+  {
+    "start": 39.98,
+    "end": 53.6,
+    "text": "This means that if I have a collection of numbers, some of these numbers can be repeated, they can be duplicates and they will be kept in the order in which I am adding them to my list."
+  },
+  {
+    "start": 54.18,
+    "end": 57.54,
+    "text": "There are two common implementations of this list interface."
+  },
+  {
+    "start": 57.74,
+    "end": 59.78,
+    "text": "They are array list and linked list."
+  },
+  {
+    "start": 59.96,
+    "end": 63.8,
+    "text": "I will talk about these two implementations very, very soon."
+  },
+  {
+    "start": 63.8,
+    "end": 70.3,
+    "text": "There are three key features that you need to remember about the list interface."
+  },
+  {
+    "start": 70.72,
+    "end": 73.04,
+    "text": "Number one, order is maintained."
+  },
+  {
+    "start": 73.52,
+    "end": 79.08,
+    "text": "As I said before, the elements stay in the order in which they were added to the list."
+  },
+  {
+    "start": 79.76,
+    "end": 82.48,
+    "text": "Number two, duplicates are allowed."
+  },
+  {
+    "start": 83.58,
+    "end": 86.58,
+    "text": "Your list can contain multiple identical elements."
+  },
+  {
+    "start": 86.74,
+    "end": 87.5,
+    "text": "That's not a problem."
+  },
+  {
+    "start": 88.28,
+    "end": 90.44,
+    "text": "Number three, index based access."
+  },
+  {
+    "start": 90.44,
+    "end": 90.52,
+    "text": "index."
+  },
+  {
+    "start": 91.1,
+    "end": 95.24,
+    "text": "All the elements in your list can be accessed using indices."
+  },
+  {
+    "start": 97.92,
+    "end": 100.68,
+    "text": "The list interface has many methods."
+  },
+  {
+    "start": 100.78,
+    "end": 103.14,
+    "text": "I'm just going to talk about some of the most common methods."
+  },
+  {
+    "start": 103.48,
+    "end": 105.44,
+    "text": "The first one I want to talk about is add."
+  },
+  {
+    "start": 106.18,
+    "end": 108.32,
+    "text": "And in this case, you add an element, right?"
+  },
+  {
+    "start": 108.36,
+    "end": 111.48,
+    "text": "And this element can be anything that you want."
+  },
+  {
+    "start": 111.54,
+    "end": 113.12,
+    "text": "You can have a list of integers."
+  },
+  {
+    "start": 113.12,
+    "end": 115.2,
+    "text": "You can have a list of strings."
+  },
+  {
+    "start": 115.28,
+    "end": 117.82,
+    "text": "You can also have a list of a particular object."
+  },
+  {
+    "start": 117.82,
+    "end": 121.82,
+    "text": "You can have, for instance, a list of books or a list of movies, right?"
+  },
+  {
+    "start": 121.88,
+    "end": 126.06,
+    "text": "So you can you have all these options of elements that you can have on your list."
+  },
+  {
+    "start": 126.7,
+    "end": 128.26,
+    "text": "Another method is remove."
+  },
+  {
+    "start": 128.52,
+    "end": 131.56,
+    "text": "And in this case, the parameter is the index, which is an integer."
+  },
+  {
+    "start": 131.78,
+    "end": 137.12,
+    "text": "And so you're going to say, go to this index and remove this element that you find there."
+  },
+  {
+    "start": 137.66,
+    "end": 140.34,
+    "text": "You also have get, which retrieves an element."
+  },
+  {
+    "start": 140.34,
+    "end": 145.06,
+    "text": "So I want to get element stored at index five."
+  },
+  {
+    "start": 145.3,
+    "end": 148.1,
+    "text": "It will go and bring that element to you."
+  },
+  {
+    "start": 148.44,
+    "end": 150.58,
+    "text": "And you could you could see what that element is."
+  },
+  {
+    "start": 150.8,
+    "end": 154.32,
+    "text": "And also, you can just identify the size of your list."
+  },
+  {
+    "start": 154.42,
+    "end": 157.82,
+    "text": "Get the list size by using the method size."
+  },
+  {
+    "start": 157.82,
+    "end": 165.18,
+    "text": "I will now talk about a particular implementation of the list interface."
+  },
+  {
+    "start": 165.94,
+    "end": 166.56,
+    "text": "Array list."
+  },
+  {
+    "start": 167.2,
+    "end": 173.98,
+    "text": "An array list in Java is a dynamic array implementation that can grow and shrink in size automatically."
+  },
+  {
+    "start": 174.78,
+    "end": 178.52,
+    "text": "This is very different from regular arrays that I described before, right?"
+  },
+  {
+    "start": 178.54,
+    "end": 180.36,
+    "text": "And I told you they have a fixed size."
+  },
+  {
+    "start": 180.36,
+    "end": 187.48,
+    "text": "But array lists are different because internally they maintain a resizable array that expands when needed."
+  },
+  {
+    "start": 187.76,
+    "end": 188.88,
+    "text": "How does that happen?"
+  },
+  {
+    "start": 188.96,
+    "end": 190.76,
+    "text": "I will I will get there in a little bit."
+  },
+  {
+    "start": 191.08,
+    "end": 193.84,
+    "text": "But I want to talk about the advantages of an array list."
+  },
+  {
+    "start": 193.96,
+    "end": 198.52,
+    "text": "One of the key advantages is that it offers fast random access."
+  },
+  {
+    "start": 199.16,
+    "end": 199.34,
+    "text": "Why?"
+  },
+  {
+    "start": 199.48,
+    "end": 203.22,
+    "text": "Because the elements are stored in a contiguous block of memory, right?"
+  },
+  {
+    "start": 203.6,
+    "end": 209.8,
+    "text": "And you can directly access any of these elements using its index without having to iterate through the list."
+  },
+  {
+    "start": 209.8,
+    "end": 211.94,
+    "text": "You know, you remember you have the index."
+  },
+  {
+    "start": 212.08,
+    "end": 216.7,
+    "text": "It basically tells you how many elements you need to jump in order to get there."
+  },
+  {
+    "start": 216.74,
+    "end": 220.54,
+    "text": "And because it's the contiguous block of memory, it's super fast."
+  },
+  {
+    "start": 220.86,
+    "end": 223.16,
+    "text": "Now, this is the advantage of array list."
+  },
+  {
+    "start": 223.24,
+    "end": 224.56,
+    "text": "They do have these advantages."
+  },
+  {
+    "start": 224.78,
+    "end": 228.9,
+    "text": "When, for instance, you're inserting or removing elements in your array list,"
+  },
+  {
+    "start": 229.36,
+    "end": 235.8,
+    "text": "the performance is going to change depending on where you are inserting or deleting these elements."
+  },
+  {
+    "start": 235.8,
+    "end": 239.44,
+    "text": "If you're doing it at the end of the array list, not a big deal."
+  },
+  {
+    "start": 239.8,
+    "end": 240.6,
+    "text": "Right."
+  },
+  {
+    "start": 241.04,
+    "end": 241.82,
+    "text": "It doesn't."
+  },
+  {
+    "start": 241.9,
+    "end": 242.72,
+    "text": "It's not very costly."
+  },
+  {
+    "start": 242.82,
+    "end": 247.9,
+    "text": "But if you're doing if you're, let's say, inserting some elements at the beginning of your array list"
+  },
+  {
+    "start": 247.9,
+    "end": 253.16,
+    "text": "or deleting some elements at the beginning of your array list, this is a very costly operation."
+  },
+  {
+    "start": 253.16,
+    "end": 253.84,
+    "text": "It's slow."
+  },
+  {
+    "start": 254.22,
+    "end": 257.08,
+    "text": "In terms of big O notation, it would be big O of N."
+  },
+  {
+    "start": 257.34,
+    "end": 264.66,
+    "text": "And what happens is that, let's say, I have this array list and I want to remove the second element."
+  },
+  {
+    "start": 264.66,
+    "end": 266.14,
+    "text": "It's a long array list."
+  },
+  {
+    "start": 266.2,
+    "end": 267.36,
+    "text": "I want to remove the second element."
+  },
+  {
+    "start": 267.52,
+    "end": 274.96,
+    "text": "Then I need to remove it and I need to copy all the other elements that follow that and shift them."
+  },
+  {
+    "start": 275.42,
+    "end": 278.06,
+    "text": "And so this is a very costly operation."
+  },
+  {
+    "start": 278.06,
+    "end": 284.86,
+    "text": "Also, and this is how array lists are dynamic instead of fixed."
+  },
+  {
+    "start": 285.22,
+    "end": 287.52,
+    "text": "This is what happens behind the scenes."
+  },
+  {
+    "start": 287.86,
+    "end": 294.92,
+    "text": "When an array list reaches full capacity, it automatically resizes by creating a new array with increased capacity."
+  },
+  {
+    "start": 295.14,
+    "end": 296.06,
+    "text": "This is how it's done."
+  },
+  {
+    "start": 296.06,
+    "end": 301.8,
+    "text": "And it's usually 1.5 or 2 times the size of the previous array."
+  },
+  {
+    "start": 302.04,
+    "end": 307.96,
+    "text": "So as you are adding elements to your array list, your array list says, you know what?"
+  },
+  {
+    "start": 308.02,
+    "end": 309.4,
+    "text": "I have reached the capacity."
+  },
+  {
+    "start": 309.54,
+    "end": 311.82,
+    "text": "Let me move everything to a new array."
+  },
+  {
+    "start": 312.18,
+    "end": 313.92,
+    "text": "And so copies all the elements over."
+  },
+  {
+    "start": 314.06,
+    "end": 316.0,
+    "text": "And this is also a costly operation."
+  },
+  {
+    "start": 316.0,
+    "end": 333.32,
+    "text": "So the key takeaway is that array list is, you know, it's great to use for scenarios where you need fast access and you're not going to be inserting and deleting a lot of things in the middle or the beginning of the array list."
+  },
+  {
+    "start": 333.32,
+    "end": 340.92,
+    "text": "And here is a diagram showing you how an array list looks."
+  },
+  {
+    "start": 341.54,
+    "end": 349.6,
+    "text": "You have a continuous block of memory and you have, you know, you start with a fixed size and you keep adding elements."
+  },
+  {
+    "start": 349.72,
+    "end": 351.72,
+    "text": "The little white circles are the elements."
+  },
+  {
+    "start": 352.3,
+    "end": 356.8,
+    "text": "And as I said, as you reach the capacity, then this is behind the scenes."
+  },
+  {
+    "start": 356.88,
+    "end": 362.22,
+    "text": "You don't have to do anything, but your array list moves all the elements into a bigger array."
+  },
+  {
+    "start": 362.22,
+    "end": 364.44,
+    "text": "Right. And that is how it works."
+  },
+  {
+    "start": 367.18,
+    "end": 371.98,
+    "text": "Another very important implementation of the list interface is the linked list."
+  },
+  {
+    "start": 372.74,
+    "end": 384.74,
+    "text": "A linked list in Java is a doubly linked list implementation, meaning that each element, which we're going to call a node, each node contains both a reference to the next node."
+  },
+  {
+    "start": 384.96,
+    "end": 386.36,
+    "text": "So pointing forward."
+  },
+  {
+    "start": 386.54,
+    "end": 390.38,
+    "text": "And it also has a reference to the previous node pointing backward."
+  },
+  {
+    "start": 390.38,
+    "end": 393.66,
+    "text": "This is just the way it is implemented in Java."
+  },
+  {
+    "start": 393.78,
+    "end": 401.16,
+    "text": "You might read about linked list in general, and it will just have one forward reference to the next node."
+  },
+  {
+    "start": 401.56,
+    "end": 405.38,
+    "text": "But the particular implementation in Java is a doubly linked list."
+  },
+  {
+    "start": 405.38,
+    "end": 413.26,
+    "text": "And this structure of this doubly linked list makes linked list highly efficient for insertions and deletions."
+  },
+  {
+    "start": 413.38,
+    "end": 417.56,
+    "text": "Right. Unlike the array list where inserting and deleting elements is very costly."
+  },
+  {
+    "start": 417.98,
+    "end": 427.02,
+    "text": "Here it is great for inserting and deleting elements at any position because the elements are not stored in a contiguous block of memory."
+  },
+  {
+    "start": 427.02,
+    "end": 434.34,
+    "text": "Instead, you have one node, one element, and then you have the link to the next element."
+  },
+  {
+    "start": 434.8,
+    "end": 439.0,
+    "text": "It is basically telling you where in memory you can find the next element."
+  },
+  {
+    "start": 439.12,
+    "end": 445.56,
+    "text": "And then you go to that element and it tells you where in memory you can find the following element and so on and so forth."
+  },
+  {
+    "start": 445.56,
+    "end": 453.18,
+    "text": "So when I want to add an element, I just need to change how it points to the new element and that's okay."
+  },
+  {
+    "start": 453.56,
+    "end": 458.42,
+    "text": "There's no need to shift the order of anything because they're not in a contiguous block of memory."
+  },
+  {
+    "start": 459.22,
+    "end": 464.84,
+    "text": "Now, this flexibility, it's amazing, but of course it comes with a price, right?"
+  },
+  {
+    "start": 464.9,
+    "end": 468.9,
+    "text": "And it is that it offers very slow random access."
+  },
+  {
+    "start": 468.9,
+    "end": 484.06,
+    "text": "So with array list, when I wanted to access, let's say, element 343, I say, you know, element at index, whatever I said, 343, it could, because it was contiguous block of memory, it knew exactly where to go."
+  },
+  {
+    "start": 484.06,
+    "end": 500.82,
+    "text": "Whereas here, if I want to access element 343, then my list has to start, look at the pointer of element at index zero, go to the element at index one, then two, three, four, until it reaches the index that I want."
+  },
+  {
+    "start": 500.9,
+    "end": 502.06,
+    "text": "And it finds that element."
+  },
+  {
+    "start": 502.24,
+    "end": 510.66,
+    "text": "So the key takeaway is that the linked list is great for scenarios where frequent insertions and deletions are needed."
+  },
+  {
+    "start": 510.66,
+    "end": 517.5,
+    "text": "Especially if you want to do something at the middle or the beginning of the list, this is the way to go, go with a linked list."
+  },
+  {
+    "start": 517.94,
+    "end": 520.5,
+    "text": "But it is no idea for random access."
+  },
+  {
+    "start": 520.58,
+    "end": 526.56,
+    "text": "It's not ideal for random access operations because of this traversal based lookup, right?"
+  },
+  {
+    "start": 526.76,
+    "end": 528.82,
+    "text": "So keep these two things in mind."
+  },
+  {
+    "start": 530.54,
+    "end": 534.5,
+    "text": "So here's a very simple diagram of a linked list in Java."
+  },
+  {
+    "start": 534.66,
+    "end": 537.72,
+    "text": "Now, remember in Java, it's a doubly linked list."
+  },
+  {
+    "start": 537.72,
+    "end": 547.04,
+    "text": "So you can see these rectangles here, the blue rectangle for each node, the blue rectangle is the value, which is the element of the linked list."
+  },
+  {
+    "start": 547.4,
+    "end": 550.72,
+    "text": "And then on the left side, you have the pointer to the previous element."
+  },
+  {
+    "start": 550.72,
+    "end": 554.06,
+    "text": "And then on the right side, you have the pointer to the next element."
+  },
+  {
+    "start": 554.06,
+    "end": 571.42,
+    "text": "So remember, if I want to, let's say, have access to element in index 343, then I need to start from the beginning, see the pointer to the next element, go there, find the pointer to the next element, go to the next one until I reach the element that I'm looking for."
+  },
+  {
+    "start": 571.68,
+    "end": 578.18,
+    "text": "And this is why it is very slow for just randomly finding an element in the middle of the list, right?"
+  },
+  {
+    "start": 578.18,
+    "end": 586.26,
+    "text": "So we have covered the list interface in Java, and we have talked about two main implementation, array list and linked list."
+  },
+  {
+    "start": 586.46,
+    "end": 590.54,
+    "text": "And now we're going to look at some examples when we write actual code in Java."
+  },
+  {
+    "start": 590.68,
+    "end": 591.82,
+    "text": "How does that look like?"
+  },
+  {
+    "start": 592.32,
+    "end": 594.84,
+    "text": "Thank you for watching and see you in the next video."
+  }
+]

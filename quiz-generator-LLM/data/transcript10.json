@@ -1,0 +1,617 @@
+[
+  {
+    "start": 0.96,
+    "end": 7.76,
+    "text": "Hello again, welcome to CS5130. This week we're going to talk about orthogonality,"
+  },
+  {
+    "start": 7.76,
+    "end": 9.68,
+    "text": "projections and least squares."
+  },
+  {
+    "start": 12.88,
+    "end": 16.16,
+    "text": "I'm going to start by talking about orthogonal matrices."
+  },
+  {
+    "start": 18.0,
+    "end": 22.88,
+    "text": "Actually before I talk about orthogonal matrices, I want to make sure that we're all on the same"
+  },
+  {
+    "start": 22.88,
+    "end": 30.32,
+    "text": "page. I'm going to quickly explain what orthogonal means and orthonormal, right? So let's start with"
+  },
+  {
+    "start": 30.32,
+    "end": 37.2,
+    "text": "orthogonal. Two vectors and instead of matrices, let's start with vectors. Two vectors are orthogonal"
+  },
+  {
+    "start": 37.2,
+    "end": 43.84,
+    "text": "if they meet at a right angle, meaning 90 degrees. So vectors would look like this, right? Any,"
+  },
+  {
+    "start": 43.84,
+    "end": 50.64,
+    "text": "oh, there we go. Any rotation, as long as I cannot, okay. As long as it's 90 degrees, right?"
+  },
+  {
+    "start": 51.44,
+    "end": 57.12,
+    "text": "These two vectors, if my two fingers are vectors, these two vectors would be orthogonal"
+  },
+  {
+    "start": 58.08,
+    "end": 66.24,
+    "text": "because there's 90 degrees between them. Now, if we want the vectors to be orthonormal,"
+  },
+  {
+    "start": 67.28,
+    "end": 75.6,
+    "text": "in addition to being orthogonal, that means meeting at a right angle, they have to have a length of one,"
+  },
+  {
+    "start": 75.6,
+    "end": 84.72,
+    "text": "both vectors. I asked Claude to give me like a nice little graphic of how this looks like. And here it"
+  },
+  {
+    "start": 84.72,
+    "end": 92.72,
+    "text": "is, right? We have on the left side, we have two orthogonal vectors, meaning that if you do the dot"
+  },
+  {
+    "start": 92.72,
+    "end": 100.88,
+    "text": "product, it's going to be zero. And that means they are perpendicular to each other, 90 degrees angle"
+  },
+  {
+    "start": 100.88,
+    "end": 108.56,
+    "text": "when they meet. And however, their lengths are irrelevant, right? One of them has a length of"
+  },
+  {
+    "start": 108.56,
+    "end": 116.88,
+    "text": "3.14. The other one has a length of 4.16. So they are perpendicular, but the lengths are not one. They"
+  },
+  {
+    "start": 116.88,
+    "end": 124.88,
+    "text": "are not normalized. Now we have a different set of vectors, right? On the right column. And these two"
+  },
+  {
+    "start": 124.88,
+    "end": 133.36,
+    "text": "vectors are orthonormal. If I draw a unit circle, both vectors, the tips of the vectors are going to be"
+  },
+  {
+    "start": 133.36,
+    "end": 140.08,
+    "text": "touching that unit circle, right? So again, the dot product is zero, meaning that the vectors are"
+  },
+  {
+    "start": 140.08,
+    "end": 150.32,
+    "text": "perpendicular. And if I get the norm of these vectors for both vectors u and v, the norm is going to be"
+  },
+  {
+    "start": 150.32,
+    "end": 158.16,
+    "text": "one. Okay. So this is orthogonality, orthonormality, I guess, is that how you say it? So orthogonal vectors,"
+  },
+  {
+    "start": 158.16,
+    "end": 162.88,
+    "text": "orthonormal vectors, we have described what they are. Now let's move on to matrices."
+  },
+  {
+    "start": 162.88,
+    "end": 174.16,
+    "text": "So what is an orthogonal matrix? An orthogonal matrix is a matrix that has, so we're going to call an"
+  },
+  {
+    "start": 174.16,
+    "end": 181.6,
+    "text": "orthogonal matrix Q. So an orthogonal matrix Q is a matrix that has orthogonal columns."
+  },
+  {
+    "start": 183.84,
+    "end": 192.16,
+    "text": "So if you look at each column, right, and you think of them as vectors, they are meeting at 90 degrees."
+  },
+  {
+    "start": 193.12,
+    "end": 201.76,
+    "text": "And they are also columns with unit norm, meaning the norm is one. So another way of saying it,"
+  },
+  {
+    "start": 201.76,
+    "end": 210.0,
+    "text": "of saying this would be that orthogonal matrices are matrices whose columns are orthonormal, right?"
+  },
+  {
+    "start": 211.04,
+    "end": 220.32,
+    "text": "And we can also see this property then that Q transpose times Q equals the identity matrix. So Q transpose"
+  },
+  {
+    "start": 222.88,
+    "end": 230.4,
+    "text": "is going to be, if you look at this definition, it is the same as the inverse of Q, right? So if I do Q,"
+  },
+  {
+    "start": 231.12,
+    "end": 237.6,
+    "text": "the inverse of Q times Q, that's also going to be the identity matrix, which means that the transpose of"
+  },
+  {
+    "start": 237.6,
+    "end": 245.28,
+    "text": "Q is the same as the inverse. So we can say that the inverse of, on our thought, we can say that the inverse"
+  },
+  {
+    "start": 245.28,
+    "end": 252.32,
+    "text": "of an orthogonal matrix is its transpose. And this is very powerful. Why? Because if we need to get the"
+  },
+  {
+    "start": 252.32,
+    "end": 259.36,
+    "text": "inverse matrix, if the matrix is orthogonal, then we don't have to do all these computations to get"
+  },
+  {
+    "start": 259.36,
+    "end": 265.2,
+    "text": "the inverse. We just need to transpose it, which is a significant reduction in the amount of computations"
+  },
+  {
+    "start": 265.2,
+    "end": 276.32,
+    "text": "that we need to do. So I have a question for you. If Q transpose times Q is the identity matrix,"
+  },
+  {
+    "start": 277.68,
+    "end": 285.52,
+    "text": "is the following also true? Q times Q transpose equals the identity matrix. What do you think?"
+  },
+  {
+    "start": 286.08,
+    "end": 293.68,
+    "text": "Is this true? Let's wait a little, think about it. Q transpose times Q, right? This is,"
+  },
+  {
+    "start": 294.8,
+    "end": 299.76,
+    "text": "Q is the orthogonal matrix. So any orthogonal matrix, Q transpose times Q equals I."
+  },
+  {
+    "start": 300.88,
+    "end": 307.92,
+    "text": "Does this mean that also Q times Q transpose equals I? I'll give you a hint."
+  },
+  {
+    "start": 307.92,
+    "end": 316.8,
+    "text": "The transpose of Q is the same as the inverse of Q. So that's kind of giving you a hint. I'm not going"
+  },
+  {
+    "start": 316.8,
+    "end": 321.52,
+    "text": "to answer it. I'm going to let you try it and find out, but probably you already know the answer."
+  },
+  {
+    "start": 324.0,
+    "end": 329.44,
+    "text": "Okay. So why am I spending all this time talking about orthogonal matrices? Where do we see them?"
+  },
+  {
+    "start": 330.16,
+    "end": 337.52,
+    "text": "So if you are in the field of computer graphics, there's a lot of having a bunch of points, right?"
+  },
+  {
+    "start": 337.52,
+    "end": 342.96,
+    "text": "And we need to rotate them and do things like that. And so anytime that we do some sort of"
+  },
+  {
+    "start": 343.92,
+    "end": 351.52,
+    "text": "matrix operations, we're thinking of orthogonality. So this is where we will use it."
+  },
+  {
+    "start": 351.52,
+    "end": 356.72,
+    "text": "Last week, we also talked about principal component analysis. We were studying the variance and then we were"
+  },
+  {
+    "start": 356.72,
+    "end": 363.84,
+    "text": "finding axis instead of the X, Y axis, X, Y, Z axis that we normally have. We were thinking of"
+  },
+  {
+    "start": 363.84,
+    "end": 370.24,
+    "text": "let's have the axis fit the data, right? So that we go where we have the most variance."
+  },
+  {
+    "start": 370.24,
+    "end": 374.96,
+    "text": "So this is very useful for that. And we have seen, right? We have already covered"
+  },
+  {
+    "start": 374.96,
+    "end": 381.2,
+    "text": "orthogonal matrices in a way for the last two weeks when we were talking about the QR decomposition"
+  },
+  {
+    "start": 381.2,
+    "end": 384.88,
+    "text": "and particularly we were using that to solve the least squares problems. And you did"
+  },
+  {
+    "start": 384.88,
+    "end": 390.56,
+    "text": "a little bit of an activity on that and we're going to talk about it a bit more today."
+  },
+  {
+    "start": 393.04,
+    "end": 396.88,
+    "text": "So this is your old friend, the QR decomposition where we have a,"
+  },
+  {
+    "start": 398.24,
+    "end": 408.96,
+    "text": "in this case, a is an M by N matrix and M is greater or equal than N. And the columns are linearly"
+  },
+  {
+    "start": 408.96,
+    "end": 417.12,
+    "text": "independent, meaning that if you have a column that you can use a combination of the other columns to produce that column."
+  },
+  {
+    "start": 417.12,
+    "end": 422.32,
+    "text": "So for instance, two times the first column minus the second column equals the third column."
+  },
+  {
+    "start": 422.32,
+    "end": 428.0,
+    "text": "Then those columns are not linearly independent. But if, if you cannot do that, right, then"
+  },
+  {
+    "start": 428.0,
+    "end": 440.56,
+    "text": "they are linearly independent. So if your columns are linearly independent, then you can rewrite A as a product of an orthogonal matrix Q."
+  },
+  {
+    "start": 440.56,
+    "end": 448.08,
+    "text": "So that is an N by N orthogonal matrix times another matrix R, which is an upper triangular matrix."
+  },
+  {
+    "start": 448.64,
+    "end": 449.68,
+    "text": "That is N by N."
+  },
+  {
+    "start": 450.32,
+    "end": 456.24,
+    "text": "Upper triangular means that the upper triangle values are non zeros."
+  },
+  {
+    "start": 456.8,
+    "end": 464.08,
+    "text": "And so meaning that if it looks like, like this, it's a square N by N matrix, right?"
+  },
+  {
+    "start": 464.08,
+    "end": 473.12,
+    "text": "So if it looks like, right, these values here are non zeros, whereas everything else here are zeros."
+  },
+  {
+    "start": 473.84,
+    "end": 479.2,
+    "text": "And so this is one of the most important things that we're going to talk about."
+  },
+  {
+    "start": 480.64,
+    "end": 487.68,
+    "text": "Decomposing a matrix A, right? And, and so just the columns have to be linearly independent."
+  },
+  {
+    "start": 487.68,
+    "end": 495.68,
+    "text": "Decomposing it into Q, which is an orthogonal matrix times R, this upper triangular matrix is going to"
+  },
+  {
+    "start": 496.32,
+    "end": 501.76,
+    "text": "make our lives way easier because it's going to offer numerical stability."
+  },
+  {
+    "start": 503.44,
+    "end": 510.24,
+    "text": "Sometimes when we do the math demonstrations, we do all this inverse transpose, all these things,"
+  },
+  {
+    "start": 510.24,
+    "end": 516.0,
+    "text": "and it's okay. But when we want to actually write the code to do this, we discover that there's a lot"
+  },
+  {
+    "start": 516.0,
+    "end": 523.76,
+    "text": "of issues with numerical stability. And instead of going, solving for A, if we solve for Q and R,"
+  },
+  {
+    "start": 524.32,
+    "end": 532.24,
+    "text": "our lives become significantly simpler because of, of the nature of Q mainly."
+  },
+  {
+    "start": 534.08,
+    "end": 540.24,
+    "text": "And here's a visual representation of the QR decomposition. We have this matrix A, in this"
+  },
+  {
+    "start": 540.24,
+    "end": 547.44,
+    "text": "case it's a three by three matrix, and we want to decompose it into the product of Q times R, right?"
+  },
+  {
+    "start": 547.44,
+    "end": 553.52,
+    "text": "And so you can see A is a matrix in the range with values in the range of minus 10 to 10, or in this"
+  },
+  {
+    "start": 553.52,
+    "end": 560.0,
+    "text": "case minus, to be more specific, minus 9.15 is the lowest value and 7.86 is the highest one."
+  },
+  {
+    "start": 560.0,
+    "end": 566.64,
+    "text": "And, you know, the columns are orthonormal and they're, sorry, the columns are not orthonormal,"
+  },
+  {
+    "start": 566.64,
+    "end": 573.04,
+    "text": "but the columns are linearly independent. That's the one thing that we need. But now we get Q and R,"
+  },
+  {
+    "start": 573.04,
+    "end": 579.44,
+    "text": "right? And you can see that the columns of Q are orthonormal vectors."
+  },
+  {
+    "start": 579.44,
+    "end": 588.72,
+    "text": "And, and in this case, the number, the range, it goes from minus 0.64 to 0.84. And now we have the"
+  },
+  {
+    "start": 588.72,
+    "end": 598.0,
+    "text": "upper triangular matrix R. And so you can see here that this lower triangle are zeros, the values here,"
+  },
+  {
+    "start": 598.0,
+    "end": 607.2,
+    "text": "and everything else is not zero. And how can we check? Well, if we get the norm of A minus Q times R,"
+  },
+  {
+    "start": 607.2,
+    "end": 615.76,
+    "text": "the result is close to zero. If we do the orthogonality check, meaning we do Q transpose times Q minus the"
+  },
+  {
+    "start": 615.76,
+    "end": 624.56,
+    "text": "identity matrix, it's the norm, the result is almost zero. And the condition number of A is 2.20."
+  },
+  {
+    "start": 625.28,
+    "end": 630.32,
+    "text": "There's going to be more information about what the condition number is on the text below this video,"
+  },
+  {
+    "start": 630.88,
+    "end": 636.0,
+    "text": "but it is a measure of how sensitive a matrix is to small changes or errors."
+  },
+  {
+    "start": 638.0,
+    "end": 644.64,
+    "text": "We want a condition number of one, that would be the ideal, right? It means it's super stable. But,"
+  },
+  {
+    "start": 646.16,
+    "end": 654.56,
+    "text": "but anyways, so the closer to one that this number is, the more stable is for, and the more we can trust,"
+  },
+  {
+    "start": 654.56,
+    "end": 663.76,
+    "text": "I would say, this matrix, because it means that it's not too sensitive to small changes or to errors."
+  },
+  {
+    "start": 667.04,
+    "end": 672.32,
+    "text": "Now, I'm going to talk about this classic algorithm, Graham Schmidt, for creating"
+  },
+  {
+    "start": 672.32,
+    "end": 679.12,
+    "text": "orthonormal basis step by step. So you have a matrix A, and you want to get Q, right?"
+  },
+  {
+    "start": 679.12,
+    "end": 686.24,
+    "text": "And so Graham Schmidt is, I would say, the easiest algorithm to explain, the one of the classic"
+  },
+  {
+    "start": 686.24,
+    "end": 692.08,
+    "text": "algorithm. Right now, people don't really use Graham Schmidt numerically because it creates some"
+  },
+  {
+    "start": 692.08,
+    "end": 696.72,
+    "text": "issues. So they have this better approaches. Approaches, I will let you review that, but this"
+  },
+  {
+    "start": 696.72,
+    "end": 703.68,
+    "text": "is easy to explain. And that's why I guess we educators choose Graham Schmidt to explain. So we have"
+  },
+  {
+    "start": 703.68,
+    "end": 714.96,
+    "text": "matrix A that has vectors A1, A2, all the way to AN. And we want to produce an orthogonal matrix Q"
+  },
+  {
+    "start": 714.96,
+    "end": 722.56,
+    "text": "that has orthonormal vectors Q1, Q2, all the way to QN. So the first step is you grab the first vector"
+  },
+  {
+    "start": 723.68,
+    "end": 732.64,
+    "text": "A1, and you normalize it, right? And so then this way, Q1 is pointing, you know, is the same direction"
+  },
+  {
+    "start": 732.64,
+    "end": 741.76,
+    "text": "that vector A1. But the norm of Q1 is 1 because we have normalized the vector. Now, for the second"
+  },
+  {
+    "start": 741.76,
+    "end": 750.0,
+    "text": "vector, right, you're going to remove the projection from Q1. And so you're going to end up with a vector"
+  },
+  {
+    "start": 750.0,
+    "end": 758.24,
+    "text": "that is perpendicular to Q1. And then you need to normalize it. So it is making each vector perpendicular."
+  },
+  {
+    "start": 758.24,
+    "end": 763.76,
+    "text": "Now, when you go to step three, right, and you go for vector three, then you're going to make it"
+  },
+  {
+    "start": 763.76,
+    "end": 770.88,
+    "text": "perpendicular to both A1 and A2. Okay. And so on and so forth."
+  },
+  {
+    "start": 775.76,
+    "end": 783.12,
+    "text": "Something important, I've been, I'm trying to make this course self-contained, meaning if you just"
+  },
+  {
+    "start": 783.12,
+    "end": 787.92,
+    "text": "watch these videos and read the content that I'm putting below the videos, you should be able to"
+  },
+  {
+    "start": 787.92,
+    "end": 796.24,
+    "text": "understand. But I want to encourage you to go beyond, beyond these videos, right? And so if you"
+  },
+  {
+    "start": 796.24,
+    "end": 801.6,
+    "text": "remember your syllabus, a long time ago, when we described the syllabus, there were a few books"
+  },
+  {
+    "start": 801.6,
+    "end": 810.24,
+    "text": "that I recommended. The first one is by Strang, and it's a very math-oriented linear algebra book."
+  },
+  {
+    "start": 810.24,
+    "end": 816.48,
+    "text": "It's a great book, but I find it a little bit too ambitious for the purposes of this course. And"
+  },
+  {
+    "start": 817.2,
+    "end": 822.8,
+    "text": "and the numerical stuff and programming, I would say, is really not part of the conversation in"
+  },
+  {
+    "start": 822.8,
+    "end": 827.6,
+    "text": "that book. So I have been using this second book that is the book, the second book that I offer in"
+  },
+  {
+    "start": 827.6,
+    "end": 834.72,
+    "text": "the syllabus. And I think it does a good job understanding linear algebra. But with this, in this"
+  },
+  {
+    "start": 834.72,
+    "end": 839.6,
+    "text": "case, it's called practical linear algebra for data science, but you can think of it as practical"
+  },
+  {
+    "start": 839.6,
+    "end": 848.16,
+    "text": "linear algebra for machine learning or for AI or, you know. So it is doing basically what we're doing"
+  },
+  {
+    "start": 848.16,
+    "end": 856.64,
+    "text": "so far in this course. It describes some linear algebra stuff, but very quickly moves into how does"
+  },
+  {
+    "start": 856.64,
+    "end": 862.88,
+    "text": "this look on Python? What are the numerical challenges? And and I think the book has a"
+  },
+  {
+    "start": 862.88,
+    "end": 869.28,
+    "text": "different style to the way I explain things. So it's a great way to complement your your understanding."
+  },
+  {
+    "start": 870.56,
+    "end": 877.2,
+    "text": "If you just watch my videos, you just get what Lino says or what Lino knows. But if you read another"
+  },
+  {
+    "start": 877.2,
+    "end": 881.52,
+    "text": "book and this is just one book, right, you can read more books. But I think this book is a good place"
+  },
+  {
+    "start": 881.52,
+    "end": 889.2,
+    "text": "to start. I would say go read this book and you will find a different way of explaining things,"
+  },
+  {
+    "start": 889.2,
+    "end": 894.08,
+    "text": "a different way of looking at things. And this could be very useful. And you need to find out"
+  },
+  {
+    "start": 894.08,
+    "end": 898.96,
+    "text": "which style you like the most. Right. And so I'm not saying don't don't watch my videos. I'm saying"
+  },
+  {
+    "start": 898.96,
+    "end": 904.0,
+    "text": "in addition to watching my videos, I encourage you to look for other books. And here is a good"
+  },
+  {
+    "start": 904.0,
+    "end": 907.52,
+    "text": "book recommendation. OK, see you in the next video."
+  }
+]

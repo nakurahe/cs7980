@@ -1,0 +1,302 @@
+[
+  {
+    "start": 0.0,
+    "end": 2.12,
+    "text": "Welcome back."
+  },
+  {
+    "start": 2.12,
+    "end": 7.32,
+    "text": "I am Lino Coria, and I want to talk to you about some implementations of the Java Collections"
+  },
+  {
+    "start": 7.32,
+    "end": 8.32,
+    "text": "Framework."
+  },
+  {
+    "start": 8.32,
+    "end": 9.88,
+    "text": "These are just some examples."
+  },
+  {
+    "start": 9.88,
+    "end": 12.82,
+    "text": "This is not super comprehensive, but just a few examples."
+  },
+  {
+    "start": 12.82,
+    "end": 18.44,
+    "text": "And then I promise that we'll go in the next video, we'll go and look at some code."
+  },
+  {
+    "start": 18.44,
+    "end": 24.76,
+    "text": "Here are two examples of classes that implement the set interface, the hash set class and"
+  },
+  {
+    "start": 24.76,
+    "end": 27.24,
+    "text": "the tree set class."
+  },
+  {
+    "start": 27.24,
+    "end": 32.92,
+    "text": "The hash set is the most used set implementation."
+  },
+  {
+    "start": 32.92,
+    "end": 35.5,
+    "text": "The main reason is because it's really fast."
+  },
+  {
+    "start": 35.5,
+    "end": 41.7,
+    "text": "You can see here the set interface has the methods add when you want to add an element"
+  },
+  {
+    "start": 41.7,
+    "end": 46.24,
+    "text": "to the set, remove when you want to remove an element from the set, and contains when"
+  },
+  {
+    "start": 46.24,
+    "end": 51.08,
+    "text": "you want to check if a particular element is already part of the set."
+  },
+  {
+    "start": 51.08,
+    "end": 56.38,
+    "text": "And so, in terms of big-o notation, this is as fast as it gets, right?"
+  },
+  {
+    "start": 56.38,
+    "end": 61.14,
+    "text": "The drawback is that in terms of ordering, there's no guaranteed order."
+  },
+  {
+    "start": 61.14,
+    "end": 66.02,
+    "text": "So you just add these elements to your hash set, and you're not sure how they're going"
+  },
+  {
+    "start": 66.02,
+    "end": 68.48,
+    "text": "to be stored and retrieved."
+  },
+  {
+    "start": 68.48,
+    "end": 69.48,
+    "text": "So you can see here the set of the set."
+  },
+  {
+    "start": 69.48,
+    "end": 77.16,
+    "text": "Now, if it is very important to you to have some sort of sorting, then you should be using"
+  },
+  {
+    "start": 77.16,
+    "end": 78.66,
+    "text": "a tree set."
+  },
+  {
+    "start": 78.66,
+    "end": 81.66,
+    "text": "So the performance is not as fast."
+  },
+  {
+    "start": 81.66,
+    "end": 85.08,
+    "text": "If we look at big-o notation, it's logo then, right?"
+  },
+  {
+    "start": 85.08,
+    "end": 88.84,
+    "text": "So the larger your set, the slower this is going to be."
+  },
+  {
+    "start": 88.84,
+    "end": 91.5,
+    "text": "This is for add, remove, contains."
+  },
+  {
+    "start": 91.5,
+    "end": 99.14,
+    "text": "But when it comes to ordering, it's going to be sorted according to natural order or using"
+  },
+  {
+    "start": 99.14,
+    "end": 100.26,
+    "text": "a custom comparator."
+  },
+  {
+    "start": 100.26,
+    "end": 105.36,
+    "text": "Now, you don't know what a comparator is yet, but a comparator is an interface that defines"
+  },
+  {
+    "start": 105.36,
+    "end": 108.08,
+    "text": "how to compare two objects for ordering."
+  },
+  {
+    "start": 108.08,
+    "end": 113.6,
+    "text": "So this is like a sorting recipe that we're going to be writing when we want to decide"
+  },
+  {
+    "start": 113.6,
+    "end": 116.32,
+    "text": "how an object, how objects should be sorted."
+  },
+  {
+    "start": 116.32,
+    "end": 120.54,
+    "text": "Then we're going to be relying on this comparator interface."
+  },
+  {
+    "start": 120.54,
+    "end": 123.02,
+    "text": "But I'm not going to talk about this now."
+  },
+  {
+    "start": 123.02,
+    "end": 125.14,
+    "text": "We're going to learn this very, very soon."
+  },
+  {
+    "start": 125.14,
+    "end": 135.18,
+    "text": "For the map interface, we have, again, multiple possibilities, but I'm just going to talk about"
+  },
+  {
+    "start": 135.18,
+    "end": 141.02,
+    "text": "two classes here, HashMap and TreeMap."
+  },
+  {
+    "start": 141.02,
+    "end": 145.88,
+    "text": "And you're going to get the drill difference in a very similar way that we talk about HashSet."
+  },
+  {
+    "start": 145.88,
+    "end": 146.88,
+    "text": "We have HashMap."
+  },
+  {
+    "start": 146.88,
+    "end": 149.3,
+    "text": "HashMap is the most common implementation."
+  },
+  {
+    "start": 149.3,
+    "end": 150.96,
+    "text": "Again, why?"
+  },
+  {
+    "start": 150.96,
+    "end": 156.56,
+    "text": "Because it's fast, big O notation, it's super fast for get and put."
+  },
+  {
+    "start": 156.56,
+    "end": 163.58,
+    "text": "In this case, for the map, we want to get some element from the map, or we want to put"
+  },
+  {
+    "start": 163.58,
+    "end": 171.14,
+    "text": "a certain key value pair in the map, and we're going to use this method, but no guaranteed"
+  },
+  {
+    "start": 171.14,
+    "end": 174.42,
+    "text": "order, again."
+  },
+  {
+    "start": 174.42,
+    "end": 176.96,
+    "text": "TreeMap is another class."
+  },
+  {
+    "start": 176.96,
+    "end": 178.78,
+    "text": "And you probably expect this."
+  },
+  {
+    "start": 178.78,
+    "end": 183.5,
+    "text": "It is not as popular because in terms of performance, it takes a little longer."
+  },
+  {
+    "start": 183.5,
+    "end": 189.34,
+    "text": "We look at the big O notation and it's log event, right, for the method to get and put."
+  },
+  {
+    "start": 189.34,
+    "end": 193.66,
+    "text": "So the more elements in your map, the longer it's going to get."
+  },
+  {
+    "start": 193.66,
+    "end": 199.7,
+    "text": "The great news is that it is sorted, and it's sorted by keys, right, and following the natural"
+  },
+  {
+    "start": 199.7,
+    "end": 201.38,
+    "text": "order of the keys."
+  },
+  {
+    "start": 201.38,
+    "end": 204.24,
+    "text": "If your keys are strings, then it's going to be alphabetical."
+  },
+  {
+    "start": 204.24,
+    "end": 209.42,
+    "text": "If your keys are, let's say, numbers, then it's going to be based on the natural order"
+  },
+  {
+    "start": 209.42,
+    "end": 210.8,
+    "text": "of these numbers."
+  },
+  {
+    "start": 210.8,
+    "end": 212.56,
+    "text": "Or you will use the comparator."
+  },
+  {
+    "start": 212.56,
+    "end": 217.18,
+    "text": "But as I said, we're going to learn about the comparator later in the next module."
+  },
+  {
+    "start": 217.18,
+    "end": 223.7,
+    "text": "So here you have it, some classes that allow us to implement some of the interfaces from"
+  },
+  {
+    "start": 223.7,
+    "end": 225.14,
+    "text": "the collections framework."
+  },
+  {
+    "start": 225.14,
+    "end": 228.18,
+    "text": "Now I promise in the next video, we're going to look at some code."
+  },
+  {
+    "start": 228.18,
+    "end": 229.18,
+    "text": "Thank you for watching."
+  },
+  {
+    "start": 229.18,
+    "end": 230.14,
+    "text": "I'm Lino Koya."
+  }
+]

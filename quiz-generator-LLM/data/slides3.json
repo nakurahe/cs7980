@@ -1,0 +1,88 @@
+{
+  "videoFile": "test_video.mp4",
+  "totalSlides": 8,
+  "processingTime": 46.21,
+  "extractionDate": "2025-11-12T15:59:07.353477",
+  "slides": [
+    {
+      "imageFile": "slide_001.jpg",
+      "startTime": "00:00:16",
+      "endTime": "00:00:39",
+      "startTimeMs": 16827,
+      "endTimeMs": 39593,
+      "duration": 22.77,
+      "extractedText": "Array List<> vs.\nLino Coria ans",
+      "ocrConfidence": 0.8
+    },
+    {
+      "imageFile": "slide_002.jpg",
+      "startTime": "00:00:39",
+      "endTime": "00:01:05",
+      "startTimeMs": 39593,
+      "endTimeMs": 65329,
+      "duration": 25.74,
+      "extractedText": "ArrayList<> vs. LinkedList<> fi)\nWhen to Use? ith\nrere [amin [seat\nInsertion at\nsow tr rst\npointers)",
+      "ocrConfidence": 0.76
+    },
+    {
+      "imageFile": "slide_003.jpg",
+      "startTime": "00:01:05",
+      "endTime": "00:01:13",
+      "startTimeMs": 65329,
+      "endTimeMs": 73248,
+      "duration": 7.92,
+      "extractedText": "Array List<> vs. LinkedList<> (a\nWhen to Use? DB depray\nWigs”\nrere [amin [satin\nInsertion at\npointers)",
+      "ocrConfidence": 0.73
+    },
+    {
+      "imageFile": "slide_004.jpg",
+      "startTime": "00:01:13",
+      "endTime": "00:01:29",
+      "startTimeMs": 73248,
+      "endTimeMs": 89086,
+      "duration": 15.84,
+      "extractedText": "ArrayList<> vs. LinkedList<> /() 2)\nWhen to Use? : bf\nCae\nrere [amin [satin\nInsertion at\npointers)",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_005.jpg",
+      "startTime": "00:01:29",
+      "endTime": "00:01:39",
+      "startTimeMs": 89086,
+      "endTimeMs": 99974,
+      "duration": 10.89,
+      "extractedText": "ArrayList< vs. LinkedList /(/)y\nWhen to Use? ee Wo)\neae [amg [man\nInsertion at\npointers)",
+      "ocrConfidence": 0.7
+    },
+    {
+      "imageFile": "slide_006.jpg",
+      "startTime": "00:01:39",
+      "endTime": "00:02:00",
+      "startTimeMs": 99974,
+      "endTimeMs": 120761,
+      "duration": 20.79,
+      "extractedText": "Array List<> vs. LinkedList<> (Ey\nWhen to Use’ Cs\nrere [amin [satin\nInsertion at\npointers)",
+      "ocrConfidence": 0.72
+    },
+    {
+      "imageFile": "slide_007.jpg",
+      "startTime": "00:02:00",
+      "endTime": "00:02:36",
+      "startTimeMs": 120761,
+      "endTimeMs": 156395,
+      "duration": 35.63,
+      "extractedText": "ArrayList<> vs. LinkedList<> /[/Zs)\\\nWhen to Use? PAC a\nrere [amin [satin\nInsertion at\npointers)",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_008.jpg",
+      "startTime": "00:02:36",
+      "endTime": "00:03:23",
+      "startTimeMs": 156395,
+      "endTimeMs": 203908,
+      "duration": 47.51,
+      "extractedText": "Summary\n° List<> is an interface with ArrayList<> and LinkedList<> as\nmain implementations.\n° ArrayList<> > Best for fast access & minimal\ninsertions/deletions.\n° LinkedList<> > Best for frequent insertions/deletions.\n° Choose the right data structure based onusecase ca IN\nCANS\n4 JAAS :",
+      "ocrConfidence": 0.9
+    }
+  ]
+}

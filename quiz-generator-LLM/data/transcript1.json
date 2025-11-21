@@ -1,0 +1,272 @@
+[
+  {
+    "start": 0.0,
+    "end": 6.48,
+    "text": "Hi everybody, this is Lino Coria and today I'm going to talk to you about arrays and lists."
+  },
+  {
+    "start": 6.48,
+    "end": 12.68,
+    "text": "You probably already know a lot about arrays and lists. You learn a lot in 5001, but I still want"
+  },
+  {
+    "start": 12.68,
+    "end": 19.36,
+    "text": "to cover some of the basics. And in this video, I'm just going to talk about very generic things"
+  },
+  {
+    "start": 19.36,
+    "end": 24.44,
+    "text": "about arrays and lists. And then in other videos, I'm going to talk about how arrays and lists"
+  },
+  {
+    "start": 24.44,
+    "end": 33.54,
+    "text": "work in Java, specifically in Java. So why do we need arrays and lists? Well, we basically use them"
+  },
+  {
+    "start": 33.54,
+    "end": 40.28,
+    "text": "to store collections of elements. So here I have some examples, for instance, your favorite songs."
+  },
+  {
+    "start": 40.28,
+    "end": 46.06,
+    "text": "Maybe you want to have somehow a collection of your favorite songs or the books that you have read this"
+  },
+  {
+    "start": 46.06,
+    "end": 52.32,
+    "text": "year or the days of the week or the colors of the rainbow. Now, you can see that there's some"
+  },
+  {
+    "start": 52.32,
+    "end": 58.58,
+    "text": "differences between some of these collections of elements here. For instance, your favorite songs,"
+  },
+  {
+    "start": 58.58,
+    "end": 64.16,
+    "text": "they can change through your life. But for instance, the colors of the rainbow, they're not going to"
+  },
+  {
+    "start": 64.16,
+    "end": 68.7,
+    "text": "change. They're always going to be the same or the days of the week. These collections are not going"
+  },
+  {
+    "start": 68.7,
+    "end": 74.78,
+    "text": "to change. Right. And this is important and this is going to become more evident when we discuss about"
+  },
+  {
+    "start": 74.78,
+    "end": 80.76,
+    "text": "what is an array, what is particular about an array, what is a list, what is specific about a list."
+  },
+  {
+    "start": 80.76,
+    "end": 87.98,
+    "text": "And then you're going to see why this different ways of storing information is useful."
+  },
+  {
+    "start": 90.02,
+    "end": 96.88,
+    "text": "Let's start by describing an array. What is an array? An array is a fixed size collection of elements"
+  },
+  {
+    "start": 96.88,
+    "end": 103.52,
+    "text": "that are stored in order and in a continuous block of memory. And here is important to think this is"
+  },
+  {
+    "start": 103.52,
+    "end": 108.9,
+    "text": "fixed size, right? So this is ideal for, say, the colors of the rainbow or the days of the week,"
+  },
+  {
+    "start": 108.9,
+    "end": 114.62,
+    "text": "things that I know that are not going to change, that I know how many elements I need in my array."
+  },
+  {
+    "start": 114.62,
+    "end": 121.12,
+    "text": "And each element in an array is accessed using an index. And I'm going to give you an example so that"
+  },
+  {
+    "start": 121.12,
+    "end": 128.84,
+    "text": "you can see what is it that I mean when I describe an array. Here I have an example with an array with"
+  },
+  {
+    "start": 128.84,
+    "end": 136.04,
+    "text": "five numbers. The numbers are 10, 20, 30, 40, and 50. Now below these numbers, I have written the index"
+  },
+  {
+    "start": 136.04,
+    "end": 142.24,
+    "text": "numbers that go from zero to four. Now you might be asking yourself, why do we go from zero to four?"
+  },
+  {
+    "start": 142.4,
+    "end": 149.12,
+    "text": "And instead of say from one to five, that would make more sense. The way I look at this is the index"
+  },
+  {
+    "start": 149.12,
+    "end": 155.0,
+    "text": "number is telling you how many elements you need to jump in order to get to the element that you're"
+  },
+  {
+    "start": 155.0,
+    "end": 162.42,
+    "text": "looking for. So let's say I'm looking for number 10, which is the first element that shows up in the"
+  },
+  {
+    "start": 162.42,
+    "end": 168.84,
+    "text": "array, then I need to jump zero times, zero numbers, right? But if I'm looking for number 40,"
+  },
+  {
+    "start": 169.44,
+    "end": 175.28,
+    "text": "then I need to start at the beginning and then jump three numbers, right? So I go, I start at 10,"
+  },
+  {
+    "start": 175.32,
+    "end": 181.4,
+    "text": "and then I go 20, 30, 40, three jumps, and then I get to number 40. And that's a way to look at the"
+  },
+  {
+    "start": 181.4,
+    "end": 182.78,
+    "text": "index numbers in an array."
+  },
+  {
+    "start": 182.78,
+    "end": 194.28,
+    "text": "So arrays have these key features. They are fixed size. So if you say, I want an array of size seven,"
+  },
+  {
+    "start": 194.9,
+    "end": 199.46,
+    "text": "well, you're not going to be able to change it, right? And that's okay. If seven is the colors of"
+  },
+  {
+    "start": 199.46,
+    "end": 204.18,
+    "text": "the rainbow, well, they're not going to change or the days of the week, right? It's not going to"
+  },
+  {
+    "start": 204.18,
+    "end": 210.7,
+    "text": "change. So keeping an array of seven, it's a good thing because we already know that this is the size"
+  },
+  {
+    "start": 210.7,
+    "end": 217.52,
+    "text": "that we need, but we can access every element of the array very quickly. And also because everything"
+  },
+  {
+    "start": 217.52,
+    "end": 222.38,
+    "text": "is on the same sort of chunk of memory, it's very efficient in terms of memory usage."
+  },
+  {
+    "start": 223.3,
+    "end": 229.7,
+    "text": "The one thing that we need to keep in mind is that all elements of the array must be of the same type."
+  },
+  {
+    "start": 229.88,
+    "end": 236.6,
+    "text": "So if you say this is a string, for instance, an array of strings, well, later you cannot say,"
+  },
+  {
+    "start": 236.7,
+    "end": 240.2,
+    "text": "well, but I'm going to add a number here, right? Everything has to be a string."
+  },
+  {
+    "start": 240.7,
+    "end": 250.44,
+    "text": "Okay. So those were arrays. Now I'm going to talk about lists. What is a list? A list is a more"
+  },
+  {
+    "start": 250.44,
+    "end": 258.72,
+    "text": "flexible way to store multiple values and it can shrink and grow as we need it. So this can be"
+  },
+  {
+    "start": 258.72,
+    "end": 264.8,
+    "text": "useful when we need to be modifying things. And again, I'm not talking about specifics in Java,"
+  },
+  {
+    "start": 264.92,
+    "end": 270.68,
+    "text": "how we handle lists. I'm going to cover that later here. I'm just talking generically. What is a"
+  },
+  {
+    "start": 270.68,
+    "end": 277.5,
+    "text": "list? So here's an example of a list. Let's say I want to go grocery shopping and I write, I want"
+  },
+  {
+    "start": 277.5,
+    "end": 282.62,
+    "text": "apples, I want bananas, I want carrots. And then I realized actually I don't like bananas that much,"
+  },
+  {
+    "start": 282.62,
+    "end": 288.08,
+    "text": "right? So I scratch bananas and it's bad, but I do like oranges and I add oranges. So as soon as I"
+  },
+  {
+    "start": 288.08,
+    "end": 294.12,
+    "text": "scratch bananas, then carrots go to the second spot here and then oranges goes to the third spot,"
+  },
+  {
+    "start": 294.12,
+    "end": 300.66,
+    "text": "right? So I was able to modify my list, but then I might also think of blueberries. And so it's very"
+  },
+  {
+    "start": 300.66,
+    "end": 307.74,
+    "text": "easy to add blueberries, right? And so a list is something that is made for changes. If I need to be"
+  },
+  {
+    "start": 307.74,
+    "end": 316.78,
+    "text": "changing stuff and I need to be changing the size of my collection, then a list is the way to go."
+  },
+  {
+    "start": 316.78,
+    "end": 326.32,
+    "text": "So key features of a list. Well, they have flexible size, right? I can grow or shrink my list as needed."
+  },
+  {
+    "start": 326.32,
+    "end": 332.46,
+    "text": "And it's very easy to add or remove elements. And we're going to see that in Java, there are some"
+  },
+  {
+    "start": 332.46,
+    "end": 339.64,
+    "text": "built in methods add, remove, contains other methods that make it really easy for us to work with list."
+  },
+  {
+    "start": 339.64,
+    "end": 345.7,
+    "text": "Anyway, I hope you understood the difference between an array in a list and we'll go into more detail in"
+  },
+  {
+    "start": 345.7,
+    "end": 347.74,
+    "text": "the next videos. Thank you so much."
+  }
+]

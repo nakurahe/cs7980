@@ -1,0 +1,148 @@
+{
+  "videoFile": "test_video.mp4",
+  "totalSlides": 14,
+  "processingTime": 145.18,
+  "extractionDate": "2025-11-19T16:58:59.466371",
+  "slides": [
+    {
+      "imageFile": "slide_001.jpg",
+      "startTime": "00:00:08",
+      "endTime": "00:00:18",
+      "startTimeMs": 8909,
+      "endTimeMs": 18808,
+      "duration": 9.9,
+      "extractedText": "Unit Testing aa /\n» Python Functions y\nCS 6190 ' /",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_002.jpg",
+      "startTime": "00:00:29",
+      "endTime": "00:00:35",
+      "startTimeMs": 29697,
+      "endTimeMs": 35637,
+      "duration": 5.94,
+      "extractedText": "Unit Testing Vaan /\n» Python Vunetions .\nCS 8190",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_003.jpg",
+      "startTime": "00:00:35",
+      "endTime": "00:02:50",
+      "startTimeMs": 35637,
+      "endTimeMs": 170268,
+      "duration": 134.63,
+      "extractedText": "<a\n| | ?\nWhy Unit Testing’ Ce\nCatch bugs Enable Document Ensure\nearly confident expected reproducibility\nrefactoring behavior",
+      "ocrConfidence": 0.9
+    },
+    {
+      "imageFile": "slide_004.jpg",
+      "startTime": "00:02:52",
+      "endTime": "00:03:14",
+      "startTimeMs": 172248,
+      "endTimeMs": 194026,
+      "duration": 21.78,
+      "extractedText": "Cover Everythin\nows py\nEdge cases\nNormal g Error\n(empty, zero, L\ncases , a conditions\n__negative)",
+      "ocrConfidence": 0.85
+    },
+    {
+      "imageFile": "slide_005.jpg",
+      "startTime": "00:03:14",
+      "endTime": "00:03:36",
+      "startTimeMs": 194026,
+      "endTimeMs": 216795,
+      "duration": 22.77,
+      "extractedText": "over Everything eg\nUY\nEdge cases\nNormal (em ry zerd Error\ncases pty, J conditions\n__negative)",
+      "ocrConfidence": 0.7
+    },
+    {
+      "imageFile": "slide_006.jpg",
+      "startTime": "00:03:36",
+      "endTime": "00:03:59",
+      "startTimeMs": 216795,
+      "endTimeMs": 239563,
+      "duration": 22.77,
+      "extractedText": "Cover Everything\nLap\nEdge cased\nNormal g Error\n(empty, zero, .\ncases . /] conditions\n__negative)",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_007.jpg",
+      "startTime": "00:03:59",
+      "endTime": "00:04:13",
+      "startTimeMs": 239563,
+      "endTimeMs": 253422,
+      "duration": 13.86,
+      "extractedText": "SSS\nGetting Started with pytest\nInstallation\n[sFoip}instaliypytest]\nWye cS Ly Re",
+      "ocrConfidence": 0.79
+    },
+    {
+      "imageFile": "slide_008.jpg",
+      "startTime": "00:04:13",
+      "endTime": "00:04:35",
+      "startTimeMs": 253422,
+      "endTimeMs": 275200,
+      "duration": 21.78,
+      "extractedText": "| ——_—____—__—__—_ |\nGetting Started with pytest\nInstallation",
+      "ocrConfidence": 0.88
+    },
+    {
+      "imageFile": "slide_009.jpg",
+      "startTime": "00:04:35",
+      "endTime": "00:04:49",
+      "startTimeMs": 275200,
+      "endTimeMs": 289060,
+      "duration": 13.86,
+      "extractedText": "| ——_—____—__—__—_ |\nInstallation\ncYoipyinstallppytest]\nae",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_010.jpg",
+      "startTime": "00:04:49",
+      "endTime": "00:04:57",
+      "startTimeMs": 289060,
+      "endTimeMs": 297969,
+      "duration": 8.91,
+      "extractedText": "| ——_—____—__—__—_ |\nRunning Tests\n4 eh",
+      "ocrConfidence": 0.73
+    },
+    {
+      "imageFile": "slide_011.jpg",
+      "startTime": "00:04:57",
+      "endTime": "00:05:04",
+      "startTimeMs": 297969,
+      "endTimeMs": 304898,
+      "duration": 6.93,
+      "extractedText": "| ——_—____—__—__—_ |\nGetting Started with pytest\nRunning Tests\nob Z",
+      "ocrConfidence": 0.82
+    },
+    {
+      "imageFile": "slide_012.jpg",
+      "startTime": "00:05:15",
+      "endTime": "00:05:19",
+      "startTimeMs": 315788,
+      "endTimeMs": 319747,
+      "duration": 3.96,
+      "extractedText": "SSS\nUseful pytest Commands\n# Run all tests\npytest\n# Verbose output\npytest -v —\n# Run specific tests ci ao.\npytest -k \"test_normalize\" ee cae\nAPRS AOS fAbee\nay eS ] 8 ?\nGEA y",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_013.jpg",
+      "startTime": "00:05:32",
+      "endTime": "00:05:37",
+      "startTimeMs": 332616,
+      "endTimeMs": 337566,
+      "duration": 4.95,
+      "extractedText": "=\nUseful pytest Commands\n# Run all tests\npytest\n# Verbose output\npytest -v —\n# Run specific tests va aes oe\npytest -k \"test_normalize NaS Shy",
+      "ocrConfidence": 0.78
+    },
+    {
+      "imageFile": "slide_014.jpg",
+      "startTime": "00:05:40",
+      "endTime": "00:07:42",
+      "startTimeMs": 340536,
+      "endTimeMs": 462298,
+      "duration": 121.76,
+      "extractedText": "Best Practices\nDO DON’T\n* Test one thing per test * Test library code (NumPy, Pandas)\n« Use descriptive test names « Make tests depend on each other\n* Test edge cases and errors * Use vague names like test_10Q)\n+ Keep tests independent Pn\n» Run tests before submitting ee goin\nPwr\nag th wee” >\nWe Pelle\na wa || ,",
+      "ocrConfidence": 0.82
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "videoFile": "test_video.mp4",
+  "totalSlides": 21,
+  "processingTime": 120.73,
+  "extractionDate": "2025-11-12T15:38:49.288636",
+  "slides": [
+    {
+      "imageFile": "slide_001.jpg",
+      "startTime": "00:00:01",
+      "endTime": "00:00:27",
+      "startTimeMs": 1979,
+      "endTimeMs": 27717,
+      "duration": 25.74,
+      "extractedText": "Arrays and Lists ( ‘Ss\nLino Coria A Aes) OP",
+      "ocrConfidence": 0.72
+    },
+    {
+      "imageFile": "slide_002.jpg",
+      "startTime": "00:00:27",
+      "endTime": "00:00:49",
+      "startTimeMs": 27717,
+      "endTimeMs": 49495,
+      "duration": 21.78,
+      "extractedText": "Arrays and Lists\n° We use them to store collections of elements\ne Examples: ff fi i=. Be\nYour favorite songs . ja pea = i He\n* The books you have read this year TEL A atl Tl\n* The days of the week } eres 7\n* The colors of the rainbow = 7",
+      "ocrConfidence": 0.74
+    },
+    {
+      "imageFile": "slide_003.jpg",
+      "startTime": "00:00:52",
+      "endTime": "00:00:56",
+      "startTimeMs": 52465,
+      "endTimeMs": 56424,
+      "duration": 3.96,
+      "extractedText": "Arrays and Lists\n° We use them to store collections of elements\n° Examples: y Gi Ei == e i >\n* Your favorite songs (il | ome q ie\n* The books you have read this year iuitied (Se UPA ceeae\n* The days of the week eye)\n¢ The colors of the rainbow ‘Se",
+      "ocrConfidence": 0.76
+    },
+    {
+      "imageFile": "slide_004.jpg",
+      "startTime": "00:00:56",
+      "endTime": "00:01:01",
+      "startTimeMs": 56424,
+      "endTimeMs": 61374,
+      "duration": 4.95,
+      "extractedText": "Arrays and Lists\n° We use them to store collections of elements\ne Examples: At if =P\n* Your favorite songs (i <I ne\n* The books you have read this year iif EHS el ul\n¢ The days of the week WAS a\n* The colors of the rainbow bee\nec BY",
+      "ocrConfidence": 0.83
+    },
+    {
+      "imageFile": "slide_005.jpg",
+      "startTime": "00:01:01",
+      "endTime": "00:01:06",
+      "startTimeMs": 61374,
+      "endTimeMs": 66323,
+      "duration": 4.95,
+      "extractedText": "Arrays and Lists\n° We use them to store collections of elements\nxamples: Ai Ae Ses PN\n¢ Your favorite songs f fll :p PSS Mi i :\n* The books you have read this year I ie he = oS ah ta 4\n* The days of the week\n¢ The colors of the rainbow =",
+      "ocrConfidence": 0.74
+    },
+    {
+      "imageFile": "slide_006.jpg",
+      "startTime": "00:01:06",
+      "endTime": "00:01:15",
+      "startTimeMs": 66323,
+      "endTimeMs": 75233,
+      "duration": 8.91,
+      "extractedText": "Arrays and Lists\n° We use them to store collections of elements\n° Examples: PAI i Ss] | tas\n* Your favorite songs Gare pore = i :\n* The books you have read this year i pian arn i gee\n* The days of the week ; ae .\n¢ The colors of the rainbow ry \\",
+      "ocrConfidence": 0.76
+    },
+    {
+      "imageFile": "slide_007.jpg",
+      "startTime": "00:01:21",
+      "endTime": "00:01:29",
+      "startTimeMs": 81172,
+      "endTimeMs": 89091,
+      "duration": 7.92,
+      "extractedText": "Arrays and Lists\n° We use them to store collections of elements\n* Examples: ing Ae ses\n* Your favorite songs A PSS i ie a)\n* The books you have read this year f ae iM ican\n* The days of the week a\" heey\n* The colors of the rainbow EET\ne ay) SN a ‘shig",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_008.jpg",
+      "startTime": "00:01:30",
+      "endTime": "00:03:05",
+      "startTimeMs": 90081,
+      "endTimeMs": 185113,
+      "duration": 95.03,
+      "extractedText": "What is an Array?\n° An array is a fixed-size collection of elements that are stored in\norder and in a continuous block of memory.\n° Each element in an array is accessed using an index Wess\nArray of 5 numbers: ( eg! Hy ff\n— vty & 3\n[10 , 20, 30, 40, 50 ] > Aaa\n0 1 2 3 4 <-- Index numbers",
+      "ocrConfidence": 0.88
+    },
+    {
+      "imageFile": "slide_009.jpg",
+      "startTime": "00:03:12",
+      "endTime": "00:03:20",
+      "startTimeMs": 192042,
+      "endTimeMs": 200951,
+      "duration": 8.91,
+      "extractedText": "Key Features of an Array\n° Fixed size nie = =>\ne Fast access i ——— a ae\n° Efficient memory usage i te |\n° Allelements must be the same type =]\nSe Dts.",
+      "ocrConfidence": 0.78
+    },
+    {
+      "imageFile": "slide_010.jpg",
+      "startTime": "00:03:20",
+      "endTime": "00:03:26",
+      "startTimeMs": 200951,
+      "endTimeMs": 206891,
+      "duration": 5.94,
+      "extractedText": "Key Features of an Array\n° Fixed size yeah\n— REG a eg MM aaa\n° Efficient memory usage f ena fax A\n° Allelements must be the same type ia",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_011.jpg",
+      "startTime": "00:03:32",
+      "endTime": "00:03:36",
+      "startTimeMs": 212830,
+      "endTimeMs": 216790,
+      "duration": 3.96,
+      "extractedText": "Key Features of an Array\n° Efficient memory usage . HR i HL\n° All elements must be the same type AS",
+      "ocrConfidence": 0.8
+    },
+    {
+      "imageFile": "slide_012.jpg",
+      "startTime": "00:03:39",
+      "endTime": "00:03:46",
+      "startTimeMs": 219759,
+      "endTimeMs": 226689,
+      "duration": 6.93,
+      "extractedText": "Key Features of an Array\ne Fixed size tit —= >\n° Efficient memory usage Wied ds VS ve eau\n° Allelements must be the same type as",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_013.jpg",
+      "startTime": "00:03:55",
+      "endTime": "00:04:00",
+      "startTimeMs": 235598,
+      "endTimeMs": 240547,
+      "duration": 4.95,
+      "extractedText": "Key Features of an Array\n° Fixed size Af = ~\n° Fast access (iii SS eae fh me\n° Efficient memory usage UN ih ran\n° All elements must be the same type N LS \\",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_014.jpg",
+      "startTime": "00:04:01",
+      "endTime": "00:04:21",
+      "startTimeMs": 241537,
+      "endTimeMs": 261336,
+      "duration": 19.8,
+      "extractedText": "What is a List?\n° A list is a more flexible way to store multiple values.\n° A list can grow and shrink as needed.\nan Mf ee, i) if Q\no/ wS ae iB)",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_015.jpg",
+      "startTime": "00:04:32",
+      "endTime": "00:04:36",
+      "startTimeMs": 272225,
+      "endTimeMs": 276184,
+      "duration": 3.96,
+      "extractedText": "Example of a List\nShopping List: Gi ie Sain\n1. Apples oy mee\n2. Bananas A\n3. Carrots tee\n» — “at Lh obd .- \\",
+      "ocrConfidence": 0.7
+    },
+    {
+      "imageFile": "slide_016.jpg",
+      "startTime": "00:04:41",
+      "endTime": "00:04:46",
+      "startTimeMs": 281134,
+      "endTimeMs": 286083,
+      "duration": 4.95,
+      "extractedText": "Example of a List\nShopping List: CG =_\n1. Apples fe Vaa~ ne\n2. Bananas disieiaed § bos abe\n3. Carrots ay",
+      "ocrConfidence": 0.79
+    },
+    {
+      "imageFile": "slide_017.jpg",
+      "startTime": "00:04:47",
+      "endTime": "00:05:06",
+      "startTimeMs": 287073,
+      "endTimeMs": 306871,
+      "duration": 19.8,
+      "extractedText": "Example of a List\nShopping List: til ah =| IP\n2. Carrots Se La ae\n3. O joe\n. Oranges ——-",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_018.jpg",
+      "startTime": "00:05:06",
+      "endTime": "00:05:16",
+      "startTimeMs": 306871,
+      "endTimeMs": 316770,
+      "duration": 9.9,
+      "extractedText": "Example of a List\nae <a\n3. Oranges be\n4. Blueberries Ms fof.",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_019.jpg",
+      "startTime": "00:05:16",
+      "endTime": "00:05:21",
+      "startTimeMs": 316770,
+      "endTimeMs": 321720,
+      "duration": 4.95,
+      "extractedText": "Example of a List\nShopping List: < Oh ==PN\n1. Apples | aa Pe ael MnEY\n3. Oranges aaa\n4. Blueberries PERU\n4 ee # : .",
+      "ocrConfidence": 0.7
+    },
+    {
+      "imageFile": "slide_020.jpg",
+      "startTime": "00:05:26",
+      "endTime": "00:05:34",
+      "startTimeMs": 326670,
+      "endTimeMs": 334589,
+      "duration": 7.92,
+      "extractedText": "Key Features of a List\n° Flexible size rin Sp\ne Easy to remove or add elements ‘ut gOS ip a\nfh — q re} Tas ft: thi § al",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_021.jpg",
+      "startTime": "00:05:41",
+      "endTime": "00:05:48",
+      "startTimeMs": 341518,
+      "endTimeMs": 348448,
+      "duration": 6.93,
+      "extractedText": "Key Features of a List\n° Flexible size { an Ss a >\n° Easy to remove or add elements uN, ASS f las\n“qv |",
+      "ocrConfidence": 0.8
+    }
+  ]
+}

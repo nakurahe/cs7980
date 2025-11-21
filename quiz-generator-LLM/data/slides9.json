@@ -1,0 +1,208 @@
+{
+  "videoFile": "test_video.mp4",
+  "totalSlides": 20,
+  "processingTime": 359.7,
+  "extractionDate": "2025-11-12T16:32:47.376379",
+  "slides": [
+    {
+      "imageFile": "slide_001.jpg",
+      "startTime": "00:00:00",
+      "endTime": "00:01:37",
+      "startTimeMs": 0,
+      "endTimeMs": 97000,
+      "duration": 97.0,
+      "extractedText": "000 [63 cs5004NcanvasyshellZexamples)2025] 85004\" canvas’ shell examples 2025 jvm (2) master $A @erame © & 8 Aaa @\no |e SetDemojava X @ MapDemojava ile\no| 1 package moduleQ4; 43 aa-vie\nwe} 2 a\n—| 3 import java.utit.HashSet; 8\nBa] 4 import java.util.Set;\noe |S import java.util. TreeSet; @\n6 | &\n7 ek\n8 * Demonstrates the use of HashSet and TreeSet in Java.\n9 * This example shows how to store unique integers |\n16 */\n11(> |public class SetDemo {\n20> public static void main(String[] args) {\n13 // Same data for both sets ee\n14% | |_Integer[] numbers = (42, fi, 89, 3, 56, 17, 23};\n18 2 Extract Surround #7 © i YT 7\n16 // HashSet Demo - Fast, unordered |\n17 System.out.printlin(\"=== HashSet Demo ===\"); +i\n18 Set<Integer> hashSet = new HashSet<>();\n19\ne 20 for (Integer num : numbers) {\n21 boolean added = hashSet.add(num);\n® 22 | System.out.printin(\"Adding \"+ num + \"3 \"+ (added ? \"Success\" 3 \"Duplicate ignored\")); 4\n83] 25 3 a\n| 24 |\npD| 25 System. out.println(vashset contents: » at hashset): —\ne| % System.out.println(\"Contains 172.\" + hashSet.contains(17)); // 0(1) lookup\n27 System.out.println();\na)\n28\n©} 29 // TreeSet Demo - Sorted, slower\nP| 36 System.out.printin(\"=== TreeSet Demo ===\");\nQ.cs5004_canvas_shell_examples_2025 > Ocs5004_module0i_video_examples > src > moduled4 > @SetDemo > & main 14:30(2chars) @& LF UTF-8 & 2spaces",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_002.jpg",
+      "startTime": "00:01:37",
+      "endTime": "00:01:53",
+      "startTimeMs": 97000,
+      "endTimeMs": 113000,
+      "duration": 16.0,
+      "extractedText": "000 [63 cs5004XcanvasyshellZexampless2025) cmcmrmim=emiInwa:y Pammav @erame © & 8 aa &\no |e SetDemojava x @ MapDemojava ile\no|] 5 import java.util. TreeSet; a3 4a-vile\nwl ° )\n—ll 7 Vers\n80 8 * Demonstrates the use of HashSet and TreeSet in Java. 8\noo * This example shows how to store unique integers @\n10 xf | &\n11(> |public class SetDemo {\n22> public static void main(String[] args) {\n13 | // Same data for both sets\n1s\n16 // HashSet Demo - Fast, unordered\n17 System.out.printin(\"=== HashSet Demo ===\");\n18 Set<Integer> hashSet = new HashSet<>();\n19 aa\n20 for (Integer num : numbers) { i |\n21 | boolean added = hashSet.add(num); ail\n22 System.out.printin(\"Adding \"+ num to\": \"4 (added ? “Success” 3 \"Duplicate ignored\"));\n23 ¥\n- 24\n25 System.out.println(HashSet contents: + hashSet);\n©) 2 System.out.println (\"Contains 172 \"U4 hashSet.contains(17)); // 8(1) lookup\n3) 27 System.out.printlnQ; i\nB| 28\np> | 29 // TreeSet Demo - Sorted, slower\ne| 38 System.out.println(\"=== TreeSet Demo ===\");\n~ | 31 Set<Integer> treeSet = new TreeSet<>();\nca]\n32\nO| 33 for (Integer num : numbers) {\nB | 34 | treeSet.add(num); // Automatically sorted on insertion\nOcs5004_canvas_shell_examples_2025 > Ocs5004_module01_video_examples > src > moduled4 > @SetDemo > @ main 14:53 @ LF UTF-8 & 2spaces of",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_003.jpg",
+      "startTime": "00:01:53",
+      "endTime": "00:02:29",
+      "startTimeMs": 113000,
+      "endTimeMs": 149000,
+      "duration": 36.0,
+      "extractedText": "cs5004\" canvas ‘shell!examples'2025 \\vJ falvy 'SetDemo vy;\n@ o\nOo |e SetDemojava x @ MapDemojava i | a\nDo) * Demonstrates” the-use oy\" nasnset-ana~rreeset“1n-Java. asaan~le\n9 * This example shows how to store unique integers\nBio | «7 +8\n_ . = -\nBo 11{> [public class SetDemo { 78\n2> public static void main(String[] args) { |?\n13 // Same data for both bets _| @\n14 Integer[] numbers = {42, 17, 89, 3, 56, 17, 23}; |\n15\n16 4 HashSet Demo - Fast, unordered |\n17 System. out. println(\"=== HashSet Oemo ===\");\n~~ = : ne ooo\n18&@ |_| SeikIqteger> hashSet = new HashSet<>();\n19\n20 for (Integer num : numbers) {\n21 boolean added = hashSet.add(num) ; |\n22 System.out.printin(\"Adding \" + num +.\"5 \"+ (added 2 \"Success\": \"Duplicate ignored\")); a]\n23 3 |\n24\n: — — j\n25 System.out.println(“HashSet contents: ..thashSet) ;\n26 System.out.println (\"Contains 172.\" 4 hashSet.contains(17)); /f 0(4) Lookup |\n27 System.out.printinQ); ;\nT| 28 |\n@| 29 // TreeSet Demo - Sorted, slower |\na] 38 System.out.println(\"s== TreeSet Demo ===\"); !\ng 31 Set<Integer> treeset = new Treeset<>(); |\n32\n> 33 for (Integer num : numbers) {\nee\nSl 34 | treeSet.add(num); // Automatically sorted on insertion\nB| 35 }\n@| 36\n: awe —,\n37 System.out.println({Treeset contents: .\" + treeset); // Always sorted!\n7, 4.\n.¢s5004_canvas_shell_examples_2025 > O.cs5004_moduleOi_video_examples > src > module04 > @SetDemo > main 18:8 (3chars) @ LF UTF-8 & 2spaces cf",
+      "ocrConfidence": 0.72
+    },
+    {
+      "imageFile": "slide_004.jpg",
+      "startTime": "00:02:29",
+      "endTime": "00:02:54",
+      "startTimeMs": 149000,
+      "endTimeMs": 174000,
+      "duration": 25.0,
+      "extractedText": "[ele;e) [62 cs5004zcanvasyshellZexampless2025) ‘cs5004\"canvas‘shell!examples”2025 kg Pampev [ei[setoemox) & & 8 & [Q eS\nOo |e SetDemojava x @ MapDemojava i | a\n(fre */ 43 444via\n& 11[> |public class SetDemo { a\n—| 2b public static void main(String[] args) {\n8a | 13 // Same data for both sets &\nwoe | 14 Integer[] numbers = {42, 17, 89, 3, 56, 17, 23}; @\n15 | &\n16 // HashSet Demo - Fast, unordered\n17 System.out.println(\"=== HashSet Demo ===\");\n18 Set<Integer> hashSet = new HashSet<>();\n19\n20 for (Integer num : numbers) {\n21 “@ | bootean added = hashSet.add(num) ;]\n22 System.out.printin(tAdding \" + num + \"3\" + (added ? \"Success\": Duplicate ignored: );\n23 } String can be replaced with template] :\n24 Replace with string template XG More actions... xe\" 7\n25 System. out.println(“HashSet contents: + hashSet); |\n26 System.out.printin(\"Contains 172.\"+ hashSet.contains(17}); // 0(1) lookup a\n27 System.out.printlnQ); .|\n28\n29 // TreeSet Demo - Sorted, slower\nt 30 System.out.println(\"=<= TreeSet Demo ===\");\n©! 31 Set<Integer> treeSet = new TreeSet<>();\nGa) 32 |\nB| 33 for (integer num : numbers) { |\nD 34 | treeSet.add(num); // Automatically sorted on insertion F\n2 35 }\n36\n@) 37 System.out.println(\"TreeSet contents: \"+ treeset); // Always sorted!\n| 38 ¥\nwe | 39 +\nOcs5004_canvas_shell_examples_2025 > Ocs5004_module0i_video_examples > sre > moduled4 > @SetDemo > @ main 2:40 @ LF UTF-8 & 2spaces of",
+      "ocrConfidence": 0.74
+    },
+    {
+      "imageFile": "slide_005.jpg",
+      "startTime": "00:02:54",
+      "endTime": "00:03:23",
+      "startTimeMs": 174000,
+      "endTimeMs": 203000,
+      "duration": 29.0,
+      "extractedText": "000 [e3,cs5004NcanvasyshellZexamples\\2025] cs5004\"canvas*shell examples\" 2025 juga (5) master{7Av] @eiam © & 8 Aaa &\no |e SetDemojava X @ MapDemojava ile\n~| 11 public class SetDemo { 43 44-vl@a@\n@ |_12 public static void main(String[] args) { @\n10 T7_AUSNOe CVeMmU—-\" Pus ty UNUrUuePeMe\nee 17 System.out.println(\"=== HashSet Demo ===\"); 8B\n18 Set<Integer> hashSet = new HashSet<>(); 2\n\"| 49 | &\n20 for (Integer num : numbers) {\n21 eo boolean added = hashSet.add(num); __ _ __ __ 7\n22 System.out.printin(tAdding \"+ num + \"3 \"+ (added ? \"Success\" : \"Duplicate ignared\")); =\n23 }\n24\n25 System.out.println(“HashSet contents: t.hashSet) ;\n26 System.out.println (\"Contains 172.\".4 hashSet.contains(172)); // 0(1) lookup\n27 System.out.printin();\n28 |\n29 // TreeSet Demo - Sorted, slower |\n36 System.out.println(\"s== TreeSet Demo ===\"); a\n31 Set<Integer> treeSet = new TreeSet<>(); t A!\n32\n33 for (Integer num : numbers) {\nT | 34 | treeSet.add(num); // Automatically sorted on insertion\n®| 35 }\nga| 36 |\n3 37 System.out.printin(\"TreeSet contents: \" + treeset); // Always sorted! |\n38 } ad\nP| 39 r\n<| 40\n1]\n(0)\np\nOcs5004_canvas_shell_examples_2025 > Ocs5004_module0i_video_examples > src > moduled4 > @SetDemo > @ main 2040 @ LF UTF-8 & 2spaces @&",
+      "ocrConfidence": 0.7
+    },
+    {
+      "imageFile": "slide_006.jpg",
+      "startTime": "00:03:25",
+      "endTime": "00:03:37",
+      "startTimeMs": 205000,
+      "endTimeMs": 217000,
+      "duration": 12.0,
+      "extractedText": "O00 [G2 cs5004XcanvasyshellZexamples\\2025) 635004canvas\\ shell kexamples¥2025 kgm fog master ga @enamme & & 8 & 12) S\no |e SetDemojava X @ MapDemo java ile\n~| 11 public class SetDemo { 43 44v/1@\n@ |_12 public static void main(String[] args) { @\n—| 18 Set<Integer> hashSet = new HashSet<>(}; I 8\n8 | 19 |\n| 26 for (Integer num : numbers) { |e\n21 2 _ boolean added = hashSet.add(num) ;] | &\n22 System.out.printin(tAdding \"+ num +\": + (added ? \"Success\" : \"Duplicate ignored\")); al\n23 } ,\n24 =\n25 System.out.printin(‘HashSet contents:..\" + hashSet); a\n26 System.out.println (“Contains 172. ..+ hashSet.contains(17)); // 0(41) lookup\n27 System.out.printlnQ;\nRun €)SetDemo x\nGaulje@:\nT | Adding 42: Success <\n+ | Adding 17: Success g\n| adding 89: Success 3\nze Adding 3: Success 8\n4 Adding 56: Success\ne| a Adding 17: Duplicate ignored\n® Adding 23: Success\nta HashSet contents: [17, 3, 23, 56, 89, 42]\n8 Contains 17? true\n5) === TreeSet Demo ===\ng TreeSet contents: [3, 17, 23, 42, 56, 89]\nca]\nfo} Process finished with exit code 6\np 5 a\nOcs5004_canvas_shell_examples_2025 > Ocs5004_module0i_video_examples > src > moduled4 > @SetDemo > @ main 2:40 @ LF UTF-8 & 2spaces @&",
+      "ocrConfidence": 0.73
+    },
+    {
+      "imageFile": "slide_007.jpg",
+      "startTime": "00:03:37",
+      "endTime": "00:05:05",
+      "startTimeMs": 217000,
+      "endTimeMs": 305000,
+      "duration": 88.0,
+      "extractedText": "000 [G3 cs5004tcanvasyshellZexamples\\2025] cs5004\"canvas'shell \"examples\" 2025 jvm (5) master [7k @eiame © & 8 Aaa &\no |e SetDemojava X @ MapDemojava ile\noii 8 * Demonstrates the use of HashSet and TreeSet in Java. a3barvia\nell ? * This example shows how to store unique integers =)\n—|fro | «7 4 8\n8) 11(> |public class SetDemo { 4\n| 12> public static void main(String[] args) { a °\n13 // Same data for both sets | &\n14 Integer[] numbers = {42, 17, 89, 3, 56, 17, 23}; =\n1s\n16 //_HashSet_Demo_- Fast,_unordered\nRun ©)SetDemo x ir\nBGo0]@o@q:\n» | /Users/Linocoria/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home/bin/java --enable-preview -javaagent:/Users/Linocoria/A | <\n| === HashSet Demo === g\n= | Adding 42: Success 5\n=£| Adding 17: Success FA\n© | Adding 89: Success\n| Adding 3: Success\nAdding 56: Success\nAdding 17: Duplicate ignored\ne Adding 23: Success\n© HashSet contents: [17, 3, 23, 56, 89, 42]\nContains 17? true\na3\n5 === TreeSet Demo ===\n6 TreeSet contents: [3, 17, 23, 42, 56, 89]] I\ngg\nrm] Process finished with exit code 6\noO\np 5 a\n©cs5004_canvas_shell_examples_2025 > Ocs5004_module01_video_examples > src > moduled4 > @SetDemo > @ main 2:40 @ LF UTF-8 & 2spaces &",
+      "ocrConfidence": 0.78
+    },
+    {
+      "imageFile": "slide_008.jpg",
+      "startTime": "00:05:07",
+      "endTime": "00:05:21",
+      "startTimeMs": 307000,
+      "endTimeMs": 321000,
+      "duration": 14.0,
+      "extractedText": "O00 [e3,cs5004NeanvasyshellZexamples\\2025] cs5004 \"canvas ‘shell! examples®2025 kJ Pampoev [ei[setdemov) & [oy 8 & Q e\n© |@ setdemojava @ MapDemojava x i/a\noa] 1 package modulet4; ai a7-vla\nB} 2 a\n—| 3 import java.utit.HashMap; 8\nBa] 4 import java.util.Map;\noe | S import java.util. TreeMap; | ®\né &\n7 ek\n8 * Demonstrates the use of HashMap and TreeMap in Java.\n9 * This example shows how to store student names and their scores,\n16 % and highlights the differences between HashMap and TreeMap.\nnn | +/ _ _\n12> |public class MapDemo {\nBe public static void main(String[] args) {\n14 // Sample data: Student names and their scores\n15 String[][] students = {\n16 {\"Charlie\", \"85\"},\n17 {\"Alice\", \"92\"}, t\n18 {\"Bob\", \"78\"},\n19 {\"David\", \"92\",\n28 {\"Eve\", \"88\"}\n21 ui\n® 22\nG3) 23 // HashMap Demo - Fast, unordered\nB| 24 System.out.printin(\"=== HashMap Demo ===\");\np> | 25 Map<String, Integer> hashMap = new HashMap<>();\nSe 26\n27 // Adding students\n8) 26 for (String[] student : students) { ‘\n| 29 | hashMap.put(student(0], Integer.parseInt(student(1]));\n® | 30 i\nOcs5004_canvas_shell_examples_2025 > Ocs5004_moduleO1_video_examples > src > moduleo4 > @ MapDemo 4:4 @ LF UTF-8 & 2spaces of",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_009.jpg",
+      "startTime": "00:05:21",
+      "endTime": "00:06:06",
+      "startTimeMs": 321000,
+      "endTimeMs": 366000,
+      "duration": 45.0,
+      "extractedText": "000 [e3,cs5004NeanvasyshellZexampless2025) cs5004 canvas’ shell examples’ 2025 juga fo) master fav] @émumve © & 8 a@ &\n© |@ setdemojava @ MapDemojava x i|a@\n- import java.util. TreeMap; a1a74~la\n6\n& 7 Vira 8\n80 8 * Demonstrates the use of HashMap and TreeMap in Java. 8\nwa * This example shows how to store student names and their scores, | @\n16 @ and highlights the differences between HashMap and TreeMap. &\na_i #/\n12(> |public class HapDemo {\nBb public static void main(String[] args) {\n14 // Sample data: Student names and their scores\n18 String[][] students = {\n16 {\"Charlie\", \"85\",\n7 {\"Alice\", \"92\"},\n18 {\"Bob\", °78\"},\n19 {\"David\", \"92\"}, #\n20 {\"Eve\", \"88\"} |\n2a hy; q\n22\n23 // HashMap Demo - Fast, unordered\n24 System.out.println(\"=== HashMap Demo ===\");\nT 25 Map<String, Integer> hashMap = new HashMap<>();\n®| 26\nia| 27 // Adding students\ng| 28 for (String[] student : students) {\n29 | hashMap.put(student(0], Integer. parseInt(student[1]));\nb 368 ¥\n2) 31\nBD) 32 System.out.println (“HashMap contents: thashMap) ; '\n@ | 33 System.out.println (“Alice's score: + hashMan.get(\"Alice\"));\ny | 34 System.out.println(\"Contains Bob?\" + hashtap,containsKey(([o:)\"Bob\"));\n.cs5004_canvas_shell_examples_2025 > Ocs5004_moduleOi_video_examples > src > moduled4 > @MapDemo 1:4 @ LF UTF-8 & 2spaces",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_010.jpg",
+      "startTime": "00:06:06",
+      "endTime": "00:06:48",
+      "startTimeMs": 366000,
+      "endTimeMs": 408000,
+      "duration": 42.0,
+      "extractedText": "000 [G3 cs5004Ncanvasyshellvexamples)2025] 85004\" canvas*shell “examples 2025 juga (5) master$awg @eiam © & 8 Aaa &\n© |@ setdemojava © MapDemojava x :/a\n~| 12 public class MapDemo { a1 476 vla@\n@ |_38 public static void main(String[] args) { 8\n~~) 16 {\"Charlie\", \"85\"}, 8B\nBl ay {\"Alice\", \"92\"}, | e\n\"18 {\"Bob\", \"78\"},\n19 {\"David\", \"92\"}, = &\n26 {\"Eve\", \"88\"}\n21 I\n22\n23 // HashMap Demo - Fast, unordered\n24 System.out.println(\"=== HashMap Demo ===\");\n25 Map<String, Integer> hashMap = new HashMap<>();\n26\n27 // Adding students th\n28 for (String[] student : students) { I i\n29 | hashMap.put(student(0], Integer.parseInt(student[1])); |\n3a } I}\n31 |\n32 System. out.println (“HashMap contents: \"+ hashMap) ;\np | 33 System.out.println (\"Alice's score: + hashMan.get(\"Alice\"));\n® 34 System.out.println(\"Contains Bob?\" + hashtap.containsKey(((o:)\"Bob\")) ;\n5\na 36 // Update Charlie's score\n5] 37 hashMap.put(k} \"Charlie\", {vJ90);\nDb | 38 System.out.println(\"After update; \"+ hashMap) ;\ne| 39\np| 4 // TreeHap Demo - Automatically sorted by keys :\n© 41 System.out.printin(\"\\n=== TreeMap Demo ===\");\nv 42 Map<String, Integer> treeMap = new TreeMap<>();\nTesbhed canvas sha evampiee BUS > Ocs5004_module01_video_examples > src > modulea4 > @ MapDemo 1:4 @ LF UTF-8 & 2spaces cf",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_011.jpg",
+      "startTime": "00:06:48",
+      "endTime": "00:07:14",
+      "startTimeMs": 408000,
+      "endTimeMs": 434000,
+      "duration": 26.0,
+      "extractedText": "foole J c2.c35004¥canvastshellfexamplesy 2025 mm tog masteraR Gene © & 8B &a8G@\n© |@ setdemojava © MapDemojava x i/a\n| 12 public class MapDemo { b1a7vla\n@ |_38 public static void main(String[] args) { @\n“ag {\"David’, \"92\"F,\ng | 28 {\"Eve\", \"88\"} 8\n| 24 ¥ | @\n22 &\n23 // Hashtap Demo - Fast, unordered |\n24 System.out.printin(\"=== HashMap Demo ===\");\n25 Map<String, Integer> hashMap = new HashMap<>();\n26\n27 // Adding students\n28 for (String[] student : students) Mi\n29 | hashMap.put(student(0), Integer.parseInt(student[1]));\nCn ns I\n31 #\n32 System.out.println(“Hashap contents: \" + hashilap) ; |\n33 System.out.println(\"Alice's score; \"+ hashMap.get(\"Alice\")); 4\n34 System.out.println(“Contains Bob?_\"+ hashMap, containsKey((o:)\"Bob\"));\n35\n36 // Update Charlie's score\nT| 37 hashHap.put((k. \"Charlie\", (v:J90);\n®| 38 System.out.println (‘After update: \"+ hashtlap) ;\nga} 39\ng| 4 // TreeMap Demo - Automatically sorted by keys\n41 System.out.println(\"\\n=== TreeMap Demo ===\");\n> 42 Map<String, Integer> treeMap = new TreeMap<>();\n2) a\nBE) 44 // Adding same students ‘\n@| 45 for (String[] student : students) {\npe | 46 | treeMap.put(student[0], Integer.parseInt(student(2]));\n(Ges5004_canvas_shell_examples_2025 > Oes5004_moduledi_video_examples > sre > moduleoa > @MapDemo > @ main 30:6 @ LF UTF-8 & 2spaces &",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_012.jpg",
+      "startTime": "00:07:14",
+      "endTime": "00:07:23",
+      "startTimeMs": 434000,
+      "endTimeMs": 443000,
+      "duration": 9.0,
+      "extractedText": "ooo [G23 cs5004Reanvasyshellrexamplesy2025) 635004 -canvas’ shell <examples 2025 km oy masterg 2k [i[setoemox) & & 8 & 12) @\n© |@ setdemojava © MapDemojava x i /a\n| 12 public class MapDemo { b1a7vla\n@ |_33 public static void main(String[] args) { @\n“es 77/~Hasnnap-vemo>—Fast; unoraerea\n% | 24 System.out.println(\"=== HashMap Demo ===\"); 8\n| 28 Map<String, Integer> hashMap = new HashMap<>(); | @\n26 &\n27 // Adding students 7\n28 for (String[] student : students) {\n29 oe | hashHap.put(student(9), Integer.parseInt(student(1]));_ ee eee eee\n36 }\n31\n32 System.out.println(2Hashtap contents: \"+ hashiap) ;\n33 System.out.println (“Alice's score: \" + hashMan.get(\"Alice”));\n34 System.out.printin(Contains Bob?\" + hashlap.containsKey((o:|\"Bob\")):\n35 » String can be replaced with template| : + :\n36 // Update Charlie's score Replace with string template YO@  Moreactions.. ta I\n37 hashHap.put((k) \"Charlie\", (woos BH\n38 System.out.printin(After update: \"+ hashMap) ;\n39\n40 // TreeMap Demo - Automatically sorted by keys\nTY) a System.out.println(\"\\n=== TreeMap Demo ===\");\n®| 42 Map<String, Integer> treeMap = new TreeMap<>(); ii\na3 43\n8 44 // Adding same students\n45 for (String[] student : students) {\n> 46 | treeMap.put(student[0], Integer. parseInt(student[1]));\n2) a7 }\n| 48 .\n@| 49 System.out.println(“TreeMap contents: \"+ treetap); // Note: Alphabetically sorted!\nOcs5004_canvas_shell_examples_2025 > Ocs5004_module01_video_examples > src > moduled4 > @MapDemo > @ main 29:61 @ LF UTF-8 & 2spaces",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_013.jpg",
+      "startTime": "00:07:23",
+      "endTime": "00:07:27",
+      "startTimeMs": 443000,
+      "endTimeMs": 447000,
+      "duration": 4.0,
+      "extractedText": "O00 [63 cs5004RcanvasyshellZexamplest2025] cs5004\"canvas‘shell!examples)2025 kJ Pamper [@]setoemos & ) 8 & 8 os\n© |@ setdemojava © MapDemojava x i/a\n| 12 public class MapDemo { b1a7vla\n@ |_38 public static void main(String[] args) { @\n—] 25 Map<String, Integer> hashMap = new HashMap<>(); 8\n8 | 26\noo | 27 // Adding students | 2\n28 for (String{] student : students) { 8\n2 «+i\\¢ L hashMap.put(student[0], Integer.parseInt(student[1]));_ _ :\n30 }\n31\n32 System.out.println (“HashMap contents: \"+ hashMap);\n33 System.out.println(\"Alice's score: \"+ hashMap.get(\"Alice\")); f\n34 System.out.printin(\"Contains Bob?\" + hashtlap,containsKey(.0:)\"Bob\"));\n35\n36 // Update Charlie's score ql\n37 hashMap.put(ik:} \"Charlie\", [v:}99); #\n38 System.out.println (“After update: \"+ hashMap) ; I I\n39 q\n46 // TreeMap Demo - Automatically sorted by keys\n41 System.out.println(\"\\n=== TreeMap Demo ===\");\ne 42 Map<String, Integer> treeMap = new TreeMap<>();\n43 Hl\n® 44 // Adding same students ’\nG3] 4s for (String[] student : students) {\nB| 46 | treeMap.put(student(0), Integer.parseInt(student[1]));\n> 47 ¥\n2 48\n~ | 49 System.out.println(Treetap contents: \"2 treelap); // Note: Alphabetically sorted!\nca] 50 ‘\n©] 54 // Iterating through both maps\n® | 52 System.out.printin(\"\\nss= Iteration Order ===\");\n¢s5004_canvas_shell_examples_2025 > Ocs5004_moduleOi_video_examples > stc > module04 > @MapDemo > @ main 29:61 @ LF UTF-8 & 2spaces &",
+      "ocrConfidence": 0.73
+    },
+    {
+      "imageFile": "slide_014.jpg",
+      "startTime": "00:07:27",
+      "endTime": "00:07:31",
+      "startTimeMs": 447000,
+      "endTimeMs": 451000,
+      "duration": 4.0,
+      "extractedText": "000 Ocinammmtammame Damme Germ © & 6 8&3 ¢\n© |@ setdemojava © MapDemojava x 7/a\nPo een ara7r-via\n& | 8 * Demonstrates the use of HashMap and TreeMap in Java. 8\n| 7 * This example shows how to store student names and their scores, 8B\nBe 16 * and highlights the differences between HashMap and TreeNap. | e\naa xf\n12(> |public class MapDemo { &\nBo public static void main(Stringl] args) {\n14 // Sample data: Student names and their scores\n15 String[][] students = {\n16 {\"Charlie\", \"85\"},\n17 {\"Alice\", \"92\"}, I\n18 {\"Bob\", °78\"},\n19 {\"David\", \"92\"},\n20 {\"Eve\", \"88\"} Hi\n2a i il\n22 |\n23 // HashMap Demo - Fast, unordered\n24 System.out.println(\"=== HashMap Demo ===\");\n25 Map<String, Integer> hashMap = new HashMap<>();\npT | 26\n© 27 // Adding students\n28 for (String[] student : students) {\na | 29) ge | hashMap.put(student(6], Integer.parseInt(student(1])); |\n9) 38 3\nD/ 31\nS| 32 System. out.println (“HashMap contents: \"+ hashitap) ;\n| 33 System.out.println(‘Alice's score: + hashMap.get(“Alice\")); :\n© 34 System. out.println(\"Contains Bob? \"+ hashtap.containsKkey(‘o:]\"Bob\")) ;\n35\nbd 36. //_Update_Charlie's score.\n.¢s5004_canvas_shell_examples_2025 > O.cs5004_moduleOi_video_examples > src > module04 > @MapDemo > & main 29:61 @ LF UTF-8 & 2spaces cf",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_015.jpg",
+      "startTime": "00:07:31",
+      "endTime": "00:07:41",
+      "startTimeMs": 451000,
+      "endTimeMs": 461000,
+      "duration": 10.0,
+      "extractedText": "000 Ocinammmiammane Pammae Germ © & 6 8&3 ¢\n© |@ setdemojava © MapDemojava x 7/a\n| 12 public class MapDemo { S147 v/l@\n@ |_38 public static void main(String[] args) { e\n—]| 24 System.out.println(\"=== HashMap Demo ===\"); B\n8a | 25 Map<String, Integer> hashMap = new HashMap<>();\n| be | je\n27 // Adding students _! &\n28 for (String[] student : students) {\n29 _|@ | hashtap.put(student(o], Integer.parsetnt(student(1)))¢\n30 }\n31\n32 System. out.println(“Hashtap contents: \"+ hashtap) ; z |\n33 System.out.println (“Alice's score: + hashMap.get(\"Alice\"));\n34 System.out.println(\"Contains Bob?\" + hashMap.containsKey(lo:)\"Bob\"));\n35 #!\n36 // Update Charlie's score #\n37 hashMap.put(k, \"Charlie\", (v:'90); |\n38 System.out.println (\"After update; \"+ hashtlap) ; Tl\n39\n40 // TreeMap Demo - Automatically sorted by keys\n- 41 System.out.println(\"\\n=== TreeMap Demo ===\"); |\n42 Map<String, Integer> treeMap = new TreeMap<>(); a\n©) 4s |\naa 4&4 // Adding same students\nG | 4s for (String[] student : students) {\nD| 46 | treeMap.put(student(0), Integer. parseInt(student(1)));\ne| 47 }\nrt 48\n49 System.out.println(\"Treetap contents: \"4 treetiap); // Note: Alphabetically. sorted! '\n® 58\nPY) 54 // Iterating through both maps\nG¢s5004_canvas_shell_examples_2025 > Ocs5004_moduleOi_video_examples > stc > module04 > @MapDemo > @ main 29:61 @ LF UTF-8 & 2spaces &",
+      "ocrConfidence": 0.7
+    },
+    {
+      "imageFile": "slide_016.jpg",
+      "startTime": "00:07:41",
+      "endTime": "00:07:57",
+      "startTimeMs": 461000,
+      "endTimeMs": 477000,
+      "duration": 16.0,
+      "extractedText": "000 [e3,cs5004KcanvasvshellZexamples\\2025) cs5004\" canvas\" shell examples*2025 kvm (5) master $7 @erame © & 8 aa (o%\n© |@ setbemojava © MapDemojava x i/a\n| 12 public class MapDemo { B1a7vla\n@ |38 gpublic static void main(String[] args) { @\n—| 30 }\nB | sa 3\nwT 32 System.out.println(\"Hashtap contents: \"+ hashMap) ; |\n33 System.out.println(\"Alice's score: \"+ hashtlan.get(\"Alice\")); 1%\n34 System.out.println(“Contains Bob?,\"+ hashtap,containsKey((o:)\"Bob\"));\n35\n36 // Update Charlie's score\n37 hashtap.put({k) \"Charlie\", [v}90);\n38 System. out.println(“After update; \"+ hashilap) ;\n39\n40 // TreeMap Demo - Automatically sorted by keys |\n41 System.out.println(\"\\n=== TreeMap Demo ===\"); I +\n42 Map<String, Integer> treeMap = new TreeMap<>(); a\n& |\n44 7/ Adding same students Wi\n45 for (String[] student : students) {\n46 | treeMap.put(student(0], Integer. parseInt(student[1]));\n| 47 }\n@| * H\n49 System.out.println(\"Treefap contents: \"s+ treelap); // Note: Alphabetically sorted!\nfa 50\nGY] sa // Iterating through both maps |\nD| 52 System.out.printin(\"\\n==2= Iteration Order ===\");\n¢| 53 System.out.print(\"HashMap order: “);\nw| 54 for (String name : hashMap.keySet()) { ‘\n55 | System.out.print(name +.\" .\");\n® 56 ¥\n® Lsz\nG.¢s5004_canvas_shell_examples_2025 > Ocs5004_moduleOi_video_examples > stc > module04 > @MapDemo > @ main 29:61 @ LF UTF-8 & 2spaces &",
+      "ocrConfidence": 0.7
+    },
+    {
+      "imageFile": "slide_017.jpg",
+      "startTime": "00:07:57",
+      "endTime": "00:08:19",
+      "startTimeMs": 477000,
+      "endTimeMs": 499000,
+      "duration": 22.0,
+      "extractedText": "000 [G3 cs5004FcanvasyshellZexamples\\2025) cs5004 \"canvas «shell!examples' 2025 kJ Pampoev [e[setdemo x] & & 8 & g S\n© |@ setdemojava © MapDemojava x i |e\n|} 12 public class MapDemo { B1a7 4 vla@\n& 8 public static void main(String[] args) { e\na, | 36 // Update Charlie's score 8\n| 37 hashMap.put([k)] \"charlie\", [v}90); | @\n38 System.out.printin(“After update: \"+ hashtap) ; &\n39 |\n40 // TreeMap Demo - Automatically sorted by keys\n41 System.out.println(\"\\n=== TreeMap Demo ===\");\n42 Map<String, Integer> treeMap = new TreeMap<>();\n43\n44 // Adding same students\n48 for (String[] student : students) { I\n46 | treeMap.put(student(0), Integer. parseInt(student[1]));\n47 }\n49 System. out.println(‘Treetap contents: \"2 treelap); // Note: Alphabetically sorted! a\n58\n51 // Iterating through both maps\n52 System.out.printin(\"\\ns== Iteration Order ===\");\nT | 53 System.out.print(\"HashMap order: “);\n®| 54 for (String name : hashMap.keySet()) { W\nga] 55 | System.out.print(name +.\" \"); |\ng| 5 } MM\n57\n> 58 System.out.print(\"\\nTreeMap order: \"); |\nS| 59 for (String name : treeMap.keySetQ)) { ’\n©] 60 | System.out.print(name +\" 0\"); '\n@| 61 }\nrr 62 ¥\nGes5004_canves_shell examples 2025 > Ocs5004_module01_video_examples > sre > moduled4 > @MapDemo > @ main 29:61 @ LF UTF-8 & 2spaces &",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_018.jpg",
+      "startTime": "00:08:19",
+      "endTime": "00:10:17",
+      "startTimeMs": 499000,
+      "endTimeMs": 617000,
+      "duration": 118.0,
+      "extractedText": "O00 [63 cs5004NcanvasyshellZexamplesy2025] 85004 canvast shell examples 2025 juga (5) master $A] @timpe © & B aa &\n© |@ setdemojava @ MapDemojava x i/a\n| 12 public class MapDemo { b1a7 la\n@ 38 public static void main(String[] args) { Lie\n__ [38 Systemvoutzpranttnlrarter updates \"+ nasntapy;\n85 | 39 |e\n| 48 // TreeMap Demo - Automatically sorted by keys _@\n41 System.out.println(\"\\n=== TreeMap Demo ===\"); ij &\n42 Map<String, Integer> treeMap = new TreeMap<>(); |\na&\n44 // Adding same students '\nRun @MapDemo x i\nGO|a@Q:\n+ | /Users/Linocoria/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home/bin/java --enable-preview -javaagent:/Users/tinocoria/A | <\n| === HashMap Demo === g\n=| HashMap contents: {Boeb=78, Eve=88, Alice=92, Charlie=85, David=92} 5\n=| Alice's score: 92 I 3\n©| Contains Beb? true\n| after update: {Bob=78, Eve=88, Alice=92, Charlie=90, David=92}\n=== TreeMap Demo ===\ne TreeMap contents: {Alice=92, Bob=78, Charlie=85, David=92, Eve=88}\n® ,\nss= Iteration Order ===\na3 HashMap order: Bob Eve Alice Charlie David\ng TreeMap order: Alice Bob Charlie David Eve\noO Process finished with exit code @\n<\nca]\n®\np : a\n.¢s5004_canvas_shell_examples_2025 > Ocs5004_moduleOi_video_examples > src > moduled4 > @MapDemo > & main 29:61 @% LF UTF-8 & 2spaces cf",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_019.jpg",
+      "startTime": "00:10:18",
+      "endTime": "00:10:21",
+      "startTimeMs": 618000,
+      "endTimeMs": 621000,
+      "duration": 3.0,
+      "extractedText": "000 [623 cs5004NcanvasyshellZexamples42025] c35004canvas’ shell kexamples©2025 mg oy master {7k [G[Mappemox & & 8 & g oy\no |e SetDemojava X @ MapDemo java ile\no| 1 package moduled4; a3 4arvie\nB| 2 a\n—| 3 import java.util.HashSet; 8\nBl 4 import java.utit.Set;\noe | S import java.util. TreeSet; | ®\né &\nTie |/e\n8 * Demonstrates the use of HashSet and TreeSet in Java.\n9 * This example shows how to store unique integers\n16 */ i\n11> |public class SetDemo {\n12> public static void main(String[] args) { a\n13 // Same data for both sets\n14 Integer[] numbers = {42, 17, 89, 3, 56, 17, 23};\n15\n16 // HashSet Demo - Fast, unordered\n17 System.out.println(\"=== HashSet Demo ===\");\n18 Set<Integer> hashSet = new HashSet<>(); |\n19 |\ne 200 | | for (Integer num : numbers) {\n2a @ | boolean added = hashSet.add(num);\n® 22 | System.out.printin(\"Adding \"+ num +\"; \"+ (added ? \"Success\" 3 \"Duplicate iqnored\"));\na) 23 }\nB| 24\n03] Run @)MapDemo x\ne|/G@n0|loq:\nB|t | <\n@| | === Iteration Order === ' g\nel, HashMap order: Bob Eve Alice Charlie David | a\n©¢s5004_canvas_shell_examples_2025 > Ocs5004_module0i_video_examples > src > moduled4 > @SetDemo > @ main 240 @ LF UIF® @& 2spaces &",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_020.jpg",
+      "startTime": "00:10:23",
+      "endTime": "00:10:35",
+      "startTimeMs": 623000,
+      "endTimeMs": 635000,
+      "duration": 12.0,
+      "extractedText": "[ereye) [62 cs5004KcanvasyshellZexamplesi2025] cs5004\"canvas\"shell!examples’2025 \\4 Pamev & [oy 8 & Q (os\n© |@ setbemojava @ MapDemojava x i |e\noa] 1 package moduleQ4; ai a7-vila\nwe} ? a\n—|] 3 import java.utit.HashMap; 8\nSl 4 import java.util.Map; |\nvel S import java.util. TreeMap; @\né &\nq [ek\n8 *. Demonstrates the use of HashHap and TreeMap in Java.\n9 * This example shows how to store student names and their scores,\n1 * and highlights the differences between HashMap and TreeMap.\n11 *f\n12> |public class MapDemo { |\nBD public static void main(String[] args) { i\n14 // Sample data: Student names and their scores\n15 String[][] students = {\n16 {\"Charlie\", \"85\"},\n17 {\"Alice\", \"92\"},\n18 {\"Bob\", \"78\"},\n19 {\"David\", \"92\"}, |\n- 20 {\"Eve\", \"88\"}\n21 ui\n©) 22 ,\nG3) 23 // HashMap Demo - Fast, unordered\nB| 24 System.out.println(\"=== HashMap Demo ===\");\nOo Run ©)MapDemo x\ne|/e@n0|loq:\nB| t | <\n@| |} === Iteration Order === ' g\nwl HashMap order: Bob Eve Alice Charlie David \\ a\n.¢s5004_canvas_shell_examples_2025 > O.cs5004_module01_video_examples > src > module04 > @MapDemo > & main 29:61 @ LF UTF-8 & 2 spaces fol",
+      "ocrConfidence": 0.77
+    }
+  ]
+}

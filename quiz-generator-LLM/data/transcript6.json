@@ -1,0 +1,467 @@
+[
+  {
+    "start": 0.0,
+    "end": 8.5,
+    "text": "Hello, this is Lino Coria again, and I'm going to show you an example, an application of when it makes sense to use a linked list."
+  },
+  {
+    "start": 8.94,
+    "end": 18.3,
+    "text": "Here we have a class called Song Player, and this is a super, super simple version of, let's say, Spotify or YouTube Music or Apple Music."
+  },
+  {
+    "start": 18.84,
+    "end": 24.64,
+    "text": "Here, this class, as it says here in the javadock comments, this class represents a list of songs,"
+  },
+  {
+    "start": 24.64,
+    "end": 29.32,
+    "text": "and songs can be added to the list and played in the order they were added."
+  },
+  {
+    "start": 30.0,
+    "end": 36.34,
+    "text": "And here I have this field called songs, which is a list of strings, right?"
+  },
+  {
+    "start": 36.42,
+    "end": 41.72,
+    "text": "And so I could make it more complicated, but right now each song is just represented by a string."
+  },
+  {
+    "start": 43.38,
+    "end": 47.6,
+    "text": "And we have a list of strings. We're just using this interface list."
+  },
+  {
+    "start": 47.68,
+    "end": 52.76,
+    "text": "But when I use the constructor, then I initialize the song queue with an empty list."
+  },
+  {
+    "start": 52.76,
+    "end": 58.06,
+    "text": "And here I decide that it's going to be implemented with a linked list, okay?"
+  },
+  {
+    "start": 58.06,
+    "end": 62.34,
+    "text": "And now I, in addition to the constructor, I just have two methods."
+  },
+  {
+    "start": 62.62,
+    "end": 66.74,
+    "text": "I have add song, which adds a song to the end of the queue."
+  },
+  {
+    "start": 67.44,
+    "end": 71.5,
+    "text": "And so this will allow us to add songs to our queue, right?"
+  },
+  {
+    "start": 72.04,
+    "end": 74.22,
+    "text": "And then we have play next song."
+  },
+  {
+    "start": 74.8,
+    "end": 78.7,
+    "text": "It removes and returns the song at the front of the queue."
+  },
+  {
+    "start": 78.7,
+    "end": 92.42,
+    "text": "So you can see basically here, what we do is we use remove first from the list and it removes and returns the first song in the queue."
+  },
+  {
+    "start": 92.42,
+    "end": 97.22,
+    "text": "Of course, if songs, if the list is empty, then we return null."
+  },
+  {
+    "start": 97.6,
+    "end": 100.02,
+    "text": "And it means that the queue is empty."
+  },
+  {
+    "start": 100.02,
+    "end": 102.68,
+    "text": "And so super simple class."
+  },
+  {
+    "start": 103.48,
+    "end": 106.88,
+    "text": "You should be super familiar with everything we have here."
+  },
+  {
+    "start": 107.36,
+    "end": 109.98,
+    "text": "And now I have created this song player demo."
+  },
+  {
+    "start": 110.62,
+    "end": 114.92,
+    "text": "This class is just to demonstrate how to use song player, the song player class."
+  },
+  {
+    "start": 115.12,
+    "end": 119.44,
+    "text": "And it counts how long it takes to iterate through the list of songs."
+  },
+  {
+    "start": 119.7,
+    "end": 121.3,
+    "text": "Again, here we're not playing any songs."
+  },
+  {
+    "start": 121.3,
+    "end": 130.12,
+    "text": "We're just, you know, grabbing the first song in the list, releasing it and moving to the next one."
+  },
+  {
+    "start": 130.58,
+    "end": 135.86,
+    "text": "And because of the way linked lists are built, this should be really fast."
+  },
+  {
+    "start": 135.96,
+    "end": 137.14,
+    "text": "So I start counting."
+  },
+  {
+    "start": 137.44,
+    "end": 138.52,
+    "text": "I have the start time."
+  },
+  {
+    "start": 139.26,
+    "end": 141.12,
+    "text": "I have a string called song."
+  },
+  {
+    "start": 141.4,
+    "end": 145.0,
+    "text": "And while, you know, this is not null, we keep printing."
+  },
+  {
+    "start": 145.24,
+    "end": 147.1,
+    "text": "We're playing song number something, right?"
+  },
+  {
+    "start": 147.1,
+    "end": 152.48,
+    "text": "And so here I have, I'm going to add first 100,000 songs to the player."
+  },
+  {
+    "start": 152.84,
+    "end": 160.58,
+    "text": "And then I'm going to be running this code and saying player dot play next song until we reach null."
+  },
+  {
+    "start": 160.66,
+    "end": 161.62,
+    "text": "And then we end."
+  },
+  {
+    "start": 162.12,
+    "end": 166.64,
+    "text": "And so we have the end time and we measure the difference between end time and start time."
+  },
+  {
+    "start": 166.74,
+    "end": 168.84,
+    "text": "This is the duration and we're going to print it here."
+  },
+  {
+    "start": 168.84,
+    "end": 180.46,
+    "text": "So I'm, again, I'm storing this song titles in a linked list and I'm going to do this 100,000 times, 100,000 times."
+  },
+  {
+    "start": 180.64,
+    "end": 184.54,
+    "text": "And we're going to, you know, be releasing them one at a time."
+  },
+  {
+    "start": 184.7,
+    "end": 186.16,
+    "text": "Let's see how fast this is."
+  },
+  {
+    "start": 186.44,
+    "end": 187.66,
+    "text": "And here we run it."
+  },
+  {
+    "start": 187.66,
+    "end": 198.72,
+    "text": "And it runs and it took us 225 milliseconds to run, you know, to play these 100,000 songs."
+  },
+  {
+    "start": 199.46,
+    "end": 199.98,
+    "text": "Okay."
+  },
+  {
+    "start": 200.16,
+    "end": 205.88,
+    "text": "So now what would happen if instead of a linked list, I had an array list?"
+  },
+  {
+    "start": 206.06,
+    "end": 207.46,
+    "text": "And so this is what we're going to see."
+  },
+  {
+    "start": 207.46,
+    "end": 217.96,
+    "text": "So I'm going to go here and instead of the new linked list, I'm going to change this to an array list."
+  },
+  {
+    "start": 218.5,
+    "end": 220.1,
+    "text": "Of course, there's an error here."
+  },
+  {
+    "start": 220.22,
+    "end": 226.28,
+    "text": "I need to come here and change this to, to a array list."
+  },
+  {
+    "start": 226.46,
+    "end": 226.64,
+    "text": "Right."
+  },
+  {
+    "start": 226.74,
+    "end": 229.86,
+    "text": "And so it is the same, exactly same."
+  },
+  {
+    "start": 229.98,
+    "end": 236.0,
+    "text": "Everything is the same code, but instead of storing them on a linked list that we know that has pointers"
+  },
+  {
+    "start": 236.0,
+    "end": 242.38,
+    "text": "that are pointing to, to the next, the next note here, all of them are all together."
+  },
+  {
+    "start": 242.56,
+    "end": 248.5,
+    "text": "So when I remove the first element of my list, then everything has to be shifted."
+  },
+  {
+    "start": 249.3,
+    "end": 254.66,
+    "text": "And so now let's go and, and check this song player demo and see what happens."
+  },
+  {
+    "start": 254.98,
+    "end": 261.72,
+    "text": "So just remember that when we run a hundred, a hundred thousand songs, uh, with the linked list,"
+  },
+  {
+    "start": 261.82,
+    "end": 264.4,
+    "text": "it took 225 milliseconds."
+  },
+  {
+    "start": 264.4,
+    "end": 269.72,
+    "text": "Now we have replaced the linked list with an array list and let's see what we get."
+  },
+  {
+    "start": 271.34,
+    "end": 272.52,
+    "text": "So I run this."
+  },
+  {
+    "start": 274.46,
+    "end": 277.82,
+    "text": "And this is 227 milliseconds."
+  },
+  {
+    "start": 277.96,
+    "end": 279.04,
+    "text": "So roughly three times."
+  },
+  {
+    "start": 279.1,
+    "end": 280.78,
+    "text": "It took three times longer."
+  },
+  {
+    "start": 281.46,
+    "end": 281.98,
+    "text": "Okay."
+  },
+  {
+    "start": 282.12,
+    "end": 284.38,
+    "text": "So now let's go a little farther."
+  },
+  {
+    "start": 284.38,
+    "end": 288.48,
+    "text": "And what if, um, let's go back to the linked list."
+  },
+  {
+    "start": 288.48,
+    "end": 298.96,
+    "text": "Let me go back to the linked list, linked list here and linked list, linked list here as well."
+  },
+  {
+    "start": 299.16,
+    "end": 306.5,
+    "text": "What happens if instead of a hundred thousand, I make it 1 million songs, right?"
+  },
+  {
+    "start": 306.54,
+    "end": 308.4,
+    "text": "So this becomes 1 million."
+  },
+  {
+    "start": 308.4,
+    "end": 310.48,
+    "text": "And so I'm going to run it."
+  },
+  {
+    "start": 311.7,
+    "end": 312.88,
+    "text": "Let's see what happens."
+  },
+  {
+    "start": 313.22,
+    "end": 317.56,
+    "text": "So it's 1 million songs, uh, and we're storing them in a linked list."
+  },
+  {
+    "start": 318.84,
+    "end": 321.24,
+    "text": "And so we run this takes a little longer."
+  },
+  {
+    "start": 321.24,
+    "end": 326.28,
+    "text": "It took 1.2 seconds, right?"
+  },
+  {
+    "start": 326.46,
+    "end": 331.68,
+    "text": "To, to run this 1268 milliseconds or 1.2 seconds."
+  },
+  {
+    "start": 331.92,
+    "end": 335.7,
+    "text": "Now let's go back and change this to an array list."
+  },
+  {
+    "start": 336.1,
+    "end": 338.74,
+    "text": "And so this is not a linked list."
+  },
+  {
+    "start": 338.88,
+    "end": 341.0,
+    "text": "This is going to be an array list."
+  },
+  {
+    "start": 341.0,
+    "end": 346.58,
+    "text": "And here we are going to have an array list."
+  },
+  {
+    "start": 346.9,
+    "end": 347.18,
+    "text": "Okay."
+  },
+  {
+    "start": 347.64,
+    "end": 352.08,
+    "text": "And we go back to the player demo 1.2 seconds, right?"
+  },
+  {
+    "start": 352.18,
+    "end": 353.92,
+    "text": "Let's see how long this is going to take."
+  },
+  {
+    "start": 354.28,
+    "end": 358.66,
+    "text": "Remember every time we play a song, we need to shift the whole array, right?"
+  },
+  {
+    "start": 358.74,
+    "end": 360.74,
+    "text": "And so we start running this."
+  },
+  {
+    "start": 361.64,
+    "end": 365.8,
+    "text": "And actually I might finish this video and this won't finish running."
+  },
+  {
+    "start": 366.04,
+    "end": 368.98,
+    "text": "This is going to take like a whole minute or something running."
+  },
+  {
+    "start": 368.98,
+    "end": 372.24,
+    "text": "And here you can see by having 1 million songs, right?"
+  },
+  {
+    "start": 372.32,
+    "end": 377.62,
+    "text": "And this could be in this case is 1 million, uh, string values, but it could be anything."
+  },
+  {
+    "start": 377.84,
+    "end": 384.52,
+    "text": "You can see that an array list is not the right, um, the right tool for this, for this job."
+  },
+  {
+    "start": 384.76,
+    "end": 384.98,
+    "text": "Right?"
+  },
+  {
+    "start": 385.1,
+    "end": 389.92,
+    "text": "So, so here's a great example of when it makes sense to use a linked list."
+  },
+  {
+    "start": 390.2,
+    "end": 392.02,
+    "text": "I hope you find this useful."
+  },
+  {
+    "start": 392.34,
+    "end": 393.62,
+    "text": "Thank you for watching."
+  },
+  {
+    "start": 394.02,
+    "end": 396.48,
+    "text": "Um, and I know you're like, when is it going to end?"
+  },
+  {
+    "start": 396.48,
+    "end": 399.42,
+    "text": "Well, I'll let you work on this on your own and see how long it takes."
+  },
+  {
+    "start": 399.7,
+    "end": 400.8,
+    "text": "Well, thank you for watching."
+  },
+  {
+    "start": 401.02,
+    "end": 401.98,
+    "text": "This is Lino Koryak."
+  }
+]

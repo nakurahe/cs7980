@@ -1,0 +1,277 @@
+[
+  {
+    "start": 0.0,
+    "end": 6.12,
+    "text": "Hello, this is Linocoria, and today I want to talk to you about Java collections."
+  },
+  {
+    "start": 6.12,
+    "end": 12.9,
+    "text": "I want to first talk about the Java collections framework, which is a unified architecture"
+  },
+  {
+    "start": 12.9,
+    "end": 14.76,
+    "text": "that has core interfaces."
+  },
+  {
+    "start": 14.76,
+    "end": 20.08,
+    "text": "It has collection on the top and then branching into list, we have already talked about the"
+  },
+  {
+    "start": 20.08,
+    "end": 22.68,
+    "text": "list interface, set, and queue."
+  },
+  {
+    "start": 22.68,
+    "end": 30.0,
+    "text": "Now, map is also an interface, but this interface stands separately because it deals with key,"
+  },
+  {
+    "start": 30.0,
+    "end": 33.96,
+    "text": "key value pairs, and I'll talk more about this in a little bit."
+  },
+  {
+    "start": 33.96,
+    "end": 37.74,
+    "text": "Now, these interfaces define contracts, right?"
+  },
+  {
+    "start": 37.74,
+    "end": 42.62,
+    "text": "But they have to be concrete implementation, so that they are concrete classes."
+  },
+  {
+    "start": 42.62,
+    "end": 46.64,
+    "text": "I'm going to mention hash set, tree set, hash map."
+  },
+  {
+    "start": 46.64,
+    "end": 51.78,
+    "text": "I'll talk about these classes in another video."
+  },
+  {
+    "start": 51.78,
+    "end": 55.76,
+    "text": "And these are the implementations of these interfaces."
+  },
+  {
+    "start": 55.76,
+    "end": 62.88,
+    "text": "Now, the framework also includes other classes, other utility classes, like collections and"
+  },
+  {
+    "start": 62.88,
+    "end": 67.0,
+    "text": "arrays that allow us to do common operations."
+  },
+  {
+    "start": 67.0,
+    "end": 68.0,
+    "text": "List."
+  },
+  {
+    "start": 68.0,
+    "end": 72.16,
+    "text": "I already talked a lot about list in a bunch of videos."
+  },
+  {
+    "start": 72.16,
+    "end": 75.28,
+    "text": "You're probably bored to hear me talk about list."
+  },
+  {
+    "start": 75.28,
+    "end": 82.4,
+    "text": "But remember, these are collections of objects that we want to use list when we want our objects"
+  },
+  {
+    "start": 82.4,
+    "end": 85.04,
+    "text": "to be ordered, to be indexed."
+  },
+  {
+    "start": 85.04,
+    "end": 87.52,
+    "text": "And lists allow duplicates."
+  },
+  {
+    "start": 87.52,
+    "end": 89.24,
+    "text": "This is very important."
+  },
+  {
+    "start": 89.24,
+    "end": 96.62,
+    "text": "I'm saying that this is important because the set does not allow duplicates."
+  },
+  {
+    "start": 96.62,
+    "end": 102.58,
+    "text": "Set is another interface, and it stores unique elements only."
+  },
+  {
+    "start": 102.58,
+    "end": 109.16,
+    "text": "So, if I add the same element twice to a set, the second time is going to be ignored."
+  },
+  {
+    "start": 109.16,
+    "end": 113.12,
+    "text": "So, you're going to use a set when you need unique elements."
+  },
+  {
+    "start": 113.12,
+    "end": 120.4,
+    "text": "So, for instance, email lists, user IDs, tags, and you – or you have data that has duplicates,"
+  },
+  {
+    "start": 120.4,
+    "end": 124.32,
+    "text": "and you turn it into a set, and this way you get rid of all the duplicates."
+  },
+  {
+    "start": 124.32,
+    "end": 129.84,
+    "text": "Queue is first in, first out."
+  },
+  {
+    "start": 129.84,
+    "end": 133.44,
+    "text": "Think of you lining up to get the newest iPhone, right?"
+  },
+  {
+    "start": 133.44,
+    "end": 140.32,
+    "text": "Whoever is the first person in the queue gets the iPhone first, and then the second person,"
+  },
+  {
+    "start": 140.32,
+    "end": 141.48,
+    "text": "then the third person, right?"
+  },
+  {
+    "start": 141.48,
+    "end": 148.0,
+    "text": "So, when you are processing objects with a certain order, and that is super important."
+  },
+  {
+    "start": 148.0,
+    "end": 156.56,
+    "text": "So, some examples, pass scheduling, message queues, or if you want to simulate real-world queues."
+  },
+  {
+    "start": 156.56,
+    "end": 160.32,
+    "text": "Now, I want to talk about map."
+  },
+  {
+    "start": 160.88,
+    "end": 162.84,
+    "text": "Map stores pairs of objects."
+  },
+  {
+    "start": 162.84,
+    "end": 166.68,
+    "text": "You have a unique key associated with a value."
+  },
+  {
+    "start": 166.68,
+    "end": 170.52,
+    "text": "So, we have keys and values, and keys are unique."
+  },
+  {
+    "start": 170.52,
+    "end": 174.68,
+    "text": "You're probably reminded of dictionaries in Python, and you are correct."
+  },
+  {
+    "start": 174.68,
+    "end": 177.68,
+    "text": "This is essentially what I'm talking about."
+  },
+  {
+    "start": 177.68,
+    "end": 183.4,
+    "text": "Now, map is not a collection, but it is part of the collections framework."
+  },
+  {
+    "start": 183.4,
+    "end": 191.28,
+    "text": "The key distinction, right, is that any collection, a list, a set, a queue,"
+  },
+  {
+    "start": 191.28,
+    "end": 197.12,
+    "text": "they just have elements, single objects, whereas here we have these key value pairs."
+  },
+  {
+    "start": 197.12,
+    "end": 200.56,
+    "text": "I will show you some examples a little later."
+  },
+  {
+    "start": 200.56,
+    "end": 204.96,
+    "text": "To summarize, we have collections and map."
+  },
+  {
+    "start": 204.96,
+    "end": 212.96,
+    "text": "The collections framework includes both collection-based structures, list, set, queue, and also includes maps."
+  },
+  {
+    "start": 212.96,
+    "end": 216.8,
+    "text": "We're going to use collections when we want to store individual elements."
+  },
+  {
+    "start": 216.8,
+    "end": 220.64,
+    "text": "For instance, we're adding students to a class."
+  },
+  {
+    "start": 220.64,
+    "end": 223.68,
+    "text": "And we're going to use maps when we want to store relationships."
+  },
+  {
+    "start": 223.68,
+    "end": 226.8,
+    "text": "For instance, this student has this particular grade."
+  },
+  {
+    "start": 226.8,
+    "end": 230.56,
+    "text": "This other student has this other grade, and so on."
+  },
+  {
+    "start": 230.56,
+    "end": 237.68,
+    "text": "In the following video, I'm going to show you some Java examples so you can understand how we can"
+  },
+  {
+    "start": 238.32,
+    "end": 241.92,
+    "text": "write code that uses collections and maps."
+  },
+  {
+    "start": 241.92,
+    "end": 242.88,
+    "text": "Thank you for watching."
+  },
+  {
+    "start": 242.88,
+    "end": 244.08,
+    "text": "I'm Lino Okoria."
+  },
+  {
+    "start": 244.08,
+    "end": 246.08,
+    "text": "you"
+  }
+]

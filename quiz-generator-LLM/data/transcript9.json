@@ -1,0 +1,417 @@
+[
+  {
+    "start": 0.0,
+    "end": 6.12,
+    "text": "Hello everybody this is Lino Coria and I promise you some code here is here's the code I am going"
+  },
+  {
+    "start": 6.12,
+    "end": 12.82,
+    "text": "to show you two demos the first one is illustrating the set demo sorry the set interface and we're"
+  },
+  {
+    "start": 12.82,
+    "end": 18.74,
+    "text": "going to use the classes hash set and tree set and the second demo is going to be about map"
+  },
+  {
+    "start": 18.74,
+    "end": 25.6,
+    "text": "and we're going to be using hash map and tree map so let's start with with set so as I said"
+  },
+  {
+    "start": 25.6,
+    "end": 31.96,
+    "text": "this demo here is going to demonstrate the use of hash set and tree set now we first create an array"
+  },
+  {
+    "start": 31.96,
+    "end": 38.54,
+    "text": "of integers on line 14 and you're going to see this and it's not an int right it says integer with a"
+  },
+  {
+    "start": 38.54,
+    "end": 45.96,
+    "text": "capital I why are we writing integer with a capital I well java collections can only store objects and"
+  },
+  {
+    "start": 45.96,
+    "end": 52.98,
+    "text": "it cannot store primitive types so it cannot you know it cannot store int so we have something"
+  },
+  {
+    "start": 52.98,
+    "end": 60.0,
+    "text": "called a wrapper and essentially this is going to be what we're going to use when we try to store"
+  },
+  {
+    "start": 60.0,
+    "end": 67.14,
+    "text": "integers into a collection so just keep that in mind right so for all purposes these are integers"
+  },
+  {
+    "start": 67.14,
+    "end": 77.32,
+    "text": "and so we have here some numbers 42 17 89 3 56 17 23 there's no reason behind the order but you can"
+  },
+  {
+    "start": 77.32,
+    "end": 86.36,
+    "text": "you can see that 17 shows up here and also shows up here so it is repeated if we were storing this"
+  },
+  {
+    "start": 86.36,
+    "end": 94.68,
+    "text": "on a list this would be no issue we could store repeats but remember that a set only stores repeat"
+  },
+  {
+    "start": 94.68,
+    "end": 103.12,
+    "text": "numbers so first we're going to do the hash set demo remember the hash set is really fast but the the"
+  },
+  {
+    "start": 103.12,
+    "end": 110.72,
+    "text": "the numbers are going to be stored unordered right and we just print hash set demo then we say that the"
+  },
+  {
+    "start": 110.72,
+    "end": 118.64,
+    "text": "hash set it's a set of integers remember the wrapper here but we're going to implement it with the hash set"
+  },
+  {
+    "start": 118.64,
+    "end": 128.16,
+    "text": "class here we are using a for each loop or an enhance for loop and remember this is how we read it we say for each"
+  },
+  {
+    "start": 128.16,
+    "end": 137.36,
+    "text": "num in numbers and what we're going to do is we're going to be adding each number into our empty hash set"
+  },
+  {
+    "start": 137.36,
+    "end": 144.16,
+    "text": "that we have here empty and here we're just printing adding the number right now however this is only if"
+  },
+  {
+    "start": 144.16,
+    "end": 149.68,
+    "text": "it is successful but if it's a duplicate we're going to ignore the duplicate this is what we're doing in"
+  },
+  {
+    "start": 149.68,
+    "end": 156.64,
+    "text": "this for each for loop and then we just print the contents you're going to see that they're not going"
+  },
+  {
+    "start": 156.64,
+    "end": 163.12,
+    "text": "to be in any particular order and then we're going to check if it contains number 17."
+  },
+  {
+    "start": 163.12,
+    "end": 169.84,
+    "text": "we just use this method contains so we says hash it dot contains 17 and it's going to return true"
+  },
+  {
+    "start": 169.84,
+    "end": 182.56,
+    "text": "if if it is there right now this is the tree set demo part and so we create an empty tree set right it's a"
+  },
+  {
+    "start": 182.56,
+    "end": 190.48,
+    "text": "it's a set of integers and we call it tree set and again we have this enhanced for loop for each num in"
+  },
+  {
+    "start": 190.48,
+    "end": 196.56,
+    "text": "numbers we just add it but in this case when we print it because we know this is a tree set is going"
+  },
+  {
+    "start": 196.56,
+    "end": 204.08,
+    "text": "to be always sorted and so let's run it and let's see if what i told you is true and so we run it here"
+  },
+  {
+    "start": 204.08,
+    "end": 212.96,
+    "text": "and let's see what happens so this is the part of the hash set demo we add 42 success 17 success 89"
+  },
+  {
+    "start": 212.96,
+    "end": 220.32,
+    "text": "success i'm going to show you here the numbers that we have in the array right so 89 success 3 success 56"
+  },
+  {
+    "start": 220.32,
+    "end": 229.92,
+    "text": "success 17 it's a duplicate it's going to be ignored 23 success and now when we print the contents of the"
+  },
+  {
+    "start": 229.92,
+    "end": 240.56,
+    "text": "hash set it is in this order that you know makes no sense to us uh 17 3 23 56 89 42 no no particular order"
+  },
+  {
+    "start": 240.56,
+    "end": 248.64,
+    "text": "right uh we checked if it contains 17 and it's it returns true now when we do the tree set demo we"
+  },
+  {
+    "start": 248.64,
+    "end": 257.76,
+    "text": "added them in the same order 42 17 89 etc but when we print the contents because it's a tree set it's order"
+  },
+  {
+    "start": 257.76,
+    "end": 266.16,
+    "text": "in the natural order right so it goes from smallest to the largest and again 17 even though we added the"
+  },
+  {
+    "start": 266.16,
+    "end": 274.24,
+    "text": "number twice because it's a set it it gets ignored so this is the demo for a set so remember a set is a"
+  },
+  {
+    "start": 274.24,
+    "end": 282.08,
+    "text": "collection of values in this case integers and depending on the implementation if we use the hash set class"
+  },
+  {
+    "start": 282.08,
+    "end": 287.2,
+    "text": "it's really fast we can retrieve these numbers really fast we can check if the number is there"
+  },
+  {
+    "start": 287.2,
+    "end": 294.0,
+    "text": "we can add remove it's really fast but they're offered to us in no particular order like we see here"
+  },
+  {
+    "start": 294.0,
+    "end": 301.52,
+    "text": "but if we use the tree set demo it's it's slower but it's always going to be in order and it depends"
+  },
+  {
+    "start": 301.52,
+    "end": 307.36,
+    "text": "on our application we might want to to use it okay now i'm going to move to the map demo and it's going"
+  },
+  {
+    "start": 307.36,
+    "end": 315.2,
+    "text": "to be very very similar here i'm going to demonstrate the use of hash map and tree map in java and we're going to be"
+  },
+  {
+    "start": 315.2,
+    "end": 322.08,
+    "text": "storing student names in their scores and we're going to see the differences so here we have in"
+  },
+  {
+    "start": 322.08,
+    "end": 330.32,
+    "text": "this case this is a map first we have this array of arrays right of strings and so we have someone's name"
+  },
+  {
+    "start": 330.32,
+    "end": 338.24,
+    "text": "and someone's grade and so you will see that in this case the names of the students are the keys because"
+  },
+  {
+    "start": 338.24,
+    "end": 345.2,
+    "text": "they could have repeated grades right let's say charlie and bob could both have an 85 so this value"
+  },
+  {
+    "start": 345.2,
+    "end": 351.36,
+    "text": "can be the same but the keys which are the names of the students are going to be unique of course this"
+  },
+  {
+    "start": 351.36,
+    "end": 355.92,
+    "text": "is just an example it's possible sometimes that when you have students students have the same first name"
+  },
+  {
+    "start": 355.92,
+    "end": 361.92,
+    "text": "so that's why we have student id and and other things that are unique to the students but right now"
+  },
+  {
+    "start": 361.92,
+    "end": 368.24,
+    "text": "let's assume that names are unique so the hash map again this is fast but comes in no order"
+  },
+  {
+    "start": 369.12,
+    "end": 378.0,
+    "text": "we create a map and the map has the string is going to be the key again the name of the students and then"
+  },
+  {
+    "start": 378.0,
+    "end": 383.76,
+    "text": "we want integers because right now we have the grades as strings but actually if we want to do any math"
+  },
+  {
+    "start": 383.76,
+    "end": 389.84,
+    "text": "with them i think it makes more sense to have them as integers so we have this integer wrapper right and"
+  },
+  {
+    "start": 389.84,
+    "end": 402.0,
+    "text": "we create this empty hash map we go again with our uh with our for each our enhanced for loop for each"
+  },
+  {
+    "start": 402.0,
+    "end": 410.64,
+    "text": "student in students and the and we use this method put right and so we put the student's name and then we"
+  },
+  {
+    "start": 410.64,
+    "end": 417.36,
+    "text": "parse an integer so we convert the string into an integer and we enter it here and so now we have this key"
+  },
+  {
+    "start": 417.36,
+    "end": 424.8,
+    "text": "value pairs and we can print what the the hash map contents we can also search for a particular student"
+  },
+  {
+    "start": 424.8,
+    "end": 431.44,
+    "text": "for instance we want to get alice's score we have our key alice and we're going to get the store the score"
+  },
+  {
+    "start": 431.44,
+    "end": 439.52,
+    "text": "we're going to check bob right is bob there and so we give the key bob and then it tells us if it contains"
+  },
+  {
+    "start": 439.52,
+    "end": 447.2,
+    "text": "that key or not we can also update a score so here we can see that charlie if we go back and look at"
+  },
+  {
+    "start": 447.2,
+    "end": 455.76,
+    "text": "charlie charlie had an 85 i don't know what happened but charlie now has a 90 so we update it and we can"
+  },
+  {
+    "start": 455.76,
+    "end": 461.04,
+    "text": "print again after update and get some information we're going to run it in a little bit now let's see"
+  },
+  {
+    "start": 461.04,
+    "end": 467.84,
+    "text": "what we have for the tree map demo for the tree map demo again we start with a with an empty tree map"
+  },
+  {
+    "start": 468.64,
+    "end": 476.48,
+    "text": "we say tree map is uh you know it's a map with a key that is a string and a value that is an integer"
+  },
+  {
+    "start": 477.12,
+    "end": 483.92,
+    "text": "same enhanced for loop here and we print it now the key difference here is that when we"
+  },
+  {
+    "start": 485.2,
+    "end": 492.24,
+    "text": "print it it's going to be the hash map is not going to have the keys in any order but the tree map is going"
+  },
+  {
+    "start": 492.24,
+    "end": 502.24,
+    "text": "to have the keys in alphabetical order so let me just run this and here we go for the hash map demo we"
+  },
+  {
+    "start": 502.24,
+    "end": 511.84,
+    "text": "have the contents bob equals 78 eve 88 alice 92 charlie 85 david 92 i'm going to go to the original values"
+  },
+  {
+    "start": 511.84,
+    "end": 519.04,
+    "text": "that we have here so you can see they they are the same and it is printed in no particular order"
+  },
+  {
+    "start": 519.04,
+    "end": 524.4,
+    "text": "right the keys are not really the keys in the order in which we added them they're just there if you"
+  },
+  {
+    "start": 524.4,
+    "end": 532.32,
+    "text": "want to retrieve alice's score we get a 92 which is correct if we want to check if bob is there as a"
+  },
+  {
+    "start": 532.32,
+    "end": 541.2,
+    "text": "key it returns true and then remember that we changed charlie's grade it is um it is here we gave charlie a"
+  },
+  {
+    "start": 541.2,
+    "end": 548.64,
+    "text": "90 and so now we print again and it's the same order that we had here right even though we don't know how"
+  },
+  {
+    "start": 548.64,
+    "end": 557.28,
+    "text": "how it was decided uh the same order here here and we have this here but the big difference is that"
+  },
+  {
+    "start": 557.28,
+    "end": 566.56,
+    "text": "charlie's grade hardly charlie's score has changed now the tree map demo already has all the keys in"
+  },
+  {
+    "start": 566.56,
+    "end": 576.72,
+    "text": "order alice bob charlie david eve right and so when we print just the keys right we have the hash map we"
+  },
+  {
+    "start": 576.72,
+    "end": 584.8,
+    "text": "cannot really understand how this was how the order was uh considered here but if we look at the keys"
+  },
+  {
+    "start": 584.8,
+    "end": 591.36,
+    "text": "that we have for the tree map we have alphabetical order so so now you know this is how things work"
+  },
+  {
+    "start": 591.36,
+    "end": 598.72,
+    "text": "again the hash map is faster but the keys are not stored in order whereas the tree map is going to be"
+  },
+  {
+    "start": 598.72,
+    "end": 607.12,
+    "text": "slower depending on how long the the map is right but it's going to return every key is going to be in"
+  },
+  {
+    "start": 607.12,
+    "end": 614.8,
+    "text": "order so depends on on your needs and well now you have seen some examples of uh the set interface with"
+  },
+  {
+    "start": 616.16,
+    "end": 626.56,
+    "text": "with hash set and with tree set and you have seen an example of map with with the classes hash map and the"
+  },
+  {
+    "start": 626.56,
+    "end": 632.96,
+    "text": "class and the class hash map and the class tree map okay i hope this you found this useful thank you for"
+  },
+  {
+    "start": 632.96,
+    "end": 634.96,
+    "text": "watching i'm lino korya"
+  }
+]

@@ -1,0 +1,208 @@
+{
+  "videoFile": "test_video.mp4",
+  "totalSlides": 20,
+  "processingTime": 259.86,
+  "extractionDate": "2025-11-12T16:12:06.303392",
+  "slides": [
+    {
+      "imageFile": "slide_001.jpg",
+      "startTime": "00:00:00",
+      "endTime": "00:00:48",
+      "startTimeMs": 0,
+      "endTimeMs": 48187,
+      "duration": 48.19,
+      "extractedText": "folece) [63 cs5004FcanvasvshellZexamplesi2025] cs5004\"canvas'shell .examples*2025 jvamm (24 master sd [()[SongPlayerDemo,v a OC | &a &\n0a |© SongPlayerjava x @ SongPlayerDemo,java ila\n| 1 {package modutes4;| Ilvle\nBe} 2 import java.util.LinkedList; @\n—| 3 import java.util.List;\n8a 4 8\nvee 5 ek @\n6 * This class represents a list of songs. &\n7 * Songs can be added to the list, and played in the order they were added.\n8 */\n9 public class SongPlayer {\n16 private final List<String> songs;\n11\n12 [kk\n13 * Constructor initializes the song queve with an empty list.\n14 x/\n45 public SongPlayer() {\n16 | this.songs = new LinkedList<>();\n17 +\n18\n19 [ee x\ne 20 * Adds a song to the end of the queue.\n21 * @param song The song to be added.\n©] 22 xf\nGa! 23 public void addSong(String song) {\nGB] 24 | songs.add (song) ;\np| 25 ¥\nSe 26\n27 hd\na 28 * Removes and returns the song at the front of the queve.\n® 29 * @return The song at the front of the queue, or null if the queve is empty.\n| 30 */\ncs5004_canvas_shell_examples_2025 > Ocs5004_moduleOi_video_examples > src > module04 > © SongPlayer 118 @ LF UTF-8 & 2spaces cf",
+      "ocrConfidence": 0.8
+    },
+    {
+      "imageFile": "slide_002.jpg",
+      "startTime": "00:00:48",
+      "endTime": "00:01:24",
+      "startTimeMs": 48187,
+      "endTimeMs": 84573,
+      "duration": 36.39,
+      "extractedText": "O00 [63 cs5004Xeanvasyshellzexamples\\2025] cs5004*canvas'shelllexamples*2025 vd Pamre {E[SonsPlayerDemo & & 8 a Qa (o%\no |e SongPlayerjava X @ SongPlayerDemojava ile\nSST be a ee 0 CY UO Oey\n~l 8 x/ ve\n&| 9  |public class SongPlayer { 8\nbe 16 private final List<String> songs; 8\n11 re)\n| 42 [xk a\n13 * Constructor initializes the song queve with an empty list.\n14 */\n1s public SongPlayer() {\n16 | this.songs = new LinkedList<>(); s\n17 }\n18\n19 [kk\n20 %* Adds a song ta the end of the queue.\n21 * @param song The song to be added.\n22 */\n23 public void addSong(String song) {\n24 | songs.add(song);\n25 +\n26\nT | 27 [ee\n® 28 * Removes and returns the song at the frent of the queue.\na 29 * @return The song at the front of the queve, or null if the queve is empty.\n36 */\n3 31 public String playNextSong() {\nDP] 32 if (songs.isEmptyQ)) {\nS| 33 | return null; // Return nult if the queve is empty\n| 34 }\n© 35 return songs.removeFirst(); // Remove and return the first song in the queue\n36\n® a7. Bs ,\nO¢s5004_canvas_shell_examples_2025 > Ocs5004_moduleO1_video_examples > src > moduled4 > © SongPlayer 418 @ LF UTF-8 & 2spaces",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_003.jpg",
+      "startTime": "00:01:24",
+      "endTime": "00:01:42",
+      "startTimeMs": 84573,
+      "endTimeMs": 102275,
+      "duration": 17.7,
+      "extractedText": "000 Ociinemmamlaminap: Pare [E)]SonsplayerDemo ZI CoC! Ml} &a@\n0 |@ SongPlayerjava x @ SongPlayerDemo,java i | a\no| 9 public class SongPlayer { v|@\n@| 18 public SongPlayer() { 8\n—| 16 | this.songs = new LinkedList<>(); 8\n8 | a7 }\n| 18 ®\n19 [kk &\n20 * Adds a song to the end of the queue.\n21 * @param song The song to be added.\n22 xf\n23 public void addSong(String song) {\n24 | songs.add(song);\n25 }\n26\n27 [kk\n28 * Removes and returns the song at the front of the queue.\n29 * @return The song at the front of the queve, or null if the queue is empty.\n30 */\n34 public String playNextSong() {\n32 if (songs.isEmptyQ)) {\nrs 33 | return null; // Return null if the queve is empty\n34 i\n® 35 Ol return songs.removeFirst(); // Remove and return the first song in the queue :\n83) 36 ¥(@ extract surround 4 = } i\nG) 37 it :\nD | 38\ng\nca]\n®\np\nOcs5004_canvas_shell_examples_2025 > Ocs5004_moduleO1_video_examples > src > moduled4 > ©SongPlayer > @ playNextSong 35:8 (81 chars, 1linebreak} @% LF UTF-8 & 2spaces of",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_004.jpg",
+      "startTime": "00:01:42",
+      "endTime": "00:01:46",
+      "startTimeMs": 102275,
+      "endTimeMs": 106208,
+      "duration": 3.93,
+      "extractedText": "O00 [63,cs5004Kcanvasvshellzexamples\\2025] 'cs5004\"canvas‘shell’examples'2025 \\vJ bfeTmastersg [E)[SonsPlayerDemo & & 8 a Qa (ey\no |e SongPlayer,java x @ SongPlayerDemo.java i | a\noa] 1 package moduleQ4; vile\n@e| 2 import java.utit.LinkedList; @\n—| 3 import java.util.List;\n8a 4 8\nwe SIF |/xx I @\n6 * This class represents a list of songs. &\n7 * Sengs can be added te the List, and played in the order they were added.\n8 x/\n9 public class SongPlayer {\n16 private final List<String> songs;\n11\n12 [kx\n13 * Constructor initializes the song queue with an empty list.\n14 */\n1s public SongPlayer() {\n16 | this.songs = new LinkedList<>();\n17 }\n18\n19 [kk\ncs 20 * Adds a song ta the end of the queue.\n21 * @param song The seng to be added.\n®| 22 */\n3) 23 public void addSong(String song) {\nGB] 24 | songs.add (song) ;\np| 25 ¥\nSe 26\n27 fie\na 28 * Removes and returns the song at the frent of the queve.\n® 29 * @return The song at the front of the queve, or null if the queve is empty.\n| 30 */\n.cs5004_canvas_shell_examples_2025 > Ocs5004_moduleO1_video_examples > src > moduled4 > © SongPlayer > @ playNextSong 33:56 @ LF UTF-8 & 2spaces of",
+      "ocrConfidence": 0.82
+    },
+    {
+      "imageFile": "slide_005.jpg",
+      "startTime": "00:01:49",
+      "endTime": "00:03:06",
+      "startTimeMs": 109159,
+      "endTimeMs": 186848,
+      "duration": 77.69,
+      "extractedText": "O00 [G3 cs5004fcanvasyshellZexamples\\2025] 'cs5004\" canvas‘ shell!examples'2025 J Pane [E)[SongplayerDemo & & 8 a Qa &\n© |@ SongPlayerjava © SongPlayerDemojava x i | a\no| 1 package moduleQ4; 4143 vla@\n| ? a\n—!| 3 Vig\n80 4 * This class demonstrates the usage of the SongPlayer class. 8\noe | S * It counts the time it takes to iterate through a list of songs. @\né */ &\n7 |public class SongPlayerDemo { t\nsb public static void main(String[] args) {\n9 SongPlayer player = new SongPlaye parameter ‘args' is never used :\n16 // Add 189,088 songs to the PLOYE ~ csae tor perametr ‘age! X@@ More actions., Ya _\n11 for (int i = 0; i < 100000; i++) 4\n12 | player.addSong(\"Song.\" + (i 4.40); y\n13 }\n14\n45 long startTime = System.currentTimeMillis(); // Start the timer\n16 String song;\n17 while ((song = player.playNextSong()) != null) { a\n18 can System.out.printin(\"Playing:,.” song) i_// Play the next song_ - ee\n19 ¥\ne 20 long endTime = System.currentTimeMillis(); // End the timer\n21\n® 22 long duration = endTime - startTime; // Calculate the duration in milliseconds Ba\nGa] 23 System.out.println(<Total time taken to play all songs: “+ duration +\" milliseconds\");\n| 24 +\np>] 25 |F\ne 26\n8\n®\np\n©.cs5004_canvas_shell_examples_2025 > Ocs5004_moduleOt_video_examples > src > moduled4 > @SongPlayerDemo > @ main 18:46 @ LF UTF-8 & 2spaces",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_006.jpg",
+      "startTime": "00:03:08",
+      "endTime": "00:03:28",
+      "startTimeMs": 188815,
+      "endTimeMs": 208483,
+      "duration": 19.67,
+      "extractedText": "[eleye) [G3 cs5004¥eanvasyshellZexampless2025) 85004\" canvas‘shell!examples'2025 vg Pamze [GI[SongPlayerDemo) & & 8 & TQ) @\n© |@ SongPlayerjava © SongPlayerDemojava x 3 | a\no| 1 package moduleQ4; 4143 vla\n%| 2 ES)\n—!| 3 Vid\n80 4 * This class demonstrates the usage of the SongPlayer class. 8\noe | S * It counts the time it takes to iterate through a list of songs. @\né x/ &\n7(> |public class SongPlayerDemo { |\nsb public static void main(String[] args) { a]\n9 SongPlayer player = new SongPlayer();\n16 // Add 189,008 songs to the player\n11 for (int i = 0; i < 100000; i++) { ft!\n12__| @ |_ player-addsong(“sono.\" $63.0); - '\n13 } i\n14 =\n45 long startTime = System.currentTimeMillis(); // Start the timer\n16 String song;\n17 while ((song = player.playNextSong()) != null) {\n18 | System.out.printin(\"Playing: \"+ song); // Play the next song\n9. a\nRun ©) SongPlayerDemo x i-\nv GO|BI@:\n® + | Playing: Song 99996 <\n83) 1 | ptaying: Song 99997 z\nGB]=] Playing: Song 99998 g\nBS) =| Playing: Song 99999 A\ne@|@| Playing: Song 109990\na G| Total time taken to play all songs: 225 milliseconds\n® Process finished with exit code 6\nid i\n¢s5004_canvas_shell_examples_2025 > O.cs5004_moduleOi_video_examples > src > module04 > @SongPlayer(Demo > @ main 12:41 @ LF UTF-8 & 2spaces cf",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_007.jpg",
+      "startTime": "00:03:30",
+      "endTime": "00:03:39",
+      "startTimeMs": 210450,
+      "endTimeMs": 219301,
+      "duration": 8.85,
+      "extractedText": "O00 [e3.cs5004XcanvasyshellZexamples\\2025] cs5004\"canvas‘shell!examples*2025 vg Pamape {E}{SonsPlayerDemo) & & 8 a Q (cs\n10 |@ SongPlayerjava x @ SongPlayerDemo,java ila\no>] 7 * Songs can be added to the list, and played in the order they were added. vie\nwel & | 7” 8\n—| 9? public class SongPlayer {\n8 | 10 private final List<String> songs; 8\noe | 11 @\n12 [kk &\n13 * Constructor initializes the song queve with an empty list.\n14 */\n4s public SongPlayer() {\n16 | this.songs = new ArrayList<>(); .\na | (Gm ins TCT\n18 @ArrayList<> (java.util)\n19 [kk © ArrayDeque<E> java.util\n20 * Adds a song @ ArrayIndexOutOfBoundsException java.lang\n21 * @ song © ArrayStoreException Java. Lang\n22 */ © ArrayBlockingQueue<E> java.util.concurrent\n@ArrayType javax.lang.model.type\n23 public void addé © ArrayType<T> javax.management.openmbean\n24 | songs.add(son¢ @ ArrayAccessTree com.sun.source.tree-\n25. i. @ArrayReference com.sun.jdi\ne Run _C)songPlayerDemo_x_ | @ArrayType com.sun.jdi PO ——S\n+ | Playing: Song 99996 <\n3) 1 | playing: Song 99997 g\nGB] ] Playing: Song 99998 g\nOo =| Playing: Song 99999 A\ne@|©| Playing: song 100990\na ®| Total time taken to play all songs: 225 milliseconds\n® Process finished with exit code 0\np\nOcs5004_canvas_shell_examples_2025 > Ocs5004_module01_video_examples > src > moduled4 > © SongPlayer > @ SongPlayer 16:27 @ LF UTF-8 & 2spaces cf",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_008.jpg",
+      "startTime": "00:03:39",
+      "endTime": "00:03:43",
+      "startTimeMs": 219301,
+      "endTimeMs": 223235,
+      "duration": 3.93,
+      "extractedText": "O00 [63 cs5004XeanvasyshellZexamples\\2025] 635004 \"canvas\\shell! examples’ 2025 kJ Pamre {E[SonsPlayerDemo) & & 8 a Q &\n1 |© SongPlayerjava x @ SongPlayerDemo,java ilg\no| 7 * Songs can be added to the list, and played in the order they were added. Odin via\nwel & | 7” 7a\n—| 9 public class SongPlayer {\n8 | 10 private final List<String> songs; 8\noe | 11 @\n12 [kk &\n13 * Constructor initializes the song queve with an empty list.\n14 xf | import class... java.util.ArrayList? C2\n15 public SongPlayer., -.\n16 | this.songs = new Arraylist<>(); I\n17 }\n18\n19 [kk\n20 * Adds a song to the end of the queue.\n21 * @param song The song to be added.\n22 /\n23 public void addSong(String song) {\n24 | songs.add(song);\n25. k\nRun ©) SongPlayerDemo x\nt G@O|89Q:\n® + | Playing: Song 99996 <\n83) 1 | praying: Song 99997 z\nGB] ] Playing: Song 99998 g\nC3} =| Playing: Song 99999 A\ne@|©| Playing: Song 109990\na G| Total time taken to play all songs: 225 milliseconds\n® Process finished with exit code 6\np\n.cs5004_canvas_shell_examples_2025 > Ocs5004_moduleOt_video_examples > src > moduled4 > © SongPlayer > @ SongPlayer 46:36 @ LF UTF-8 & 2spaces of",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_009.jpg",
+      "startTime": "00:03:43",
+      "endTime": "00:03:48",
+      "startTimeMs": 223235,
+      "endTimeMs": 228152,
+      "duration": 4.92,
+      "extractedText": "O00 [63 cs5004Xcanvasyshellzexamplesy2025) cs5004 \"canvas ‘shelllexamples) 2025 kJ Pam [l[songPlayerDemoz) & [oy 8 & [2 os\n1 |© SongPlayerjava x @ SongPlayerDemo,java il@\no| 1 package moduleQ4; O14in via\nee Snue bey annoulsan TT —,\neB] 2 import java.util.ArrayList; . Be\n‘|: - “fae. |\nBa] 4 arrays java.util\nwe | SS |/ae © ArrayDeque<E> java.util @\n6 * This class |_Use ~ to overwrite the current identifier with the chosen variant Next Tip 9 &\n7 * Songs can be added to the list, and played in the order they were added.\n8 x/\n9 public class SongPlayer {\n16 private final List<String> songs;\n11\n12 [kk\n13 * Constructor initializes the song queue with an empty list.\n14 */\n15 public SongPlayer() {\n16 | this.songs = new ArrayList<>();\n17 }\n18\n9. Lx.\nRun ©) SongPlayerDemo x\nt G$O|@9@Q:\n® + | Playing: Song 99996 <\n83) 1 | praying: Song 99997 z\nB/S] Playing: Song 99998 g\nC3} =| Playing: Song 99999 A\ne@|@| Playing: song 109990\na G| Total time taken to play all songs: 225 milliseconds\n® Process finished with exit code @\np\nOGcs5004_canvas_shell_examples_2025 > Ocs5004_moduleO1_video_examples > src > module04 > © SongPlayer 2:23 @ LF UTF-8 & 2spaces cf",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_010.jpg",
+      "startTime": "00:03:51",
+      "endTime": "00:03:57",
+      "startTimeMs": 231102,
+      "endTimeMs": 237002,
+      "duration": 5.9,
+      "extractedText": "000 Ocitammciammane Pare Sammie © & 8 83¢\nCa |@ SongPlayerjava x @ SongPlayerDemo,java tla\n———$—$—_—$_——\nmls | fax vie\n&) 6 * This class represents a list of songs. 8\nhe 7 *. Songs can be added to the list, and played in the order they were-added, 8\n8 */ 2\nea) public class SongPlayer { @\n16 private final List<String> songs;\n11\n12 [kk\n13 * Constructor initializes the song queve with an empty list.\nee . S\n4s public SongPlayer() {\n16 | this.songs = new ArrayList<>();\n17 #\n18\n19 | ax I\n20 * Adds a song to the end of the queve.\n21 * @param song The song to be added.\n22 */\nRun ©) SongPlayerDemo x\nt @o0]83@Q:\n® + | Playing: Song 99996 <\n83) 1 | praying: Song 99997 z\nGB |=] Ptaying: Song 99998 g\noO =| Playing: Song 99999 2\n@|@| Playing: Song 109990\na G| Total time taken to play all songs: 225 milliseconds\n® Process finished with exit code 0\np\nOcs5004_canvas_shell_examples_2025 > Ocs5004_moduleOi_video_examples > src > module04 > ©) SongPlayer > @ SongPlayer 14:6 @ LF UTF-8 & 2spaces cf",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_011.jpg",
+      "startTime": "00:03:57",
+      "endTime": "00:04:04",
+      "startTimeMs": 237002,
+      "endTimeMs": 244870,
+      "duration": 7.87,
+      "extractedText": "O00 [63 cs5004XeanvasyshellZexamples\\2025] cs5004 \"canvas shell!examples'2025 J Pampe {E[SonsPlayerDemo) & & 8 a Q &\n1 |© songPlayerjava x @ SongPlayerDemo.java ile\n| > PeaPOPE Javalutit- List; vie\n4\nBl sax 8\nBl] 6 * This class represents a list of songs. 8\nwe | 7 * Songs can be added to the list, and played in the order they were added. @\n8 xf &\n9 public class SongPlayer {\n108 private final List<String> songs;\n11\n12 had\n13 * Constructor initializes the seng queve with an empty List.\ncn _ a\n1s public SongPlayer() {\n16 | this.songs = new ArrayList<>();\n17 ¥\n18\n19 [xe i\n26 * Adds a song to the end of the queue.\n21 * @param song The song to be added.\nRun ©)SongPlayerDemo x\nt G@O|839Q:\n® + | Playing: Song 99996 <\n83) 1 | praying: Song 99997 z\nGB]=] Playing: Song 99998 g\nC3} =| Playing: Song 99999 A\ne@|©| Playing: song 100990\na G| Total time taken to play all songs: 225 milliseconds\n® Process finished with exit code 6\np\n©.cs5004_canvas_shell_examples_2025 > Ocs5004_moduleOt_video_examples > src > moduled4 > © SongPlayer > @ SongPlayer 146 @ LF UTF-8 & 2spaces of",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_012.jpg",
+      "startTime": "00:04:04",
+      "endTime": "00:04:13",
+      "startTimeMs": 244870,
+      "endTimeMs": 253720,
+      "duration": 8.85,
+      "extractedText": "O00 [63 cs5004XeanvasyshellZexamples\\2025] cs5004\"canvas\\shell! examples’ 2025 kJ Pampe {E[SonsPlayerDemo) & & 8 a Q &\n1 |© songPlayerjava x @ SongPlayerDemo.java ile\no| 9 public class SongPlayer { vl@\n@% | 24 songs.add(song); e\n—| 28 }\n80 | 26 ®\nvt | 27 [kk e\n28 * Removes and returns the song at the front of the queue. &\n29 * @return The song at the front of the queve, or null if the queue is empty.\n30 */\n31 public String playNextSong() {\n32 if (songs.isEmptyQ) {\n33 | return null; // Return null if the queve is empty\n34 }\n35 return songs.removeFirst(); // Remove and return the first song in the queue\n36 ¥\n37s\n38 I\nRun ©)SongPlayerDemo x\nt G@O|839Q:\n® + | Playing: Song 99996 <\n83) 1 | praying: Song 99997 z\nGB]=] Playing: Song 99998 g\nC3} =| Playing: Song 99999 A\ne@|©| Playing: song 100990\na G| Total time taken to play all songs: 225 milliseconds\n® Process finished with exit code 6\np\n.cs5004_canvas_shell_examples_2025 > Ocs5004_moduleOt_video_examples > src > moduled4 > © SongPlayer > @ SongPlayer 146 @ LF UTF-8 & 2spaces of",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_013.jpg",
+      "startTime": "00:04:13",
+      "endTime": "00:04:46",
+      "startTimeMs": 253720,
+      "endTimeMs": 286173,
+      "duration": 32.45,
+      "extractedText": "O00 [G3 cs5004KcanvasyshellZexamples\\2025] ‘cs5004\"canvas<shell!examples'2025 \\J Pane {E[SonsPlayerDemo g & 8 Aa Qa e%\n© |@ SongPlayerjava © SongPlayerDemojava x i | a\no| 1 package modulet4; 41a3vla\n%| 2 )\n—| 3) v/ex\n80 4 * This class demonstrates the usage of the SongPlayer class. 8\noe |S * It counts the time it takes to iterate through a list of songs. @\né */ &\n70 |public class SongPtayerDemo { |\n8-»| public static void main(Stringl] args) { i\n9 SongPlayer player = new SongPlayer();\n16 // Add 190,008 songs to the player\naa ~_| for Gint 4 = 0; i < 190000; i++) fj -\n12 | player.addSong(\"Song.\" + (i440);\n13 3\n14 =\n45 long startTime = System.currentTimeMillis(); // Start the timer\n16 String song;\n17. while ((song = player.playNextSong()) != null) {\n18 | System.out.printin(\"Playing: \"+ song); // Play the next song\n9. a\nRun ©) SongPlayerDemo x\nv GO|B39Q:\n® + | Playing: Song 99996 <\n83) 1 | ptaying: Song 99997 z\nGB]=] Playing: Song 99998 g\nBS} =| Playing: Song 99999 A\ne@|@| Playing: Song 109990\na G| Total time taken to play all songs: 225 milliseconds\n® Process finished with exit code 6\np\nO.cs5004_canvas_shell_examples_2025 > Ocs5004_moduleOt_video_ex Updating dependency information... [¢s55004_module01_video_examples] === @_ 11:39 @ LF UTF-8 & 2spaces of",
+      "ocrConfidence": 0.78
+    },
+    {
+      "imageFile": "slide_014.jpg",
+      "startTime": "00:04:47",
+      "endTime": "00:04:53",
+      "startTimeMs": 287157,
+      "endTimeMs": 293057,
+      "duration": 5.9,
+      "extractedText": "000 @ciincmmciemingm: Parke Gerumiam © © 8 &3a@\n0 |@ SongPlayerJava x @ SongPlayerDemo,java ilg\nTee ks aI EO el oe\n. M ws 1s ; Oidainviae\n7 * Songs can be added te the List, and played in the order they were added. _\n6) 3 */ 8\nhe 9 public class SongPlayer { 8\n16 private final List<String> songs; @\nTag\n&\n12 [kk\n13 * Constructor initializes the song queve with an empty list.\n14 x/\n15 public SongPlayer() {_ zt oo\n17 } ©linkedList<> (java util) }\n18 © LinkedHashMap<K, V> java.util\n19 [ek © LinkedHashSet<E> java.util\n20 * Adds a song © LinkedBlockingDeque<E> java.util.concurrent\n21 * @ song © LinkedBlockingQueve <E> java.util. concurrent\n22 */ © LinkedTransferQueve<E> java.util.concurrent\n. . \"Press “0 to choose the selected {or first) ‘suggestion and insert a dot afterwards ‘Next Tip —_\n23 public void addSunyyocrany-sunyy—1\n24 | songs.add(song);\nRun ©) SongPlayerDemo x\nt e@o0]e8ad@Q:\n® + | Playing: Song 99996 <\n3) 1 | playing: Song 99997 g\nGB] ] Playing: Song 99998 g\nOo =| Playing: Song 99999 3\ne@|©| Playing: song 109990\n@ G| Total time taken to play all songs: 727 milliseconds\n® Process finished with exit code @\np\n.cs5004_canvas_shell_examples_2025 > Ocs5004_moduleO1_video_examples > src > moduled4 > © SongPlayer > @ SongPlayer 16:28 @ LF UTF-8 & 2spaces of",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_015.jpg",
+      "startTime": "00:04:53",
+      "endTime": "00:05:00",
+      "startTimeMs": 293057,
+      "endTimeMs": 300924,
+      "duration": 7.87,
+      "extractedText": "O00 [e3cs5004KcanvasyshellZexampless2025] 635004 \"canvas‘shell!examples’2025 kJ Pamre [E[SonsPlayerDemo & & 8 & Qa em\n1 |© SongPlayerjava x @ SongPlayerDemo,java il@\no| 1 package moduleQ4; O14in via\n— ——_—_—__ po OS\n@e| 2 import java.util.LinkedList; _ Be\n‘|: - ——_\"______.\n8) 4 © LinkedHashMap<K, V> java.util\nwe | SIE [Jae © LinkedHashSet<E> java.util @\n& x This class | Press *. to choose the selected (or first) suggestion and insert a dot afterwards Next Tip 9g &\n7 * Songs can be added to the list, and played in the order they were added.\n8 x/ I\n9 public class SongPlayer {\n16 private final List<String> songs;\n11\n12 [kk\n13 * Constructor initializes the song queue with an empty list.\n14 */\n15 public SongPlayer() {\n16 | this.songs = new LinkedList<>();\n17 }\n18\n9. Lx.\nRun ©) SongPlayerDemo x\nt GO|@9eQ:\n® + | Playing: Song 99996 <\n83) 1 | praying: Song 99997 z\nGB]=] Playing: Song 99998 g\nOo =| Playing: Song 99999 A\ne@|@| Playing: song 109990\na G| Total time taken to play all songs: 727 milliseconds\n® Process finished with exit code @\np\n.cs5004_canvas_shell_examples_2025 > O.cs5004_moduleOi_video_examples > src > moduled4 > © SongPlayer 2:24 @ LF UTF-8 & 2spaces of",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_016.jpg",
+      "startTime": "00:05:00",
+      "endTime": "00:05:18",
+      "startTimeMs": 300924,
+      "endTimeMs": 318626,
+      "duration": 17.7,
+      "extractedText": "O00 [G2 cs5004XcanvasyshellZexampless2025] ‘cs5004 \"canvas ‘shell!examples'2025 \\vJ Pane {E[SonsPlayerDemo & & 8 Aa Qa e%\n© |© SongPlayer,java @ SongPlayerDemojava x i | a\no| 1 package modulet4; 41a3vla\n%| 2 )\n—| 3 v/ex\n80 4 * This class demonstrates the usage of the SongPlayer class. 8\noe |S * It counts the time it takes to iterate through a list of songs. @\né *, &\n7 S “Run ‘SongPlayerDemo.main()* |\n\\ Debug ‘SongPiayerDemo.main()* B!\n8b Run 'SongPlayerDemo.main()’ with Coverage (] args) {\n9 Run with Profiler ~OR| Player();\n16° // Add 1,888,880 songs to the player\n11 \\ 9 for Cint i = 0; i < 1000000; i++) { : A\n12 | player.addSong(\"Song.\" + (i. 4.40);\n13 }\n14 =\n45 long startTime = System.currentTimeMillis(); // Start the timer\n16 String song;\n17. while ((song = player.playNextSong()) != null) {\n18 | System.out.printin(\"Playing: \"+ song); // Play the next song\n9. a\nRun ©) SongPlayerDemo x\nt G@oO|B89Q:\n® + | Playing: Song 99996 <\n83) 1 | ptaying: Song 99997 z\nGB]=] Playing: Song 99998 3\nOo =| Playing: Song 99999 2\ne@|@| Playing: Song 109990\na G| Total time taken to play all songs: 727 milliseconds\n® Process finished with exit code @\nv\n.¢s5004_canvas_shell_examples_2025 > Ocs5004_moduleOi_video_examples > src > module04 > @SongPlayerDemo > @ main 11:30 @ LF UTF-8 & 2spaces cf",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_017.jpg",
+      "startTime": "00:05:18",
+      "endTime": "00:05:35",
+      "startTimeMs": 318626,
+      "endTimeMs": 335344,
+      "duration": 16.72,
+      "extractedText": "Ooo [63 cs5004XcanvasyshellZexamples42025] '¢s5004 canvas‘ shell!examples'2025 iJ Pamape [Es SonsblayerDemo) ‘SongPlayerDemo wv) (@) &(o) 8 Aa Qa (e%\n© |@ SongPlayerjava © SongPlayerDemojava x 7 | a\noa] 1 package moduleQ4; a1a3vla\n%| 2 )\n—!| 3 Vis\n80 4 * This class demonstrates the usage of the SongPlayer class. 8\noe |S * It counts the time it takes to iterate through a list of songs. @\né */ &\n7 |public class SongPlayerDemo { |\nsb public static void main(String[] args) { i\n9 SongPlayer player = new SongPlayer();\n10 // Add 1,989,880 songs to the player I\n11_| @ for (int 4 = 0; i < 1900000; i++) { - q\n12 | player.addSong(\"Song.\" + (i. 4.40);\n13 }\n14 =\n45 long startTime = System.currentTimeMillis(); // Start the timer\n16 String song;\n17 while ((song = player.playNextSong()) != null) {\n18 | System.out.printin(\"Playing; \"+ song); // Play the next song\n9. %\nRun E$SongPlayerDemo x\nT Gaolaae@:\n® + | Playing: Song 850517 <\n3) 1 | praying: Song 850518 z\nGB]] Playing: Song 850519 g\n(G)| =| Ptaving: song 850529 A\ne@|@| Playing: Song 850521\n“18 ptaying: Song 850522\na Playing: Song 850523\n® Playing: Song 850524\nid i\n¢s5004_canvas_shell_examples_2025 > Ocs5004_module01_video_examples > sre > moduled4 > @SongPlayerDemo > @ main 44:30 @ LF UTF-8 & 2spaces of",
+      "ocrConfidence": 0.73
+    },
+    {
+      "imageFile": "slide_018.jpg",
+      "startTime": "00:05:35",
+      "endTime": "00:05:39",
+      "startTimeMs": 335344,
+      "endTimeMs": 339278,
+      "duration": 3.93,
+      "extractedText": "O00 [e3cs5004XcanvasyshellZexamples\\2025] 'cs5004 \"canvas shell!examples*2025 vg Pammre {E[SonsPlayerDemo] & & 8 a Q (cs\no |e SongPlayerjava x @ SongPlayerDemo.java i | a\no| 1 package moduleQ4; vile\n|. 2 [import java.util. Linkedtist; _ a\n—| 3 import java.util.List;\n8a 4 8\nvee 5 fk @\n6 * This class represents a list of songs. &\n7 * Songs can be added te the List, and played in the order they were added.\n8 */\n9 public class SongPlayer {\n16 private final List<String> songs;\n11\n12 vial\n13 * Constructor initializes the song queue with an empty list.\n14 */\n15 public SongPlayer() {\n16 | this.songs = new LinkedList<>();\n17 }\n18\n9. Tx.\nRun ©)SongPlayerDemo x\nt G$oO|89Q:\n® + | Playing: Song 999996 <\n83) 1 | praying: song 999997 z\nGB] ] Playing: Song 999998 3\n| =| Praving: song 999999 2\ne@|©| Playing: Song 1¢99990\na G| Total time taken to play all songs: 1268 milliseconds\n® Process finished with exit code @\np\n.cs5004_canvas_shell_examples_2025 > Ocs5004_module0i_video_examples > src > moduled4 > © SongPlayer 2:24 @ LF UTF-8 & 2spaces cf",
+      "ocrConfidence": 0.76
+    },
+    {
+      "imageFile": "slide_019.jpg",
+      "startTime": "00:05:49",
+      "endTime": "00:06:09",
+      "startTimeMs": 349112,
+      "endTimeMs": 369763,
+      "duration": 20.65,
+      "extractedText": "000 [G3 cs5004KcanvasyshellZexamples\\2025) 685004 \"canvas'shell\"examples*2025 vam (5) mastergg Be 8 aa G&\n© |@ SongPlayerjava © SongPlayerDemoJjava x i | a\no| 1 package moduleQ4; 4143 -l@a\nB| 2 a\n—!| 3 Vir\n80 4 * This class demonstrates the usage of the SongPlayer class. 8\noe |S * It counts the time it takes to iterate through a list of songs. @\né */ &\n7(> |public class SongPlayerDemo { |\nsD public static void main(Stringl] args) { i\n9 SongPlayer player = new SongPlayer();\n16 // Add 1,800,880 songs to the player\n“a | |_ for Gint d= 0; A < 1000000; i++) { . ee |\n12 | player.addSong(\"Song + (4.4.40);\n18 } I\n14 =\n45 long startTime = System.currentTimeMillis(); // Start the timer\n16 String song;\n17 while ((song = player.playNextSong()) != null) {\n18 | System.out.printin(\"Playing; \"+ song); // Play the next song\n9. %\nRun ©) SongPlayerDemo x\noa —\nGoleaada@Q:\n® + | Playing: Song 999996 <\n83) 1 | praying: song 999997 z\nB]=] Playing: Song 999998 3\n| =| Praving: song 999999 2\ne@|©| Playing: Song 1099990\na G| Total time taken to play all songs: 1268 milliseconds\n® Process finished with exit code 6\np\nO¢s5004_canvas_shell_examples_2025 > Ocs5004_module01_video_examples > src > mor — Parsing java... [cs5004_module01_video_examples] ——=——=——=—=—=——=—=—= (@ 11:30 @ LF UTF-8 & 2spaces cf",
+      "ocrConfidence": 0.76
+    },
+    {
+      "imageFile": "slide_020.jpg",
+      "startTime": "00:06:09",
+      "endTime": "00:06:42",
+      "startTimeMs": 369763,
+      "endTimeMs": 402216,
+      "duration": 32.45,
+      "extractedText": "[ele;e) [62 cs5004rcanvacyshellvexamples\\2025] cs5004\"canvas‘ shell! examples 2025 IJ Parr [65 SonslayerDemog] 'SongPlayerDemo7 {@) & (©) 6 & Qa (os\n© |@ SengPlayerjava © SongPlayerDemojava x i | a\noa] 1 package moduleQ4; 41a3 le\n%| 2 8\n—| 3 fee\n8a 4 * This class demonstrates the usage of the SongPlayer class. 8\noe |S * It counts the time it takes to iterate through a list of songs. @\n6 */ &\n7 |public class SongPlayerDemo { |\ns> public static void main(String[] args) { 7\n9 SongPlayer player = new SongPlayer();\n16 // Add 1,806,080 songs to the player\na1 |@ for int 3 = 0; A < 10000ba; a++) 4 7 z\n12 | player.addSong(\"Song.\" + (i. 4.40);\n13 }\n14 t\n45 long startTime = System.currentTimeMillis(); // Start the timer\n16 String song;\n17 while ((song = player.playNextSong()) != null) {\n18 | System.out.printin(\"Playing; \"+ song); // Play the next song\n9. %\nRun E$SongPlayerDemo x\nt GoJo I@Q:\n® ee pererr r erer\na t Playing: Song 94558 .\n_ | Playing: Song 94559 a\ng Playing: Song 94560 3\n*| Playing: Song 94561 8\ngS e Playing: Song 94562\nica) Playing: Song 94563\n© Playing: Song 94564\nPlaying: Song 94565\n® PT avinns_Sanaoekse———\nO¢s5004_canvas_shell_examples_2025 > Ocs5004_module01_video_examples > src > moduled4 > @SongPlayerDemo > @ main 44:30 @ LF UTF-8 & 2spaces",
+      "ocrConfidence": 0.74
+    }
+  ]
+}

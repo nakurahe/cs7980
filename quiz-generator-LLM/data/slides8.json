@@ -1,0 +1,38 @@
+{
+  "videoFile": "test_video.mp4",
+  "totalSlides": 3,
+  "processingTime": 119.71,
+  "extractionDate": "2025-11-12T16:21:55.235735",
+  "slides": [
+    {
+      "imageFile": "slide_001.jpg",
+      "startTime": "00:00:16",
+      "endTime": "00:01:48",
+      "startTimeMs": 16827,
+      "endTimeMs": 108885,
+      "duration": 92.06,
+      "extractedText": "Some Classes that Implement the Set Interface\nre\nHashset Treeset",
+      "ocrConfidence": 0.85
+    },
+    {
+      "imageFile": "slide_002.jpg",
+      "startTime": "00:01:48",
+      "endTime": "00:02:06",
+      "startTimeMs": 108885,
+      "endTimeMs": 126702,
+      "duration": 17.82,
+      "extractedText": "* Performance: O(log n) for add, remove, Pee fel |e eS ame ssenyel i i\n* Ordering: Sorted according to natural A pe —\norder or custom Comparator car aon an .\nNQ LANS 7",
+      "ocrConfidence": 0.7
+    },
+    {
+      "imageFile": "slide_003.jpg",
+      "startTime": "00:02:06",
+      "endTime": "00:03:49",
+      "startTimeMs": 126702,
+      "endTimeMs": 229648,
+      "duration": 102.95,
+      "extractedText": "Some Classes that Implement the Map Interface\nBoy\nHashMap TreeMap",
+      "ocrConfidence": 0.88
+    }
+  ]
+}

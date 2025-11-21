@@ -1,0 +1,278 @@
+{
+  "videoFile": "test_video.mp4",
+  "totalSlides": 27,
+  "processingTime": 255.54,
+  "extractionDate": "2025-11-19T16:54:53.531471",
+  "slides": [
+    {
+      "imageFile": "slide_001.jpg",
+      "startTime": "00:00:17",
+      "endTime": "00:02:44",
+      "startTimeMs": 17819,
+      "endTimeMs": 164334,
+      "duration": 146.51,
+      "extractedText": "ORTHOGONAL, ORTHONORMAL\n* Two vectors are orthogonal if they meet at a right angle (90°)\n* Vectors are orthonormal if they are:\n* Orthogonal to each other\n* Each has length 1 (fi = i | Vs\nBn LS oe",
+      "ocrConfidence": 0.88
+    },
+    {
+      "imageFile": "slide_002.jpg",
+      "startTime": "00:02:44",
+      "endTime": "00:02:57",
+      "startTimeMs": 164334,
+      "endTimeMs": 177203,
+      "duration": 12.87,
+      "extractedText": "PROPERTIES OF\nORTHOGONAL MATRICES\n* Orthogonal columns\n* Unit-norm columns\nQ'Q =I | ia i\nmt 2) =",
+      "ocrConfidence": 0.86
+    },
+    {
+      "imageFile": "slide_003.jpg",
+      "startTime": "00:02:57",
+      "endTime": "00:03:01",
+      "startTimeMs": 177203,
+      "endTimeMs": 181163,
+      "duration": 3.96,
+      "extractedText": "PROPERTIES OF\nORTHOGONAL MATRICES\n* Orthogonal columns\n* Unit-norm columns\nO'O = 1 ic Ml Ae\na Wes\nA CoM",
+      "ocrConfidence": 0.72
+    },
+    {
+      "imageFile": "slide_004.jpg",
+      "startTime": "00:03:01",
+      "endTime": "00:03:22",
+      "startTimeMs": 181163,
+      "endTimeMs": 202943,
+      "duration": 21.78,
+      "extractedText": "PROPERTIES OF\nORTHOGONAL MATRICES\n* Orthogonal columns\n* Unit-norm columns\nO'Q =I A zeal can",
+      "ocrConfidence": 0.91
+    },
+    {
+      "imageFile": "slide_005.jpg",
+      "startTime": "00:03:22",
+      "endTime": "00:03:29",
+      "startTimeMs": 202943,
+      "endTimeMs": 209872,
+      "duration": 6.93,
+      "extractedText": "PROPERTIES OF\nORTHOGONAL MATRICES\n* Orthogonal columns\n* Unit-norm columns\nQ7Q=1 ene\nete Gave GR",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_006.jpg",
+      "startTime": "00:03:29",
+      "endTime": "00:03:48",
+      "startTimeMs": 209872,
+      "endTimeMs": 228682,
+      "duration": 18.81,
+      "extractedText": "PROPERTIES OF\nORTHOGONAL MATRICES\n* Orthogonal columns\n* Unit-norm columns\nO'OQ =I tk i A He\nes",
+      "ocrConfidence": 0.72
+    },
+    {
+      "imageFile": "slide_007.jpg",
+      "startTime": "00:03:48",
+      "endTime": "00:03:58",
+      "startTimeMs": 228682,
+      "endTimeMs": 238581,
+      "duration": 9.9,
+      "extractedText": "PROPERTIES OF\nORTHOGONAL MATRICES\n* Orthogonal columns\n* Unit-norm columns\nWere}\nArs cn —",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_008.jpg",
+      "startTime": "00:03:58",
+      "endTime": "00:04:27",
+      "startTimeMs": 238581,
+      "endTimeMs": 267290,
+      "duration": 28.71,
+      "extractedText": "PROPERTIES OF\nORTHOGONAL MATRICES\n* Orthogonal columns\n* Unit-norm columns\nO'Q =I L leak Te\ncA",
+      "ocrConfidence": 0.79
+    },
+    {
+      "imageFile": "slide_009.jpg",
+      "startTime": "00:04:27",
+      "endTime": "00:04:46",
+      "startTimeMs": 267290,
+      "endTimeMs": 286100,
+      "duration": 18.81,
+      "extractedText": "QUESTION\nIf Q'Q =I, is the\nfollowing also true?\nQQT=1 ee\nse Weiltcn",
+      "ocrConfidence": 0.87
+    },
+    {
+      "imageFile": "slide_010.jpg",
+      "startTime": "00:04:46",
+      "endTime": "00:04:53",
+      "startTimeMs": 286100,
+      "endTimeMs": 293029,
+      "duration": 6.93,
+      "extractedText": "QUESTION\nIf Q'Q =I, is the\nfollowing also true?\ni ie Li i ae,\nOS\n|",
+      "ocrConfidence": 0.8
+    },
+    {
+      "imageFile": "slide_011.jpg",
+      "startTime": "00:04:53",
+      "endTime": "00:04:56",
+      "startTimeMs": 293029,
+      "endTimeMs": 296989,
+      "duration": 3.96,
+      "extractedText": "QUESTION\nIf Q'Q =I, is the\nfollowing also true?\neee Ae\n(WN Sy oo",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_012.jpg",
+      "startTime": "00:04:56",
+      "endTime": "00:05:18",
+      "startTimeMs": 296989,
+      "endTimeMs": 318769,
+      "duration": 21.78,
+      "extractedText": "QUESTION\nIf Q'Q =I, is the\nfollowing also true?\nQQT=1 a\nWes ay",
+      "ocrConfidence": 0.86
+    },
+    {
+      "imageFile": "slide_013.jpg",
+      "startTime": "00:05:18",
+      "endTime": "00:05:22",
+      "startTimeMs": 318769,
+      "endTimeMs": 322728,
+      "duration": 3.96,
+      "extractedText": "QUESTION\nIf Q'O =I, is the\nfollowing also true?",
+      "ocrConfidence": 0.91
+    },
+    {
+      "imageFile": "slide_014.jpg",
+      "startTime": "00:05:22",
+      "endTime": "00:06:32",
+      "startTimeMs": 322728,
+      "endTimeMs": 392026,
+      "duration": 69.3,
+      "extractedText": "WHERE DO ORTHOGONAL\nMATRICES SHOW UP?\n* Rotations and reflections in computer graphics\n* Principal Component Analysis (PCA)\n* Solving least squares problems\nie PSs Eos SoBe\nEAR Gg\nAS\nArey) —",
+      "ocrConfidence": 0.76
+    },
+    {
+      "imageFile": "slide_015.jpg",
+      "startTime": "00:06:32",
+      "endTime": "00:08:23",
+      "startTimeMs": 392026,
+      "endTimeMs": 503892,
+      "duration": 111.87,
+      "extractedText": "OR DECOMPOSITION: A= OR (is te\nsa\nSM VSS\n* Any mxXn matrix A (m > n) with linearly Wo\nindependent columns can be written as: { j Baty\nA=OQR :\nimport numpy as np\n; A = np.array([{1, 1], [1, 2], [1, 3]])\n« Q: mxn orthogonal matrix (orthonormal Q, R= np.linalg.gr(A, mode='reduced')\ncolumns) #0.T @Q# I (verify orthogonality)\n« R: nXn upper triangular matrix (2 al",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_016.jpg",
+      "startTime": "00:08:23",
+      "endTime": "00:08:53",
+      "startTimeMs": 503892,
+      "endTimeMs": 533591,
+      "duration": 29.7,
+      "extractedText": "OR DECOMPOSITION: A= QR elms\n* Any mXn matrix A (m > n) with linearly V =)\nindependent columns can be written as: CSD\nA=QR\nimport numpy as np\n; A = np.array([[1, 1], [1, 2], [1, 3]])\n* Q: mxn orthogonal matrix (orthonormal Q, R = np.linalg.qr(A, mode='reduced')\ncolumns) #Q.T @Q# I (verify orthogonality)\n« R: nXn upper triangular matrix (2\noN]",
+      "ocrConfidence": 0.79
+    },
+    {
+      "imageFile": "slide_017.jpg",
+      "startTime": "00:08:53",
+      "endTime": "00:11:05",
+      "startTimeMs": 533591,
+      "endTimeMs": 665257,
+      "duration": 131.67,
+      "extractedText": "] |\nOriginal Matrix A Orthogonal Matrix Q Upper Triangular Matrix R\nInput matrix to decompose Columns are orthonormal vectors Zero entries below diagonal\nfag = [= eae] rasta\nce 0 [led\nCan -_\nPleat belo] cee]\n(-7.4177, 0.3861, 4.7231] [-0.6378, -0.0800, 0.7660] [ 11.6303, -1.4952, -6.4810]\n[ 4.2899, 5.4197, 7.3747] [ 0.3689, 0.8414, 0.3949] [ 0.0000, 7.0966, 10.7194]\n[ 7.8638, -4.8037, -9.1532] [ 0.6761, -0.5344, @.5071] [ 0.0000, @.0000, 1.8886]\n}\noo\nY¥ Verification et em.\nReconstruction Error: ||A - QR]|_F = 8.88e-16 MG uf SSS\nOrthogonality Check: ||Q“T Q - I[|_F = 2.49e-15 aS\nCondition Number of A: 2.20 ot Ss",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_018.jpg",
+      "startTime": "00:11:05",
+      "endTime": "00:11:28",
+      "startTimeMs": 665257,
+      "endTimeMs": 688026,
+      "duration": 22.77,
+      "extractedText": "GRAM-SCHMIDT: CREATING ORTHONORMAL BASES\nSTEP BY STEP\nStep 1: q: =a1/||az| |\nStep 2: v2 = ag - (a2\"q1)q1 olf\nStep 3: v3 = ag - (a3°q1)q1 - (€3°q2)q2 En fa fas ti etn\nds = vs/I vs | eas",
+      "ocrConfidence": 0.73
+    },
+    {
+      "imageFile": "slide_019.jpg",
+      "startTime": "00:11:28",
+      "endTime": "00:11:42",
+      "startTimeMs": 688026,
+      "endTimeMs": 702875,
+      "duration": 14.85,
+      "extractedText": "GRAM-SCHMIDT: CREATING ORTHONORMAL BASES\nSTEP BY STEP\nStep 1: q: =a1/|laz| |\nStep 2: v2 = az - (az\"qi)d1 =r\nStep 3: vg = ag - (€g°qi)ds1 - (a3°d2)q2 an a Sl eal\n- (ASS)\nq3 = v3/| |v3!| Keo",
+      "ocrConfidence": 0.73
+    },
+    {
+      "imageFile": "slide_020.jpg",
+      "startTime": "00:11:42",
+      "endTime": "00:12:11",
+      "startTimeMs": 702875,
+      "endTimeMs": 731584,
+      "duration": 28.71,
+      "extractedText": "GRAM-SCHMIDT: CREATING ORTHONORMAL BASES\nSTEP BY STEP\nStep 1: q: =a1/|lai| |\nStep 2: v2 = a2 - (a2°q1)q1 =r\nStep 3: vg = ag - (aga): - (As°d2)q2 Ere lisa sk\nds = Vs/ | [va | sas",
+      "ocrConfidence": 0.72
+    },
+    {
+      "imageFile": "slide_021.jpg",
+      "startTime": "00:12:11",
+      "endTime": "00:12:33",
+      "startTimeMs": 731584,
+      "endTimeMs": 753364,
+      "duration": 21.78,
+      "extractedText": "GRAM-SCHMIDT: CREATING ORTHONORMAL BASES\nSTEP BY STEP\nStep 1: q: =a1/|lai| |\nStep 2: vz = ae - (a2qi)q1 Ment\nStep 3: Vs = ag - (aa'da)qs - As\") ae a ZEN Hien\nds = v3/| vs | sy ERS",
+      "ocrConfidence": 0.72
+    },
+    {
+      "imageFile": "slide_022.jpg",
+      "startTime": "00:12:34",
+      "endTime": "00:13:18",
+      "startTimeMs": 754353,
+      "endTimeMs": 798902,
+      "duration": 44.55,
+      "extractedText": "GRAM-SCHMIDT: CREATING ORTHONORMAL BASES\nSTEP BY STEP\nStep 1: q: =a1/|lai| |\nStep 2: v2 = a2 - (a2'q1)d1 ( al ..\nStep 3: vz = a3 - (a3°q1)q1 - (a3°q2)d2 fi: i: : Ta i BH\nds = Vs/I IvsI | ee",
+      "ocrConfidence": 0.7
+    },
+    {
+      "imageFile": "slide_023.jpg",
+      "startTime": "00:13:19",
+      "endTime": "00:13:41",
+      "startTimeMs": 799892,
+      "endTimeMs": 821671,
+      "duration": 21.78,
+      "extractedText": "O'REILLY*\nPractical Linear\nAlgebra for\nData Science a\nLEARN MORE! A i Ass\n“ oS Mike X Cohen",
+      "ocrConfidence": 0.73
+    },
+    {
+      "imageFile": "slide_024.jpg",
+      "startTime": "00:13:41",
+      "endTime": "00:14:07",
+      "startTimeMs": 821671,
+      "endTimeMs": 847410,
+      "duration": 25.74,
+      "extractedText": "O'REILLY*\nPractical Linear\nAlgebra for\nLEARN MORE! | anand sc\n—Re\n‘ Mike X Cohen",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_025.jpg",
+      "startTime": "00:14:07",
+      "endTime": "00:14:17",
+      "startTimeMs": 847410,
+      "endTimeMs": 857310,
+      "duration": 9.9,
+      "extractedText": "O'REILLY*\nPractical Linear\nAlgebra for |\npence Sy | |S BLEACH\nUsing Python S ee a . ‘ :\nhe\n~ Mike X Cohen",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_026.jpg",
+      "startTime": "00:14:17",
+      "endTime": "00:14:37",
+      "startTimeMs": 857310,
+      "endTimeMs": 877109,
+      "duration": 19.8,
+      "extractedText": "O'REILLY*\nPractical Linear\nAlgebra for :\nData Science ee\nLEARN MORE! —\n\" Mike X Cohen",
+      "ocrConfidence": 0.87
+    },
+    {
+      "imageFile": "slide_027.jpg",
+      "startTime": "00:14:39",
+      "endTime": "00:15:07",
+      "startTimeMs": 879089,
+      "endTimeMs": 907798,
+      "duration": 28.71,
+      "extractedText": "O'REILLY*\nPractical Linear\nAlgebra for\nData Science ee\nLEARN MORE! | eet [IY lth, ff\n$ \" Mike X Cohen",
+      "ocrConfidence": 0.73
+    }
+  ]
+}
