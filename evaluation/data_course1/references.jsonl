@@ -1,0 +1,109 @@
+{"id": "quiz0_q1", "text": "In the lecture, what is described as the main purpose of writing a unit test?"}
+{"id": "quiz0_q2", "text": "According to the video, what does unit testing help you confirm about your code?"}
+{"id": "quiz0_q3", "text": "Why does the instructor say unit testing is such an important practice?"}
+{"id": "quiz0_q4", "text": "What concrete example from the video is used to show something that could be covered by a unit test?"}
+{"id": "quiz0_q5", "text": "How does the lecture define JUnit and its role in Java development?"}
+{"id": "quiz0_q6", "text": "When refactoring, what benefit do unit tests provide according to the instructor?"}
+{"id": "quiz0_q7", "text": "In what way does unit testing help raise overall code quality, as explained in the video?"}
+{"id": "quiz0_q8", "text": "After refactoring, what does rerunning the unit tests allow you to check?"}
+{"id": "quiz0_q9", "text": "Why is catching bugs early highlighted as important in the lecture?"}
+{"id": "quiz0_q10", "text": "Once the basics of unit testing are introduced, what does the video say will happen next?"}
+
+{"id": "quiz1_q1", "text": "According to the lecture, why do programmers rely on arrays and lists in their code?"}
+{"id": "quiz1_q2", "text": "What core property of an array is emphasized in the video?"}
+{"id": "quiz1_q3", "text": "How does the lecture say we access individual elements inside an array?"}
+{"id": "quiz1_q4", "text": "What advantage of using an array for collections of values is mentioned in the video?"}
+{"id": "quiz1_q5", "text": "How does the instructor describe what a list is in programming terms?"}
+{"id": "quiz1_q6", "text": "What example situation from the lecture shows when a list is an appropriate data structure?"}
+{"id": "quiz1_q7", "text": "Which key feature of lists does the video point out as important?"}
+{"id": "quiz1_q8", "text": "According to the lecture, how do you retrieve items stored in a list?"}
+{"id": "quiz1_q9", "text": "What main distinction between an array and a list does the instructor discuss?"}
+{"id": "quiz1_q10", "text": "In what kind of programming scenario does the video suggest choosing a list instead of an array?"}
+
+{"id": "quiz2_q1", "text": "How is the Java List interface defined in the lecture?"}
+{"id": "quiz2_q2", "text": "What two common Java classes are mentioned as typical implementations of the List interface?"}
+{"id": "quiz2_q3", "text": "Which three main characteristics of the List interface are highlighted in the video?"}
+{"id": "quiz2_q4", "text": "What is the purpose of the add() method in the context of the List interface?"}
+{"id": "quiz2_q5", "text": "How does the video describe ArrayList’s behavior when inserting or deleting near the beginning or middle?"}
+{"id": "quiz2_q6", "text": "What major advantage of LinkedList compared with ArrayList is stressed in the lecture?"}
+{"id": "quiz2_q7", "text": "What time complexity is given for accessing a LinkedList element by index?"}
+{"id": "quiz2_q8", "text": "Which main drawback of LinkedList over ArrayList does the instructor mention?"}
+{"id": "quiz2_q9", "text": "When an ArrayList fills up, how does it handle resizing according to the video?"}
+{"id": "quiz2_q10", "text": "What typical use case for choosing an ArrayList is described in the lecture?"}
+
+{"id": "quiz3_q1", "text": "What two fundamental data structures are the focus of this lecture?"}
+{"id": "quiz3_q2", "text": "According to the video, what is the key consideration when choosing between an ArrayList and a LinkedList?"}
+{"id": "quiz3_q3", "text": "How does the lecture compare access time for ArrayList versus LinkedList?"}
+{"id": "quiz3_q4", "text": "What happens when you insert an element at the end of a LinkedList, as explained in the video?"}
+{"id": "quiz3_q5", "text": "Why is inserting at the start or middle of an ArrayList described as slow?"}
+{"id": "quiz3_q6", "text": "How does memory usage differ between ArrayList and LinkedList according to the instructor?"}
+{"id": "quiz3_q7", "text": "In the lecture, how is the List concept in Java summarized?"}
+{"id": "quiz3_q8", "text": "Under what conditions does the video say that ArrayList is usually the best option?"}
+{"id": "quiz3_q9", "text": "What factors should you think about when deciding which data structure to use, based on the lecture?"}
+{"id": "quiz3_q10", "text": "What overall message or takeaway about choosing data structures does the video end with?"}
+
+{"id": "quiz4_q1", "text": "Which Java package is the List interface part of, according to the lecture?"}
+{"id": "quiz4_q2", "text": "What important property of the List interface does the video emphasize?"}
+{"id": "quiz4_q3", "text": "Which class is given as an example implementation of the List interface in the lecture?"}
+{"id": "quiz4_q4", "text": "What does the add() method do for a List, as described in the video?"}
+{"id": "quiz4_q5", "text": "What is the role of the remove() method in a List?"}
+{"id": "quiz4_q6", "text": "How does the get() method behave when called on a List, according to the lecture?"}
+{"id": "quiz4_q7", "text": "What change does the set() method make to a List element?"}
+{"id": "quiz4_q8", "text": "In the code example shown, what outcome does the instructor say the snippet will produce?"}
+{"id": "quiz4_q9", "text": "How does the lecture distinguish ArrayList from LinkedList?"}
+{"id": "quiz4_q10", "text": "Where does the video suggest students look for more detailed documentation on List and its methods?"}
+
+{"id": "quiz5_q1", "text": "How does the lecture describe the internal implementation of LinkedList in Java?"}
+{"id": "quiz5_q2", "text": "What main benefit of LinkedList compared with ArrayList is pointed out?"}
+{"id": "quiz5_q3", "text": "What time complexity is given for inserting or deleting at the beginning or end of a LinkedList?"}
+{"id": "quiz5_q4", "text": "What key disadvantage of LinkedList is mentioned in the video?"}
+{"id": "quiz5_q5", "text": "In which situations does the instructor recommend picking LinkedList over ArrayList?"}
+{"id": "quiz5_q6", "text": "Why is binary search considered inefficient on a LinkedList according to the lecture?"}
+{"id": "quiz5_q7", "text": "What advantage does LinkedList provide for implementing undo/redo behavior?"}
+{"id": "quiz5_q8", "text": "How does memory allocation differ between LinkedList and ArrayList, as explained in the video?"}
+{"id": "quiz5_q9", "text": "What is the time complexity of accessing an element at a particular index in a LinkedList?"}
+{"id": "quiz5_q10", "text": "Under what circumstances does the instructor advise avoiding LinkedList?"}
+
+{"id": "quiz6_q1", "text": "Which data structure is used to represent the song queue in the SongPlayer class?"}
+{"id": "quiz6_q2", "text": "What is the purpose of the addSong method in SongPlayer, according to the lecture?"}
+{"id": "quiz6_q3", "text": "What does the playNextSong method do when the queue is empty?"}
+{"id": "quiz6_q4", "text": "Why does the example include a separate SongPlayerDemo class?"}
+{"id": "quiz6_q5", "text": "How many songs are added to the player in the SongPlayerDemo example?"}
+{"id": "quiz6_q6", "text": "Roughly how long does it take to play 100,000 songs with a LinkedList-based implementation?"}
+{"id": "quiz6_q7", "text": "What effect does switching to an ArrayList have on the song player, according to the timing results?"}
+{"id": "quiz6_q8", "text": "What runtime does the video report for playing 1,000,000 songs using a LinkedList?"}
+{"id": "quiz6_q9", "text": "Why is LinkedList judged to be a better fit for the song player than ArrayList?"}
+{"id": "quiz6_q10", "text": "What overall advantage of LinkedList in the song player implementation does the lecture summarize?"}
+
+{"id": "quiz7_q1", "text": "How does the instructor describe the Java Collections Framework as a whole?"}
+{"id": "quiz7_q2", "text": "What main difference between List and Set in Java is highlighted in the video?"}
+{"id": "quiz7_q3", "text": "What role does the Queue interface play in Java, according to the lecture?"}
+{"id": "quiz7_q4", "text": "How is a Map defined in the context of Java collections?"}
+{"id": "quiz7_q5", "text": "Why is Map not treated as a subtype of Collection, based on the lecture?"}
+{"id": "quiz7_q6", "text": "What is the key conceptual difference between using a Collection and using a Map?"}
+{"id": "quiz7_q7", "text": "What example scenario does the video give where a Set would be a natural choice?"}
+{"id": "quiz7_q8", "text": "What example use case is provided for choosing a Map?"}
+{"id": "quiz7_q9", "text": "What kind of functionality does the Collections utility class provide?"}
+{"id": "quiz7_q10", "text": "How does the Map interface relate to the Java Collections Framework as discussed in the lecture?"}
+
+{"id": "quiz8_q1", "text": "Which Set implementation is said to be the most commonly used in Java?"}
+{"id": "quiz8_q2", "text": "What main reason for preferring HashSet over TreeSet is mentioned?"}
+{"id": "quiz8_q3", "text": "What Big-O time does the lecture give for add, remove, and contains on a HashSet?"}
+{"id": "quiz8_q4", "text": "What limitation or drawback of HashSet does the instructor point out?"}
+{"id": "quiz8_q5", "text": "In what situations does the video recommend choosing TreeSet instead of HashSet?"}
+{"id": "quiz8_q6", "text": "What Big-O complexity is associated with add, remove, and contains operations on a TreeSet?"}
+{"id": "quiz8_q7", "text": "Which class is described as the most common implementation of the Map interface?"}
+{"id": "quiz8_q8", "text": "Why is HashMap so widely used for Maps, according to the lecture?"}
+{"id": "quiz8_q9", "text": "What Big-O time is given for get and put operations on a TreeMap?"}
+{"id": "quiz8_q10", "text": "How are keys ordered inside a TreeMap, as explained in the video?"}
+
+{"id": "quiz9_q1", "text": "What fundamental difference between a Set and a List in Java does the lecture stress?"}
+{"id": "quiz9_q2", "text": "What is the purpose of the add method when it is called on a Set?"}
+{"id": "quiz9_q3", "text": "How does the video distinguish HashSet from TreeSet?"}
+{"id": "quiz9_q4", "text": "What does the contains method check for when used with a Set?"}
+{"id": "quiz9_q5", "text": "How is a Map described in the lecture’s explanation of Java collections?"}
+{"id": "quiz9_q6", "text": "What is the main difference between HashMap and TreeMap mentioned in the video?"}
+{"id": "quiz9_q7", "text": "What job does the put method perform in a Map?"}
+{"id": "quiz9_q8", "text": "What does the get method return when you call it on a Map with a key?"}
+{"id": "quiz9_q9", "text": "What does the containsKey method let you check in a Map?"}
+{"id": "quiz9_q10", "text": "According to the lecture, how can you iterate over all the keys stored in a Map?"}

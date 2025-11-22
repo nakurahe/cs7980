@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Java Collections: Sets and Maps",
+    "description": "This quiz covers the main concepts and topics related to Sets and Maps in Java, including HashSet, TreeSet, HashMap, and TreeMap.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 20,
+    "generation_mode": "multimodal",
+    "generation_method": "transcript and slides"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the main difference between a Set and a List in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A Set allows duplicates, while a List does not"
+        },
+        {
+          "id": "B",
+          "text": "A Set does not allow duplicates, while a List does"
+        },
+        {
+          "id": "C",
+          "text": "A Set is ordered, while a List is not"
+        },
+        {
+          "id": "D",
+          "text": "A Set is not ordered, while a List is"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "A Set in Java is a collection that does not allow duplicate elements, whereas a List can have duplicate elements.",
+      "difficulty": "easy",
+      "topic": "Sets vs Lists",
+      "reference": "00:00:06"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is the purpose of the 'add' method in a Set?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To remove an element from the Set"
+        },
+        {
+          "id": "B",
+          "text": "To add an element to the Set if it does not already exist"
+        },
+        {
+          "id": "C",
+          "text": "To clear all elements from the Set"
+        },
+        {
+          "id": "D",
+          "text": "To check if an element exists in the Set"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The 'add' method in a Set is used to add an element to the Set if it does not already exist. If the element already exists, the method returns false.",
+      "difficulty": "easy",
+      "topic": "Set Methods",
+      "reference": "00:02:08"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the difference between a HashSet and a TreeSet?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A HashSet is ordered, while a TreeSet is not"
+        },
+        {
+          "id": "B",
+          "text": "A HashSet is not ordered, while a TreeSet is ordered"
+        },
+        {
+          "id": "C",
+          "text": "A HashSet allows duplicates, while a TreeSet does not"
+        },
+        {
+          "id": "D",
+          "text": "A HashSet is faster than a TreeSet"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "A HashSet is not ordered, meaning that the elements are not stored in any particular order. A TreeSet, on the other hand, is ordered, meaning that the elements are stored in a specific order, either naturally or based on a Comparator.",
+      "difficulty": "medium",
+      "topic": "HashSet vs TreeSet",
+      "reference": "00:04:00"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the purpose of the 'contains' method in a Set?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To add an element to the Set"
+        },
+        {
+          "id": "B",
+          "text": "To remove an element from the Set"
+        },
+        {
+          "id": "C",
+          "text": "To check if an element exists in the Set"
+        },
+        {
+          "id": "D",
+          "text": "To clear all elements from the Set"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The 'contains' method in a Set is used to check if an element exists in the Set.",
+      "difficulty": "easy",
+      "topic": "Set Methods",
+      "reference": "00:02:43"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is a Map in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A collection of unique elements"
+        },
+        {
+          "id": "B",
+          "text": "A collection of key-value pairs"
+        },
+        {
+          "id": "C",
+          "text": "A collection of ordered elements"
+        },
+        {
+          "id": "D",
+          "text": "A collection of unordered elements"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "A Map in Java is a collection of key-value pairs, where each key is unique and maps to a specific value.",
+      "difficulty": "easy",
+      "topic": "Maps",
+      "reference": "00:05:07"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the difference between a HashMap and a TreeMap?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A HashMap is ordered, while a TreeMap is not"
+        },
+        {
+          "id": "B",
+          "text": "A HashMap is not ordered, while a TreeMap is ordered"
+        },
+        {
+          "id": "C",
+          "text": "A HashMap allows duplicates, while a TreeMap does not"
+        },
+        {
+          "id": "D",
+          "text": "A HashMap is faster than a TreeMap"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "A HashMap is not ordered, meaning that the key-value pairs are not stored in any particular order. A TreeMap, on the other hand, is ordered, meaning that the key-value pairs are stored in a specific order, either naturally or based on a Comparator.",
+      "difficulty": "medium",
+      "topic": "HashMap vs TreeMap",
+      "reference": "00:06:06"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is the purpose of the 'put' method in a Map?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To remove a key-value pair from the Map"
+        },
+        {
+          "id": "B",
+          "text": "To add a key-value pair to the Map"
+        },
+        {
+          "id": "C",
+          "text": "To clear all key-value pairs from the Map"
+        },
+        {
+          "id": "D",
+          "text": "To check if a key exists in the Map"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The 'put' method in a Map is used to add a key-value pair to the Map. If the key already exists, the value is updated.",
+      "difficulty": "easy",
+      "topic": "Map Methods",
+      "reference": "00:06:29"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is the purpose of the 'get' method in a Map?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To add a key-value pair to the Map"
+        },
+        {
+          "id": "B",
+          "text": "To remove a key-value pair from the Map"
+        },
+        {
+          "id": "C",
+          "text": "To clear all key-value pairs from the Map"
+        },
+        {
+          "id": "D",
+          "text": "To retrieve the value associated with a given key"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "The 'get' method in a Map is used to retrieve the value associated with a given key.",
+      "difficulty": "easy",
+      "topic": "Map Methods",
+      "reference": "00:07:04"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is the purpose of the 'containsKey' method in a Map?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To add a key-value pair to the Map"
+        },
+        {
+          "id": "B",
+          "text": "To remove a key-value pair from the Map"
+        },
+        {
+          "id": "C",
+          "text": "To clear all key-value pairs from the Map"
+        },
+        {
+          "id": "D",
+          "text": "To check if a key exists in the Map"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "The 'containsKey' method in a Map is used to check if a key exists in the Map.",
+      "difficulty": "easy",
+      "topic": "Map Methods",
+      "reference": "00:07:19"
+    },
+    {
+      "question_number": 10,
+      "question_text": "How do you iterate over the keys in a Map?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Using a for-each loop on the Map object"
+        },
+        {
+          "id": "B",
+          "text": "Using a for-each loop on the Map's keySet"
+        },
+        {
+          "id": "C",
+          "text": "Using a for loop on the Map's entrySet"
+        },
+        {
+          "id": "D",
+          "text": "Using a while loop on the Map's values"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "You can iterate over the keys in a Map using a for-each loop on the Map's keySet.",
+      "difficulty": "medium",
+      "topic": "Map Iteration",
+      "reference": "00:07:57"
+    }
+  ]
+}

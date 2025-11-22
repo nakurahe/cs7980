@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Orthogonality, Projections, and Least Squares Quiz",
+    "description": "This quiz covers the main concepts of orthogonality, projections, and least squares as discussed in the video.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 20,
+    "generation_mode": "baseline",
+    "generation_method": "transcript-only"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What does it mean for two vectors to be orthogonal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They have the same direction"
+        },
+        {
+          "id": "B",
+          "text": "They have the same magnitude"
+        },
+        {
+          "id": "C",
+          "text": "They meet at a right angle (90 degrees)"
+        },
+        {
+          "id": "D",
+          "text": "They are parallel to each other"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Two vectors are orthogonal if they meet at a right angle, meaning 90 degrees. (00:30)",
+      "difficulty": "easy",
+      "topic": "Orthogonality",
+      "reference": "00:30"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is the difference between orthogonal and orthonormal vectors?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Orthogonal vectors have a magnitude of 1, while orthonormal vectors do not"
+        },
+        {
+          "id": "B",
+          "text": "Orthogonal vectors have the same direction, while orthonormal vectors have different directions"
+        },
+        {
+          "id": "C",
+          "text": "Orthogonal vectors meet at a right angle, while orthonormal vectors have a magnitude of 1 and meet at a right angle"
+        },
+        {
+          "id": "D",
+          "text": "Orthogonal vectors have a magnitude of 2, while orthonormal vectors have a magnitude of 1"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Orthogonal vectors meet at a right angle, while orthonormal vectors have a magnitude of 1 and meet at a right angle. (01:07)",
+      "difficulty": "medium",
+      "topic": "Orthogonality",
+      "reference": "01:07"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is an orthogonal matrix?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A matrix with orthogonal rows"
+        },
+        {
+          "id": "B",
+          "text": "A matrix with orthogonal columns"
+        },
+        {
+          "id": "C",
+          "text": "A matrix with orthonormal rows"
+        },
+        {
+          "id": "D",
+          "text": "A matrix with orthonormal columns"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "An orthogonal matrix is a matrix that has orthogonal columns. (02:42)",
+      "difficulty": "easy",
+      "topic": "Orthogonal Matrices",
+      "reference": "02:42"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the property of an orthogonal matrix Q?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Q transpose times Q equals the zero matrix"
+        },
+        {
+          "id": "B",
+          "text": "Q transpose times Q equals the identity matrix"
+        },
+        {
+          "id": "C",
+          "text": "Q times Q transpose equals the zero matrix"
+        },
+        {
+          "id": "D",
+          "text": "Q times Q transpose equals the identity matrix"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The property of an orthogonal matrix Q is that Q transpose times Q equals the identity matrix. (03:31)",
+      "difficulty": "medium",
+      "topic": "Orthogonal Matrices",
+      "reference": "03:31"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Is the following statement true: Q times Q transpose equals the identity matrix?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Yes, it is always true"
+        },
+        {
+          "id": "B",
+          "text": "No, it is never true"
+        },
+        {
+          "id": "C",
+          "text": "It depends on the matrix Q"
+        },
+        {
+          "id": "D",
+          "text": "Not enough information to determine"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Since Q is an orthogonal matrix, Q transpose times Q equals the identity matrix, and it can be shown that Q times Q transpose also equals the identity matrix. (04:37)",
+      "difficulty": "medium",
+      "topic": "Orthogonal Matrices",
+      "reference": "04:37"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the QR decomposition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A decomposition of a matrix A into the product of an orthogonal matrix Q and an upper triangular matrix R"
+        },
+        {
+          "id": "B",
+          "text": "A decomposition of a matrix A into the product of an orthogonal matrix Q and a lower triangular matrix R"
+        },
+        {
+          "id": "C",
+          "text": "A decomposition of a matrix A into the product of an orthogonal matrix Q and a diagonal matrix R"
+        },
+        {
+          "id": "D",
+          "text": "A decomposition of a matrix A into the product of an orthogonal matrix Q and a symmetric matrix R"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The QR decomposition is a decomposition of a matrix A into the product of an orthogonal matrix Q and an upper triangular matrix R. (06:33)",
+      "difficulty": "medium",
+      "topic": "QR Decomposition",
+      "reference": "06:33"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is the condition for a matrix A to have a QR decomposition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The columns of A must be linearly dependent"
+        },
+        {
+          "id": "B",
+          "text": "The columns of A must be linearly independent"
+        },
+        {
+          "id": "C",
+          "text": "The rows of A must be linearly dependent"
+        },
+        {
+          "id": "D",
+          "text": "The rows of A must be linearly independent"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The condition for a matrix A to have a QR decomposition is that the columns of A must be linearly independent. (06:48)",
+      "difficulty": "medium",
+      "topic": "QR Decomposition",
+      "reference": "06:48"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is the Graham-Schmidt algorithm used for?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To find the inverse of a matrix"
+        },
+        {
+          "id": "B",
+          "text": "To find the determinant of a matrix"
+        },
+        {
+          "id": "C",
+          "text": "To create an orthonormal basis from a set of vectors"
+        },
+        {
+          "id": "D",
+          "text": "To solve a system of linear equations"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The Graham-Schmidt algorithm is used to create an orthonormal basis from a set of vectors. (11:07)",
+      "difficulty": "medium",
+      "topic": "Graham-Schmidt Algorithm",
+      "reference": "11:07"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is the purpose of normalizing a vector?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To increase its magnitude"
+        },
+        {
+          "id": "B",
+          "text": "To decrease its magnitude"
+        },
+        {
+          "id": "C",
+          "text": "To make its magnitude equal to 1"
+        },
+        {
+          "id": "D",
+          "text": "To make its direction parallel to another vector"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The purpose of normalizing a vector is to make its magnitude equal to 1. (12:03)",
+      "difficulty": "easy",
+      "topic": "Vector Normalization",
+      "reference": "12:03"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What is the condition number of a matrix?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A measure of how sensitive a matrix is to small changes or errors"
+        },
+        {
+          "id": "B",
+          "text": "A measure of how large a matrix is"
+        },
+        {
+          "id": "C",
+          "text": "A measure of how sparse a matrix is"
+        },
+        {
+          "id": "D",
+          "text": "A measure of how dense a matrix is"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The condition number of a matrix is a measure of how sensitive a matrix is to small changes or errors. (10:30)",
+      "difficulty": "medium",
+      "topic": "Condition Number",
+      "reference": "10:30"
+    }
+  ]
+}

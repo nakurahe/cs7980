@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Java List Interface Quiz",
+    "description": "This quiz covers the main concepts of the Java List interface, including its key methods and implementations.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "multimodal",
+    "generation_method": "transcript and slides"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "Which package does the Java List interface belong to?",
+      "options": [
+        {
+          "id": "A",
+          "text": "java.lang"
+        },
+        {
+          "id": "B",
+          "text": "java.util"
+        },
+        {
+          "id": "C",
+          "text": "java.io"
+        },
+        {
+          "id": "D",
+          "text": "java.net"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The List interface is part of the java.util package, as mentioned at 00:12 in the video.",
+      "difficulty": "easy",
+      "topic": "List Interface Basics",
+      "reference": "00:12"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is a key feature of the List interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It does not allow duplicates"
+        },
+        {
+          "id": "B",
+          "text": "It maintains the order of elements as they are inserted"
+        },
+        {
+          "id": "C",
+          "text": "It only allows unique elements"
+        },
+        {
+          "id": "D",
+          "text": "It does not maintain any order"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The List interface maintains the order of elements as they are inserted, making it useful for applications where order is important, as mentioned at 00:28 in the video.",
+      "difficulty": "easy",
+      "topic": "List Interface Basics",
+      "reference": "00:28"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Which of the following is an implementation of the List interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HashSet"
+        },
+        {
+          "id": "B",
+          "text": "ArrayList"
+        },
+        {
+          "id": "C",
+          "text": "Map"
+        },
+        {
+          "id": "D",
+          "text": "TreeSet"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "ArrayList is a common implementation of the List interface, as mentioned at 01:18 in the video.",
+      "difficulty": "easy",
+      "topic": "List Implementations",
+      "reference": "01:18"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the purpose of the add() method in the List interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To remove an element from the list"
+        },
+        {
+          "id": "B",
+          "text": "To update an element in the list"
+        },
+        {
+          "id": "C",
+          "text": "To add an element to the list"
+        },
+        {
+          "id": "D",
+          "text": "To retrieve an element from the list"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The add() method is used to add an element to the list, as mentioned at 02:13 in the video.",
+      "difficulty": "easy",
+      "topic": "List Methods",
+      "reference": "02:13"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the purpose of the remove() method in the List interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To add an element to the list"
+        },
+        {
+          "id": "B",
+          "text": "To update an element in the list"
+        },
+        {
+          "id": "C",
+          "text": "To remove an element from the list"
+        },
+        {
+          "id": "D",
+          "text": "To retrieve an element from the list"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The remove() method is used to remove an element from the list, as mentioned at 02:18 in the video.",
+      "difficulty": "easy",
+      "topic": "List Methods",
+      "reference": "02:18"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the purpose of the get() method in the List interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To add an element to the list"
+        },
+        {
+          "id": "B",
+          "text": "To update an element in the list"
+        },
+        {
+          "id": "C",
+          "text": "To remove an element from the list"
+        },
+        {
+          "id": "D",
+          "text": "To retrieve an element from the list"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "The get() method is used to retrieve an element from the list, as mentioned at 02:27 in the video.",
+      "difficulty": "easy",
+      "topic": "List Methods",
+      "reference": "02:27"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is the purpose of the set() method in the List interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To add an element to the list"
+        },
+        {
+          "id": "B",
+          "text": "To update an element in the list"
+        },
+        {
+          "id": "C",
+          "text": "To remove an element from the list"
+        },
+        {
+          "id": "D",
+          "text": "To retrieve an element from the list"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The set() method is used to update an element in the list, as mentioned at 02:36 in the video.",
+      "difficulty": "easy",
+      "topic": "List Methods",
+      "reference": "02:36"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is the result of the code snippet provided in the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An empty list"
+        },
+        {
+          "id": "B",
+          "text": "A list containing Apple, Banana, and Cherry"
+        },
+        {
+          "id": "C",
+          "text": "A list containing Apple and Blueberry"
+        },
+        {
+          "id": "D",
+          "text": "A list containing Apple, Blueberry, and Cherry"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The code snippet provided in the video results in a list containing Apple and Blueberry, as explained at 04:26 in the video.",
+      "difficulty": "medium",
+      "topic": "List Operations",
+      "reference": "04:26"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is the difference between ArrayList and LinkedList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ArrayList is backed by a linked list, while LinkedList is backed by an array"
+        },
+        {
+          "id": "B",
+          "text": "ArrayList is backed by an array, while LinkedList uses a doubly linked list"
+        },
+        {
+          "id": "C",
+          "text": "ArrayList is slower than LinkedList for random access"
+        },
+        {
+          "id": "D",
+          "text": "LinkedList is slower than ArrayList for inserting and deleting elements"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "ArrayList is backed by an array, while LinkedList uses a doubly linked list, as mentioned at 01:30 and 01:43 in the video.",
+      "difficulty": "medium",
+      "topic": "List Implementations",
+      "reference": "01:30, 01:43"
+    },
+    {
+      "question_number": 10,
+      "question_text": "Where can you find more information about the List interface and its methods?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The Java API documentation"
+        },
+        {
+          "id": "B",
+          "text": "The Java tutorial website"
+        },
+        {
+          "id": "C",
+          "text": "The Java community forum"
+        },
+        {
+          "id": "D",
+          "text": "The Java book by Oracle"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "You can find more information about the List interface and its methods in the official Java documentation, as mentioned at 06:08 in the video.",
+      "difficulty": "easy",
+      "topic": "Additional Resources",
+      "reference": "06:08"
+    }
+  ]
+}

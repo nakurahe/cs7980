@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Unit Testing in Python",
+    "description": "This quiz covers the main concepts of unit testing in Python, including why unit testing is important, how to write unit tests, and best practices for testing.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "multimodal",
+    "generation_method": "transcript and slides"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the primary purpose of unit testing in Python?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To catch bugs early and ensure code quality"
+        },
+        {
+          "id": "B",
+          "text": "To improve code performance and efficiency"
+        },
+        {
+          "id": "C",
+          "text": "To document code and make it more readable"
+        },
+        {
+          "id": "D",
+          "text": "To test entire applications and systems"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Unit testing is primarily used to catch bugs and errors in code, ensuring that individual units of code function as expected.",
+      "difficulty": "easy",
+      "topic": "Introduction to Unit Testing",
+      "reference": "00:00:40"
+    },
+    {
+      "question_number": 2,
+      "question_text": "Why is it important to test edge cases and error conditions in unit testing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To ensure code works correctly for normal input values"
+        },
+        {
+          "id": "B",
+          "text": "To catch unexpected errors and bugs in code"
+        },
+        {
+          "id": "C",
+          "text": "To improve code performance and efficiency"
+        },
+        {
+          "id": "D",
+          "text": "To document code and make it more readable"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Testing edge cases and error conditions helps ensure that code can handle unexpected input and errors, making it more robust and reliable.",
+      "difficulty": "medium",
+      "topic": "Unit Testing Best Practices",
+      "reference": "02:29"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the name of the popular Python testing framework mentioned in the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Unittest"
+        },
+        {
+          "id": "B",
+          "text": "Pytest"
+        },
+        {
+          "id": "C",
+          "text": "Nose"
+        },
+        {
+          "id": "D",
+          "text": "Behave"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pytest is a popular and widely-used testing framework for Python, known for its simplicity and flexibility.",
+      "difficulty": "easy",
+      "topic": "Introduction to Pytest",
+      "reference": "03:39"
+    },
+    {
+      "question_number": 4,
+      "question_text": "How do you run all tests using Pytest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "pytest -v"
+        },
+        {
+          "id": "B",
+          "text": "pytest -k"
+        },
+        {
+          "id": "C",
+          "text": "pytest"
+        },
+        {
+          "id": "D",
+          "text": "pytest --help"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Running `pytest` in the console will execute all tests in the current directory and its subdirectories.",
+      "difficulty": "easy",
+      "topic": "Running Tests with Pytest",
+      "reference": "05:08"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the purpose of the `assert` statement in unit testing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To verify expected behavior and catch errors"
+        },
+        {
+          "id": "B",
+          "text": "To document code and make it more readable"
+        },
+        {
+          "id": "C",
+          "text": "To improve code performance and efficiency"
+        },
+        {
+          "id": "D",
+          "text": "To test entire applications and systems"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The `assert` statement is used to verify that code behaves as expected, catching any errors or unexpected behavior.",
+      "difficulty": "medium",
+      "topic": "Writing Unit Tests",
+      "reference": "04:26"
+    },
+    {
+      "question_number": 6,
+      "question_text": "Why is it important to keep tests independent of each other?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To improve code performance and efficiency"
+        },
+        {
+          "id": "B",
+          "text": "To catch unexpected errors and bugs in code"
+        },
+        {
+          "id": "C",
+          "text": "To ensure that tests can be run in any order and still produce reliable results"
+        },
+        {
+          "id": "D",
+          "text": "To document code and make it more readable"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Keeping tests independent ensures that they can be run in any order and still produce reliable results, making it easier to maintain and update tests.",
+      "difficulty": "medium",
+      "topic": "Unit Testing Best Practices",
+      "reference": "06:57"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is the purpose of the `-v` flag when running Pytest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To run all tests"
+        },
+        {
+          "id": "B",
+          "text": "To run specific tests"
+        },
+        {
+          "id": "C",
+          "text": "To produce verbose output and show more detailed test results"
+        },
+        {
+          "id": "D",
+          "text": "To suppress output and only show test failures"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The `-v` flag produces verbose output, showing more detailed test results and helping with debugging and troubleshooting.",
+      "difficulty": "easy",
+      "topic": "Running Tests with Pytest",
+      "reference": "05:19"
+    },
+    {
+      "question_number": 8,
+      "question_text": "Why is it recommended to test one thing per test?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To improve code performance and efficiency"
+        },
+        {
+          "id": "B",
+          "text": "To catch unexpected errors and bugs in code"
+        },
+        {
+          "id": "C",
+          "text": "To ensure that tests are focused and easy to maintain"
+        },
+        {
+          "id": "D",
+          "text": "To document code and make it more readable"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Testing one thing per test ensures that tests are focused and easy to maintain, making it easier to identify and fix errors.",
+      "difficulty": "medium",
+      "topic": "Unit Testing Best Practices",
+      "reference": "05:46"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is the purpose of the `-k` flag when running Pytest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To run all tests"
+        },
+        {
+          "id": "B",
+          "text": "To run specific tests"
+        },
+        {
+          "id": "C",
+          "text": "To produce verbose output and show more detailed test results"
+        },
+        {
+          "id": "D",
+          "text": "To suppress output and only show test failures"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The `-k` flag allows you to run specific tests by specifying their names or keywords.",
+      "difficulty": "easy",
+      "topic": "Running Tests with Pytest",
+      "reference": "05:33"
+    },
+    {
+      "question_number": 10,
+      "question_text": "Why is it recommended to avoid testing library code?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Because library code is already tested and reliable"
+        },
+        {
+          "id": "B",
+          "text": "Because library code is not important and can be ignored"
+        },
+        {
+          "id": "C",
+          "text": "Because testing library code is time-consuming and inefficient"
+        },
+        {
+          "id": "D",
+          "text": "Because testing library code is not necessary and can be skipped"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Library code is typically already tested and reliable, so it's not necessary to test it again. Instead, focus on testing your own code and ensuring it works correctly with the library code.",
+      "difficulty": "medium",
+      "topic": "Unit Testing Best Practices",
+      "reference": "07:12"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Linked Lists and Song Player Implementation",
+    "description": "This quiz covers the implementation of a song player using linked lists, as discussed in the video.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "multimodal",
+    "generation_method": "transcript and slides"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What data structure is used to implement the song queue in the SongPlayer class?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ArrayList"
+        },
+        {
+          "id": "B",
+          "text": "LinkedList"
+        },
+        {
+          "id": "C",
+          "text": "HashMap"
+        },
+        {
+          "id": "D",
+          "text": "TreeSet"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The SongPlayer class uses a LinkedList to implement the song queue, as seen in the constructor at 00:52.",
+      "difficulty": "easy",
+      "topic": "Data Structures",
+      "reference": "00:52"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is the purpose of the addSong method in the SongPlayer class?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To remove a song from the queue"
+        },
+        {
+          "id": "B",
+          "text": "To play the next song in the queue"
+        },
+        {
+          "id": "C",
+          "text": "To add a song to the end of the queue"
+        },
+        {
+          "id": "D",
+          "text": "To clear the song queue"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The addSong method is used to add a song to the end of the queue, as seen at 01:07.",
+      "difficulty": "easy",
+      "topic": "SongPlayer Class",
+      "reference": "01:07"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What happens when the playNextSong method is called on an empty song queue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It throws an exception"
+        },
+        {
+          "id": "B",
+          "text": "It returns the first song in the queue"
+        },
+        {
+          "id": "C",
+          "text": "It returns null"
+        },
+        {
+          "id": "D",
+          "text": "It adds a new song to the queue"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The playNextSong method returns null when the song queue is empty, as seen at 01:18.",
+      "difficulty": "easy",
+      "topic": "SongPlayer Class",
+      "reference": "01:18"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the purpose of the SongPlayerDemo class?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To implement the song player functionality"
+        },
+        {
+          "id": "B",
+          "text": "To demonstrate the usage of the SongPlayer class"
+        },
+        {
+          "id": "C",
+          "text": "To test the performance of the song player"
+        },
+        {
+          "id": "D",
+          "text": "To create a user interface for the song player"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The SongPlayerDemo class is used to demonstrate the usage of the SongPlayer class, as seen at 01:50.",
+      "difficulty": "easy",
+      "topic": "SongPlayerDemo Class",
+      "reference": "01:50"
+    },
+    {
+      "question_number": 5,
+      "question_text": "How many songs are added to the song player in the SongPlayerDemo class?",
+      "options": [
+        {
+          "id": "A",
+          "text": "100"
+        },
+        {
+          "id": "B",
+          "text": "1000"
+        },
+        {
+          "id": "C",
+          "text": "100,000"
+        },
+        {
+          "id": "D",
+          "text": "1,000,000"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "100,000 songs are added to the song player in the SongPlayerDemo class, as seen at 02:27.",
+      "difficulty": "easy",
+      "topic": "SongPlayerDemo Class",
+      "reference": "02:27"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the time taken to play 100,000 songs using a LinkedList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "100 milliseconds"
+        },
+        {
+          "id": "B",
+          "text": "225 milliseconds"
+        },
+        {
+          "id": "C",
+          "text": "500 milliseconds"
+        },
+        {
+          "id": "D",
+          "text": "1 second"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The time taken to play 100,000 songs using a LinkedList is 225 milliseconds, as seen at 03:19.",
+      "difficulty": "medium",
+      "topic": "Performance Comparison",
+      "reference": "03:19"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What happens when an ArrayList is used instead of a LinkedList in the SongPlayer class?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The performance improves"
+        },
+        {
+          "id": "B",
+          "text": "The performance remains the same"
+        },
+        {
+          "id": "C",
+          "text": "The performance degrades"
+        },
+        {
+          "id": "D",
+          "text": "The program crashes"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The performance degrades when an ArrayList is used instead of a LinkedList, as seen at 04:21.",
+      "difficulty": "medium",
+      "topic": "Performance Comparison",
+      "reference": "04:21"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is the time taken to play 1,000,000 songs using a LinkedList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 second"
+        },
+        {
+          "id": "B",
+          "text": "2 seconds"
+        },
+        {
+          "id": "C",
+          "text": "1.2 seconds"
+        },
+        {
+          "id": "D",
+          "text": "5 seconds"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The time taken to play 1,000,000 songs using a LinkedList is 1.2 seconds, as seen at 05:26.",
+      "difficulty": "medium",
+      "topic": "Performance Comparison",
+      "reference": "05:26"
+    },
+    {
+      "question_number": 9,
+      "question_text": "Why is a LinkedList more suitable for the song player implementation than an ArrayList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Because it provides faster search times"
+        },
+        {
+          "id": "B",
+          "text": "Because it provides faster insertion and deletion times"
+        },
+        {
+          "id": "C",
+          "text": "Because it provides more memory efficiency"
+        },
+        {
+          "id": "D",
+          "text": "Because it provides better caching performance"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "A LinkedList is more suitable for the song player implementation because it provides faster insertion and deletion times, which is important for a song player that needs to frequently add and remove songs.",
+      "difficulty": "hard",
+      "topic": "Data Structures",
+      "reference": "06:24"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What is the main advantage of using a LinkedList in the song player implementation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Improved search performance"
+        },
+        {
+          "id": "B",
+          "text": "Faster insertion and deletion times"
+        },
+        {
+          "id": "C",
+          "text": "Better memory efficiency"
+        },
+        {
+          "id": "D",
+          "text": "Simplified code implementation"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The main advantage of using a LinkedList in the song player implementation is the faster insertion and deletion times, which is critical for a song player that needs to frequently add and remove songs.",
+      "difficulty": "hard",
+      "topic": "Data Structures",
+      "reference": "06:30"
+    }
+  ]
+}
