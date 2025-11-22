@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Arrays and Lists Fundamentals",
+    "description": "This quiz covers the basics of arrays and lists, including their definitions, key features, and use cases.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "baseline",
+    "generation_method": "transcript-only"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the primary purpose of using arrays and lists in programming?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To store single values"
+        },
+        {
+          "id": "B",
+          "text": "To store collections of elements"
+        },
+        {
+          "id": "C",
+          "text": "To perform mathematical operations"
+        },
+        {
+          "id": "D",
+          "text": "To handle user input"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Arrays and lists are used to store multiple values, as mentioned at 00:24 in the video.",
+      "difficulty": "easy",
+      "topic": "Introduction to Arrays and Lists",
+      "reference": "00:24"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is a key difference between the collections of favorite songs and the colors of the rainbow?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The number of elements"
+        },
+        {
+          "id": "B",
+          "text": "The data type of elements"
+        },
+        {
+          "id": "C",
+          "text": "The ability to change over time"
+        },
+        {
+          "id": "D",
+          "text": "The memory usage"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The collection of favorite songs can change over time, while the colors of the rainbow remain the same, as discussed at 00:52-01:04 in the video.",
+      "difficulty": "easy",
+      "topic": "Introduction to Arrays and Lists",
+      "reference": "00:52-01:04"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is an array in programming?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A flexible collection of elements"
+        },
+        {
+          "id": "B",
+          "text": "A fixed-size collection of elements stored in a continuous block of memory"
+        },
+        {
+          "id": "C",
+          "text": "A data type that can store single values"
+        },
+        {
+          "id": "D",
+          "text": "A method for handling user input"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "An array is defined as a fixed-size collection of elements stored in a continuous block of memory, as stated at 01:30-01:36 in the video.",
+      "difficulty": "medium",
+      "topic": "Arrays",
+      "reference": "01:30-01:36"
+    },
+    {
+      "question_number": 4,
+      "question_text": "Why do array indices start at 0 instead of 1?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To make it more intuitive for users"
+        },
+        {
+          "id": "B",
+          "text": "To reduce memory usage"
+        },
+        {
+          "id": "C",
+          "text": "To represent the number of elements to jump to reach an element"
+        },
+        {
+          "id": "D",
+          "text": "To make it compatible with other programming languages"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Array indices start at 0 because it represents the number of elements to jump to reach an element, as explained at 02:29-02:35 in the video.",
+      "difficulty": "medium",
+      "topic": "Arrays",
+      "reference": "02:29-02:35"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is a key feature of arrays?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Flexible size"
+        },
+        {
+          "id": "B",
+          "text": "Ability to store different data types"
+        },
+        {
+          "id": "C",
+          "text": "Fixed size and efficient memory usage"
+        },
+        {
+          "id": "D",
+          "text": "Slow access time"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Arrays have a fixed size and are efficient in terms of memory usage, as mentioned at 03:14-03:30 in the video.",
+      "difficulty": "easy",
+      "topic": "Arrays",
+      "reference": "03:14-03:30"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is a limitation of arrays?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They can store different data types"
+        },
+        {
+          "id": "B",
+          "text": "They have a flexible size"
+        },
+        {
+          "id": "C",
+          "text": "All elements must be of the same type"
+        },
+        {
+          "id": "D",
+          "text": "They are slow to access"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "All elements of an array must be of the same type, as stated at 03:43-03:49 in the video.",
+      "difficulty": "easy",
+      "topic": "Arrays",
+      "reference": "03:43-03:49"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is a list in programming?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A fixed-size collection of elements"
+        },
+        {
+          "id": "B",
+          "text": "A data type that can store single values"
+        },
+        {
+          "id": "C",
+          "text": "A flexible way to store multiple values that can shrink and grow as needed"
+        },
+        {
+          "id": "D",
+          "text": "A method for handling user input"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "A list is defined as a flexible way to store multiple values that can shrink and grow as needed, as stated at 04:10-04:18 in the video.",
+      "difficulty": "medium",
+      "topic": "Lists",
+      "reference": "04:10-04:18"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is an example of a use case for a list?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Storing the colors of the rainbow"
+        },
+        {
+          "id": "B",
+          "text": "Storing a collection of favorite songs that may change over time"
+        },
+        {
+          "id": "C",
+          "text": "Storing a single value"
+        },
+        {
+          "id": "D",
+          "text": "Handling user input"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "A list is suitable for storing a collection of favorite songs that may change over time, as discussed at 04:37-04:42 in the video.",
+      "difficulty": "easy",
+      "topic": "Lists",
+      "reference": "04:37-04:42"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is a key feature of lists?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fixed size"
+        },
+        {
+          "id": "B",
+          "text": "Inability to add or remove elements"
+        },
+        {
+          "id": "C",
+          "text": "Flexible size and easy addition or removal of elements"
+        },
+        {
+          "id": "D",
+          "text": "Slow access time"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Lists have a flexible size and it is easy to add or remove elements, as mentioned at 05:16-05:26 in the video.",
+      "difficulty": "easy",
+      "topic": "Lists",
+      "reference": "05:16-05:26"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What can be expected in future videos about arrays and lists in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A discussion on the basics of programming"
+        },
+        {
+          "id": "B",
+          "text": "An overview of data structures in general"
+        },
+        {
+          "id": "C",
+          "text": "A detailed explanation of how arrays and lists work in Java, including built-in methods"
+        },
+        {
+          "id": "D",
+          "text": "A comparison of Java with other programming languages"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The video mentions that future videos will cover how arrays and lists work in Java, including built-in methods, as stated at 04:24 and 05:32 in the video.",
+      "difficulty": "easy",
+      "topic": "Introduction to Arrays and Lists in Java",
+      "reference": "04:24 and 05:32"
+    }
+  ]
+}

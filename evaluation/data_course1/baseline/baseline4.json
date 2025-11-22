@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Java List Interface Quiz",
+    "description": "This quiz covers the main concepts and topics related to the Java List interface, including its key methods and implementations.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "baseline",
+    "generation_method": "transcript-only"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "Which package does the Java List interface belong to?",
+      "options": [
+        {
+          "id": "A",
+          "text": "java.lang"
+        },
+        {
+          "id": "B",
+          "text": "java.util"
+        },
+        {
+          "id": "C",
+          "text": "java.io"
+        },
+        {
+          "id": "D",
+          "text": "java.net"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The Java List interface belongs to the java.util package, as mentioned at 00:12 in the video.",
+      "difficulty": "easy",
+      "topic": "Java List Interface",
+      "reference": "00:12"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is a key feature of the Java List interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It does not allow duplicate elements"
+        },
+        {
+          "id": "B",
+          "text": "It maintains the order of elements as they are inserted"
+        },
+        {
+          "id": "C",
+          "text": "It is a type of set"
+        },
+        {
+          "id": "D",
+          "text": "It is a type of map"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The Java List interface maintains the order of elements as they are inserted, making it useful for applications where order is important, as mentioned at 00:28 in the video.",
+      "difficulty": "easy",
+      "topic": "Java List Interface",
+      "reference": "00:28"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the main difference between the Java List interface and a set?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A set is a type of list"
+        },
+        {
+          "id": "B",
+          "text": "A list is a type of set"
+        },
+        {
+          "id": "C",
+          "text": "The List interface allows duplicate elements, while a set does not"
+        },
+        {
+          "id": "D",
+          "text": "The List interface does not allow duplicate elements, while a set does"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The Java List interface allows duplicate elements, while a set does not, as mentioned at 01:05 in the video.",
+      "difficulty": "easy",
+      "topic": "Java List Interface vs Set",
+      "reference": "01:05"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What are the two main implementations of the Java List interface mentioned in the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ArrayList and LinkedList"
+        },
+        {
+          "id": "B",
+          "text": "ArrayList and TreeSet"
+        },
+        {
+          "id": "C",
+          "text": "LinkedList and HashSet"
+        },
+        {
+          "id": "D",
+          "text": "TreeSet and HashSet"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The two main implementations of the Java List interface mentioned in the video are ArrayList and LinkedList, as mentioned at 01:18 in the video.",
+      "difficulty": "easy",
+      "topic": "Java List Interface Implementations",
+      "reference": "01:18"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is a characteristic of the ArrayList implementation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It uses a doubly linked list under the hood"
+        },
+        {
+          "id": "B",
+          "text": "It provides fast random access"
+        },
+        {
+          "id": "C",
+          "text": "It is more efficient for inserting and deleting items in the middle of the list"
+        },
+        {
+          "id": "D",
+          "text": "It is a type of LinkedList"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "ArrayList provides fast random access, making it suitable for applications where data is frequently read, as mentioned at 01:30 in the video.",
+      "difficulty": "easy",
+      "topic": "ArrayList Implementation",
+      "reference": "01:30"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is a characteristic of the LinkedList implementation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It uses an array under the hood"
+        },
+        {
+          "id": "B",
+          "text": "It provides fast random access"
+        },
+        {
+          "id": "C",
+          "text": "It is more efficient for inserting and deleting items in the middle of the list"
+        },
+        {
+          "id": "D",
+          "text": "It is a type of ArrayList"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "LinkedList is more efficient for inserting and deleting items in the middle of the list, as mentioned at 01:51 in the video.",
+      "difficulty": "easy",
+      "topic": "LinkedList Implementation",
+      "reference": "01:51"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is the purpose of the add() method in the Java List interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To remove an element from the list"
+        },
+        {
+          "id": "B",
+          "text": "To update an element in the list"
+        },
+        {
+          "id": "C",
+          "text": "To add an element to the list"
+        },
+        {
+          "id": "D",
+          "text": "To get the size of the list"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The add() method is used to add an element to the list, as mentioned at 02:13 in the video.",
+      "difficulty": "easy",
+      "topic": "Java List Interface Methods",
+      "reference": "02:13"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is the purpose of the set() method in the Java List interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To remove an element from the list"
+        },
+        {
+          "id": "B",
+          "text": "To add an element to the list"
+        },
+        {
+          "id": "C",
+          "text": "To update an element in the list"
+        },
+        {
+          "id": "D",
+          "text": "To get the size of the list"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The set() method is used to update an element in the list, as mentioned at 02:36 in the video.",
+      "difficulty": "easy",
+      "topic": "Java List Interface Methods",
+      "reference": "02:36"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is the result of the following operations: add Apple, add Banana, add Cherry, set Blueberry at position 1, remove Cherry?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Apple, Banana, Blueberry"
+        },
+        {
+          "id": "B",
+          "text": "Apple, Blueberry, Cherry"
+        },
+        {
+          "id": "C",
+          "text": "Apple, Blueberry"
+        },
+        {
+          "id": "D",
+          "text": "Banana, Cherry"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The correct result is Apple, Blueberry, as explained in the video at 04:19.",
+      "difficulty": "medium",
+      "topic": "Java List Interface Operations",
+      "reference": "04:19"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What is the purpose of the size() method in the Java List interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To add an element to the list"
+        },
+        {
+          "id": "B",
+          "text": "To remove an element from the list"
+        },
+        {
+          "id": "C",
+          "text": "To update an element in the list"
+        },
+        {
+          "id": "D",
+          "text": "To get the number of elements in the list"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "The size() method is used to get the number of elements in the list, as mentioned at 02:45 in the video.",
+      "difficulty": "easy",
+      "topic": "Java List Interface Methods",
+      "reference": "02:45"
+    }
+  ]
+}

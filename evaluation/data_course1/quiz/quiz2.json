@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Java List Interface and Implementations Quiz",
+    "description": "This quiz covers the main concepts of the Java List interface, ArrayList, and LinkedList, including their key features, common methods, and use cases.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "multimodal",
+    "generation_method": "transcript and slides"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the List interface in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A class that implements a dynamic array"
+        },
+        {
+          "id": "B",
+          "text": "An interface in Java's Collection Framework that defines an ordered collection of elements"
+        },
+        {
+          "id": "C",
+          "text": "A data structure that only allows unique elements"
+        },
+        {
+          "id": "D",
+          "text": "A type of map that stores key-value pairs"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The List interface is an interface in Java's Collection Framework that defines an ordered collection of elements, allowing duplicates and maintaining insertion order. (Reference: 00:23)",
+      "difficulty": "easy",
+      "topic": "List Interface",
+      "reference": "00:23"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What are the two common implementations of the List interface in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ArrayList and HashMap"
+        },
+        {
+          "id": "B",
+          "text": "ArrayList and LinkedList"
+        },
+        {
+          "id": "C",
+          "text": "LinkedList and TreeSet"
+        },
+        {
+          "id": "D",
+          "text": "ArrayList and HashSet"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The two common implementations of the List interface in Java are ArrayList and LinkedList. (Reference: 00:57)",
+      "difficulty": "easy",
+      "topic": "List Implementations",
+      "reference": "00:57"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What are the three key features of the List interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Order is maintained, duplicates are allowed, and index-based access is not supported"
+        },
+        {
+          "id": "B",
+          "text": "Order is not maintained, duplicates are not allowed, and index-based access is supported"
+        },
+        {
+          "id": "C",
+          "text": "Order is maintained, duplicates are allowed, and index-based access is supported"
+        },
+        {
+          "id": "D",
+          "text": "Order is not maintained, duplicates are allowed, and index-based access is not supported"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The three key features of the List interface are: order is maintained, duplicates are allowed, and index-based access is supported. (Reference: 01:10)",
+      "difficulty": "medium",
+      "topic": "List Interface",
+      "reference": "01:10"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the purpose of the add method in the List interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To remove an element from the list"
+        },
+        {
+          "id": "B",
+          "text": "To retrieve an element from the list"
+        },
+        {
+          "id": "C",
+          "text": "To add an element to the list"
+        },
+        {
+          "id": "D",
+          "text": "To get the size of the list"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The add method is used to add an element to the list. (Reference: 01:46)",
+      "difficulty": "easy",
+      "topic": "List Methods",
+      "reference": "01:46"
+    },
+    {
+      "question_number": 5,
+      "question_text": "How does ArrayList handle insertions and deletions at the beginning or middle of the list?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is very efficient and fast"
+        },
+        {
+          "id": "B",
+          "text": "It is slow and costly due to shifting elements"
+        },
+        {
+          "id": "C",
+          "text": "It is not supported"
+        },
+        {
+          "id": "D",
+          "text": "It is only efficient for insertions, not deletions"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "ArrayList is slow and costly for insertions and deletions at the beginning or middle of the list due to shifting elements. (Reference: 04:07)",
+      "difficulty": "medium",
+      "topic": "ArrayList",
+      "reference": "04:07"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main advantage of using LinkedList over ArrayList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Faster random access"
+        },
+        {
+          "id": "B",
+          "text": "More efficient insertions and deletions at any position"
+        },
+        {
+          "id": "C",
+          "text": "Less memory usage"
+        },
+        {
+          "id": "D",
+          "text": "Better support for concurrent access"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "LinkedList is more efficient for insertions and deletions at any position due to its doubly linked node structure. (Reference: 06:24)",
+      "difficulty": "medium",
+      "topic": "LinkedList",
+      "reference": "06:24"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is the time complexity of accessing an element in a LinkedList by its index?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(1)"
+        },
+        {
+          "id": "B",
+          "text": "O(log n)"
+        },
+        {
+          "id": "C",
+          "text": "O(n)"
+        },
+        {
+          "id": "D",
+          "text": "O(n log n)"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Accessing an element in a LinkedList by its index has a time complexity of O(n) due to the need to traverse the list from the beginning. (Reference: 08:04)",
+      "difficulty": "medium",
+      "topic": "LinkedList",
+      "reference": "08:04"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is the main disadvantage of using LinkedList over ArrayList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Slower insertions and deletions"
+        },
+        {
+          "id": "B",
+          "text": "Slower random access"
+        },
+        {
+          "id": "C",
+          "text": "More memory usage"
+        },
+        {
+          "id": "D",
+          "text": "Less support for concurrent access"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "LinkedList has slower random access compared to ArrayList due to the need to traverse the list from the beginning. (Reference: 08:20)",
+      "difficulty": "medium",
+      "topic": "LinkedList",
+      "reference": "08:20"
+    },
+    {
+      "question_number": 9,
+      "question_text": "How does ArrayList handle resizing when it reaches its capacity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It throws an exception"
+        },
+        {
+          "id": "B",
+          "text": "It does not resize and becomes fixed-size"
+        },
+        {
+          "id": "C",
+          "text": "It resizes by creating a new array with increased capacity"
+        },
+        {
+          "id": "D",
+          "text": "It uses a different data structure"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "ArrayList resizes by creating a new array with increased capacity when it reaches its capacity. (Reference: 04:45)",
+      "difficulty": "medium",
+      "topic": "ArrayList",
+      "reference": "04:45"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What is the typical use case for ArrayList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Frequent insertions and deletions at any position"
+        },
+        {
+          "id": "B",
+          "text": "Fast random access and occasional insertions/deletions at the end"
+        },
+        {
+          "id": "C",
+          "text": "Concurrent access and modifications"
+        },
+        {
+          "id": "D",
+          "text": "Storing unique elements only"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "ArrayList is typically used for scenarios where fast random access is needed and insertions/deletions are occasional and mostly at the end. (Reference: 05:33)",
+      "difficulty": "medium",
+      "topic": "ArrayList",
+      "reference": "05:33"
+    }
+  ]
+}

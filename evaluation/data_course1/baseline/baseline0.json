@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Unit Testing Fundamentals",
+    "description": "Quiz covering the basics of unit testing, its importance, and introduction to JUnit",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "baseline",
+    "generation_method": "transcript-only"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the primary purpose of writing unit tests for your code?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To prove that your code works as expected"
+        },
+        {
+          "id": "B",
+          "text": "To write detailed comments for your methods"
+        },
+        {
+          "id": "C",
+          "text": "To share your code with others"
+        },
+        {
+          "id": "D",
+          "text": "To refactor your code"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Unit tests are written to ensure that every piece of code works as expected, providing immediate feedback and improving code quality.",
+      "difficulty": "easy",
+      "topic": "Unit Testing Purpose",
+      "reference": "00:39-00:41"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is a unit test, according to the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A comprehensive test of an entire application"
+        },
+        {
+          "id": "B",
+          "text": "A small test that checks the correctness of a specific section of code"
+        },
+        {
+          "id": "C",
+          "text": "A method for refactoring code"
+        },
+        {
+          "id": "D",
+          "text": "A way to share code with others"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "A unit test is defined as a small test that checks the correctness of a specific section of code, typically a method.",
+      "difficulty": "easy",
+      "topic": "Unit Test Definition",
+      "reference": "00:55-01:01"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Why is unit testing important, according to the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It allows you to write code faster"
+        },
+        {
+          "id": "B",
+          "text": "It helps you catch bugs early and improves code quality"
+        },
+        {
+          "id": "C",
+          "text": "It is required for sharing code with others"
+        },
+        {
+          "id": "D",
+          "text": "It is only necessary for large applications"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Unit testing is important because it allows you to catch bugs early, providing immediate feedback and improving the quality of your code.",
+      "difficulty": "medium",
+      "topic": "Unit Testing Importance",
+      "reference": "01:51-01:57"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is an example of a unit test, as mentioned in the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Testing an entire class"
+        },
+        {
+          "id": "B",
+          "text": "Testing a method to get the year of birth"
+        },
+        {
+          "id": "C",
+          "text": "Testing a database connection"
+        },
+        {
+          "id": "D",
+          "text": "Testing a user interface"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The video mentions testing a method to get the year of birth as an example of a unit test.",
+      "difficulty": "easy",
+      "topic": "Unit Test Example",
+      "reference": "01:05-01:12"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the term for updating your code to make it better, as mentioned in the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Refactoring"
+        },
+        {
+          "id": "B",
+          "text": "Unit testing"
+        },
+        {
+          "id": "C",
+          "text": "Debugging"
+        },
+        {
+          "id": "D",
+          "text": "Optimizing"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Refactoring refers to the process of updating your code to make it better, while ensuring that its behavior remains the same.",
+      "difficulty": "medium",
+      "topic": "Refactoring",
+      "reference": "02:46-02:51"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the name of the framework for unit testing in Java, as mentioned in the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "JUnit"
+        },
+        {
+          "id": "B",
+          "text": "TestNG"
+        },
+        {
+          "id": "C",
+          "text": "JUnit Test"
+        },
+        {
+          "id": "D",
+          "text": "Java Unit Test"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "JUnit is the framework for unit testing in Java, used to write and execute small unit tests.",
+      "difficulty": "easy",
+      "topic": "JUnit Framework",
+      "reference": "03:28-03:32"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is the benefit of having unit tests when refactoring code, as mentioned in the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "You can skip testing altogether"
+        },
+        {
+          "id": "B",
+          "text": "You can ensure that the behavior of your methods remains the same"
+        },
+        {
+          "id": "C",
+          "text": "You can only refactor small sections of code"
+        },
+        {
+          "id": "D",
+          "text": "You can only refactor code that has no unit tests"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Having unit tests when refactoring code ensures that the behavior of your methods remains the same, even if the logic is changed.",
+      "difficulty": "medium",
+      "topic": "Refactoring with Unit Tests",
+      "reference": "02:54-03:00"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What happens when you run unit tests and one of them fails, as mentioned in the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "You can ignore the failure and move on"
+        },
+        {
+          "id": "B",
+          "text": "You realize that the logic in your code is wrong and you can fix it"
+        },
+        {
+          "id": "C",
+          "text": "You have to start over from scratch"
+        },
+        {
+          "id": "D",
+          "text": "You can only fix the test, not the code"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "When a unit test fails, it indicates that the logic in your code is wrong, and you can go back, identify the issue, and fix it.",
+      "difficulty": "medium",
+      "topic": "Unit Test Failure",
+      "reference": "02:03-02:08"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is the outcome of writing comprehensive unit tests for your entire class, as mentioned in the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "You can be sure that your code has no bugs"
+        },
+        {
+          "id": "B",
+          "text": "You can be sure that every piece of code works as expected"
+        },
+        {
+          "id": "C",
+          "text": "You can skip testing your code altogether"
+        },
+        {
+          "id": "D",
+          "text": "You can only test small sections of code"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Writing comprehensive unit tests for your entire class ensures that every piece of code works as expected.",
+      "difficulty": "medium",
+      "topic": "Comprehensive Unit Tests",
+      "reference": "01:36-01:38"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What is the next step, as mentioned in the video, after understanding the importance of unit testing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Start writing code without testing"
+        },
+        {
+          "id": "B",
+          "text": "Learn how to write unit tests using JUnit"
+        },
+        {
+          "id": "C",
+          "text": "Refactor your existing code"
+        },
+        {
+          "id": "D",
+          "text": "Share your code with others"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The next step is to learn how to write unit tests using JUnit, which is covered in the next video.",
+      "difficulty": "easy",
+      "topic": "Next Steps",
+      "reference": "03:46-03:51"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Understanding Unit Testing",
+    "description": "This quiz covers the main concepts of unit testing, its importance, and introduction to JUnit",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "multimodal",
+    "generation_method": "transcript and slides"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the primary purpose of a unit test?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To check the entire application's functionality"
+        },
+        {
+          "id": "B",
+          "text": "To check the correctness of an individual unit of code"
+        },
+        {
+          "id": "C",
+          "text": "To improve code quality by making it more complex"
+        },
+        {
+          "id": "D",
+          "text": "To facilitate refactoring without testing"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "A unit test is designed to verify that a specific piece of code, usually a method, behaves as expected. This is explained at [00:55] in the video.",
+      "difficulty": "easy",
+      "topic": "Unit Testing Basics",
+      "reference": "[00:55]"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What does unit testing ensure according to the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "That every piece of code is written in a specific programming language"
+        },
+        {
+          "id": "B",
+          "text": "That every piece of code works as expected"
+        },
+        {
+          "id": "C",
+          "text": "That the code is only reviewed but not tested"
+        },
+        {
+          "id": "D",
+          "text": "That the code is shared without any testing"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Unit testing ensures that every piece of code that you have written works as expected, as mentioned at [01:39] in the video.",
+      "difficulty": "easy",
+      "topic": "Unit Testing Importance",
+      "reference": "[01:39]"
+    },
+    {
+      "question_number": 3,
+      "question_text": "Why is unit testing important, according to the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It allows for faster coding without checks"
+        },
+        {
+          "id": "B",
+          "text": "It catches bugs early and improves code quality"
+        },
+        {
+          "id": "C",
+          "text": "It makes the code more complex"
+        },
+        {
+          "id": "D",
+          "text": "It is not necessary for small projects"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The video explains at [01:51] that unit testing is important for catching bugs early and improving code quality.",
+      "difficulty": "medium",
+      "topic": "Unit Testing Importance",
+      "reference": "[01:51]"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is an example given in the video for something that might be tested with a unit test?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An entire application's functionality"
+        },
+        {
+          "id": "B",
+          "text": "A method to get the year of birth from a person class"
+        },
+        {
+          "id": "C",
+          "text": "The performance of a database query"
+        },
+        {
+          "id": "D",
+          "text": "The security of a network connection"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The video uses the example of a method to get the year of birth from a person class at [01:05] to illustrate what might be tested with a unit test.",
+      "difficulty": "easy",
+      "topic": "Unit Testing Examples",
+      "reference": "[01:05]"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is JUnit, according to the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A framework for integrating different applications"
+        },
+        {
+          "id": "B",
+          "text": "A popular unit testing framework for Java"
+        },
+        {
+          "id": "C",
+          "text": "A tool for debugging code"
+        },
+        {
+          "id": "D",
+          "text": "A methodology for agile development"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The video explains at [03:32] that JUnit is a popular unit testing framework for Java.",
+      "difficulty": "easy",
+      "topic": "JUnit Introduction",
+      "reference": "[03:32]"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is one of the benefits of having unit tests when refactoring code?",
+      "options": [
+        {
+          "id": "A",
+          "text": "You can ignore the tests and make significant changes without checking"
+        },
+        {
+          "id": "B",
+          "text": "You can run the tests to ensure the refactored code still works as expected"
+        },
+        {
+          "id": "C",
+          "text": "You have to rewrite all the tests after refactoring"
+        },
+        {
+          "id": "D",
+          "text": "Refactoring is not necessary if you have unit tests"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The video mentions at [02:42] that unit tests facilitate refactoring by allowing you to check if the changes made still produce the expected results.",
+      "difficulty": "medium",
+      "topic": "Unit Testing Benefits",
+      "reference": "[02:42]"
+    },
+    {
+      "question_number": 7,
+      "question_text": "How does unit testing help in improving code quality?",
+      "options": [
+        {
+          "id": "A",
+          "text": "By allowing bugs to go undetected"
+        },
+        {
+          "id": "B",
+          "text": "By facilitating the introduction of more complex code"
+        },
+        {
+          "id": "C",
+          "text": "By providing immediate feedback on code changes"
+        },
+        {
+          "id": "D",
+          "text": "By making code reviews unnecessary"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Unit testing improves code quality by providing immediate feedback on code changes, helping to catch and fix bugs early, as discussed at [02:33] in the video.",
+      "difficulty": "medium",
+      "topic": "Unit Testing Importance",
+      "reference": "[02:33]"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is the outcome of running unit tests after refactoring code?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The tests will always fail"
+        },
+        {
+          "id": "B",
+          "text": "The tests will always pass without needing any changes"
+        },
+        {
+          "id": "C",
+          "text": "If the tests pass, it means the refactoring was successful"
+        },
+        {
+          "id": "D",
+          "text": "Refactoring does not affect the outcome of unit tests"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The video explains at [03:05] that if the unit tests pass after refactoring, it indicates that the refactoring was successful.",
+      "difficulty": "medium",
+      "topic": "Unit Testing and Refactoring",
+      "reference": "[03:05]"
+    },
+    {
+      "question_number": 9,
+      "question_text": "Why is it important to catch bugs early, according to the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "So that you can ignore them and continue coding"
+        },
+        {
+          "id": "B",
+          "text": "So that you can fix them before sharing the code with others"
+        },
+        {
+          "id": "C",
+          "text": "Because it makes the code more complex"
+        },
+        {
+          "id": "D",
+          "text": "Because it is not possible to catch all bugs"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The video emphasizes at [02:26] the importance of catching bugs early so that they can be fixed before the code is shared with others, preventing later issues.",
+      "difficulty": "easy",
+      "topic": "Unit Testing Importance",
+      "reference": "[02:26]"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What is the next step mentioned in the video after introducing unit testing concepts?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To start coding without tests"
+        },
+        {
+          "id": "B",
+          "text": "To learn about integration testing"
+        },
+        {
+          "id": "C",
+          "text": "To walk through writing the first unit test using JUnit"
+        },
+        {
+          "id": "D",
+          "text": "To skip testing and deploy the application"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The video concludes by mentioning that the next step will be to walk through writing the first unit test using JUnit, as stated at [03:46].",
+      "difficulty": "easy",
+      "topic": "Next Steps",
+      "reference": "[03:46]"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Array List vs Linked List: Choosing the Right Data Structure",
+    "description": "This quiz covers the main concepts and topics from the video on Array List and Linked List, including their features, advantages, and use cases",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "multimodal",
+    "generation_method": "transcript and slides"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What are the two basic data structures discussed in the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Array List and Linked List"
+        },
+        {
+          "id": "B",
+          "text": "Stack and Queue"
+        },
+        {
+          "id": "C",
+          "text": "Tree and Graph"
+        },
+        {
+          "id": "D",
+          "text": "Hash Table and Dictionary"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The video discusses Array List and Linked List as the two basic data structures, as mentioned at timestamp 00:10.",
+      "difficulty": "easy",
+      "topic": "Introduction to Data Structures",
+      "reference": "00:10"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is the key factor in deciding whether to use an Array List or a Linked List?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Memory usage"
+        },
+        {
+          "id": "B",
+          "text": "How they are implemented and the application's requirements"
+        },
+        {
+          "id": "C",
+          "text": "The size of the data"
+        },
+        {
+          "id": "D",
+          "text": "The type of data"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The video states that the key to choosing between Array List and Linked List is to think about how they work and what the application requires, as mentioned at timestamp 00:20.",
+      "difficulty": "medium",
+      "topic": "Choosing the Right Data Structure",
+      "reference": "00:20"
+    },
+    {
+      "question_number": 3,
+      "question_text": "How does access time compare between Array List and Linked List?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Array List is slower than Linked List"
+        },
+        {
+          "id": "B",
+          "text": "Linked List is slower than Array List"
+        },
+        {
+          "id": "C",
+          "text": "They have the same access time"
+        },
+        {
+          "id": "D",
+          "text": "It depends on the size of the list"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The video explains that Linked List is slower than Array List when it comes to access time, especially for large lists, as mentioned at timestamp 00:53.",
+      "difficulty": "medium",
+      "topic": "Access Time Comparison",
+      "reference": "00:53"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What happens when you insert an element at the end of a Linked List?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It becomes very slow"
+        },
+        {
+          "id": "B",
+          "text": "It requires shifting all elements"
+        },
+        {
+          "id": "C",
+          "text": "It simply adds a new pointer and element"
+        },
+        {
+          "id": "D",
+          "text": "It deletes the last element"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The video states that inserting an element at the end of a Linked List is straightforward and simply requires adding a new pointer and element, as mentioned at timestamp 01:38.",
+      "difficulty": "easy",
+      "topic": "Linked List Insertion",
+      "reference": "01:38"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Why is inserting an element at the start or middle of an Array List slow?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Because it requires shifting all elements"
+        },
+        {
+          "id": "B",
+          "text": "Because it requires adding a new pointer"
+        },
+        {
+          "id": "C",
+          "text": "Because it requires deleting an element"
+        },
+        {
+          "id": "D",
+          "text": "Because it requires sorting the list"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The video explains that inserting an element at the start or middle of an Array List is slow because it requires shifting all elements, as mentioned at timestamp 01:56.",
+      "difficulty": "medium",
+      "topic": "Array List Insertion",
+      "reference": "01:56"
+    },
+    {
+      "question_number": 6,
+      "question_text": "How does memory usage compare between Array List and Linked List?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Array List has more overhead than Linked List"
+        },
+        {
+          "id": "B",
+          "text": "Linked List has more overhead than Array List"
+        },
+        {
+          "id": "C",
+          "text": "They have the same memory usage"
+        },
+        {
+          "id": "D",
+          "text": "It depends on the size of the list"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The video states that Linked List has more overhead than Array List due to the extra pointers, as mentioned at timestamp 02:29.",
+      "difficulty": "medium",
+      "topic": "Memory Usage Comparison",
+      "reference": "02:29"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is List in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A class that implements Array List and Linked List"
+        },
+        {
+          "id": "B",
+          "text": "An interface with Array List and Linked List as implementations"
+        },
+        {
+          "id": "C",
+          "text": "A data structure that combines Array List and Linked List"
+        },
+        {
+          "id": "D",
+          "text": "A type of data that can be stored in an Array List or Linked List"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The video mentions that List is an interface with Array List and Linked List as main implementations, as mentioned at timestamp 02:39.",
+      "difficulty": "easy",
+      "topic": "Java List Interface",
+      "reference": "02:39"
+    },
+    {
+      "question_number": 8,
+      "question_text": "When is Array List the best choice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "When frequent insertions or deletions are required"
+        },
+        {
+          "id": "B",
+          "text": "When fast access is necessary and insertions or deletions are minimal"
+        },
+        {
+          "id": "C",
+          "text": "When memory usage is a concern"
+        },
+        {
+          "id": "D",
+          "text": "When the list is very small"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The video states that Array List is best for fast access and applications where insertions or deletions are minimal, as mentioned at timestamp 02:48.",
+      "difficulty": "medium",
+      "topic": "Choosing Array List",
+      "reference": "02:48"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What should you consider when deciding which data structure to use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the size of the data"
+        },
+        {
+          "id": "B",
+          "text": "Only the type of data"
+        },
+        {
+          "id": "C",
+          "text": "The specific requirements of the application"
+        },
+        {
+          "id": "D",
+          "text": "The programming language being used"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The video emphasizes the importance of considering the specific requirements of the application when choosing a data structure, as mentioned at timestamp 03:09.",
+      "difficulty": "medium",
+      "topic": "Choosing the Right Data Structure",
+      "reference": "03:09"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What is the main takeaway from the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Array List is always better than Linked List"
+        },
+        {
+          "id": "B",
+          "text": "Linked List is always better than Array List"
+        },
+        {
+          "id": "C",
+          "text": "The choice between Array List and Linked List depends on the specific use case"
+        },
+        {
+          "id": "D",
+          "text": "Both Array List and Linked List are obsolete data structures"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The video concludes by emphasizing the importance of choosing the right data structure based on the specific requirements of the application, as mentioned at timestamp 03:19.",
+      "difficulty": "easy",
+      "topic": "Main Takeaway",
+      "reference": "03:19"
+    }
+  ]
+}

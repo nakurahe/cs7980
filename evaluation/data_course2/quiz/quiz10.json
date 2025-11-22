@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Orthogonality, Projections, and Least Squares Quiz",
+    "description": "This quiz covers the main concepts of orthogonality, projections, and least squares from the video content.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 30,
+    "generation_mode": "multimodal",
+    "generation_method": "transcript and slides"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What does it mean for two vectors to be orthogonal?",
+      "options": [
+        {
+          "id": "A",
+          "text": "They have the same direction"
+        },
+        {
+          "id": "B",
+          "text": "They have the same magnitude"
+        },
+        {
+          "id": "C",
+          "text": "They meet at a right angle (90°)"
+        },
+        {
+          "id": "D",
+          "text": "They are parallel to each other"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Two vectors are orthogonal if they meet at a right angle (90°), meaning their dot product is zero.",
+      "difficulty": "easy",
+      "topic": "Orthogonality",
+      "reference": "00:30"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is the difference between orthogonal and orthonormal vectors?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Orthogonal vectors have the same magnitude, while orthonormal vectors do not"
+        },
+        {
+          "id": "B",
+          "text": "Orthogonal vectors meet at a right angle, while orthonormal vectors are parallel"
+        },
+        {
+          "id": "C",
+          "text": "Orthogonal vectors meet at a right angle, while orthonormal vectors have a magnitude of 1"
+        },
+        {
+          "id": "D",
+          "text": "Orthogonal vectors have a magnitude of 1, while orthonormal vectors meet at a right angle"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Orthogonal vectors meet at a right angle, while orthonormal vectors meet at a right angle and have a magnitude of 1.",
+      "difficulty": "medium",
+      "topic": "Orthogonality",
+      "reference": "01:07"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is an orthogonal matrix?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A matrix with orthogonal rows"
+        },
+        {
+          "id": "B",
+          "text": "A matrix with orthogonal columns"
+        },
+        {
+          "id": "C",
+          "text": "A matrix with orthonormal rows"
+        },
+        {
+          "id": "D",
+          "text": "A matrix with orthonormal columns"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "An orthogonal matrix is a matrix with orthogonal columns, meaning each column is a vector that meets at a right angle with every other column.",
+      "difficulty": "medium",
+      "topic": "Orthogonal Matrices",
+      "reference": "02:42"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the property of an orthogonal matrix Q such that Q^T Q = I?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The transpose of Q is the inverse of Q"
+        },
+        {
+          "id": "B",
+          "text": "The inverse of Q is the transpose of Q"
+        },
+        {
+          "id": "C",
+          "text": "The determinant of Q is 1"
+        },
+        {
+          "id": "D",
+          "text": "The norm of Q is 1"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The property of an orthogonal matrix Q is that Q^T Q = I, which means the transpose of Q is the inverse of Q.",
+      "difficulty": "medium",
+      "topic": "Orthogonal Matrices",
+      "reference": "03:31"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the QR decomposition of a matrix A?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A = Q + R"
+        },
+        {
+          "id": "B",
+          "text": "A = Q - R"
+        },
+        {
+          "id": "C",
+          "text": "A = QR"
+        },
+        {
+          "id": "D",
+          "text": "A = Q^T R"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The QR decomposition of a matrix A is A = QR, where Q is an orthogonal matrix and R is an upper triangular matrix.",
+      "difficulty": "medium",
+      "topic": "QR Decomposition",
+      "reference": "06:38"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the condition for a matrix A to have a QR decomposition?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The columns of A must be linearly dependent"
+        },
+        {
+          "id": "B",
+          "text": "The columns of A must be linearly independent"
+        },
+        {
+          "id": "C",
+          "text": "The rows of A must be linearly dependent"
+        },
+        {
+          "id": "D",
+          "text": "The rows of A must be linearly independent"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The condition for a matrix A to have a QR decomposition is that the columns of A must be linearly independent.",
+      "difficulty": "medium",
+      "topic": "QR Decomposition",
+      "reference": "06:48"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is the Graham-Schmidt process?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A method for finding the inverse of a matrix"
+        },
+        {
+          "id": "B",
+          "text": "A method for finding the determinant of a matrix"
+        },
+        {
+          "id": "C",
+          "text": "A method for creating an orthonormal basis from a set of vectors"
+        },
+        {
+          "id": "D",
+          "text": "A method for solving a system of linear equations"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The Graham-Schmidt process is a method for creating an orthonormal basis from a set of vectors.",
+      "difficulty": "medium",
+      "topic": "Graham-Schmidt Process",
+      "reference": "11:12"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is the purpose of the book 'Practical Linear Algebra for Data Science'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To provide a theoretical understanding of linear algebra"
+        },
+        {
+          "id": "B",
+          "text": "To provide a practical understanding of linear algebra for data science"
+        },
+        {
+          "id": "C",
+          "text": "To provide a comprehensive understanding of linear algebra for machine learning"
+        },
+        {
+          "id": "D",
+          "text": "To provide a detailed understanding of linear algebra for AI"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The purpose of the book 'Practical Linear Algebra for Data Science' is to provide a practical understanding of linear algebra for data science.",
+      "difficulty": "easy",
+      "topic": "Book Recommendation",
+      "reference": "13:54"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is the condition number of a matrix?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A measure of the sensitivity of a matrix to small changes"
+        },
+        {
+          "id": "B",
+          "text": "A measure of the stability of a matrix"
+        },
+        {
+          "id": "C",
+          "text": "A measure of the determinant of a matrix"
+        },
+        {
+          "id": "D",
+          "text": "A measure of the inverse of a matrix"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The condition number of a matrix is a measure of the sensitivity of a matrix to small changes.",
+      "difficulty": "medium",
+      "topic": "Condition Number",
+      "reference": "10:30"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What is the ideal condition number for a matrix?",
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "10"
+        },
+        {
+          "id": "D",
+          "text": "100"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The ideal condition number for a matrix is 1, which means the matrix is stable and not sensitive to small changes.",
+      "difficulty": "easy",
+      "topic": "Condition Number",
+      "reference": "10:46"
+    }
+  ]
+}

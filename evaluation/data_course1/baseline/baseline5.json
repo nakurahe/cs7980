@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Linked List Advantages and Disadvantages",
+    "description": "This quiz covers the main concepts and topics related to linked lists, including their advantages, disadvantages, and use cases.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "baseline",
+    "generation_method": "transcript-only"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "How is the linked list implemented in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "As a singly linked list"
+        },
+        {
+          "id": "B",
+          "text": "As a doubly linked list"
+        },
+        {
+          "id": "C",
+          "text": "As a circularly linked list"
+        },
+        {
+          "id": "D",
+          "text": "As a dynamic array"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "According to the video, Java's implementation of the linked list is as a doubly linked list, where each node contains references to both the next and previous nodes (00:12).",
+      "difficulty": "easy",
+      "topic": "Linked List Implementation",
+      "reference": "00:12"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is a key advantage of using a linked list?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Random access"
+        },
+        {
+          "id": "B",
+          "text": "Efficient memory usage"
+        },
+        {
+          "id": "C",
+          "text": "Fast insertion and deletion at the beginning or end"
+        },
+        {
+          "id": "D",
+          "text": "Slow iteration"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The video states that one of the key advantages of linked lists is fast insertion and deletion at the beginning or end (00:50, 00:54).",
+      "difficulty": "easy",
+      "topic": "Linked List Advantages",
+      "reference": "00:50, 00:54"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is a disadvantage of using a linked list?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Efficient memory usage"
+        },
+        {
+          "id": "B",
+          "text": "Fast random access"
+        },
+        {
+          "id": "C",
+          "text": "Slow insertion and deletion"
+        },
+        {
+          "id": "D",
+          "text": "Higher memory overhead per element"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "The video mentions that linked lists have higher memory overhead per element due to the storage of node references (01:47).",
+      "difficulty": "easy",
+      "topic": "Linked List Disadvantages",
+      "reference": "01:47"
+    },
+    {
+      "question_number": 4,
+      "question_text": "When should you use a linked list?",
+      "options": [
+        {
+          "id": "A",
+          "text": "When you need frequent random access"
+        },
+        {
+          "id": "B",
+          "text": "When you need to frequently insert and delete elements at the beginning or end"
+        },
+        {
+          "id": "C",
+          "text": "When you know the size of your list"
+        },
+        {
+          "id": "D",
+          "text": "When you need to perform binary search"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "According to the video, linked lists are suitable when you need to frequently insert and delete elements at the beginning or end, such as in queue or stack operations (02:17).",
+      "difficulty": "medium",
+      "topic": "Linked List Use Cases",
+      "reference": "02:17"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is an example of a scenario where a linked list is suitable?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Implementing a database index"
+        },
+        {
+          "id": "B",
+          "text": "Implementing undo and redo functionality"
+        },
+        {
+          "id": "C",
+          "text": "Performing binary search"
+        },
+        {
+          "id": "D",
+          "text": "Storing a large amount of data in a fixed-size array"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The video mentions that linked lists are suitable for implementing undo and redo functionality, such as in a word processor (02:41).",
+      "difficulty": "medium",
+      "topic": "Linked List Use Cases",
+      "reference": "02:41"
+    },
+    {
+      "question_number": 6,
+      "question_text": "Why is random access in a linked list inefficient?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Because it requires a lot of memory"
+        },
+        {
+          "id": "B",
+          "text": "Because it requires traversing the list from the beginning"
+        },
+        {
+          "id": "C",
+          "text": "Because it requires a lot of computation"
+        },
+        {
+          "id": "D",
+          "text": "Because it requires a lot of disk I/O"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The video states that random access in a linked list is inefficient because it requires traversing the list from the beginning to find the desired element (01:33, 01:38).",
+      "difficulty": "medium",
+      "topic": "Linked List Disadvantages",
+      "reference": "01:33, 01:38"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is a characteristic of a linked list's memory allocation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is static and fixed in size"
+        },
+        {
+          "id": "B",
+          "text": "It is dynamic and can grow or shrink"
+        },
+        {
+          "id": "C",
+          "text": "It is contiguous and allocated in a single block"
+        },
+        {
+          "id": "D",
+          "text": "It is fragmented and allocated in multiple blocks"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The video mentions that linked lists have dynamic memory allocation, meaning they can grow or shrink as elements are added or removed (00:33, 00:41).",
+      "difficulty": "easy",
+      "topic": "Linked List Implementation",
+      "reference": "00:33, 00:41"
+    },
+    {
+      "question_number": 8,
+      "question_text": "When should you avoid using a linked list?",
+      "options": [
+        {
+          "id": "A",
+          "text": "When you need to frequently insert and delete elements at the beginning or end"
+        },
+        {
+          "id": "B",
+          "text": "When you need to perform binary search"
+        },
+        {
+          "id": "C",
+          "text": "When you know the size of your list and it is fixed"
+        },
+        {
+          "id": "D",
+          "text": "When you need to implement undo and redo functionality"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The video suggests that when you know the size of your list and it is fixed, an array list might be a better option (03:03).",
+      "difficulty": "medium",
+      "topic": "Linked List Use Cases",
+      "reference": "03:03"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is a consequence of the dynamic memory allocation in a linked list?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Memory waste due to fixed allocation"
+        },
+        {
+          "id": "B",
+          "text": "Inefficient memory usage due to fragmentation"
+        },
+        {
+          "id": "C",
+          "text": "No memory waste due to dynamic allocation"
+        },
+        {
+          "id": "D",
+          "text": "Slow performance due to memory allocation"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The video mentions that linked lists do not waste memory because of their dynamic memory allocation (00:45, 00:50).",
+      "difficulty": "easy",
+      "topic": "Linked List Advantages",
+      "reference": "00:45, 00:50"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What type of search is not efficient in a linked list?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Linear search"
+        },
+        {
+          "id": "B",
+          "text": "Binary search"
+        },
+        {
+          "id": "C",
+          "text": "Depth-first search"
+        },
+        {
+          "id": "D",
+          "text": "Breadth-first search"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The video states that binary search is not efficient in a linked list, even if the list is sorted (02:01, 02:03).",
+      "difficulty": "medium",
+      "topic": "Linked List Disadvantages",
+      "reference": "02:01, 02:03"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{"id": "quiz10_q1", "text": "What is the key difference between orthogonal and orthonormal vectors?"}
+{"id": "quiz10_q2", "text": "If a matrix Q has orthonormal columns, what is the relationship between Q and its transpose Q^T?"}
+{"id": "quiz10_q3", "text": "What is the condition number of an orthogonal matrix Q?"}
+{"id": "quiz10_q4", "text": "Why is solving Ax = b using QR decomposition preferred over using the normal equations A^T A x = A^T b for numerical stability?"}
+{"id": "quiz10_q5", "text": "In the QR decomposition A = QR (with A being m×n and m ≥ n), what are the properties of Q and R?"}
+{"id": "quiz10_q6", "text": "What is the main advantage of Modified Gram-Schmidt over Classical Gram-Schmidt?"}
+{"id": "quiz10_q7", "text": "In Classical Gram-Schmidt, what does the line v = v - R[i, j] * Q[:, i] accomplish?"}
+{"id": "quiz10_q8", "text": "Why do orthogonal transformations preserve the length of vectors, i.e., ||Qx|| = ||x||?"}
+{"id": "quiz10_q9", "text": "In large-scale numerical applications, which QR method is typically preferred in production systems and why?"}
+{"id": "quiz10_q10", "text": "Which of the following is NOT a benefit of using orthogonal matrices in numerical computations?"}
+
+{"id": "quiz11_q1", "text": "What is the primary difference between NumPy and Pandas in terms of the data they are designed to handle?"}
+{"id": "quiz11_q2", "text": "What are the two core data structures in Pandas?"}
+{"id": "quiz11_q3", "text": "Which Pandas command is used to read data from a CSV file?"}
+{"id": "quiz11_q4", "text": "What is the typical order of steps in a standard Pandas data analysis workflow?"}
+{"id": "quiz11_q5", "text": "Which method would you use to display the first few rows of a DataFrame?"}
+{"id": "quiz11_q6", "text": "What does the expression df[df['Age'] > 22] do in Pandas?"}
+{"id": "quiz11_q7", "text": "What is the correct way to select multiple columns (for example, 'Name' and 'Age') from a DataFrame?"}
+{"id": "quiz11_q8", "text": "What is the purpose of the method df.dropna()?"}
+{"id": "quiz11_q9", "text": "What does the code df.groupby('Major')['GPA'].mean() accomplish?"}
+{"id": "quiz11_q10", "text": "Why is df.loc[df['Age'] > 22, 'GPA'] = 4.0 preferred over df[df['Age'] > 22]['GPA'] = 4.0 when assigning values in Pandas?"}
+
+{"id": "quiz12_q1", "text": "Why is unit testing especially important for machine learning projects?"}
+{"id": "quiz12_q2", "text": "In pytest, what naming convention must test functions follow?"}
+{"id": "quiz12_q3", "text": "Which command runs all pytest tests in the current directory?"}
+{"id": "quiz12_q4", "text": "What is a pytest fixture?"}
+{"id": "quiz12_q5", "text": "Which assertion function should you use to compare NumPy arrays while handling floating-point precision issues?"}
+{"id": "quiz12_q6", "text": "In the test test_normalize_vector_zero_raises_error, what behavior is being verified?"}
+{"id": "quiz12_q7", "text": "In the test test_polynomial_features_preserves_original, what is being checked about the DataFrame?"}
+{"id": "quiz12_q8", "text": "What is the purpose of @pytest.mark.parametrize in pytest?"}
+{"id": "quiz12_q9", "text": "Which of the following is NOT a best practice for unit testing?"}
+{"id": "quiz12_q10", "text": "Why are pure functions easier to test than impure functions?"}
+

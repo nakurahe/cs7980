@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Java Collections Framework Implementations",
+    "description": "This quiz covers the main concepts of Java Collections Framework implementations, including Set and Map interfaces, and their respective classes like HashSet, TreeSet, HashMap, and TreeMap.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "multimodal",
+    "generation_method": "transcript and slides"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the most used Set implementation in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TreeSet"
+        },
+        {
+          "id": "B",
+          "text": "HashSet"
+        },
+        {
+          "id": "C",
+          "text": "ArrayList"
+        },
+        {
+          "id": "D",
+          "text": "LinkedList"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The most used Set implementation is HashSet because it's really fast, as mentioned at 00:27 in the video.",
+      "difficulty": "easy",
+      "topic": "Set Implementations",
+      "reference": "00:27"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is the main reason for using HashSet over TreeSet?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Faster performance"
+        },
+        {
+          "id": "B",
+          "text": "Guaranteed order"
+        },
+        {
+          "id": "C",
+          "text": "More memory usage"
+        },
+        {
+          "id": "D",
+          "text": "Less code required"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "HashSet is used over TreeSet because of its faster performance, as mentioned at 00:32 in the video.",
+      "difficulty": "easy",
+      "topic": "Set Implementations",
+      "reference": "00:32"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the Big-O notation for add, remove, and contains operations in HashSet?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(log n)"
+        },
+        {
+          "id": "B",
+          "text": "O(n)"
+        },
+        {
+          "id": "C",
+          "text": "O(1)"
+        },
+        {
+          "id": "D",
+          "text": "O(n log n)"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The Big-O notation for add, remove, and contains operations in HashSet is O(1), as implied at 00:51 in the video, where it's stated that it's 'as fast as it gets'.",
+      "difficulty": "medium",
+      "topic": "Set Implementations",
+      "reference": "00:51"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the drawback of using HashSet?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Slow performance"
+        },
+        {
+          "id": "B",
+          "text": "High memory usage"
+        },
+        {
+          "id": "C",
+          "text": "No guaranteed order"
+        },
+        {
+          "id": "D",
+          "text": "Limited functionality"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The drawback of using HashSet is that there's no guaranteed order, as mentioned at 01:01 in the video.",
+      "difficulty": "easy",
+      "topic": "Set Implementations",
+      "reference": "01:01"
+    },
+    {
+      "question_number": 5,
+      "question_text": "When should you use TreeSet instead of HashSet?",
+      "options": [
+        {
+          "id": "A",
+          "text": "When performance is critical"
+        },
+        {
+          "id": "B",
+          "text": "When order is not important"
+        },
+        {
+          "id": "C",
+          "text": "When you need to sort elements"
+        },
+        {
+          "id": "D",
+          "text": "When you need to store large amounts of data"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "You should use TreeSet instead of HashSet when you need to sort elements, as mentioned at 01:09 in the video.",
+      "difficulty": "medium",
+      "topic": "Set Implementations",
+      "reference": "01:09"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the Big-O notation for add, remove, and contains operations in TreeSet?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(1)"
+        },
+        {
+          "id": "B",
+          "text": "O(log n)"
+        },
+        {
+          "id": "C",
+          "text": "O(n)"
+        },
+        {
+          "id": "D",
+          "text": "O(n log n)"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The Big-O notation for add, remove, and contains operations in TreeSet is O(log n), as mentioned at 01:25 in the video.",
+      "difficulty": "medium",
+      "topic": "Set Implementations",
+      "reference": "01:25"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is the most common implementation of the Map interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TreeMap"
+        },
+        {
+          "id": "B",
+          "text": "HashMap"
+        },
+        {
+          "id": "C",
+          "text": "HashSet"
+        },
+        {
+          "id": "D",
+          "text": "ArrayList"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The most common implementation of the Map interface is HashMap, as mentioned at 02:26 in the video.",
+      "difficulty": "easy",
+      "topic": "Map Implementations",
+      "reference": "02:26"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is the reason for HashMap being the most common implementation of the Map interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is the most memory-efficient"
+        },
+        {
+          "id": "B",
+          "text": "It is the fastest implementation"
+        },
+        {
+          "id": "C",
+          "text": "It is the most secure implementation"
+        },
+        {
+          "id": "D",
+          "text": "It is the easiest to use"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "HashMap is the most common implementation because it's the fastest, as implied at 02:29 in the video.",
+      "difficulty": "easy",
+      "topic": "Map Implementations",
+      "reference": "02:29"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is the Big-O notation for get and put operations in TreeMap?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(1)"
+        },
+        {
+          "id": "B",
+          "text": "O(log n)"
+        },
+        {
+          "id": "C",
+          "text": "O(n)"
+        },
+        {
+          "id": "D",
+          "text": "O(n log n)"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The Big-O notation for get and put operations in TreeMap is O(log n), as mentioned at 03:03 in the video.",
+      "difficulty": "medium",
+      "topic": "Map Implementations",
+      "reference": "03:03"
+    },
+    {
+      "question_number": 10,
+      "question_text": "How are the keys sorted in a TreeMap?",
+      "options": [
+        {
+          "id": "A",
+          "text": "In reverse order"
+        },
+        {
+          "id": "B",
+          "text": "Randomly"
+        },
+        {
+          "id": "C",
+          "text": "According to natural order or a custom comparator"
+        },
+        {
+          "id": "D",
+          "text": "Not sorted at all"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The keys in a TreeMap are sorted according to natural order or a custom comparator, as mentioned at 03:19 in the video.",
+      "difficulty": "medium",
+      "topic": "Map Implementations",
+      "reference": "03:19"
+    }
+  ]
+}

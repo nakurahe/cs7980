@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Java Collections: Sets and Maps",
+    "description": "This quiz covers the main concepts of sets and maps in Java, including HashSet, TreeSet, HashMap, and TreeMap.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 20,
+    "generation_mode": "baseline",
+    "generation_method": "transcript-only"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "Why do Java collections require wrapper classes for primitive types?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Because primitive types are not objects"
+        },
+        {
+          "id": "B",
+          "text": "Because wrapper classes are faster"
+        },
+        {
+          "id": "C",
+          "text": "Because wrapper classes are more secure"
+        },
+        {
+          "id": "D",
+          "text": "Because wrapper classes are more efficient"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Java collections can only store objects, and primitive types need to be wrapped in objects to be stored in collections (00:38-00:45).",
+      "difficulty": "easy",
+      "topic": "Java Collections",
+      "reference": "00:38-00:45"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is the main difference between HashSet and TreeSet?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HashSet is faster, but TreeSet is slower"
+        },
+        {
+          "id": "B",
+          "text": "TreeSet is faster, but HashSet is slower"
+        },
+        {
+          "id": "C",
+          "text": "HashSet stores elements in a specific order, but TreeSet does not"
+        },
+        {
+          "id": "D",
+          "text": "HashSet does not store elements in a specific order, but TreeSet does"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "HashSet is faster, but it does not store elements in a specific order. TreeSet is slower, but it stores elements in a specific order (04:42-04:54).",
+      "difficulty": "medium",
+      "topic": "Sets",
+      "reference": "04:42-04:54"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the purpose of the 'contains' method in a Set?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To add an element to the set"
+        },
+        {
+          "id": "B",
+          "text": "To remove an element from the set"
+        },
+        {
+          "id": "C",
+          "text": "To check if an element is in the set"
+        },
+        {
+          "id": "D",
+          "text": "To clear the set"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The 'contains' method is used to check if an element is in the set (02:43-02:49).",
+      "difficulty": "easy",
+      "topic": "Sets",
+      "reference": "02:43-02:49"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the difference between a Map's key and value?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A key is unique, but a value can be duplicated"
+        },
+        {
+          "id": "B",
+          "text": "A value is unique, but a key can be duplicated"
+        },
+        {
+          "id": "C",
+          "text": "A key and value are both unique"
+        },
+        {
+          "id": "D",
+          "text": "A key and value are both duplicated"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "In a Map, a key is unique, but a value can be duplicated (05:38-05:45).",
+      "difficulty": "medium",
+      "topic": "Maps",
+      "reference": "05:38-05:45"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the purpose of the 'put' method in a Map?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To add a new key-value pair to the map"
+        },
+        {
+          "id": "B",
+          "text": "To remove a key-value pair from the map"
+        },
+        {
+          "id": "C",
+          "text": "To update a key-value pair in the map"
+        },
+        {
+          "id": "D",
+          "text": "To clear the map"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The 'put' method is used to add a new key-value pair to the map or update an existing one (06:50-06:57).",
+      "difficulty": "easy",
+      "topic": "Maps",
+      "reference": "06:50-06:57"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main difference between HashMap and TreeMap?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HashMap is faster, but TreeMap is slower"
+        },
+        {
+          "id": "B",
+          "text": "TreeMap is faster, but HashMap is slower"
+        },
+        {
+          "id": "C",
+          "text": "HashMap stores keys in a specific order, but TreeMap does not"
+        },
+        {
+          "id": "D",
+          "text": "HashMap does not store keys in a specific order, but TreeMap does"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "HashMap is faster, but it does not store keys in a specific order. TreeMap is slower, but it stores keys in a specific order (09:58-10:07).",
+      "difficulty": "medium",
+      "topic": "Maps",
+      "reference": "09:58-10:07"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What happens when you try to add a duplicate key to a Map?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It throws an exception"
+        },
+        {
+          "id": "B",
+          "text": "It adds a new key-value pair"
+        },
+        {
+          "id": "C",
+          "text": "It updates the existing key-value pair"
+        },
+        {
+          "id": "D",
+          "text": "It ignores the duplicate key"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "When you try to add a duplicate key to a Map, it updates the existing key-value pair (07:27-07:35).",
+      "difficulty": "medium",
+      "topic": "Maps",
+      "reference": "07:27-07:35"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is the purpose of the 'get' method in a Map?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To add a new key-value pair to the map"
+        },
+        {
+          "id": "B",
+          "text": "To remove a key-value pair from the map"
+        },
+        {
+          "id": "C",
+          "text": "To retrieve the value associated with a key"
+        },
+        {
+          "id": "D",
+          "text": "To clear the map"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The 'get' method is used to retrieve the value associated with a key (07:04-07:11).",
+      "difficulty": "easy",
+      "topic": "Maps",
+      "reference": "07:04-07:11"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What happens when you try to retrieve a value from a Map using a key that does not exist?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It throws an exception"
+        },
+        {
+          "id": "B",
+          "text": "It returns null"
+        },
+        {
+          "id": "C",
+          "text": "It returns a default value"
+        },
+        {
+          "id": "D",
+          "text": "It creates a new key-value pair"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "When you try to retrieve a value from a Map using a key that does not exist, it returns null.",
+      "difficulty": "medium",
+      "topic": "Maps",
+      "reference": "07:11-07:19"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What is the main advantage of using a TreeMap over a HashMap?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TreeMap is faster"
+        },
+        {
+          "id": "B",
+          "text": "TreeMap stores keys in a specific order"
+        },
+        {
+          "id": "C",
+          "text": "TreeMap uses less memory"
+        },
+        {
+          "id": "D",
+          "text": "TreeMap is more secure"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The main advantage of using a TreeMap over a HashMap is that TreeMap stores keys in a specific order (09:58-10:07).",
+      "difficulty": "medium",
+      "topic": "Maps",
+      "reference": "09:58-10:07"
+    }
+  ]
+}

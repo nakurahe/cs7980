@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Understanding the LinkedList Class",
+    "description": "This quiz covers the main concepts and topics related to the LinkedList class, including its structure, advantages, disadvantages, and use cases.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "multimodal",
+    "generation_method": "transcript and slides"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "How is the LinkedList implemented in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Singly linked list"
+        },
+        {
+          "id": "B",
+          "text": "Doubly linked list"
+        },
+        {
+          "id": "C",
+          "text": "Circularly linked list"
+        },
+        {
+          "id": "D",
+          "text": "Array-based list"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "In Java, the LinkedList is implemented as a doubly linked list, meaning each node contains references to both the next and previous nodes.",
+      "difficulty": "easy",
+      "topic": "LinkedList structure",
+      "reference": "00:12"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is the main advantage of using a LinkedList over an ArrayList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Faster random access"
+        },
+        {
+          "id": "B",
+          "text": "More efficient memory usage for unknown or varying sizes"
+        },
+        {
+          "id": "C",
+          "text": "Faster insertion and deletion at the end"
+        },
+        {
+          "id": "D",
+          "text": "Slower iteration"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "LinkedLists have an advantage over ArrayLists when it comes to efficient memory usage, especially when the size of the list is unknown or varies frequently.",
+      "difficulty": "medium",
+      "topic": "LinkedList advantages",
+      "reference": "00:50"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the time complexity of inserting or deleting an element at the beginning or end of a LinkedList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(1)"
+        },
+        {
+          "id": "B",
+          "text": "O(n)"
+        },
+        {
+          "id": "C",
+          "text": "O(log n)"
+        },
+        {
+          "id": "D",
+          "text": "O(n^2)"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Inserting or deleting an element at the beginning or end of a LinkedList is a constant time operation, with a time complexity of O(1).",
+      "difficulty": "easy",
+      "topic": "LinkedList operations",
+      "reference": "01:03"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the main disadvantage of using a LinkedList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Slow insertion and deletion"
+        },
+        {
+          "id": "B",
+          "text": "High memory overhead per element"
+        },
+        {
+          "id": "C",
+          "text": "Poor random access performance"
+        },
+        {
+          "id": "D",
+          "text": "Inefficient iteration"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "One of the main disadvantages of using a LinkedList is its poor random access performance, with a time complexity of O(n) for accessing an element at a given index.",
+      "difficulty": "medium",
+      "topic": "LinkedList disadvantages",
+      "reference": "01:30"
+    },
+    {
+      "question_number": 5,
+      "question_text": "When should you use a LinkedList instead of an ArrayList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "When you need frequent random access"
+        },
+        {
+          "id": "B",
+          "text": "When you need to implement queue or stack operations"
+        },
+        {
+          "id": "C",
+          "text": "When you know the exact size of the list"
+        },
+        {
+          "id": "D",
+          "text": "When you need to perform lots of iteration"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "You should use a LinkedList instead of an ArrayList when you need to implement queue or stack operations, which involve frequent insertion and deletion at the beginning or end of the list.",
+      "difficulty": "medium",
+      "topic": "LinkedList use cases",
+      "reference": "02:08"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main reason why binary search is not efficient in a LinkedList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Because the list is not sorted"
+        },
+        {
+          "id": "B",
+          "text": "Because the list is not contiguous in memory"
+        },
+        {
+          "id": "C",
+          "text": "Because the list has a high memory overhead per element"
+        },
+        {
+          "id": "D",
+          "text": "Because the list has a slow iteration performance"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The main reason why binary search is not efficient in a LinkedList is because the list is not contiguous in memory, making it necessary to traverse the list from the beginning to access an element at a given index.",
+      "difficulty": "medium",
+      "topic": "LinkedList limitations",
+      "reference": "02:01"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is the advantage of using a LinkedList for implementing undo/redo functionality?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It provides fast random access"
+        },
+        {
+          "id": "B",
+          "text": "It provides efficient memory usage for unknown or varying sizes"
+        },
+        {
+          "id": "C",
+          "text": "It provides fast insertion and deletion at the beginning or end"
+        },
+        {
+          "id": "D",
+          "text": "It provides a simple way to implement queue or stack operations"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The advantage of using a LinkedList for implementing undo/redo functionality is that it provides fast insertion and deletion at the beginning or end, which is necessary for efficiently storing and retrieving the history of actions.",
+      "difficulty": "medium",
+      "topic": "LinkedList use cases",
+      "reference": "02:36"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is the main difference between a LinkedList and an ArrayList in terms of memory allocation?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A LinkedList allocates memory contiguously, while an ArrayList allocates memory non-contiguously"
+        },
+        {
+          "id": "B",
+          "text": "A LinkedList allocates memory non-contiguously, while an ArrayList allocates memory contiguously"
+        },
+        {
+          "id": "C",
+          "text": "A LinkedList allocates memory dynamically, while an ArrayList allocates memory statically"
+        },
+        {
+          "id": "D",
+          "text": "A LinkedList allocates memory statically, while an ArrayList allocates memory dynamically"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The main difference between a LinkedList and an ArrayList in terms of memory allocation is that a LinkedList allocates memory non-contiguously, while an ArrayList allocates memory contiguously.",
+      "difficulty": "medium",
+      "topic": "LinkedList structure",
+      "reference": "00:33"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is the time complexity of accessing an element at a given index in a LinkedList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(1)"
+        },
+        {
+          "id": "B",
+          "text": "O(log n)"
+        },
+        {
+          "id": "C",
+          "text": "O(n)"
+        },
+        {
+          "id": "D",
+          "text": "O(n^2)"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The time complexity of accessing an element at a given index in a LinkedList is O(n), because the list must be traversed from the beginning to access the element.",
+      "difficulty": "easy",
+      "topic": "LinkedList operations",
+      "reference": "01:30"
+    },
+    {
+      "question_number": 10,
+      "question_text": "When should you avoid using a LinkedList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "When you need to implement queue or stack operations"
+        },
+        {
+          "id": "B",
+          "text": "When you need to perform lots of iteration"
+        },
+        {
+          "id": "C",
+          "text": "When you know the exact size of the list"
+        },
+        {
+          "id": "D",
+          "text": "When you need frequent random access"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "You should avoid using a LinkedList when you need frequent random access, because the list must be traversed from the beginning to access an element at a given index, resulting in poor performance.",
+      "difficulty": "medium",
+      "topic": "LinkedList limitations",
+      "reference": "03:03"
+    }
+  ]
+}
