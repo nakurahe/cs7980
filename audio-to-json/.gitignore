@@ -24,6 +24,7 @@ wheels/
 venv/
 env/
 ENV/
+.venv/
 
 # IDE
 .vscode/
@@ -31,11 +32,12 @@ ENV/
 *.swp
 *.swo
 
-# Output
+# Output and input
 output/
 *.jpg
 *.png
 *.json
+*.mp4
 
 # Test files
 tests/sample_videos/
