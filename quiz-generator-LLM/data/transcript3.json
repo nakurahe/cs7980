@@ -1,0 +1,172 @@
+[
+  {
+    "start": 1.0,
+    "end": 10.6,
+    "text": "Hello, this is Lino Korya again. This is a very short video. We're going to be talking about the two basic data structures that we have discussed, array list and link list."
+  },
+  {
+    "start": 10.88,
+    "end": 19.9,
+    "text": "When should we use an array list? When should we use a link list? And so the key to this is to think of how they work."
+  },
+  {
+    "start": 20.24,
+    "end": 23.28,
+    "text": "What is it that they do? You know how they are implemented?"
+  },
+  {
+    "start": 23.28,
+    "end": 30.06,
+    "text": "And based on your application, you have to think, OK, which of these two data structures makes more sense?"
+  },
+  {
+    "start": 30.14,
+    "end": 33.36,
+    "text": "And so I have built this table that should help you a lot."
+  },
+  {
+    "start": 35.9,
+    "end": 41.28,
+    "text": "So here's the table. It has all the different features that are important for us."
+  },
+  {
+    "start": 41.36,
+    "end": 45.56,
+    "text": "And we compare how it works with an array list, how it works with a link list."
+  },
+  {
+    "start": 45.56,
+    "end": 53.56,
+    "text": "So for instance, let's go to access time. How quickly can we access some element in a list?"
+  },
+  {
+    "start": 53.72,
+    "end": 59.82,
+    "text": "Right. So let's say we have one million elements and we're looking for element 500,322."
+  },
+  {
+    "start": 60.26,
+    "end": 69.84,
+    "text": "So with the array list, if we know that that number is very fast, we can just go and grab it because everything is contained in the same chunk of memory."
+  },
+  {
+    "start": 69.84,
+    "end": 73.4,
+    "text": "Right. Whereas with the linked list, this is going to be slow."
+  },
+  {
+    "start": 73.8,
+    "end": 83.04,
+    "text": "We're going to go to the first element. There's going to be a pointer there to the next element and then to the next element until we reach the element that we're looking for."
+  },
+  {
+    "start": 83.4,
+    "end": 86.58,
+    "text": "So the longer the list, the longer this is going to take."
+  },
+  {
+    "start": 87.34,
+    "end": 94.42,
+    "text": "Now, let's say I have a list. I have a bunch of elements and one and I want to insert an element at the end of this list."
+  },
+  {
+    "start": 94.42,
+    "end": 98.34,
+    "text": "Well, in this case, both array list and linked list work OK."
+  },
+  {
+    "start": 98.86,
+    "end": 104.6,
+    "text": "In the array list, you just add an element at the end of the array and that's it for the linked list."
+  },
+  {
+    "start": 104.72,
+    "end": 108.38,
+    "text": "Well, you just have a new pointer and then you have a new element there."
+  },
+  {
+    "start": 109.06,
+    "end": 116.12,
+    "text": "But this changes when you're trying to insert an element at the start of the list or at the middle of the list."
+  },
+  {
+    "start": 116.12,
+    "end": 127.7,
+    "text": "This is going to be very slow for an array because you have to grab all the elements, copy them somewhere, add the new element and then bring back the old array."
+  },
+  {
+    "start": 128.76,
+    "end": 135.44,
+    "text": "Right. Whereas with a linked list is going to be very quick because it's not about moving things in memory."
+  },
+  {
+    "start": 135.56,
+    "end": 138.3,
+    "text": "It's just about changing pointers. Right."
+  },
+  {
+    "start": 138.36,
+    "end": 141.14,
+    "text": "So this should not be a big issue."
+  },
+  {
+    "start": 141.22,
+    "end": 144.56,
+    "text": "This is really fast, regardless of the size of the linked list."
+  },
+  {
+    "start": 144.56,
+    "end": 148.86,
+    "text": "And in terms of memory usage, array lists have less overhead."
+  },
+  {
+    "start": 149.4,
+    "end": 152.82,
+    "text": "Linked lists have more overhead basically because of the extra pointers."
+  },
+  {
+    "start": 152.98,
+    "end": 155.1,
+    "text": "Right. All the information that we have about the pointers."
+  },
+  {
+    "start": 157.06,
+    "end": 159.02,
+    "text": "So here's a little summary."
+  },
+  {
+    "start": 159.84,
+    "end": 162.46,
+    "text": "Remember, list is an interface."
+  },
+  {
+    "start": 162.8,
+    "end": 168.48,
+    "text": "Right. An array list and linked list are the main implementations that we have in Java."
+  },
+  {
+    "start": 168.48,
+    "end": 178.82,
+    "text": "Array list is best for fast access and for applications in which we really don't need to insert or delete elements."
+  },
+  {
+    "start": 178.82,
+    "end": 189.28,
+    "text": "And so think about this."
+  },
+  {
+    "start": 189.28,
+    "end": 199.86,
+    "text": "And every time you're working on an application where a list is needed, think about these data structures and which one is the best for you based on this particular case."
+  },
+  {
+    "start": 199.86,
+    "end": 201.78,
+    "text": "Thank you for watching."
+  },
+  {
+    "start": 201.78,
+    "end": 202.92,
+    "text": "I am Lino Correa."
+  }
+]

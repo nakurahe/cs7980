@@ -1,0 +1,182 @@
+[
+  {
+    "start": 0.56,
+    "end": 8.18,
+    "text": "Hello again, this is Lino Coria, and I want to talk a little bit more about the linked list class so that we can understand it a little better."
+  },
+  {
+    "start": 8.3,
+    "end": 10.92,
+    "text": "We're going to talk about advantages and disadvantages."
+  },
+  {
+    "start": 12.74,
+    "end": 18.44,
+    "text": "Remember that in Java, the linked list is implemented as a doubly linked list."
+  },
+  {
+    "start": 18.76,
+    "end": 28.16,
+    "text": "This means that each element or each node contains not only the data, right, but also a reference to the next node and to the previous node."
+  },
+  {
+    "start": 28.16,
+    "end": 32.42,
+    "text": "This is just particular for the doubly linked list, which is Java's implementation."
+  },
+  {
+    "start": 33.12,
+    "end": 41.34,
+    "text": "Now, because of this structure, there's no contiguous memory allocation, meaning we don't have to reserve a chunk of memory for this list, right?"
+  },
+  {
+    "start": 41.44,
+    "end": 45.52,
+    "text": "And so it is dynamic in size. It can shrink or it can expand."
+  },
+  {
+    "start": 45.88,
+    "end": 48.5,
+    "text": "And because of this, we're not wasting memory."
+  },
+  {
+    "start": 50.8,
+    "end": 54.78,
+    "text": "Here are some key advantages of using a linked list."
+  },
+  {
+    "start": 54.78,
+    "end": 63.24,
+    "text": "When you are inserting or deleting elements at the beginning or the end of the linked list, this is really fast."
+  },
+  {
+    "start": 63.84,
+    "end": 72.32,
+    "text": "Also, there's very efficient memory usage when you don't know the size of the list or when you are, you know, the list is growing or shrinking."
+  },
+  {
+    "start": 72.88,
+    "end": 81.56,
+    "text": "And every time the list is growing, you don't need to do any of this memory reallocation or copying that you do need to do with a rate list."
+  },
+  {
+    "start": 81.56,
+    "end": 83.94,
+    "text": "So these are the key advantages."
+  },
+  {
+    "start": 85.8,
+    "end": 90.08,
+    "text": "Of course, there are also key disadvantages, right?"
+  },
+  {
+    "start": 90.48,
+    "end": 92.98,
+    "text": "Random access. This is terrible, right?"
+  },
+  {
+    "start": 93.04,
+    "end": 98.34,
+    "text": "When when you want to access a particular element that is just somewhere there far away."
+  },
+  {
+    "start": 98.46,
+    "end": 107.18,
+    "text": "Well, because of the structure of the linked list, it has to traverse from the beginning until it reaches that index number that you have provided."
+  },
+  {
+    "start": 107.18,
+    "end": 115.48,
+    "text": "Right. There's also higher memory overhead per element because in addition to the data, you're storing the the node references."
+  },
+  {
+    "start": 116.6,
+    "end": 121.64,
+    "text": "And finally, if you're trying to do something like binary search, it's not really efficient."
+  },
+  {
+    "start": 121.88,
+    "end": 123.36,
+    "text": "Linked lists are not built for that."
+  },
+  {
+    "start": 123.42,
+    "end": 126.72,
+    "text": "Even if they're sorted, this is not going to be very efficient."
+  },
+  {
+    "start": 126.72,
+    "end": 137.48,
+    "text": "So when should you use a linked list when you need to frequently insert and delete elements at the beginning?"
+  },
+  {
+    "start": 137.72,
+    "end": 140.36,
+    "text": "For instance, these are for queue or stack operations."
+  },
+  {
+    "start": 140.56,
+    "end": 148.04,
+    "text": "We were not going to go deeply into queue and stack operations, but I'll refer you to 5001 where we talk about about those."
+  },
+  {
+    "start": 148.04,
+    "end": 156.38,
+    "text": "When you have a list and you don't know its size and there's going to be a lot of growth, a lot of shrinkage, linked lists are for you."
+  },
+  {
+    "start": 156.72,
+    "end": 161.0,
+    "text": "And when you are implementing this undo, redo functionality, right?"
+  },
+  {
+    "start": 161.0,
+    "end": 166.26,
+    "text": "When I'm typing something in Word and then I don't like it so much, I want to undo this."
+  },
+  {
+    "start": 166.26,
+    "end": 168.36,
+    "text": "And and so this is great."
+  },
+  {
+    "start": 168.48,
+    "end": 171.68,
+    "text": "This is this should be implemented on on a linked list."
+  },
+  {
+    "start": 171.68,
+    "end": 183.1,
+    "text": "And avoid when you need frequent random access, you need to access elements frequently, just elements that are not at the beginning or at the end, but just randomly in the middle."
+  },
+  {
+    "start": 183.68,
+    "end": 190.82,
+    "text": "When you already know the size of your list, then an array list might be your better option."
+  },
+  {
+    "start": 191.06,
+    "end": 195.84,
+    "text": "And when you have to do lots of iteration, maybe a linked list is is not the best."
+  },
+  {
+    "start": 196.4,
+    "end": 199.72,
+    "text": "Anyways, I hope this found I hope you found this useful."
+  },
+  {
+    "start": 199.72,
+    "end": 207.72,
+    "text": "Now it's time to actually do some coding, run some code and see the difference between linked list and array list."
+  },
+  {
+    "start": 207.72,
+    "end": 209.04,
+    "text": "Thank you for watching."
+  },
+  {
+    "start": 209.18,
+    "end": 209.9,
+    "text": "I'm Lino Codier."
+  }
+]

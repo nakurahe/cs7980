@@ -1,0 +1,497 @@
+[
+  {
+    "start": 0.0,
+    "end": 8.42,
+    "text": "Hello again, this is Lino Coria, and this is just an overview of List, the interface,"
+  },
+  {
+    "start": 8.42,
+    "end": 12.72,
+    "text": "and some of its key methods."
+  },
+  {
+    "start": 12.72,
+    "end": 19.92,
+    "text": "In Java, the List interface is part of the java.util package, and it extends the collection"
+  },
+  {
+    "start": 19.92,
+    "end": 26.36,
+    "text": "interface, which means that it inherits many useful methods for working with groups of"
+  },
+  {
+    "start": 26.36,
+    "end": 28.48,
+    "text": "objects."
+  },
+  {
+    "start": 28.48,
+    "end": 34.6,
+    "text": "Now, Lists maintain the order of elements as they are inserted, and this makes this List"
+  },
+  {
+    "start": 34.6,
+    "end": 38.84,
+    "text": "interface very useful when order is important, right?"
+  },
+  {
+    "start": 38.84,
+    "end": 43.76,
+    "text": "So for instance, when you have a to-do list, or when you have a queue system, or when you"
+  },
+  {
+    "start": 43.76,
+    "end": 44.76,
+    "text": "have a playlist."
+  },
+  {
+    "start": 44.76,
+    "end": 50.56,
+    "text": "Say you want to play a playlist of songs and you want to be playing each song, a list might"
+  },
+  {
+    "start": 50.56,
+    "end": 53.04,
+    "text": "be the right tool for you."
+  },
+  {
+    "start": 53.04,
+    "end": 58.16,
+    "text": "Another key feature of List, the interface, is that it allows duplicate elements."
+  },
+  {
+    "start": 58.16,
+    "end": 65.24,
+    "text": "This means that you can add the same item multiple times, and there's no restrictions for that."
+  },
+  {
+    "start": 65.24,
+    "end": 67.72,
+    "text": "This makes it different from sets."
+  },
+  {
+    "start": 67.72,
+    "end": 73.16,
+    "text": "If you remember for 5001, when we talk about sets, sets do not allow duplicates."
+  },
+  {
+    "start": 73.16,
+    "end": 78.28,
+    "text": "The List interface has multiple implementations."
+  },
+  {
+    "start": 78.28,
+    "end": 83.7,
+    "text": "We have already talked about the two main implementations, which are ArrayList and LinkList."
+  },
+  {
+    "start": 83.7,
+    "end": 90.78,
+    "text": "And just as a reminder, in case you have missed the previous videos, ArrayList is backed by an"
+  },
+  {
+    "start": 90.78,
+    "end": 94.46,
+    "text": "array, and it provides fast random access."
+  },
+  {
+    "start": 94.46,
+    "end": 99.36,
+    "text": "So ArrayList, it's the right implementation if you're dealing with situations where you need"
+  },
+  {
+    "start": 99.36,
+    "end": 103.42,
+    "text": "to read data frequently."
+  },
+  {
+    "start": 103.42,
+    "end": 111.68,
+    "text": "Now, LinkList uses a doubly linked list under the hood, which makes it more efficient for"
+  },
+  {
+    "start": 111.68,
+    "end": 117.12,
+    "text": "inserting and deleting items, elements, in the middle of the list or the beginning of the"
+  },
+  {
+    "start": 117.12,
+    "end": 118.12,
+    "text": "list."
+  },
+  {
+    "start": 118.12,
+    "end": 119.12,
+    "text": "Okay."
+  },
+  {
+    "start": 119.12,
+    "end": 124.84,
+    "text": "So now that we have covered these basics about the List interface, let's look at some of the"
+  },
+  {
+    "start": 124.84,
+    "end": 128.6,
+    "text": "key methods that make the List interface so useful."
+  },
+  {
+    "start": 129.36,
+    "end": 133.4,
+    "text": "Here we have some key methods of List."
+  },
+  {
+    "start": 133.4,
+    "end": 138.46,
+    "text": "Number one, we have Add, which adds an element to the List."
+  },
+  {
+    "start": 138.46,
+    "end": 144.08,
+    "text": "Number two, Remove, and you also provide the index number, which is an integer, so it removes"
+  },
+  {
+    "start": 144.08,
+    "end": 147.68,
+    "text": "an element at a specific position."
+  },
+  {
+    "start": 147.68,
+    "end": 150.0,
+    "text": "Number three, we have Get."
+  },
+  {
+    "start": 150.0,
+    "end": 155.42,
+    "text": "Also you offer the index number, it retrieves an element at a specific position."
+  },
+  {
+    "start": 155.42,
+    "end": 156.42,
+    "text": "Set."
+  },
+  {
+    "start": 156.42,
+    "end": 159.46,
+    "text": "In this case, you offer the index number and the element."
+  },
+  {
+    "start": 159.46,
+    "end": 165.36,
+    "text": "And what it does, it updates an element at a specific index."
+  },
+  {
+    "start": 165.36,
+    "end": 173.46,
+    "text": "And we also have size, number five, which returns the number of elements in the list."
+  },
+  {
+    "start": 173.46,
+    "end": 175.5,
+    "text": "So we have a bit of code here."
+  },
+  {
+    "start": 175.5,
+    "end": 181.56,
+    "text": "You can see that we have imported ArrayList and also the interface list."
+  },
+  {
+    "start": 181.56,
+    "end": 186.56,
+    "text": "And so it means that we're going to use a list, but we're going to choose ArrayList as the"
+  },
+  {
+    "start": 186.56,
+    "end": 188.56,
+    "text": "implementation of this list."
+  },
+  {
+    "start": 188.56,
+    "end": 191.78,
+    "text": "And so we have a list called Fruits."
+  },
+  {
+    "start": 191.78,
+    "end": 194.32,
+    "text": "You can see in line eight."
+  },
+  {
+    "start": 194.32,
+    "end": 199.4,
+    "text": "And Fruits is a new ArrayList which starts as an empty list."
+  },
+  {
+    "start": 199.4,
+    "end": 204.82,
+    "text": "Then we say FruitsAdd, and we add Apple."
+  },
+  {
+    "start": 204.82,
+    "end": 207.22,
+    "text": "Then FruitsAddBanana."
+  },
+  {
+    "start": 207.22,
+    "end": 209.4,
+    "text": "Then we say FruitsAddCherry."
+  },
+  {
+    "start": 209.4,
+    "end": 214.58,
+    "text": "So we have Apple, then Banana, then Cherry."
+  },
+  {
+    "start": 214.58,
+    "end": 216.4,
+    "text": "But now here's the important part."
+  },
+  {
+    "start": 216.4,
+    "end": 221.78,
+    "text": "We have Fruits.set1 Blueberry."
+  },
+  {
+    "start": 221.78,
+    "end": 228.58,
+    "text": "So it means that we're going to update element one with Blueberry."
+  },
+  {
+    "start": 228.58,
+    "end": 230.58,
+    "text": "Okay?"
+  },
+  {
+    "start": 230.58,
+    "end": 237.34,
+    "text": "Then it also says that on line 14, Fruits.RemoveCherry."
+  },
+  {
+    "start": 237.34,
+    "end": 239.7,
+    "text": "So we're going to remove cherry from the list."
+  },
+  {
+    "start": 239.7,
+    "end": 240.84,
+    "text": "So think about it."
+  },
+  {
+    "start": 240.84,
+    "end": 242.2,
+    "text": "We started with Apple."
+  },
+  {
+    "start": 242.2,
+    "end": 243.62,
+    "text": "Then we added Banana."
+  },
+  {
+    "start": 243.62,
+    "end": 245.1,
+    "text": "Then we added Cherry."
+  },
+  {
+    "start": 245.1,
+    "end": 248.84,
+    "text": "Then we went to location, position number one."
+  },
+  {
+    "start": 248.84,
+    "end": 251.78,
+    "text": "Remember we start with a zero, right?"
+  },
+  {
+    "start": 251.78,
+    "end": 255.24,
+    "text": "And we replace whatever is in position number one."
+  },
+  {
+    "start": 255.24,
+    "end": 256.96,
+    "text": "We replace it with Blueberry."
+  },
+  {
+    "start": 256.96,
+    "end": 259.62,
+    "text": "And then finally, we remove cherry."
+  },
+  {
+    "start": 259.62,
+    "end": 266.0,
+    "text": "So now when we print the list of fruits, what is it that we're going to print?"
+  },
+  {
+    "start": 266.0,
+    "end": 267.0,
+    "text": "What do you think?"
+  },
+  {
+    "start": 271.14,
+    "end": 271.88,
+    "text": "So here it is."
+  },
+  {
+    "start": 271.88,
+    "end": 273.38,
+    "text": "This is what we print."
+  },
+  {
+    "start": 273.38,
+    "end": 277.8,
+    "text": "We print Apple and Blueberry, and that's it, right?"
+  },
+  {
+    "start": 277.8,
+    "end": 279.22,
+    "text": "So what happens?"
+  },
+  {
+    "start": 279.22,
+    "end": 280.54,
+    "text": "We first have Apple."
+  },
+  {
+    "start": 280.54,
+    "end": 282.04,
+    "text": "Then we have Banana."
+  },
+  {
+    "start": 282.04,
+    "end": 283.54,
+    "text": "Then we have Cherry."
+  },
+  {
+    "start": 283.54,
+    "end": 287.34,
+    "text": "But then at position one, we have Banana."
+  },
+  {
+    "start": 287.34,
+    "end": 296.18,
+    "text": "And line 14, when we say set Blueberry at position one, then that removes Banana and replace it,"
+  },
+  {
+    "start": 296.18,
+    "end": 297.72,
+    "text": "updates it with Blueberry."
+  },
+  {
+    "start": 297.72,
+    "end": 302.22,
+    "text": "And so we would have Apple, Blueberry, Cherry."
+  },
+  {
+    "start": 302.22,
+    "end": 305.46,
+    "text": "But then line 14 says Remove Cherry, right?"
+  },
+  {
+    "start": 305.46,
+    "end": 307.34,
+    "text": "So we also remove Cherry."
+  },
+  {
+    "start": 307.34,
+    "end": 311.18,
+    "text": "And so we end up just with Apple and Blueberry."
+  },
+  {
+    "start": 311.18,
+    "end": 319.3,
+    "text": "So here's again a summary of the key operations that we did, right?"
+  },
+  {
+    "start": 319.3,
+    "end": 324.26,
+    "text": "When we said add and we had add Apple, it added Apple to the list."
+  },
+  {
+    "start": 324.26,
+    "end": 325.72,
+    "text": "And so we just had Apple."
+  },
+  {
+    "start": 325.72,
+    "end": 327.84,
+    "text": "We then said add Banana."
+  },
+  {
+    "start": 327.84,
+    "end": 329.26,
+    "text": "It added Banana to the list."
+  },
+  {
+    "start": 329.26,
+    "end": 331.34,
+    "text": "So we had Apple, Banana."
+  },
+  {
+    "start": 331.34,
+    "end": 333.1,
+    "text": "Then we said add Cherry."
+  },
+  {
+    "start": 333.1,
+    "end": 334.56,
+    "text": "So added Cherry to the list."
+  },
+  {
+    "start": 334.56,
+    "end": 337.1,
+    "text": "So it became Apple, Banana, Cherry."
+  },
+  {
+    "start": 337.1,
+    "end": 338.1,
+    "text": "So we had Apple, Blueberry, and Cherry."
+  },
+  {
+    "start": 338.1,
+    "end": 342.66,
+    "text": "But then we said set Blueberry to position number one."
+  },
+  {
+    "start": 342.66,
+    "end": 345.24,
+    "text": "So it replaced Banana with Blueberry, right?"
+  },
+  {
+    "start": 345.24,
+    "end": 349.0,
+    "text": "So now we have Apple, Blueberry, and Cherry."
+  },
+  {
+    "start": 349.0,
+    "end": 354.56,
+    "text": "And finally, we said remove Cherry, which removes the string Cherry."
+  },
+  {
+    "start": 354.56,
+    "end": 359.06,
+    "text": "And we end up just with Apple and Blueberry."
+  },
+  {
+    "start": 359.06,
+    "end": 368.56,
+    "text": "So I just covered some very basic, the most important list operations, but there's way more."
+  },
+  {
+    "start": 368.56,
+    "end": 376.18,
+    "text": "I encourage you to explore the full list of methods that list has in the official Java documentation."
+  },
+  {
+    "start": 376.18,
+    "end": 378.94,
+    "text": "And I hope you're having fun playing with list."
+  },
+  {
+    "start": 378.94,
+    "end": 380.36,
+    "text": "And thank you for watching."
+  },
+  {
+    "start": 380.36,
+    "end": 381.26,
+    "text": "I am Lino Cotie."
+  }
+]

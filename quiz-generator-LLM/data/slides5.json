@@ -1,0 +1,68 @@
+{
+  "videoFile": "test_video.mp4",
+  "totalSlides": 6,
+  "processingTime": 95.72,
+  "extractionDate": "2025-11-12T16:05:18.219142",
+  "slides": [
+    {
+      "imageFile": "slide_001.jpg",
+      "startTime": "00:00:00",
+      "endTime": "00:00:11",
+      "startTimeMs": 0,
+      "endTimeMs": 11878,
+      "duration": 11.88,
+      "extractedText": "Understanding the\nLinkedList<> Class\nint lS Advantages and Disadvantages\na) Lino Coria\noP",
+      "ocrConfidence": 0.77
+    },
+    {
+      "imageFile": "slide_002.jpg",
+      "startTime": "00:00:12",
+      "endTime": "00:00:50",
+      "startTimeMs": 12868,
+      "endTimeMs": 50482,
+      "duration": 37.61,
+      "extractedText": "LinkedList<> Structure and Memory\n° Doubly-linked in Java\n° Each element (node) contains:\n* Data\n* Reference to next node, previous node (Java implementation)\n° Non-contiguous memory allocation _\n° Dynamic size a 2)\n¢ No wasted memory EL ee Uh\n'tO>\nfff a fa os 8 m/",
+      "ocrConfidence": 0.85
+    },
+    {
+      "imageFile": "slide_003.jpg",
+      "startTime": "00:00:50",
+      "endTime": "00:01:25",
+      "startTimeMs": 50482,
+      "endTimeMs": 85127,
+      "duration": 34.64,
+      "extractedText": "Key Advantages\n° O(1) insertion/deletion at beginning or end\n° Efficient memory usage for unknown or varying sizes\n° No memory reallocation/copying when growing\nAS oiNde ud) EUe Feses\noan",
+      "ocrConfidence": 0.92
+    },
+    {
+      "imageFile": "slide_004.jpg",
+      "startTime": "00:01:25",
+      "endTime": "00:02:08",
+      "startTimeMs": 85127,
+      "endTimeMs": 128680,
+      "duration": 43.55,
+      "extractedText": "Key Disadvantages\n° O(n) random access: must traverse from beginning to reach index\n° Higher memory overhead per element (storing node references)\n° No efficient binary search even if sorted\nUae\nSi; WAS a AL. *s x",
+      "ocrConfidence": 0.9
+    },
+    {
+      "imageFile": "slide_005.jpg",
+      "startTime": "00:02:08",
+      "endTime": "00:03:21",
+      "startTimeMs": 128680,
+      "endTimeMs": 201929,
+      "duration": 73.25,
+      "extractedText": "When to Use LinkedList\n° Frequent insertion/deletion at beginning (queue/stack operations)\n° Unknown size with lots of growth/shrinkage\n° Implementing undo/redo functionality\n° Avoid when: atu =\n6 UN LE LE? eae\n* Need frequent random access bats Ve =)\n. Known fixed size . fee LS yo\n* Doing lots of iteration ee",
+      "ocrConfidence": 0.76
+    },
+    {
+      "imageFile": "slide_006.jpg",
+      "startTime": "00:03:22",
+      "endTime": "00:03:29",
+      "startTimeMs": 202919,
+      "endTimeMs": 209848,
+      "duration": 6.93,
+      "extractedText": "When to Use LinkedList\n° Frequent insertion/deletion at beginning (queue/stack operations)\n° Unknown size with lots of growth/shrinkage\n° Implementing undo/redo functionality\n° Avoid when: A  Eas\nAN ee\n* Need frequent random access pay a\n* Known fixed size EE AES. A\n* Doing lots of iteration iy",
+      "ocrConfidence": 0.82
+    }
+  ]
+}

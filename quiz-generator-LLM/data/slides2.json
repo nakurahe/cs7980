@@ -1,0 +1,198 @@
+{
+  "videoFile": "test_video.mp4",
+  "totalSlides": 19,
+  "processingTime": 152.0,
+  "extractionDate": "2025-11-12T15:56:34.768248",
+  "slides": [
+    {
+      "imageFile": "slide_001.jpg",
+      "startTime": "00:00:00",
+      "endTime": "00:00:15",
+      "startTimeMs": 0,
+      "endTimeMs": 15839,
+      "duration": 15.84,
+      "extractedText": "Understanding List<> and\nits Implementations\nArrayList<> & LinkedList<> Ae\nLino Coria",
+      "ocrConfidence": 0.92
+    },
+    {
+      "imageFile": "slide_002.jpg",
+      "startTime": "00:00:15",
+      "endTime": "00:01:06",
+      "startTimeMs": 15839,
+      "endTimeMs": 66326,
+      "duration": 50.49,
+      "extractedText": "What is List<>?\n° List<> is an interface in Java’s Collections Framework.\n° It defines an ordered collection (sequence) of elements.\n° Allows duplicates and maintains insertion order.\n° Common implementations: , e=\n+ ArreyList> rh pe IN\n¢ LinkedList<> pole KEES ej ELA\nfy AEN",
+      "ocrConfidence": 0.74
+    },
+    {
+      "imageFile": "slide_003.jpg",
+      "startTime": "00:01:06",
+      "endTime": "00:01:38",
+      "startTimeMs": 66326,
+      "endTimeMs": 98994,
+      "duration": 32.67,
+      "extractedText": "Key Features of List<> Interface\n° Order is maintained > elements stay in the order they were\nadded.\n° Duplicates allowed > can contain multiple identical elements.\n° Index-based access > elements can be accessed using indices.\niit",
+      "ocrConfidence": 0.93
+    },
+    {
+      "imageFile": "slide_004.jpg",
+      "startTime": "00:01:38",
+      "endTime": "00:01:50",
+      "startTimeMs": 98994,
+      "endTimeMs": 110874,
+      "duration": 11.88,
+      "extractedText": "Common Methods\n° add(E e): Add an element —_\n° remove(int index): Remove by index = er .\n° get(int index): Retrieve an element Ain pa)\n¢ size(): Get list size as f; oo HD",
+      "ocrConfidence": 0.8
+    },
+    {
+      "imageFile": "slide_005.jpg",
+      "startTime": "00:01:54",
+      "endTime": "00:02:01",
+      "startTimeMs": 114834,
+      "endTimeMs": 121763,
+      "duration": 6.93,
+      "extractedText": "Common Methods\n° add(E e): Add an element ;\n° remove(int index): Remove by index G =p .\n° get(int index): Retrieve an element gin iP ae ' ie\n° sizeQ: Get list size eines Loe. i cue",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_006.jpg",
+      "startTime": "00:02:06",
+      "endTime": "00:02:17",
+      "startTimeMs": 126713,
+      "endTimeMs": 137602,
+      "duration": 10.89,
+      "extractedText": "Common Methods\n° add(E e): Add an element :\n° remove(int index): Remove by index ) im ue == m\ne get(int index): Retrieve an element ce Le we i ne\n° size(): Get list size ey, Son hae",
+      "ocrConfidence": 0.74
+    },
+    {
+      "imageFile": "slide_007.jpg",
+      "startTime": "00:02:19",
+      "endTime": "00:02:26",
+      "startTimeMs": 139582,
+      "endTimeMs": 146512,
+      "duration": 6.93,
+      "extractedText": "Common Methods\n° add(E e): Add an element\nremove(int index): Remove by index ran i == : nN\n° get(int index): Retrieve an element ne eee) ETS\nsizeQ): Get list size eS (Te) i",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_008.jpg",
+      "startTime": "00:02:26",
+      "endTime": "00:02:31",
+      "startTimeMs": 146512,
+      "endTimeMs": 151462,
+      "duration": 4.95,
+      "extractedText": "Common Methods\n° add(E e): Add an element ;\n° remove(int index): Remove by index tis a —= >\n° get(int index): Retrieve an element fs Va oR fh ie\n° size(): Get list size EBL Et aX EEL!",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_009.jpg",
+      "startTime": "00:02:31",
+      "endTime": "00:02:39",
+      "startTimeMs": 151462,
+      "endTimeMs": 159381,
+      "duration": 7.92,
+      "extractedText": "Common Methods\n° add(E e): Add an element ;\n° remove(int index): Remove by index @ f a ==).\n° get(int index): Retrieve an element (ae i ie",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_010.jpg",
+      "startTime": "00:02:39",
+      "endTime": "00:05:43",
+      "startTimeMs": 159381,
+      "endTimeMs": 343512,
+      "duration": 184.13,
+      "extractedText": "ArrayList<> - Overview\n° Backed by a resizable array.\n° Fast random access (O(1)) > direct indexing.\n° Adding/removing at the end is fast (O(1)), but slow at the\nstart/middle (O(n)) due to shifting elements.\nfi) (=\nyoal Eas),",
+      "ocrConfidence": 0.92
+    },
+    {
+      "imageFile": "slide_011.jpg",
+      "startTime": "00:05:43",
+      "endTime": "00:06:06",
+      "startTimeMs": 343512,
+      "endTimeMs": 366281,
+      "duration": 22.77,
+      "extractedText": "ArrayList<>\n== f ——-",
+      "ocrConfidence": 0.84
+    },
+    {
+      "imageFile": "slide_012.jpg",
+      "startTime": "00:06:06",
+      "endTime": "00:08:50",
+      "startTimeMs": 366281,
+      "endTimeMs": 530612,
+      "duration": 164.33,
+      "extractedText": "LinkedList<> - Overview\n° Uses doubly linked nodes > each node points to the next and\nprevious.\n° Fast insertions/removals at start/middle (O(1)) because no\nshifting is required.\n° Slow random access (O(n)) > traversal needed to find elements.\nisos iter RA ay K2 Bl\naS.\nIRAE",
+      "ocrConfidence": 0.93
+    },
+    {
+      "imageFile": "slide_013.jpg",
+      "startTime": "00:08:55",
+      "endTime": "00:09:09",
+      "startTimeMs": 535562,
+      "endTimeMs": 549421,
+      "duration": 13.86,
+      "extractedText": "LinkedList<>\nFirst Node Last Node\nNode fick’ AX au\nPointer Pointer\nt\nPrevious Value) nee\nElement",
+      "ocrConfidence": 0.72
+    },
+    {
+      "imageFile": "slide_014.jpg",
+      "startTime": "00:09:09",
+      "endTime": "00:09:14",
+      "startTimeMs": 549421,
+      "endTimeMs": 554371,
+      "duration": 4.95,
+      "extractedText": "LinkedList<>\nFirst Node Last Node\nNode ce\n| | LAD\nPointer Pointer\nt\nPrevious Velue aan\nElement",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_015.jpg",
+      "startTime": "00:09:14",
+      "endTime": "00:09:27",
+      "startTimeMs": 554371,
+      "endTimeMs": 567240,
+      "duration": 12.87,
+      "extractedText": "LinkedList<>\nFirst Node Last Node\nrai =|\nNode Sate lS, BRN\nPointer Pointer\nto\nElement",
+      "ocrConfidence": 0.74
+    },
+    {
+      "imageFile": "slide_016.jpg",
+      "startTime": "00:09:27",
+      "endTime": "00:09:31",
+      "startTimeMs": 567240,
+      "endTimeMs": 571200,
+      "duration": 3.96,
+      "extractedText": "LinkedList<>\nFirst Node Last Node\nNode ie eae i\n= Pointer\nto\nElement",
+      "ocrConfidence": 0.8
+    },
+    {
+      "imageFile": "slide_017.jpg",
+      "startTime": "00:09:31",
+      "endTime": "00:09:35",
+      "startTimeMs": 571200,
+      "endTimeMs": 575160,
+      "duration": 3.96,
+      "extractedText": "First Node Last Node\nNode “ .\njam | G)\nf\nPointer Pointer\nt\nPrevious aan\nElement",
+      "ocrConfidence": 0.73
+    },
+    {
+      "imageFile": "slide_018.jpg",
+      "startTime": "00:09:35",
+      "endTime": "00:09:47",
+      "startTimeMs": 575160,
+      "endTimeMs": 587039,
+      "duration": 11.88,
+      "extractedText": "LinkedList<>\nFirst Node Last Node\nNode fi & iN\nPointer Pointer\nto Valtie\nPrevious a\nElement",
+      "ocrConfidence": 0.72
+    },
+    {
+      "imageFile": "slide_019.jpg",
+      "startTime": "00:09:47",
+      "endTime": "00:09:56",
+      "startTimeMs": 587039,
+      "endTimeMs": 596939,
+      "duration": 9.9,
+      "extractedText": "LinkedList<>\nFirst Node Last Node\nNode fits lEaXG NM\nPointer Pointer Gy\nto\nPrevious Valtie) a Net\nElement",
+      "ocrConfidence": 0.76
+    }
+  ]
+}

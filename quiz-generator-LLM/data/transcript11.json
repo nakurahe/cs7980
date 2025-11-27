@@ -1,0 +1,782 @@
+[
+  {
+    "start": 0.88,
+    "end": 7.68,
+    "text": "Hello again, welcome to 5130. I am Lino Coria. Today I want to talk to you about pandas."
+  },
+  {
+    "start": 7.86,
+    "end": 13.54,
+    "text": "Now, unfortunately, I won't be talking about this, these cute animals here. I will be talking"
+  },
+  {
+    "start": 13.54,
+    "end": 18.88,
+    "text": "about a tool that we have in Python that it's called pandas. And I'm just thinking, I don't"
+  },
+  {
+    "start": 18.88,
+    "end": 23.82,
+    "text": "know why it's called pandas that I will let you search why do we call it pandas and, and"
+  },
+  {
+    "start": 23.82,
+    "end": 30.76,
+    "text": "then let me know. But it's a lot, lots of fun. I, before joining Northeastern, I was working"
+  },
+  {
+    "start": 30.76,
+    "end": 35.82,
+    "text": "in industry for about a decade. And the last job I had, I was part of a data science team."
+  },
+  {
+    "start": 35.82,
+    "end": 40.86,
+    "text": "I was in charge of a bunch of computer vision stuff, but I was also, you know, grabbing all"
+  },
+  {
+    "start": 40.86,
+    "end": 45.86,
+    "text": "this data, collecting all this data, putting things together. And pandas was very, very,"
+  },
+  {
+    "start": 45.86,
+    "end": 52.46,
+    "text": "very useful. I pretty much use pandas every day. So if you've never worked with pandas,"
+  },
+  {
+    "start": 52.46,
+    "end": 58.48,
+    "text": "you're going to love it. It's so much fun. So let's, let's start. By the way, this is just"
+  },
+  {
+    "start": 58.48,
+    "end": 64.54,
+    "text": "an introduction, right? I won't be able to teach you all of pandas today, but this is,"
+  },
+  {
+    "start": 64.68,
+    "end": 68.78,
+    "text": "yeah, this is going to be an introduction, but I hope that it gets you excited."
+  },
+  {
+    "start": 71.06,
+    "end": 78.54,
+    "text": "So let's start with the basic question. What is pandas, right? Pandas is Python's main tool"
+  },
+  {
+    "start": 78.54,
+    "end": 86.28,
+    "text": "for data manipulation and analysis. Surprise, surprise. It is built on top of NumPy and it is"
+  },
+  {
+    "start": 86.28,
+    "end": 94.5,
+    "text": "designed for tabular. That means shape of a table or a spreadsheet, right? For tabular data and"
+  },
+  {
+    "start": 94.5,
+    "end": 103.3,
+    "text": "heterogeneous, which means every column, they, they, they don't have to be the same type of values that"
+  },
+  {
+    "start": 103.3,
+    "end": 108.78,
+    "text": "we are storing. And we'll talk more about this in, in a little bit. Some people call it the Excel of"
+  },
+  {
+    "start": 108.78,
+    "end": 115.3,
+    "text": "Python. I think, uh, you know, pandas is way more powerful, but if you want to explain quickly what it"
+  },
+  {
+    "start": 115.3,
+    "end": 121.52,
+    "text": "is, it's like the Excel of Python. Sure. That's a good analogy. And it's, uh, super useful for data"
+  },
+  {
+    "start": 121.52,
+    "end": 127.74,
+    "text": "science workflows. As I said, I was part of a data science team and I was using this, um, this Python"
+  },
+  {
+    "start": 127.74,
+    "end": 134.32,
+    "text": "tool pretty much every day. And, and I, you know, I could get so many insights from the data. Thanks"
+  },
+  {
+    "start": 134.32,
+    "end": 143.64,
+    "text": "to all this, um, all these bells and whistles that pandas has. So we're going to compare NumPy versus"
+  },
+  {
+    "start": 143.64,
+    "end": 149.9,
+    "text": "pandas. NumPy is great when you're working with homogeneous numerical arrays, right? And think of,"
+  },
+  {
+    "start": 150.02,
+    "end": 156.38,
+    "text": "uh, think about matrices when you're working with a matrix, matrix A, everything inside this two"
+  },
+  {
+    "start": 156.38,
+    "end": 163.4,
+    "text": "dimensional arrays is the same type. These are all float or integer numbers, right? And, and this is"
+  },
+  {
+    "start": 163.4,
+    "end": 169.84,
+    "text": "great. If you're working with collections of the same thing, then NumPy is for you, particularly in"
+  },
+  {
+    "start": 169.84,
+    "end": 177.46,
+    "text": "numbers. And yeah, all elements in this arrays, they have to be the same type. And NumPy is great. If"
+  },
+  {
+    "start": 177.46,
+    "end": 183.48,
+    "text": "you're going to be doing a lot of math, go, go for NumPy. And so this is going to be great. NumPy,"
+  },
+  {
+    "start": 183.48,
+    "end": 188.82,
+    "text": "as you know, it's going to be great for matrices, vectors, any numerical computations. I'm not"
+  },
+  {
+    "start": 188.82,
+    "end": 194.9,
+    "text": "discussing SciPy here, but you know, you can go watch the video about SciPy and understand when to"
+  },
+  {
+    "start": 194.9,
+    "end": 204.2,
+    "text": "use SciPy versus NumPy. I will let you, um, revisit that video. Now, pandas, as I said before,"
+  },
+  {
+    "start": 204.2,
+    "end": 210.56,
+    "text": "is designed for tabular and heterogeneous data, meaning it's going to look like a table."
+  },
+  {
+    "start": 210.56,
+    "end": 216.26,
+    "text": "You're going to have rows, you're going to have columns, right? But here the columns can have"
+  },
+  {
+    "start": 216.26,
+    "end": 224.46,
+    "text": "different types. So one column can be a string, like someone's name, like, so this is the column"
+  },
+  {
+    "start": 224.46,
+    "end": 233.82,
+    "text": "with the names. Then let's say the salary of this person. And then maybe, I don't know, the geographic"
+  },
+  {
+    "start": 233.82,
+    "end": 240.76,
+    "text": "location of this person, right? Like every column can have some different type. And this is optimized"
+  },
+  {
+    "start": 240.76,
+    "end": 248.18,
+    "text": "for data manipulation and for analysis. And to give you an idea, when you're thinking about,"
+  },
+  {
+    "start": 248.18,
+    "end": 256.66,
+    "text": "about spreadsheets, databases, CSV, CSV stands for comma separated values, files, right?"
+  },
+  {
+    "start": 256.66,
+    "end": 265.58,
+    "text": "Uh, when you're thinking about Excel, right? Well, uh, this is pretty much where pandas comes in."
+  },
+  {
+    "start": 268.58,
+    "end": 274.74,
+    "text": "Here I have two side-by-side examples. We have NumPy, right? And, and, and remember that we"
+  },
+  {
+    "start": 274.74,
+    "end": 282.3,
+    "text": "shorten NumPy with NP. We don't have to, but it's what people usually do. Import NumPy as NP,"
+  },
+  {
+    "start": 282.3,
+    "end": 288.54,
+    "text": "and then you create an array and all are integers, right? It's an array with one, two, three, four,"
+  },
+  {
+    "start": 288.62,
+    "end": 293.1,
+    "text": "five. All of them are integers, or you can create an array with all the numbers are floats."
+  },
+  {
+    "start": 294.72,
+    "end": 302.38,
+    "text": "And if you try to create an array that has, uh, elements of different types, like we have"
+  },
+  {
+    "start": 302.38,
+    "end": 310.72,
+    "text": "here, right? One, two, those are integers and then three, but you put quotations. This doesn't work."
+  },
+  {
+    "start": 310.72,
+    "end": 320.22,
+    "text": "This becomes all strings. Now pandas on the other hand. So first, first of all, same as with NumPy,"
+  },
+  {
+    "start": 320.34,
+    "end": 329.54,
+    "text": "we shorten it to NP pandas. Usually we shorten it to PD, right? And we are going to have this thing"
+  },
+  {
+    "start": 329.54,
+    "end": 333.64,
+    "text": "called the data frame. I'm going to talk more about data frames in a little bit, but it allows"
+  },
+  {
+    "start": 333.64,
+    "end": 339.64,
+    "text": "you to have different columns and different types. There's no issue. So for instance, we have this data"
+  },
+  {
+    "start": 339.64,
+    "end": 345.52,
+    "text": "frame that has the column with the names, the column, these are strings, right? The columns with"
+  },
+  {
+    "start": 345.52,
+    "end": 352.56,
+    "text": "the age information. These are integers, the salary here, they're going to be float and also"
+  },
+  {
+    "start": 352.56,
+    "end": 358.16,
+    "text": "Booleans, right? Like is this person employed true or false, for instance? And of course, this is,"
+  },
+  {
+    "start": 358.24,
+    "end": 364.34,
+    "text": "these are just examples, but you can see the very clear when you need to use NumPy, when you want"
+  },
+  {
+    "start": 364.34,
+    "end": 369.04,
+    "text": "to use pandas. It's not about which one is more powerful than the other, like one of them is more"
+  },
+  {
+    "start": 369.04,
+    "end": 375.8,
+    "text": "powerful than the other. No, no, no. One is for numerical computations. This is NumPy and pandas is"
+  },
+  {
+    "start": 375.8,
+    "end": 384.12,
+    "text": "going to be for looking at a bunch of data that has a bunch of different types in it. And we want to be"
+  },
+  {
+    "start": 384.12,
+    "end": 392.5,
+    "text": "able to explore, manipulate, modify, clean this data. So very different reasons to use each one of them."
+  },
+  {
+    "start": 395.08,
+    "end": 404.16,
+    "text": "So if this is, you know, a class, 5130 is a course in machine learning in AI. Why do we need this? Well,"
+  },
+  {
+    "start": 404.16,
+    "end": 413.16,
+    "text": "because real world data is very messy, right? You're going to get, for instance, let's say you're"
+  },
+  {
+    "start": 413.16,
+    "end": 419.82,
+    "text": "reading user data, you're going to have IDs, names, dates, amounts. So they're going to be,"
+  },
+  {
+    "start": 420.14,
+    "end": 425.66,
+    "text": "it's going to be mixed in terms of types. You're going to be other stuff like sensor readings,"
+  },
+  {
+    "start": 425.76,
+    "end": 431.16,
+    "text": "right? You're going to have timestamps, device IDs, measurements, medical records. You're going to"
+  },
+  {
+    "start": 431.16,
+    "end": 436.58,
+    "text": "have information about the patient, some diagnosis, some test results, bunch of stuff. You can think"
+  },
+  {
+    "start": 436.58,
+    "end": 443.68,
+    "text": "of many applications, financial data, et cetera. I used to work with greenhouses. And so we had"
+  },
+  {
+    "start": 443.68,
+    "end": 448.4,
+    "text": "information about the particular greenhouse. Then every single row of the greenhouse had a number."
+  },
+  {
+    "start": 448.64,
+    "end": 454.24,
+    "text": "And then every little section of each row had like another number. And so we would know"
+  },
+  {
+    "start": 454.24,
+    "end": 461.08,
+    "text": "where we were, right? On the greenhouse based on that. And then we would count how many fruit"
+  },
+  {
+    "start": 461.08,
+    "end": 466.94,
+    "text": "there was on this little section of the greenhouse. If the, how ripe was the fruit,"
+  },
+  {
+    "start": 467.04,
+    "end": 473.02,
+    "text": "things like that. So we were collecting lots and lots of data. And so using pandas was super,"
+  },
+  {
+    "start": 473.14,
+    "end": 479.76,
+    "text": "super useful because pandas is going to help you do all these things. It helps you load data from"
+  },
+  {
+    "start": 479.76,
+    "end": 487.78,
+    "text": "different sources. You can have CSV files, Excel files, SQL. I usually had data in JSON format. You can"
+  },
+  {
+    "start": 487.78,
+    "end": 495.06,
+    "text": "also read things in JSON format. Once you read, you load this data, you have it in Python, right?"
+  },
+  {
+    "start": 495.46,
+    "end": 501.42,
+    "text": "Then you usually you need to clean the data. Data is kind of messy, right? Sometimes there are going"
+  },
+  {
+    "start": 501.42,
+    "end": 507.7,
+    "text": "to be some missing values. Someone, you know, messed up, didn't put the right information or whatever"
+  },
+  {
+    "start": 507.7,
+    "end": 514.34,
+    "text": "reason. There's going to be some types that are wrong. And you're also going to have duplicates."
+  },
+  {
+    "start": 514.34,
+    "end": 520.7,
+    "text": "It happens sometimes that people enter the same information twice. And sometimes it doesn't look"
+  },
+  {
+    "start": 520.7,
+    "end": 528.02,
+    "text": "identical the same, but let's say someone entered my name and my, my ID and my salary, something like"
+  },
+  {
+    "start": 528.02,
+    "end": 535.44,
+    "text": "that. And then they enter my name, but with lowercase letters instead of combination of lowercase,"
+  },
+  {
+    "start": 535.5,
+    "end": 541.66,
+    "text": "uppercase. And it is detected as a different row and it's saved. Well, when you are loading this data,"
+  },
+  {
+    "start": 541.66,
+    "end": 548.64,
+    "text": "you are going to, and you want to do some really good, you know, uh, data analysis, you want to"
+  },
+  {
+    "start": 548.64,
+    "end": 553.26,
+    "text": "remove duplicates. And so you have to decide what is a duplicate, right? If the same name, but with"
+  },
+  {
+    "start": 553.26,
+    "end": 558.14,
+    "text": "all lower cases, you know, they're technically different, but we're going to assume it's the same."
+  },
+  {
+    "start": 558.26,
+    "end": 563.0,
+    "text": "So you can get rid of that for instance, right? Anyways, I'm offering too much detail for one thing,"
+  },
+  {
+    "start": 563.0,
+    "end": 569.86,
+    "text": "but you are going to spend a lot of time cleaning data in, in the real world. Once you have cleaned the"
+  },
+  {
+    "start": 569.86,
+    "end": 575.22,
+    "text": "data, you want to transform the data by transform means you're going to change it. Somehow you're"
+  },
+  {
+    "start": 575.22,
+    "end": 581.62,
+    "text": "going to filter it. So for instance, just show me the table with the people making more than $20,000"
+  },
+  {
+    "start": 581.62,
+    "end": 587.22,
+    "text": "a year or something like that. You're going to sort it. Usually you want to sort it based on,"
+  },
+  {
+    "start": 587.3,
+    "end": 590.96,
+    "text": "I don't know who, you know, who's the oldest, who's the youngest, something like that."
+  },
+  {
+    "start": 591.32,
+    "end": 596.24,
+    "text": "And, and lots of things you want to merge. Sometimes you're going to have data in one spreadsheet,"
+  },
+  {
+    "start": 596.24,
+    "end": 601.0,
+    "text": "another data in another spreadsheet. It's all about our students. And then you want to combine"
+  },
+  {
+    "start": 601.0,
+    "end": 605.18,
+    "text": "them. And so you need to merge these tables, right? In this case, we're going to talk about"
+  },
+  {
+    "start": 605.18,
+    "end": 610.8,
+    "text": "data frames very, very soon. So you want to do that. Then you also want to prepare the data for"
+  },
+  {
+    "start": 610.8,
+    "end": 616.22,
+    "text": "machine learning algorithms. Now that you have all this data, now that you have cleaned it, maybe"
+  },
+  {
+    "start": 616.22,
+    "end": 621.94,
+    "text": "transform it. Now you need to make sure that it's ready. Maybe some normalization, whatever it is"
+  },
+  {
+    "start": 621.94,
+    "end": 627.7,
+    "text": "that you need to do, you know, changing its, um, its shape so that you can put it in the machine"
+  },
+  {
+    "start": 627.7,
+    "end": 633.02,
+    "text": "learning pipeline. And finally, once you get some stuff, you're going to be, you're going to want"
+  },
+  {
+    "start": 633.02,
+    "end": 638.94,
+    "text": "to analyze the data, right? Get some statistics, uh, some data visualization, all that stuff. So"
+  },
+  {
+    "start": 638.94,
+    "end": 648.38,
+    "text": "you can do all of this with pandas. Now people say 80% of data science, uh, is data preparation."
+  },
+  {
+    "start": 648.38,
+    "end": 654.32,
+    "text": "Where that 80% came from? I don't know, but let's say a lot of your time that I can tell you a lot"
+  },
+  {
+    "start": 654.32,
+    "end": 660.06,
+    "text": "of the time that you're going to be, if you have like a, a work as a data scientist or, you know,"
+  },
+  {
+    "start": 660.06,
+    "end": 667.04,
+    "text": "something like that, you're going to spend a lot of the time, uh, cleaning your data or just"
+  },
+  {
+    "start": 667.04,
+    "end": 673.02,
+    "text": "preparing it. And so pandas is going to be that tool that you use for that. Let's say 80% of the time."
+  },
+  {
+    "start": 673.02,
+    "end": 680.16,
+    "text": "And so I encourage you to become, uh, really good at pandas, right? Now for me, it's been a while"
+  },
+  {
+    "start": 680.16,
+    "end": 686.3,
+    "text": "since I was using, uh, you know, I used to use it on a daily basis now, not anymore, but, uh, yeah,"
+  },
+  {
+    "start": 686.3,
+    "end": 691.52,
+    "text": "super important and lots of fun. I, I love using pandas on Jupyter notebooks because I can run a"
+  },
+  {
+    "start": 691.52,
+    "end": 697.58,
+    "text": "little bit, visualize something, understand it, then continue to try something else. It's lots of fun."
+  },
+  {
+    "start": 697.58,
+    "end": 706.08,
+    "text": "I'm really happy that we get to talk about pandas here. Pandas has two core data structures,"
+  },
+  {
+    "start": 706.78,
+    "end": 711.9,
+    "text": "the series. So think of an array, right? This is like a column in a spreadsheet or something like"
+  },
+  {
+    "start": 711.9,
+    "end": 720.1,
+    "text": "that. And it can hold any data type and it has an index, which are labels for each value. So this is,"
+  },
+  {
+    "start": 720.46,
+    "end": 726.18,
+    "text": "the series is think of an array, right? The most interesting one, the one that you're probably"
+  },
+  {
+    "start": 726.18,
+    "end": 733.86,
+    "text": "going to be using the most is the data frame. The data frame is basically a spreadsheet. You're"
+  },
+  {
+    "start": 733.86,
+    "end": 740.66,
+    "text": "going to have a collection of series. In this case, the series are the columns, right? And so you're"
+  },
+  {
+    "start": 740.66,
+    "end": 749.44,
+    "text": "going to have rows and columns and both the rows and the columns have labels. And I'm going to show"
+  },
+  {
+    "start": 749.44,
+    "end": 759.28,
+    "text": "you how this looks. This is the anatomy of a data frame. You can see, and let me start drawing here,"
+  },
+  {
+    "start": 759.42,
+    "end": 768.06,
+    "text": "that we have, we have a bunch of columns here, right? And each column has a name. So we have the column"
+  },
+  {
+    "start": 768.06,
+    "end": 777.6,
+    "text": "name, age, major, GPA, right? So this explain, these are explaining, describing what kind of data"
+  },
+  {
+    "start": 777.6,
+    "end": 787.54,
+    "text": "you are looking at. Then the row labels also have index numbers, right? So this is row zero."
+  },
+  {
+    "start": 787.54,
+    "end": 797.46,
+    "text": "So with Python, we start with zeros always. So row zero, one, two, three, right? And so for instance,"
+  },
+  {
+    "start": 797.46,
+    "end": 804.74,
+    "text": "you can see that the column with the names has strings, right? And then the column with age has"
+  },
+  {
+    "start": 804.74,
+    "end": 811.16,
+    "text": "integers. The major is all in this case, we're using strings. Again, the GPA, we have float."
+  },
+  {
+    "start": 812.0,
+    "end": 816.76,
+    "text": "And this is how a data frame looks like this is a tiny data frame. Usually you're going to be working"
+  },
+  {
+    "start": 816.76,
+    "end": 821.64,
+    "text": "with, you know, hundreds of thousands of data points and things like that. So it's going to be,"
+  },
+  {
+    "start": 821.64,
+    "end": 828.18,
+    "text": "you know, way more, a little bit overwhelming, but because you have pandas, you will have the tools"
+  },
+  {
+    "start": 828.18,
+    "end": 836.24,
+    "text": "to deal with these large amounts of data. Here are some important attributes. You can get the shape"
+  },
+  {
+    "start": 836.24,
+    "end": 841.6,
+    "text": "of a data frame. You're going to get the number, which are the rows and the columns. You can just get"
+  },
+  {
+    "start": 841.6,
+    "end": 847.52,
+    "text": "the columns, the names of the columns of this data frame. You can get the index, which is the labels"
+  },
+  {
+    "start": 847.52,
+    "end": 853.28,
+    "text": "of the rows, right? We're an index zero, one, two, three, et cetera. You can get the data types of"
+  },
+  {
+    "start": 853.28,
+    "end": 859.8,
+    "text": "each column. So am I looking at strings? Am I looking at float values? Am I looking at integers,"
+  },
+  {
+    "start": 860.02,
+    "end": 866.28,
+    "text": "Boolean, et cetera? If you want to just get an overview of the data frame, you just loaded this"
+  },
+  {
+    "start": 866.28,
+    "end": 871.82,
+    "text": "data frame and you don't know what's in that data frame. I suggest you use info, right? It's going"
+  },
+  {
+    "start": 871.82,
+    "end": 875.88,
+    "text": "to give you an overview of the data frame. It's going to give you some information about what to"
+  },
+  {
+    "start": 875.88,
+    "end": 880.86,
+    "text": "expect in this data frame. If you want to, again, this is when your data frame is huge. You want to"
+  },
+  {
+    "start": 880.86,
+    "end": 886.22,
+    "text": "look at the first five rows, you just say head and you look at the head of your data frame. If you want"
+  },
+  {
+    "start": 886.22,
+    "end": 890.9,
+    "text": "to look at the last five rows, you say tail. So you get the head or the tail of your data frame. And"
+  },
+  {
+    "start": 890.9,
+    "end": 895.68,
+    "text": "there's many more attributes, but these are some very important ones that allow you to get a sense"
+  },
+  {
+    "start": 895.68,
+    "end": 907.36,
+    "text": "of your data. As I said, this is just a very quick introduction to Pandas. The key takeaways is that"
+  },
+  {
+    "start": 907.36,
+    "end": 915.0,
+    "text": "Pandas is great for tabular data, right? So think spreadsheet, but working in Python, you can have"
+  },
+  {
+    "start": 915.0,
+    "end": 923.0,
+    "text": "different types per column. And there are two core structures that we talked about. We talk about"
+  },
+  {
+    "start": 923.0,
+    "end": 929.3,
+    "text": "the series, which are 1D, these columns. You can think of the columns as a series. And then the data"
+  },
+  {
+    "start": 929.3,
+    "end": 937.22,
+    "text": "frame is a collection of series and it's a 2D table. Yeah, a 2D array or a 2D table."
+  },
+  {
+    "start": 938.68,
+    "end": 945.28,
+    "text": "This is, you know, the real world. This is like, this is a tool that you're going to use in the real"
+  },
+  {
+    "start": 945.28,
+    "end": 951.36,
+    "text": "world because you can load the data, but you also can clean it. And as I said, life is so messy."
+  },
+  {
+    "start": 951.36,
+    "end": 957.78,
+    "text": "Data is so messy. A lot of the time is just cleaning data. You're going to spend a cleaning data."
+  },
+  {
+    "start": 958.28,
+    "end": 965.48,
+    "text": "You can transform it and you can analyze it. You can chain different methods. You can do a bunch of"
+  },
+  {
+    "start": 965.48,
+    "end": 971.82,
+    "text": "things with the data, right? You can filter it. Let's say arrange things, you know, filter only the"
+  },
+  {
+    "start": 971.82,
+    "end": 979.9,
+    "text": "people making more than $20,000, then sort them by salary. And then, you know, create two tables,"
+  },
+  {
+    "start": 979.9,
+    "end": 986.0,
+    "text": "one for, I don't know, one for men, one for women, whatever. You can do a bunch of things with this,"
+  },
+  {
+    "start": 986.06,
+    "end": 990.84,
+    "text": "right? And so this is usually what you're going to do. You're going to load a CSV file. You're going"
+  },
+  {
+    "start": 990.84,
+    "end": 997.32,
+    "text": "to explore it. We show you that you can type info, head, tail, get a sense of this data frame."
+  },
+  {
+    "start": 997.8,
+    "end": 1003.0,
+    "text": "You will have to clean it fine. If some items are repeating themselves, if there's some missing"
+  },
+  {
+    "start": 1003.0,
+    "end": 1009.34,
+    "text": "information, you're going to transform it and then you're going to analyze it. So lots of fun"
+  },
+  {
+    "start": 1009.34,
+    "end": 1017.32,
+    "text": "that you can have with pandas. A lot of the inspiration for this video comes from the book,"
+  },
+  {
+    "start": 1017.56,
+    "end": 1025.82,
+    "text": "Python for Data Analysis. As Northeastern students, you have access to O'Reilly and you can find this"
+  },
+  {
+    "start": 1025.82,
+    "end": 1031.3,
+    "text": "book. And the book goes deeper into pandas, right? For me, this is just like a very quick"
+  },
+  {
+    "start": 1031.3,
+    "end": 1040.04,
+    "text": "introduction. And there's going to be more information later here in this canvas page."
+  },
+  {
+    "start": 1040.5,
+    "end": 1046.26,
+    "text": "And so please review everything very, very carefully. Thank you, everybody. I'm Lino Kodya."
+  }
+]

@@ -1,0 +1,208 @@
+{
+  "videoFile": "test_video.mp4",
+  "totalSlides": 20,
+  "processingTime": 321.39,
+  "extractionDate": "2025-11-19T15:39:17.532779",
+  "slides": [
+    {
+      "imageFile": "slide_001.jpg",
+      "startTime": "00:01:10",
+      "endTime": "00:02:20",
+      "startTimeMs": 70287,
+      "endTimeMs": 140575,
+      "duration": 70.29,
+      "extractedText": "mL,\nWhat is Pandas’ Hes\n{ =\nIY Pandas is Python's primary tool for data manipulation and analysis\nW Built on top of NumPy\n= Designed specifically for tabular and heterogeneous data\n& The \"Excel of Python\" (but much more powerfull)\nlilt Essential for data science workflows",
+      "ocrConfidence": 0.84
+    },
+    {
+      "imageFile": "slide_002.jpg",
+      "startTime": "00:02:20",
+      "endTime": "00:04:27",
+      "startTimeMs": 140575,
+      "endTimeMs": 267292,
+      "duration": 126.72,
+      "extractedText": "WHIWA\nBk\naa | a\nLl peKEEON\nNumPy vs. Pand Gove 5\numPy vs. Pandas ro)\ntf.)\nNUMPY PANDAS\n- Best for homogeneous numerical arrays » Designed for tabular/heterogeneous data\n« All elements must be the same type - Different columns can have different types\n* Optimized for mathematical operations * Optimized for data manipulation and\n* Think: matrices, vectors, numerical analysis\ncomputations * Think: spreadsheets, databases, CSV files",
+      "ocrConfidence": 0.86
+    },
+    {
+      "imageFile": "slide_003.jpg",
+      "startTime": "00:04:27",
+      "endTime": "00:06:34",
+      "startTimeMs": 267292,
+      "endTimeMs": 394008,
+      "duration": 126.72,
+      "extractedText": "rT\nat il ll ik\n[| oT RS 7\n(| bape\neh A\nPee nk ae —\nExample es , :\n= a ifpd\nNUMPY PANDAS\nimport numpy as np import pandas as pd\n# ALL elements must be same type # Different columns, different types - no problem!\narr = np.array([1, 2, 3, 4, 5]) # ALL integers df = pd.DataFrame({ ; ;\narr = np.array([1.5, 2.7, 3.2]) # All floats ‘Name’: ['Alice', 'Bob', ‘Charlie'], # strings\n‘Age': [25, 30, 35], # integers\n# This becomes all strings! 'Salary': [50000.0, 60000.0, 75000.0], # Floats\nare = np.array([1, 2, 'three']) #4 ['2', '2', ‘three'] ‘Employed': [True, True, False] # booleans\niD)",
+      "ocrConfidence": 0.79
+    },
+    {
+      "imageFile": "slide_004.jpg",
+      "startTime": "00:06:34",
+      "endTime": "00:06:59",
+      "startTimeMs": 394008,
+      "endTimeMs": 419747,
+      "duration": 25.74,
+      "extractedText": "Why Pandas Matters for Al/ML =\nieee =e\n| ——_—____—__—__—_ |\nLOAD CLEAN TRANSFORM PREPARE — ANALYZE",
+      "ocrConfidence": 0.93
+    },
+    {
+      "imageFile": "slide_005.jpg",
+      "startTime": "00:06:59",
+      "endTime": "00:07:34",
+      "startTimeMs": 419747,
+      "endTimeMs": 454396,
+      "duration": 34.65,
+      "extractedText": "Why Pandas Matters for AI/ML Pail\nf C23\nLOAD CLEAN TRANSFORM PREPARE — ANALYZE",
+      "ocrConfidence": 0.73
+    },
+    {
+      "imageFile": "slide_006.jpg",
+      "startTime": "00:07:34",
+      "endTime": "00:08:11",
+      "startTimeMs": 454396,
+      "endTimeMs": 491025,
+      "duration": 36.63,
+      "extractedText": "Why Pandas Matters for Al/ML amy.\nifs 2090S\nee\nLOAD CLEAN TRANSFORM PREPARE ANALYZE",
+      "ocrConfidence": 0.8
+    },
+    {
+      "imageFile": "slide_007.jpg",
+      "startTime": "00:08:11",
+      "endTime": "00:08:43",
+      "startTimeMs": 491025,
+      "endTimeMs": 523694,
+      "duration": 32.67,
+      "extractedText": "Why Pandas Matters for AI/ML Ay\nrf af Sey\nLOAD CLEAN TRANSFORM PREPARE — ANALYZE",
+      "ocrConfidence": 0.79
+    },
+    {
+      "imageFile": "slide_008.jpg",
+      "startTime": "00:08:43",
+      "endTime": "00:11:41",
+      "startTimeMs": 523694,
+      "endTimeMs": 701889,
+      "duration": 178.19,
+      "extractedText": "Why Pandas Matters for Al/ML Pisin\nmee\nLOAD CLEAN TRANSFORM = PREPARE ~— ANALYZE",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_009.jpg",
+      "startTime": "00:11:41",
+      "endTime": "00:12:32",
+      "startTimeMs": 701889,
+      "endTimeMs": 752377,
+      "duration": 50.49,
+      "extractedText": "Two Core Data Structures\nSERIES DATAFRAME\n¢ Like a column in a spreadsheet + Like a complete spreadsheet\n* Can hold any data type * Collection of Series (columns)\n* Has an index (labels for each value) ¢ Rows and columns both have labels\nprc a\ndtr\nVe ek [\\\n(ie _\\\ntO S95\nKEI)",
+      "ocrConfidence": 0.85
+    },
+    {
+      "imageFile": "slide_010.jpg",
+      "startTime": "00:12:43",
+      "endTime": "00:12:49",
+      "startTimeMs": 763267,
+      "endTimeMs": 769207,
+      "duration": 5.94,
+      "extractedText": "DataFrame Anatomy\n# Name Age Major GPA «Column names Clabels)\n#0 Alice 28 cs 3.8 < Row 0\n#1 Bob 24 Math 3.6 «Row 1\n#2 Che 2&3 cs 3.9 «Row 2\n#3 Diana 22 Chem 3.7 < Row 3 alll t any .\na TIN\n#T nt AN\n(oom\n# Index (row labels) a: Ve ary",
+      "ocrConfidence": 0.72
+    },
+    {
+      "imageFile": "slide_011.jpg",
+      "startTime": "00:12:49",
+      "endTime": "00:12:55",
+      "startTimeMs": 769207,
+      "endTimeMs": 775147,
+      "duration": 5.94,
+      "extractedText": "DataFrame Anatomy\n# Name Age Major GPA «Column names Clabels)\n#0 Alice 82 cs 5.8 <— Row 0\n#1 Bob 24 Math 36 <Rowl\n#2 Che 23 CS 3.9 <« Row’\n#3 Diana 22 Chem 3.7 <Row3 ee.\nPati 52k\n‘1 fase\n# Index (row labels) = Sy Eas\na",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_012.jpg",
+      "startTime": "00:12:55",
+      "endTime": "00:13:00",
+      "startTimeMs": 775147,
+      "endTimeMs": 780097,
+      "duration": 4.95,
+      "extractedText": "DataFrame Anatomy\n# Name Age Major GPA «Column names Clabels)\n#0 Alice 288 cs 3.8 < Row 0\n#1 Bob 24 Math 3.6 « Row 1\n#2 Che 235 cs 3.9 « Row 2\n#3 Diana 22 Chem 3.7 «+ Row 3 al | I i Hi ~“\n4 ial\n# Index (row labels) amen pag aaa\nIS",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_013.jpg",
+      "startTime": "00:13:01",
+      "endTime": "00:13:31",
+      "startTimeMs": 781087,
+      "endTimeMs": 811776,
+      "duration": 30.69,
+      "extractedText": "DataFrame Anatomy\n# Name Age Major GPA «Column names Clabels)\n#0 Alice 28 cs 5.8 < Row 0\n#1 Bob 24 Math 3.6 < Row 1\n#2 Che 23 cs 3.9 <— Row 2\n#83 Diana 22 Chem 3.7 < Row 3 «ll i H .\nFito era |\n(eel)\n# Index (row labels pl fee | Ee\nKHOURS",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_014.jpg",
+      "startTime": "00:13:41",
+      "endTime": "00:13:52",
+      "startTimeMs": 821675,
+      "endTimeMs": 832565,
+      "duration": 10.89,
+      "extractedText": "DataFrame Anatomy\n# Name Age Major GPA «Column names Clabels)\n#0 Alice 22 cs 5.8 «+ Row 0\n#1 Bob 24 Math 3.6 <—Rowl\n#2 Che 25 CS 5.9 <— Row 2\n#3 Diana 22 Chem 3.7 <RowS ale _\n' ieee =\n# Index (row labels) we SOOM Ee\naaa se! S",
+      "ocrConfidence": 0.75
+    },
+    {
+      "imageFile": "slide_015.jpg",
+      "startTime": "00:13:52",
+      "endTime": "00:14:58",
+      "startTimeMs": 832565,
+      "endTimeMs": 898893,
+      "duration": 66.33,
+      "extractedText": "Important Attributes\n* df.shape # (4, 4) - rows, columns\n* df.columns  #Column names\n* df.index # Row labels\n- df.dtypes § # Data type of each column\n© df.infoQ # Overview of DataFrame al Ty .\n* df.head # First 5 iin TaN \\\neadQ) irst 5 rows i steel\n- dftail() #Last 5 rows —_ Ss\nEG)",
+      "ocrConfidence": 0.73
+    },
+    {
+      "imageFile": "slide_016.jpg",
+      "startTime": "00:14:58",
+      "endTime": "00:15:15",
+      "startTimeMs": 898893,
+      "endTimeMs": 915723,
+      "duration": 16.83,
+      "extractedText": "7 WY tg\ni—~\nKey Tak . ry\ney Takeaways ln\n[~~ |\n+ Pandas is for tabular data - Different types per : 7\ncolumn, labeled rows/colurnns | ~~ f fl\n+ Two core structures - Series (1D) and DataFrame (2D pt /> 7 Me\ntable) fl\n¢ Built for real-world data - Loading, cleaning, L . /\ntransforming, analyzing Jl ee r p.\n* Method chaining - Write clean, readable data ™ .\ntransformation pipelines Se f° : f it ~\nStart here - Load CSV — Explore — Cl , mill i D ;\n« Start here - Loa — Explore —> Clean .\nTransform —> Analyze | . fie eM \\\n| TYalH}».",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_017.jpg",
+      "startTime": "00:15:15",
+      "endTime": "00:15:21",
+      "startTimeMs": 915723,
+      "endTimeMs": 921662,
+      "duration": 5.94,
+      "extractedText": "—,\nm~\n| i\nKey Takeaways r~ cry\n[~~ |\n/ ~\n» Pandas is for tabular data - Different types per ~~ . \"ie\ncolumn, labeled rows/columns | ' f [i\n+ Two core structures - Series (1D) and DataFrame (2D ‘ Lf .\ntable) / [t\n* Built for real-world data - Loading, cleaning, we : /\ntransforming, analyzing [1 fae i .\n* Method chaining - Write clean, readable data * ,\ntransformation pipelines —, / <cl NS\n+ Start here - Load CSV — Explore + Clean > | ; Ary Sikga\nTransf Anal ea\nransform —> Analyze (i Ser L—\\\nrs oS i¥\n/ “KYay ele)",
+      "ocrConfidence": 0.74
+    },
+    {
+      "imageFile": "slide_018.jpg",
+      "startTime": "00:15:21",
+      "endTime": "00:15:32",
+      "startTimeMs": 921662,
+      "endTimeMs": 932552,
+      "duration": 10.89,
+      "extractedText": "YY A A =\n—~\nKey Tak 3 ry)\ney takeaways BY |\n[~~ |\n/ > f\n» Pandas is for tabular data - Different types per —- * 7\ncolumn, labeled rows/colurnns | : fl\n+ Two core structures - Series (1D) and DataFrame (2D w *\ntable) [t\n+ Built for real-world data - Loading, cleaning, a f : .\ntransforming, analyzing [i ~~ i [\n* Method chaining - Write clean, readable data : :\ntransformation pipelines : / l Al ~\nie A stdin\n+ Start here - Load CSV — Explore - Clean > | J\nTransform — Analyze . / Tr pee | \\\nee ’ Rese\n/ Khe",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_019.jpg",
+      "startTime": "00:15:32",
+      "endTime": "00:16:19",
+      "startTimeMs": 932552,
+      "endTimeMs": 979081,
+      "duration": 46.53,
+      "extractedText": "le ee\ni—~\n{\nKey Takeaways ln\n[—~ |\n/ > f\n» Pandas is for tabular data - Different types per > - 7a\ncolumn, labeled rows/colurnns | : fl\n+ Two core structures - Series (1D) and DataFrame (2D w a\ntable) / /t\n* Built for real-world data - Loading, cleaning, , i im /\ntransforming, analyzing [i — i .\n* Method chaining - Write clean, readable data : y\ntransformation pipelines : / / cc fil) m\n+ Start here - Load CSV — Explore - Clean > | ——[eN\nTransform — Analyze | --——__ } (fac S *\n— ., ger. BARN an?)\n/ LFTs) | Lal",
+      "ocrConfidence": 0.71
+    },
+    {
+      "imageFile": "slide_020.jpg",
+      "startTime": "00:16:19",
+      "endTime": "00:16:32",
+      "startTimeMs": 979081,
+      "endTimeMs": 992940,
+      "duration": 13.86,
+      "extractedText": "yn Lr\n—~\n/\nKey Takeaways Ly thy\n[—~ |\n/ 7 as\n» Pandas is for tabular data - Different types per ~~ * 7\ncolumn, labeled rows/columns | a f fl\n+ Two core structures - Series (1D) and DataFrame (2D ; wi °\ntable) / [t .\n* Built for real-world data - Loading, cleaning, ae : / :\ntransforming, analyzing [i ! r~ .\n+ Method chaining - Write clean, readable data .\ntransformation pipelines . / 7 af cy ]\n+ Start here - Load CSV — Explore — Clean > | 2\nTransform — Analyze | --——__, | (ie = SA \\\n° Nee) ag\n/ m",
+      "ocrConfidence": 0.71
+    }
+  ]
+}
