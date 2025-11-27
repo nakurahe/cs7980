@@ -11,6 +11,75 @@ End-to-end pipeline for automatically generating quizzes from educational videos
 | `quiz-generator-LLM/` | Quiz generation using Groq LLM API |
 | `evaluation/` | Evaluation pipeline comparing multimodal vs baseline |
 
+## 🚀 Pipeline Overview
+
+```
+                    test_video.mp4
+                          │
+            ┌─────────────┴─────────────┐
+            │  (parallel processing)    │
+            ▼                           ▼
+    ┌───────────────┐           ┌───────────────┐
+    │ video-to-json │           │ audio-to-json │
+    └───────┬───────┘           └───────┬───────┘
+            │                           │
+            ▼                           ▼
+      slides.json                transcript.json
+            │                           │
+            └─────────────┬─────────────┘
+                          ▼
+               ┌─────────────────────┐
+               │  quiz-generator-LLM │
+               └──────────┬──────────┘
+                          │
+            ┌─────────────┴─────────────┐
+            ▼                           ▼
+    quiz_multimodal.json         quiz_baseline.json
+```
+
+## Quick Start
+
+```bash
+# 1. Install system dependencies (macOS)
+brew install tesseract ffmpeg
+
+# 2. Install Python dependencies
+pip install -r requirements.txt
+
+# 3. Set up Groq API key
+export GROQ_API_KEY=your_api_key_here
+
+# 4. Run the pipeline
+python run_pipeline.py test_video.mp4
+```
+
+## Usage
+
+```bash
+# Basic usage
+python run_pipeline.py lecture.mp4
+
+# Custom output directory
+python run_pipeline.py lecture.mp4 --output ./my_output
+
+# Configure quiz generation
+python run_pipeline.py lecture.mp4 --questions 15 --difficulty hard
+
+# Skip extraction (reuse existing JSONs)
+python run_pipeline.py lecture.mp4 --skip-extraction
+```
+
+## Output
+
+```
+output/
+├── slides.json           # Slide metadata with timestamps
+├── slides/               # Extracted slide images
+├── transcript.json       # Audio transcription
+├── quiz_multimodal.json  # Quiz using slides + transcript
+└── quiz_baseline.json    # Quiz using transcript only
+```
+
 ## Components
 
 ### 🎬 video-to-json
@@ -22,7 +91,7 @@ Extracts slides from lecture videos using OCR-based detection.
 ### 🎙️ audio-to-json
 Transcribes video audio to text using OpenAI Whisper.
 - **Features**: Speech-to-text transcription
-- **Tech**: OpenAI Whisper, PyTorch, ffmpeg
+- **Tech**: faster-whisper, PyTorch, ffmpeg
 - **Output**: Timestamped transcription JSON
 
 ### 🤖 quiz-generator-LLM
@@ -35,18 +104,6 @@ Generates quizzes from extracted content using LLMs.
 Compares multimodal vs transcript-only quiz generation quality.
 - **Metrics**: BERTScore, ROUGE-1, ROUGE-L, BLEU
 - **Data**: Human reference questions for validation
-
-## Quick Start
-
-```bash
-# Install system dependencies (macOS)
-brew install tesseract ffmpeg
-
-# Setup each component
-cd video-to-json && pip install -r requirements.txt
-cd ../audio-to-json && pip install -r requirements.txt
-cd ../quiz-generator-LLM && pip install -r requirements.txt
-```
 
 ## Requirements
 - Python 3.8+
