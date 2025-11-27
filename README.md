@@ -1,6 +1,15 @@
 # Smart Video Quiz Generator
 
-Automated pipeline for extracting structured content from educational videos to generate quizzes.
+End-to-end pipeline for automatically generating quizzes from educational videos using multimodal AI.
+
+## 📁 Project Structure
+
+| Folder | Description |
+|--------|-------------|
+| `video-to-json/` | Slide extraction from lecture videos using OCR |
+| `audio-to-json/` | Audio transcription using OpenAI Whisper |
+| `quiz-generator-LLM/` | Quiz generation using Groq LLM API |
+| `evaluation/` | Evaluation pipeline comparing multimodal vs baseline |
 
 ## Components
 
@@ -16,35 +25,31 @@ Transcribes video audio to text using OpenAI Whisper.
 - **Tech**: OpenAI Whisper, PyTorch, ffmpeg
 - **Output**: Timestamped transcription JSON
 
+### 🤖 quiz-generator-LLM
+Generates quizzes from extracted content using LLMs.
+- **Features**: Multimodal (slides + transcript) & baseline (transcript-only) modes
+- **Tech**: Groq API, Python 3.8+
+- **Output**: Quiz JSON with questions, answers, explanations, and references
+
+### 📊 evaluation
+Compares multimodal vs transcript-only quiz generation quality.
+- **Metrics**: BERTScore, ROUGE-1, ROUGE-L, BLEU
+- **Data**: Human reference questions for validation
+
 ## Quick Start
 
 ```bash
-# Install Tesseract OCR (macOS)
+# Install system dependencies (macOS)
 brew install tesseract ffmpeg
 
-# Setup video processing
-cd video-to-json
-pip install -r requirements.txt
-
-# Setup audio transcription
-cd audio-to-json
-pip install -r requirements.txt
-```
-
-## Usage
-
-```python
-# Extract slides
-from video_to_json import extract_slides
-slides = extract_slides("lecture.mp4", output_dir="./output")
-
-# Transcribe audio
-from audio_to_json import transcribe_video
-transcript = transcribe_video("lecture.mp4")
+# Setup each component
+cd video-to-json && pip install -r requirements.txt
+cd ../audio-to-json && pip install -r requirements.txt
+cd ../quiz-generator-LLM && pip install -r requirements.txt
 ```
 
 ## Requirements
 - Python 3.8+
 - Tesseract OCR
 - ffmpeg
-- PyTorch (for Whisper)
+- Groq API key (for quiz generation)
