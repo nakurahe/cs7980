@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Java Collections Framework Quiz",
+    "description": "This quiz covers the main concepts and topics related to the Java Collections Framework, including Set and Map interfaces, and their implementations.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 20,
+    "generation_mode": "baseline",
+    "generation_method": "transcript-only"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the most commonly used Set implementation in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TreeSet"
+        },
+        {
+          "id": "B",
+          "text": "HashSet"
+        },
+        {
+          "id": "C",
+          "text": "LinkedList"
+        },
+        {
+          "id": "D",
+          "text": "ArrayList"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The HashSet is the most commonly used Set implementation in Java because it is fast, as mentioned at 00:27 in the video.",
+      "difficulty": "easy",
+      "topic": "Set Interface",
+      "reference": "00:27"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is the time complexity of the add, remove, and contains methods in the HashSet class?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(log n)"
+        },
+        {
+          "id": "B",
+          "text": "O(n)"
+        },
+        {
+          "id": "C",
+          "text": "O(1)"
+        },
+        {
+          "id": "D",
+          "text": "O(n log n)"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The time complexity of the add, remove, and contains methods in the HashSet class is O(1), making it very fast, as mentioned at 00:51 in the video.",
+      "difficulty": "medium",
+      "topic": "HashSet",
+      "reference": "00:51"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the main drawback of using the HashSet class?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is slow"
+        },
+        {
+          "id": "B",
+          "text": "It uses a lot of memory"
+        },
+        {
+          "id": "C",
+          "text": "It does not maintain a guaranteed order"
+        },
+        {
+          "id": "D",
+          "text": "It is not thread-safe"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The main drawback of using the HashSet class is that it does not maintain a guaranteed order, as mentioned at 01:01 in the video.",
+      "difficulty": "easy",
+      "topic": "HashSet",
+      "reference": "01:01"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the purpose of the TreeSet class?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To provide a fast and efficient way to store and retrieve elements"
+        },
+        {
+          "id": "B",
+          "text": "To provide a way to store and retrieve elements in a sorted order"
+        },
+        {
+          "id": "C",
+          "text": "To provide a way to store and retrieve elements in a thread-safe manner"
+        },
+        {
+          "id": "D",
+          "text": "To provide a way to store and retrieve elements in a database"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The purpose of the TreeSet class is to provide a way to store and retrieve elements in a sorted order, as mentioned at 01:17 in the video.",
+      "difficulty": "medium",
+      "topic": "TreeSet",
+      "reference": "01:17"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the time complexity of the add, remove, and contains methods in the TreeSet class?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(1)"
+        },
+        {
+          "id": "B",
+          "text": "O(log n)"
+        },
+        {
+          "id": "C",
+          "text": "O(n)"
+        },
+        {
+          "id": "D",
+          "text": "O(n log n)"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The time complexity of the add, remove, and contains methods in the TreeSet class is O(log n), as mentioned at 01:21 in the video.",
+      "difficulty": "medium",
+      "topic": "TreeSet",
+      "reference": "01:21"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the purpose of the Comparator interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To provide a way to compare two objects for ordering"
+        },
+        {
+          "id": "B",
+          "text": "To provide a way to compare two objects for equality"
+        },
+        {
+          "id": "C",
+          "text": "To provide a way to store and retrieve elements in a database"
+        },
+        {
+          "id": "D",
+          "text": "To provide a way to store and retrieve elements in a thread-safe manner"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The purpose of the Comparator interface is to provide a way to compare two objects for ordering, as mentioned at 01:40 in the video.",
+      "difficulty": "medium",
+      "topic": "Comparator",
+      "reference": "01:40"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is the most commonly used Map implementation in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "TreeMap"
+        },
+        {
+          "id": "B",
+          "text": "HashMap"
+        },
+        {
+          "id": "C",
+          "text": "LinkedList"
+        },
+        {
+          "id": "D",
+          "text": "ArrayList"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The HashMap is the most commonly used Map implementation in Java because it is fast, as mentioned at 02:26 in the video.",
+      "difficulty": "easy",
+      "topic": "Map Interface",
+      "reference": "02:26"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is the time complexity of the get and put methods in the HashMap class?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(log n)"
+        },
+        {
+          "id": "B",
+          "text": "O(n)"
+        },
+        {
+          "id": "C",
+          "text": "O(1)"
+        },
+        {
+          "id": "D",
+          "text": "O(n log n)"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The time complexity of the get and put methods in the HashMap class is O(1), making it very fast, as mentioned at 02:30 in the video.",
+      "difficulty": "medium",
+      "topic": "HashMap",
+      "reference": "02:30"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is the main difference between the HashMap and TreeMap classes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "HashMap is faster, but TreeMap is more memory-efficient"
+        },
+        {
+          "id": "B",
+          "text": "HashMap is faster, but TreeMap maintains a sorted order"
+        },
+        {
+          "id": "C",
+          "text": "HashMap is more memory-efficient, but TreeMap is faster"
+        },
+        {
+          "id": "D",
+          "text": "HashMap is more thread-safe, but TreeMap is faster"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The main difference between the HashMap and TreeMap classes is that HashMap is faster, but TreeMap maintains a sorted order, as mentioned at 02:54 in the video.",
+      "difficulty": "medium",
+      "topic": "Map Implementations",
+      "reference": "02:54"
+    },
+    {
+      "question_number": 10,
+      "question_text": "How are the keys in a TreeMap sorted?",
+      "options": [
+        {
+          "id": "A",
+          "text": "In a random order"
+        },
+        {
+          "id": "B",
+          "text": "In a reverse order"
+        },
+        {
+          "id": "C",
+          "text": "In a natural order, or using a custom Comparator"
+        },
+        {
+          "id": "D",
+          "text": "In a thread-safe order"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The keys in a TreeMap are sorted in a natural order, or using a custom Comparator, as mentioned at 03:19 in the video.",
+      "difficulty": "medium",
+      "topic": "TreeMap",
+      "reference": "03:19"
+    }
+  ]
+}

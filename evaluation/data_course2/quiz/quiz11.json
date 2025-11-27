@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Introduction to Pandas Quiz",
+    "description": "This quiz covers the basics of Pandas, a powerful Python library for data manipulation and analysis.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 20,
+    "generation_mode": "multimodal",
+    "generation_method": "transcript and slides"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is Pandas primarily used for in Python?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Numerical computations"
+        },
+        {
+          "id": "B",
+          "text": "Data manipulation and analysis"
+        },
+        {
+          "id": "C",
+          "text": "Machine learning"
+        },
+        {
+          "id": "D",
+          "text": "Web development"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pandas is Python's main tool for data manipulation and analysis, as mentioned at 01:18 in the video.",
+      "difficulty": "easy",
+      "topic": "Introduction to Pandas",
+      "reference": "01:18"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is the main difference between NumPy and Pandas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NumPy is for numerical computations, while Pandas is for data manipulation and analysis"
+        },
+        {
+          "id": "B",
+          "text": "NumPy is for data manipulation, while Pandas is for numerical computations"
+        },
+        {
+          "id": "C",
+          "text": "NumPy is for machine learning, while Pandas is for web development"
+        },
+        {
+          "id": "D",
+          "text": "NumPy is for web development, while Pandas is for machine learning"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "As explained at 02:23 in the video, NumPy is great for numerical computations, while Pandas is designed for tabular and heterogeneous data.",
+      "difficulty": "medium",
+      "topic": "NumPy vs Pandas",
+      "reference": "02:23"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What are the two core data structures in Pandas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Series and DataFrames"
+        },
+        {
+          "id": "B",
+          "text": "NumPy arrays and lists"
+        },
+        {
+          "id": "C",
+          "text": "Dictionaries and sets"
+        },
+        {
+          "id": "D",
+          "text": "Tuples and matrices"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "As mentioned at 11:46 in the video, the two core data structures in Pandas are Series (1D) and DataFrames (2D tables).",
+      "difficulty": "easy",
+      "topic": "Pandas Data Structures",
+      "reference": "11:46"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the purpose of the 'info' method in Pandas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To display the first few rows of a DataFrame"
+        },
+        {
+          "id": "B",
+          "text": "To display the last few rows of a DataFrame"
+        },
+        {
+          "id": "C",
+          "text": "To provide an overview of a DataFrame"
+        },
+        {
+          "id": "D",
+          "text": "To sort a DataFrame"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "As mentioned at 14:26 in the video, the 'info' method provides an overview of a DataFrame, including the index dtype and column dtypes.",
+      "difficulty": "easy",
+      "topic": "Pandas Methods",
+      "reference": "14:26"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main advantage of using Pandas for data analysis?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is faster than NumPy for numerical computations"
+        },
+        {
+          "id": "B",
+          "text": "It can handle tabular and heterogeneous data"
+        },
+        {
+          "id": "C",
+          "text": "It is more difficult to use than NumPy"
+        },
+        {
+          "id": "D",
+          "text": "It is only used for machine learning"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "As mentioned at 01:48 in the video, Pandas is like the 'Excel of Python' and is super useful for data science workflows, especially when dealing with tabular and heterogeneous data.",
+      "difficulty": "medium",
+      "topic": "Pandas Advantages",
+      "reference": "01:48"
+    },
+    {
+      "question_number": 6,
+      "question_text": "How do you load a CSV file into a Pandas DataFrame?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Using the 'read_csv' method"
+        },
+        {
+          "id": "B",
+          "text": "Using the 'load' method"
+        },
+        {
+          "id": "C",
+          "text": "Using the 'import' method"
+        },
+        {
+          "id": "D",
+          "text": "Using the 'open' method"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Although not explicitly mentioned in the video, the 'read_csv' method is a common way to load a CSV file into a Pandas DataFrame.",
+      "difficulty": "easy",
+      "topic": "Pandas Data Import",
+      "reference": "Not explicitly mentioned"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is the purpose of the 'head' method in Pandas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To display the last few rows of a DataFrame"
+        },
+        {
+          "id": "B",
+          "text": "To display the first few rows of a DataFrame"
+        },
+        {
+          "id": "C",
+          "text": "To sort a DataFrame"
+        },
+        {
+          "id": "D",
+          "text": "To filter a DataFrame"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "As mentioned at 14:40 in the video, the 'head' method displays the first few rows of a DataFrame.",
+      "difficulty": "easy",
+      "topic": "Pandas Methods",
+      "reference": "14:40"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is the main difference between a Series and a DataFrame in Pandas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A Series is 2D, while a DataFrame is 1D"
+        },
+        {
+          "id": "B",
+          "text": "A Series is 1D, while a DataFrame is 2D"
+        },
+        {
+          "id": "C",
+          "text": "A Series is used for numerical computations, while a DataFrame is used for data manipulation"
+        },
+        {
+          "id": "D",
+          "text": "A Series is used for data manipulation, while a DataFrame is used for numerical computations"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "As mentioned at 11:51 in the video, a Series is like a column in a spreadsheet (1D), while a DataFrame is a collection of Series (2D table).",
+      "difficulty": "medium",
+      "topic": "Pandas Data Structures",
+      "reference": "11:51"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is the purpose of the 'dtypes' attribute in Pandas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To display the index of a DataFrame"
+        },
+        {
+          "id": "B",
+          "text": "To display the data types of each column in a DataFrame"
+        },
+        {
+          "id": "C",
+          "text": "To sort a DataFrame"
+        },
+        {
+          "id": "D",
+          "text": "To filter a DataFrame"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "As mentioned at 14:13 in the video, the 'dtypes' attribute displays the data types of each column in a DataFrame.",
+      "difficulty": "easy",
+      "topic": "Pandas Attributes",
+      "reference": "14:13"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What is the estimated percentage of time spent on data preparation in data science?",
+      "options": [
+        {
+          "id": "A",
+          "text": "20%"
+        },
+        {
+          "id": "B",
+          "text": "50%"
+        },
+        {
+          "id": "C",
+          "text": "80%"
+        },
+        {
+          "id": "D",
+          "text": "90%"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "As mentioned at 10:48 in the video, it is estimated that 80% of data science is data preparation.",
+      "difficulty": "easy",
+      "topic": "Data Science",
+      "reference": "10:48"
+    }
+  ]
+}

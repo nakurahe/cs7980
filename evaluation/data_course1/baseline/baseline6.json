@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Linked Lists vs Array Lists in Song Player Application",
+    "description": "This quiz covers the main concepts and topics from the video, including the implementation of a song player using linked lists and array lists, and the comparison of their performance.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "baseline",
+    "generation_method": "transcript-only"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the primary function of the Song Player class in the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To play songs in a random order"
+        },
+        {
+          "id": "B",
+          "text": "To add and play songs in the order they were added"
+        },
+        {
+          "id": "C",
+          "text": "To remove songs from a list"
+        },
+        {
+          "id": "D",
+          "text": "To shuffle a list of songs"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The Song Player class is designed to add songs to a list and play them in the order they were added, as mentioned at timestamp 00:18.",
+      "difficulty": "easy",
+      "topic": "Song Player Class",
+      "reference": "00:18"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What data structure is initially used to implement the song queue in the Song Player class?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Array List"
+        },
+        {
+          "id": "B",
+          "text": "Linked List"
+        },
+        {
+          "id": "C",
+          "text": "Stack"
+        },
+        {
+          "id": "D",
+          "text": "Queue"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The song queue is initially implemented using a Linked List, as mentioned at timestamp 00:52.",
+      "difficulty": "easy",
+      "topic": "Data Structures",
+      "reference": "00:52"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the purpose of the addSong method in the Song Player class?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To remove a song from the queue"
+        },
+        {
+          "id": "B",
+          "text": "To add a song to the end of the queue"
+        },
+        {
+          "id": "C",
+          "text": "To play a song from the queue"
+        },
+        {
+          "id": "D",
+          "text": "To shuffle the queue"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The addSong method adds a song to the end of the queue, as mentioned at timestamp 01:02.",
+      "difficulty": "easy",
+      "topic": "Song Player Class",
+      "reference": "01:02"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What happens when the playNextSong method is called on an empty queue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It returns the first song in the queue"
+        },
+        {
+          "id": "B",
+          "text": "It adds a new song to the queue"
+        },
+        {
+          "id": "C",
+          "text": "It returns null"
+        },
+        {
+          "id": "D",
+          "text": "It throws an exception"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "When the playNextSong method is called on an empty queue, it returns null, as mentioned at timestamp 01:32.",
+      "difficulty": "easy",
+      "topic": "Song Player Class",
+      "reference": "01:32"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the purpose of the SongPlayerDemo class?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To demonstrate the use of a Linked List"
+        },
+        {
+          "id": "B",
+          "text": "To demonstrate the use of an Array List"
+        },
+        {
+          "id": "C",
+          "text": "To demonstrate the use of the Song Player class"
+        },
+        {
+          "id": "D",
+          "text": "To demonstrate the use of a Stack"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The SongPlayerDemo class is used to demonstrate the use of the Song Player class, as mentioned at timestamp 01:47.",
+      "difficulty": "easy",
+      "topic": "Song Player Demo",
+      "reference": "01:47"
+    },
+    {
+      "question_number": 6,
+      "question_text": "How long does it take to iterate through a list of 100,000 songs using a Linked List?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Less than 1 second"
+        },
+        {
+          "id": "B",
+          "text": "Around 1 second"
+        },
+        {
+          "id": "C",
+          "text": "Around 225 milliseconds"
+        },
+        {
+          "id": "D",
+          "text": "More than 1 minute"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "It takes around 225 milliseconds to iterate through a list of 100,000 songs using a Linked List, as mentioned at timestamp 03:07.",
+      "difficulty": "medium",
+      "topic": "Performance Comparison",
+      "reference": "03:07"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What happens when the first element of an Array List is removed?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The remaining elements are shifted to the left"
+        },
+        {
+          "id": "B",
+          "text": "The remaining elements are shifted to the right"
+        },
+        {
+          "id": "C",
+          "text": "The remaining elements are not affected"
+        },
+        {
+          "id": "D",
+          "text": "The Array List is cleared"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "When the first element of an Array List is removed, the remaining elements are shifted to the left, as mentioned at timestamp 04:02.",
+      "difficulty": "medium",
+      "topic": "Array Lists",
+      "reference": "04:02"
+    },
+    {
+      "question_number": 8,
+      "question_text": "How does the performance of an Array List compare to a Linked List when removing the first element?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Array List is faster"
+        },
+        {
+          "id": "B",
+          "text": "Linked List is faster"
+        },
+        {
+          "id": "C",
+          "text": "They have similar performance"
+        },
+        {
+          "id": "D",
+          "text": "It depends on the size of the list"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The Linked List is faster than the Array List when removing the first element, as demonstrated by the performance comparison at timestamp 04:14.",
+      "difficulty": "medium",
+      "topic": "Performance Comparison",
+      "reference": "04:14"
+    },
+    {
+      "question_number": 9,
+      "question_text": "How long does it take to iterate through a list of 1 million songs using a Linked List?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Less than 1 second"
+        },
+        {
+          "id": "B",
+          "text": "Around 1 second"
+        },
+        {
+          "id": "C",
+          "text": "Around 1.2 seconds"
+        },
+        {
+          "id": "D",
+          "text": "More than 1 minute"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "It takes around 1.2 seconds to iterate through a list of 1 million songs using a Linked List, as mentioned at timestamp 05:26.",
+      "difficulty": "medium",
+      "topic": "Performance Comparison",
+      "reference": "05:26"
+    },
+    {
+      "question_number": 10,
+      "question_text": "Why is a Linked List a better choice than an Array List for the Song Player application?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Because it is faster for small lists"
+        },
+        {
+          "id": "B",
+          "text": "Because it is more memory-efficient"
+        },
+        {
+          "id": "C",
+          "text": "Because it has faster insertion and removal of elements at the beginning of the list"
+        },
+        {
+          "id": "D",
+          "text": "Because it is more complex to implement"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "A Linked List is a better choice than an Array List for the Song Player application because it has faster insertion and removal of elements at the beginning of the list, as demonstrated by the performance comparison at timestamp 06:12.",
+      "difficulty": "hard",
+      "topic": "Data Structures",
+      "reference": "06:12"
+    }
+  ]
+}

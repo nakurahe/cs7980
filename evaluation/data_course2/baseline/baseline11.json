@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Introduction to Pandas",
+    "description": "This quiz covers the basics of Pandas, a Python library for data manipulation and analysis, as introduced in the video.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "baseline",
+    "generation_method": "transcript-only"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is Pandas primarily used for in Python?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Numerical computations"
+        },
+        {
+          "id": "B",
+          "text": "Data manipulation and analysis"
+        },
+        {
+          "id": "C",
+          "text": "Machine learning algorithms"
+        },
+        {
+          "id": "D",
+          "text": "Web development"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pandas is Python's main tool for data manipulation and analysis, as stated at 01:11 in the video.",
+      "difficulty": "easy",
+      "topic": "Introduction to Pandas",
+      "reference": "01:11"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is the main difference between NumPy and Pandas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "NumPy is for numerical computations, while Pandas is for data manipulation"
+        },
+        {
+          "id": "B",
+          "text": "NumPy is for data manipulation, while Pandas is for numerical computations"
+        },
+        {
+          "id": "C",
+          "text": "NumPy is for machine learning, while Pandas is for web development"
+        },
+        {
+          "id": "D",
+          "text": "NumPy is for web development, while Pandas is for machine learning"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "NumPy is great for numerical computations, while Pandas is designed for tabular and heterogeneous data, as discussed at 02:23 and 02:30 in the video.",
+      "difficulty": "medium",
+      "topic": "NumPy vs Pandas",
+      "reference": "02:23, 02:30"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What type of data does Pandas support?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only numerical data"
+        },
+        {
+          "id": "B",
+          "text": "Only string data"
+        },
+        {
+          "id": "C",
+          "text": "Tabular and heterogeneous data"
+        },
+        {
+          "id": "D",
+          "text": "Only Boolean data"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Pandas is designed for tabular and heterogeneous data, meaning it can handle different types of data in each column, as mentioned at 01:26 and 03:30 in the video.",
+      "difficulty": "easy",
+      "topic": "Pandas Data Support",
+      "reference": "01:26, 03:30"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the purpose of the 'info' method in Pandas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To get the shape of a data frame"
+        },
+        {
+          "id": "B",
+          "text": "To get an overview of the data frame"
+        },
+        {
+          "id": "C",
+          "text": "To filter a data frame"
+        },
+        {
+          "id": "D",
+          "text": "To sort a data frame"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The 'info' method provides an overview of the data frame, including information about the data types and counts of non-null values, as mentioned at 14:26 in the video.",
+      "difficulty": "medium",
+      "topic": "Pandas Methods",
+      "reference": "14:26"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What are the two core data structures in Pandas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Series and NumPy arrays"
+        },
+        {
+          "id": "B",
+          "text": "Data frames and lists"
+        },
+        {
+          "id": "C",
+          "text": "Series and data frames"
+        },
+        {
+          "id": "D",
+          "text": "NumPy arrays and lists"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The two core data structures in Pandas are the Series (1-dimensional) and the data frame (2-dimensional), as introduced at 11:46 in the video.",
+      "difficulty": "easy",
+      "topic": "Pandas Data Structures",
+      "reference": "11:46"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the purpose of the 'head' method in Pandas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To get the last few rows of a data frame"
+        },
+        {
+          "id": "B",
+          "text": "To get the first few rows of a data frame"
+        },
+        {
+          "id": "C",
+          "text": "To filter a data frame"
+        },
+        {
+          "id": "D",
+          "text": "To sort a data frame"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The 'head' method returns the first few rows of a data frame, as mentioned at 14:40 in the video.",
+      "difficulty": "medium",
+      "topic": "Pandas Methods",
+      "reference": "14:40"
+    },
+    {
+      "question_number": 7,
+      "question_text": "Why is Pandas useful for data science workflows?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Because it can only handle numerical data"
+        },
+        {
+          "id": "B",
+          "text": "Because it can handle tabular and heterogeneous data"
+        },
+        {
+          "id": "C",
+          "text": "Because it is only used for machine learning algorithms"
+        },
+        {
+          "id": "D",
+          "text": "Because it is only used for web development"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Pandas is useful for data science workflows because it can handle tabular and heterogeneous data, making it ideal for cleaning, transforming, and analyzing data, as discussed at 02:07 and 07:59 in the video.",
+      "difficulty": "medium",
+      "topic": "Pandas in Data Science",
+      "reference": "02:07, 07:59"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What percentage of time is spent on data preparation in data science?",
+      "options": [
+        {
+          "id": "A",
+          "text": "20%"
+        },
+        {
+          "id": "B",
+          "text": "50%"
+        },
+        {
+          "id": "C",
+          "text": "80%"
+        },
+        {
+          "id": "D",
+          "text": "90%"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "It is often said that 80% of data science is data preparation, as mentioned at 10:48 in the video.",
+      "difficulty": "easy",
+      "topic": "Data Science",
+      "reference": "10:48"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is the purpose of cleaning data in Pandas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To remove duplicates and handle missing values"
+        },
+        {
+          "id": "B",
+          "text": "To filter data based on conditions"
+        },
+        {
+          "id": "C",
+          "text": "To sort data in ascending order"
+        },
+        {
+          "id": "D",
+          "text": "To perform machine learning algorithms"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Cleaning data in Pandas involves removing duplicates, handling missing values, and ensuring data consistency, as discussed at 08:21 and 09:08 in the video.",
+      "difficulty": "medium",
+      "topic": "Pandas Data Cleaning",
+      "reference": "08:21, 09:08"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What is the recommended way to get started with Pandas?",
+      "options": [
+        {
+          "id": "A",
+          "text": "By reading the official documentation"
+        },
+        {
+          "id": "B",
+          "text": "By watching video tutorials"
+        },
+        {
+          "id": "C",
+          "text": "By practicing with sample datasets and exploring the library"
+        },
+        {
+          "id": "D",
+          "text": "By taking an online course"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The video suggests that getting hands-on experience with Pandas by practicing with sample datasets and exploring the library is an effective way to learn, as implied at 11:31 in the video.",
+      "difficulty": "easy",
+      "topic": "Getting Started with Pandas",
+      "reference": "11:31"
+    }
+  ]
+}

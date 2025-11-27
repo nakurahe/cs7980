@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Java List Interface and Implementations Quiz",
+    "description": "This quiz covers the Java List interface, its features, and its implementations, specifically ArrayList and LinkedList.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 20,
+    "generation_mode": "baseline",
+    "generation_method": "transcript-only"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the List interface in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A class that implements a dynamic array"
+        },
+        {
+          "id": "B",
+          "text": "An interface in Java's collection framework that defines an ordered collection of elements"
+        },
+        {
+          "id": "C",
+          "text": "A type of LinkedList implementation"
+        },
+        {
+          "id": "D",
+          "text": "A type of ArrayList implementation"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The List interface in Java is an interface in Java's collection framework that defines an ordered collection of elements, as mentioned at 00:23 in the video.",
+      "difficulty": "easy",
+      "topic": "List Interface",
+      "reference": "00:23"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What are the three key features of the List interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Order is maintained, duplicates are not allowed, and index-based access is not supported"
+        },
+        {
+          "id": "B",
+          "text": "Order is not maintained, duplicates are allowed, and index-based access is supported"
+        },
+        {
+          "id": "C",
+          "text": "Order is maintained, duplicates are allowed, and index-based access is supported"
+        },
+        {
+          "id": "D",
+          "text": "Order is not maintained, duplicates are not allowed, and index-based access is not supported"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The three key features of the List interface are: order is maintained, duplicates are allowed, and index-based access is supported, as mentioned at 01:03-01:37 in the video.",
+      "difficulty": "easy",
+      "topic": "List Interface",
+      "reference": "01:03-01:37"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the purpose of the add method in the List interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To remove an element from the list"
+        },
+        {
+          "id": "B",
+          "text": "To retrieve an element from the list"
+        },
+        {
+          "id": "C",
+          "text": "To add an element to the list"
+        },
+        {
+          "id": "D",
+          "text": "To get the size of the list"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The add method in the List interface is used to add an element to the list, as mentioned at 01:43-01:48 in the video.",
+      "difficulty": "easy",
+      "topic": "List Interface Methods",
+      "reference": "01:43-01:48"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the main difference between ArrayList and LinkedList implementations?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ArrayList is a dynamic array implementation, while LinkedList is a fixed-size array implementation"
+        },
+        {
+          "id": "B",
+          "text": "ArrayList is a fixed-size array implementation, while LinkedList is a dynamic array implementation"
+        },
+        {
+          "id": "C",
+          "text": "ArrayList is a dynamic array implementation, while LinkedList is a doubly linked list implementation"
+        },
+        {
+          "id": "D",
+          "text": "ArrayList is a singly linked list implementation, while LinkedList is a doubly linked list implementation"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The main difference between ArrayList and LinkedList implementations is that ArrayList is a dynamic array implementation, while LinkedList is a doubly linked list implementation, as mentioned at 02:47 and 06:12 in the video.",
+      "difficulty": "medium",
+      "topic": "ArrayList vs LinkedList",
+      "reference": "02:47, 06:12"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the advantage of using ArrayList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It offers fast random access and is efficient for insertions and deletions"
+        },
+        {
+          "id": "B",
+          "text": "It offers slow random access and is efficient for insertions and deletions"
+        },
+        {
+          "id": "C",
+          "text": "It offers fast random access, but is not efficient for insertions and deletions"
+        },
+        {
+          "id": "D",
+          "text": "It offers slow random access, but is efficient for insertions and deletions"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The advantage of using ArrayList is that it offers fast random access, but it is not efficient for insertions and deletions, especially at the beginning of the list, as mentioned at 03:13-03:19 and 04:07-04:13 in the video.",
+      "difficulty": "medium",
+      "topic": "ArrayList",
+      "reference": "03:13-03:19, 04:07-04:13"
+    },
+    {
+      "question_number": 6,
+      "question_text": "How does ArrayList handle resizing when it reaches full capacity?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It throws an exception"
+        },
+        {
+          "id": "B",
+          "text": "It creates a new array with the same size and copies the elements"
+        },
+        {
+          "id": "C",
+          "text": "It creates a new array with increased capacity and copies the elements"
+        },
+        {
+          "id": "D",
+          "text": "It deletes the oldest elements to make room for new ones"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "When ArrayList reaches full capacity, it creates a new array with increased capacity (usually 1.5 or 2 times the size of the previous array) and copies the elements, as mentioned at 04:45-05:02 in the video.",
+      "difficulty": "medium",
+      "topic": "ArrayList",
+      "reference": "04:45-05:02"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is the main advantage of using LinkedList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It offers fast random access and is not efficient for insertions and deletions"
+        },
+        {
+          "id": "B",
+          "text": "It offers slow random access and is efficient for insertions and deletions"
+        },
+        {
+          "id": "C",
+          "text": "It offers fast random access, but is not efficient for insertions and deletions"
+        },
+        {
+          "id": "D",
+          "text": "It offers slow random access, but is not efficient for insertions and deletions"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The main advantage of using LinkedList is that it offers slow random access, but is efficient for insertions and deletions, especially at any position, as mentioned at 06:53-06:57 and 08:30-08:37 in the video.",
+      "difficulty": "medium",
+      "topic": "LinkedList",
+      "reference": "06:53-06:57, 08:30-08:37"
+    },
+    {
+      "question_number": 8,
+      "question_text": "How does LinkedList implement its elements?",
+      "options": [
+        {
+          "id": "A",
+          "text": "As a singly linked list, where each node only points to the next node"
+        },
+        {
+          "id": "B",
+          "text": "As a doubly linked list, where each node points to the next and previous nodes"
+        },
+        {
+          "id": "C",
+          "text": "As a dynamic array, where elements are stored in a contiguous block of memory"
+        },
+        {
+          "id": "D",
+          "text": "As a fixed-size array, where elements are stored in a non-contiguous block of memory"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "LinkedList implements its elements as a doubly linked list, where each node (called a node) contains both a reference to the next node and a reference to the previous node, as mentioned at 06:12-06:24 in the video.",
+      "difficulty": "medium",
+      "topic": "LinkedList",
+      "reference": "06:12-06:24"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is the time complexity of inserting or deleting an element at the beginning of an ArrayList?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(1)"
+        },
+        {
+          "id": "B",
+          "text": "O(log n)"
+        },
+        {
+          "id": "C",
+          "text": "O(n)"
+        },
+        {
+          "id": "D",
+          "text": "O(n log n)"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The time complexity of inserting or deleting an element at the beginning of an ArrayList is O(n), because all the elements after the insertion or deletion point need to be shifted, as mentioned at 04:07-04:13 in the video.",
+      "difficulty": "hard",
+      "topic": "ArrayList",
+      "reference": "04:07-04:13"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What is the time complexity of accessing an element in a LinkedList by its index?",
+      "options": [
+        {
+          "id": "A",
+          "text": "O(1)"
+        },
+        {
+          "id": "B",
+          "text": "O(log n)"
+        },
+        {
+          "id": "C",
+          "text": "O(n)"
+        },
+        {
+          "id": "D",
+          "text": "O(n log n)"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The time complexity of accessing an element in a LinkedList by its index is O(n), because the LinkedList needs to traverse the list from the beginning to find the element, as mentioned at 08:04-08:20 in the video.",
+      "difficulty": "hard",
+      "topic": "LinkedList",
+      "reference": "08:04-08:20"
+    }
+  ]
+}

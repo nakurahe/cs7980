@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Unit Testing in Python",
+    "description": "This quiz covers the basics of unit testing in Python, including why unit testing is important, how to write unit tests, and best practices for unit testing.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "baseline",
+    "generation_method": "transcript-only"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the primary purpose of unit testing?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To catch bugs early and ensure code quality"
+        },
+        {
+          "id": "B",
+          "text": "To improve code performance"
+        },
+        {
+          "id": "C",
+          "text": "To reduce code complexity"
+        },
+        {
+          "id": "D",
+          "text": "To increase code readability"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Unit testing is primarily used to catch bugs early and ensure that code is working as expected, which is mentioned at timestamp [00:51].",
+      "difficulty": "easy",
+      "topic": "Introduction to Unit Testing",
+      "reference": "[00:51]"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is an example of a reason why we want to unit test?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To enable confident refactoring"
+        },
+        {
+          "id": "B",
+          "text": "To improve code performance"
+        },
+        {
+          "id": "C",
+          "text": "To reduce code complexity"
+        },
+        {
+          "id": "D",
+          "text": "To increase code readability"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Enabling confident refactoring is one of the reasons why we want to unit test, which is mentioned at timestamp [01:06].",
+      "difficulty": "easy",
+      "topic": "Reasons for Unit Testing",
+      "reference": "[01:06]"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the name of the Python testing framework mentioned in the video?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pytest"
+        },
+        {
+          "id": "B",
+          "text": "Unittest"
+        },
+        {
+          "id": "C",
+          "text": "Testify"
+        },
+        {
+          "id": "D",
+          "text": "Nose"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The video mentions Pytest as the Python testing framework, which is mentioned at timestamp [03:39].",
+      "difficulty": "easy",
+      "topic": "Python Testing Frameworks",
+      "reference": "[03:39]"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the purpose of the 'assert' statement in Pytest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To verify expected behavior"
+        },
+        {
+          "id": "B",
+          "text": "To improve code performance"
+        },
+        {
+          "id": "C",
+          "text": "To reduce code complexity"
+        },
+        {
+          "id": "D",
+          "text": "To increase code readability"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The 'assert' statement is used to verify expected behavior, which is mentioned at timestamp [04:26].",
+      "difficulty": "easy",
+      "topic": "Pytest Assertions",
+      "reference": "[04:26]"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the command to run all tests in Pytest?",
+      "options": [
+        {
+          "id": "A",
+          "text": "pytest"
+        },
+        {
+          "id": "B",
+          "text": "pytest -v"
+        },
+        {
+          "id": "C",
+          "text": "pytest -k"
+        },
+        {
+          "id": "D",
+          "text": "pytest -h"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The command to run all tests in Pytest is simply 'pytest', which is mentioned at timestamp [05:08].",
+      "difficulty": "easy",
+      "topic": "Pytest Commands",
+      "reference": "[05:08]"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is a best practice for writing unit tests?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Test only one thing per test"
+        },
+        {
+          "id": "B",
+          "text": "Test multiple things per test"
+        },
+        {
+          "id": "C",
+          "text": "Use vague test names"
+        },
+        {
+          "id": "D",
+          "text": "Don't test edge cases"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Testing only one thing per test is a best practice, which is mentioned at timestamp [05:46].",
+      "difficulty": "medium",
+      "topic": "Best Practices for Unit Testing",
+      "reference": "[05:46]"
+    },
+    {
+      "question_number": 7,
+      "question_text": "Why is it important to test edge cases?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To ensure code works correctly for normal cases"
+        },
+        {
+          "id": "B",
+          "text": "To ensure code works correctly for edge cases"
+        },
+        {
+          "id": "C",
+          "text": "To improve code performance"
+        },
+        {
+          "id": "D",
+          "text": "To reduce code complexity"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Testing edge cases is important to ensure that code works correctly for unexpected or unusual inputs, which is mentioned at timestamp [03:03].",
+      "difficulty": "medium",
+      "topic": "Importance of Edge Cases",
+      "reference": "[03:03]"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What should you do before submitting any code?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Run the tests to make sure the code is working"
+        },
+        {
+          "id": "B",
+          "text": "Don't run the tests, just submit the code"
+        },
+        {
+          "id": "C",
+          "text": "Run the tests, but only for normal cases"
+        },
+        {
+          "id": "D",
+          "text": "Run the tests, but only for edge cases"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "You should run the tests to make sure the code is working before submitting it, which is mentioned at timestamp [07:04].",
+      "difficulty": "easy",
+      "topic": "Best Practices for Code Submission",
+      "reference": "[07:04]"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What should you avoid when writing unit tests?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Testing library code"
+        },
+        {
+          "id": "B",
+          "text": "Testing your own code"
+        },
+        {
+          "id": "C",
+          "text": "Using descriptive test names"
+        },
+        {
+          "id": "D",
+          "text": "Testing edge cases"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "You should avoid testing library code, as it has already been tested, which is mentioned at timestamp [07:12].",
+      "difficulty": "medium",
+      "topic": "What Not to Test",
+      "reference": "[07:12]"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What is the purpose of using descriptive test names?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To make the tests more difficult to understand"
+        },
+        {
+          "id": "B",
+          "text": "To make the tests more efficient"
+        },
+        {
+          "id": "C",
+          "text": "To make the tests more descriptive and easier to understand"
+        },
+        {
+          "id": "D",
+          "text": "To make the tests more vague"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Using descriptive test names makes the tests more descriptive and easier to understand, which is mentioned at timestamp [06:34].",
+      "difficulty": "medium",
+      "topic": "Best Practices for Test Names",
+      "reference": "[06:34]"
+    }
+  ]
+}

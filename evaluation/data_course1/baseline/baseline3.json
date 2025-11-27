@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Data Structures: Array List and Linked List",
+    "description": "This quiz covers the main concepts and differences between array lists and linked lists, including access time, insertion, and memory usage.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "baseline",
+    "generation_method": "transcript-only"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the main factor to consider when deciding between an array list and a linked list?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Memory usage"
+        },
+        {
+          "id": "B",
+          "text": "Access time"
+        },
+        {
+          "id": "C",
+          "text": "Implementation complexity"
+        },
+        {
+          "id": "D",
+          "text": "How they work and the application's requirements"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "As mentioned at 00:20, the key to choosing between an array list and a linked list is to think about how they work and which one makes more sense for the specific application.",
+      "difficulty": "easy",
+      "topic": "Introduction to array lists and linked lists",
+      "reference": "00:20"
+    },
+    {
+      "question_number": 2,
+      "question_text": "How does access time compare between array lists and linked lists?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Array lists are slower than linked lists"
+        },
+        {
+          "id": "B",
+          "text": "Linked lists are slower than array lists"
+        },
+        {
+          "id": "C",
+          "text": "Access time is the same for both"
+        },
+        {
+          "id": "D",
+          "text": "It depends on the size of the list"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "As explained at 01:00, array lists allow for fast access to elements because everything is contained in the same chunk of memory, whereas linked lists are slower due to the need to follow pointers to find an element.",
+      "difficulty": "medium",
+      "topic": "Access time",
+      "reference": "01:00"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What happens when inserting an element at the end of a linked list?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It is very slow due to the need to shift all elements"
+        },
+        {
+          "id": "B",
+          "text": "It is very fast because only a new pointer is needed"
+        },
+        {
+          "id": "C",
+          "text": "It is the same as inserting at the start of the list"
+        },
+        {
+          "id": "D",
+          "text": "It is not possible to insert at the end of a linked list"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "As mentioned at 01:44, inserting an element at the end of a linked list is very fast because it only requires adding a new pointer to the new element.",
+      "difficulty": "medium",
+      "topic": "Insertion in linked lists",
+      "reference": "01:44"
+    },
+    {
+      "question_number": 4,
+      "question_text": "Why is inserting an element at the start or middle of an array list slow?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Because it requires shifting all elements to make space"
+        },
+        {
+          "id": "B",
+          "text": "Because it requires creating a new array"
+        },
+        {
+          "id": "C",
+          "text": "Because it is not possible to insert at the start or middle"
+        },
+        {
+          "id": "D",
+          "text": "Because it only requires updating a pointer"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "As explained at 01:56, inserting an element at the start or middle of an array list is slow because all the elements need to be shifted to make space for the new element, which involves copying elements to a new location.",
+      "difficulty": "medium",
+      "topic": "Insertion in array lists",
+      "reference": "01:56"
+    },
+    {
+      "question_number": 5,
+      "question_text": "How does memory usage compare between array lists and linked lists?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Array lists have more overhead than linked lists"
+        },
+        {
+          "id": "B",
+          "text": "Linked lists have more overhead than array lists"
+        },
+        {
+          "id": "C",
+          "text": "Memory usage is the same for both"
+        },
+        {
+          "id": "D",
+          "text": "It depends on the size of the list"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "As mentioned at 02:29, linked lists have more overhead than array lists due to the extra pointers required to navigate the list.",
+      "difficulty": "easy",
+      "topic": "Memory usage",
+      "reference": "02:29"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main advantage of using a linked list?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fast access time"
+        },
+        {
+          "id": "B",
+          "text": "Efficient insertion and deletion"
+        },
+        {
+          "id": "C",
+          "text": "Low memory usage"
+        },
+        {
+          "id": "D",
+          "text": "Simple implementation"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "As discussed at 02:15, one of the main advantages of linked lists is that insertion and deletion can be very quick, regardless of the size of the list, because it only involves changing pointers.",
+      "difficulty": "medium",
+      "topic": "Advantages of linked lists",
+      "reference": "02:15"
+    },
+    {
+      "question_number": 7,
+      "question_text": "When is an array list the best choice?",
+      "options": [
+        {
+          "id": "A",
+          "text": "When frequent insertions or deletions are needed"
+        },
+        {
+          "id": "B",
+          "text": "When fast access to elements is required and insertions/deletions are rare"
+        },
+        {
+          "id": "C",
+          "text": "When memory usage needs to be minimized"
+        },
+        {
+          "id": "D",
+          "text": "When the list is very small"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "As summarized at 02:48, array lists are best for applications where fast access to elements is necessary and insertions or deletions are not frequent.",
+      "difficulty": "medium",
+      "topic": "Choosing an array list",
+      "reference": "02:48"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is the relationship between List, ArrayList, and LinkedList in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "List is a class that extends ArrayList and LinkedList"
+        },
+        {
+          "id": "B",
+          "text": "ArrayList and LinkedList are interfaces that extend List"
+        },
+        {
+          "id": "C",
+          "text": "List is an interface, and ArrayList and LinkedList are implementations"
+        },
+        {
+          "id": "D",
+          "text": "ArrayList and LinkedList are classes that implement each other"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "As mentioned at 02:39, List is an interface in Java, and ArrayList and LinkedList are two of the main implementations of this interface.",
+      "difficulty": "easy",
+      "topic": "Java collections framework",
+      "reference": "02:39"
+    },
+    {
+      "question_number": 9,
+      "question_text": "How does the size of the list affect the time it takes to access an element in a linked list?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The size of the list does not affect access time"
+        },
+        {
+          "id": "B",
+          "text": "Larger lists result in faster access times"
+        },
+        {
+          "id": "C",
+          "text": "Larger lists result in slower access times"
+        },
+        {
+          "id": "D",
+          "text": "It depends on the implementation of the linked list"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "As discussed at 01:13, in a linked list, the time it takes to access an element increases with the size of the list because each element must be traversed sequentially until the desired element is found.",
+      "difficulty": "medium",
+      "topic": "Access time in linked lists",
+      "reference": "01:13"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What should you consider when deciding which data structure (array list or linked list) to use for a particular application?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only the memory usage"
+        },
+        {
+          "id": "B",
+          "text": "Only the access time"
+        },
+        {
+          "id": "C",
+          "text": "How the data structure works and the specific requirements of the application"
+        },
+        {
+          "id": "D",
+          "text": "The size of the data"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "As advised at 03:09, when choosing between an array list and a linked list, consider how each data structure works and which one best fits the specific needs of the application.",
+      "difficulty": "medium",
+      "topic": "Choosing between array lists and linked lists",
+      "reference": "03:09"
+    }
+  ]
+}

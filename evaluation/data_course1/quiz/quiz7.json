@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Java Collections Framework Quiz",
+    "description": "This quiz covers the main concepts of the Java Collections Framework, including collections, lists, sets, queues, and maps.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "multimodal",
+    "generation_method": "transcript and slides"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the Java Collections Framework?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A set of concrete classes for storing data"
+        },
+        {
+          "id": "B",
+          "text": "A unified architecture with core interfaces for storing data"
+        },
+        {
+          "id": "C",
+          "text": "A set of utility classes for common operations"
+        },
+        {
+          "id": "D",
+          "text": "A framework for building graphical user interfaces"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The Java Collections Framework is a unified architecture that has core interfaces, including Collection, List, Set, Queue, and Map, which define contracts for storing and manipulating data. (Reference: 00:06)",
+      "difficulty": "easy",
+      "topic": "Java Collections Framework",
+      "reference": "00:06"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What is the main difference between a List and a Set in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A List is ordered, while a Set is not"
+        },
+        {
+          "id": "B",
+          "text": "A List allows duplicates, while a Set does not"
+        },
+        {
+          "id": "C",
+          "text": "A List is used for storing key-value pairs, while a Set is not"
+        },
+        {
+          "id": "D",
+          "text": "A List is used for storing relationships, while a Set is not"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "A List allows duplicates, while a Set does not. This is a key difference between the two data structures. (Reference: 01:27)",
+      "difficulty": "easy",
+      "topic": "Lists and Sets",
+      "reference": "01:27"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the purpose of the Queue interface in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To store unique elements"
+        },
+        {
+          "id": "B",
+          "text": "To store key-value pairs"
+        },
+        {
+          "id": "C",
+          "text": "To process objects in a First-In-First-Out (FIFO) order"
+        },
+        {
+          "id": "D",
+          "text": "To store relationships between objects"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The Queue interface is used to process objects in a First-In-First-Out (FIFO) order, meaning that the first object added to the queue is the first one to be removed. (Reference: 02:09)",
+      "difficulty": "easy",
+      "topic": "Queues",
+      "reference": "02:09"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is a Map in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A collection of unique elements"
+        },
+        {
+          "id": "B",
+          "text": "A collection of key-value pairs"
+        },
+        {
+          "id": "C",
+          "text": "A utility class for common operations"
+        },
+        {
+          "id": "D",
+          "text": "A framework for building graphical user interfaces"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "A Map is a collection of key-value pairs, where each key is unique and associated with a value. (Reference: 02:40)",
+      "difficulty": "easy",
+      "topic": "Maps",
+      "reference": "02:40"
+    },
+    {
+      "question_number": 5,
+      "question_text": "Why is a Map not considered a Collection in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Because it does not allow duplicates"
+        },
+        {
+          "id": "B",
+          "text": "Because it is used for storing relationships between objects"
+        },
+        {
+          "id": "C",
+          "text": "Because it stores key-value pairs, rather than individual elements"
+        },
+        {
+          "id": "D",
+          "text": "Because it is a utility class for common operations"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "A Map is not considered a Collection because it stores key-value pairs, rather than individual elements. (Reference: 03:03)",
+      "difficulty": "medium",
+      "topic": "Maps and Collections",
+      "reference": "03:03"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the main difference between using a Collection and a Map in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A Collection is used for storing unique elements, while a Map is used for storing key-value pairs"
+        },
+        {
+          "id": "B",
+          "text": "A Collection is used for storing individual elements, while a Map is used for storing relationships between objects"
+        },
+        {
+          "id": "C",
+          "text": "A Collection is used for storing key-value pairs, while a Map is used for storing individual elements"
+        },
+        {
+          "id": "D",
+          "text": "A Collection is used for storing relationships between objects, while a Map is used for storing individual elements"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "A Collection is used for storing individual elements, while a Map is used for storing relationships between objects. (Reference: 03:36)",
+      "difficulty": "medium",
+      "topic": "Collections and Maps",
+      "reference": "03:36"
+    },
+    {
+      "question_number": 7,
+      "question_text": "What is an example of when you would use a Set in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "When you need to store a collection of unique user IDs"
+        },
+        {
+          "id": "B",
+          "text": "When you need to store a collection of key-value pairs"
+        },
+        {
+          "id": "C",
+          "text": "When you need to process objects in a First-In-First-Out (FIFO) order"
+        },
+        {
+          "id": "D",
+          "text": "When you need to store a collection of individual elements with duplicates"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "You would use a Set when you need to store a collection of unique elements, such as user IDs or email addresses. (Reference: 01:53)",
+      "difficulty": "easy",
+      "topic": "Sets",
+      "reference": "01:53"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is an example of when you would use a Map in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "When you need to store a collection of unique elements"
+        },
+        {
+          "id": "B",
+          "text": "When you need to store a collection of key-value pairs, such as student grades"
+        },
+        {
+          "id": "C",
+          "text": "When you need to process objects in a First-In-First-Out (FIFO) order"
+        },
+        {
+          "id": "D",
+          "text": "When you need to store a collection of individual elements with duplicates"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "You would use a Map when you need to store a collection of key-value pairs, such as student grades or other relationships between objects. (Reference: 03:43)",
+      "difficulty": "easy",
+      "topic": "Maps",
+      "reference": "03:43"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is the purpose of the Collections class in Java?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To provide a unified architecture for storing data"
+        },
+        {
+          "id": "B",
+          "text": "To provide utility methods for common operations on collections"
+        },
+        {
+          "id": "C",
+          "text": "To provide a framework for building graphical user interfaces"
+        },
+        {
+          "id": "D",
+          "text": "To provide a set of concrete classes for storing data"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The Collections class provides utility methods for common operations on collections, such as sorting and searching. (Reference: 01:02)",
+      "difficulty": "medium",
+      "topic": "Collections Class",
+      "reference": "01:02"
+    },
+    {
+      "question_number": 10,
+      "question_text": "What is the relationship between the Java Collections Framework and the Map interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "The Map interface is a part of the Java Collections Framework, but it is not a Collection"
+        },
+        {
+          "id": "B",
+          "text": "The Map interface is not part of the Java Collections Framework"
+        },
+        {
+          "id": "C",
+          "text": "The Map interface is a type of Collection"
+        },
+        {
+          "id": "D",
+          "text": "The Java Collections Framework is a part of the Map interface"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The Map interface is part of the Java Collections Framework, but it is not a Collection because it stores key-value pairs rather than individual elements. (Reference: 03:03)",
+      "difficulty": "medium",
+      "topic": "Maps and Collections Framework",
+      "reference": "03:03"
+    }
+  ]
+}

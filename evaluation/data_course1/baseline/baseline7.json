@@ -1,0 +1,283 @@
+{
+  "quiz_metadata": {
+    "title": "Java Collections Framework Quiz",
+    "description": "This quiz covers the main concepts and topics from the Java Collections Framework video, including collections, lists, sets, queues, and maps.",
+    "total_questions": 10,
+    "difficulty": "medium",
+    "estimated_time_minutes": 15,
+    "generation_mode": "baseline",
+    "generation_method": "transcript-only"
+  },
+  "questions": [
+    {
+      "question_number": 1,
+      "question_text": "What is the Java Collections Framework?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A set of concrete classes for storing data"
+        },
+        {
+          "id": "B",
+          "text": "A unified architecture with core interfaces for storing and manipulating data"
+        },
+        {
+          "id": "C",
+          "text": "A set of utility classes for common operations"
+        },
+        {
+          "id": "D",
+          "text": "A set of interfaces for database interactions"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The Java Collections Framework is a unified architecture that provides a set of core interfaces for storing and manipulating data, as mentioned at 00:06.",
+      "difficulty": "easy",
+      "topic": "Introduction to Java Collections Framework",
+      "reference": "00:06"
+    },
+    {
+      "question_number": 2,
+      "question_text": "What are the main interfaces in the Java Collections Framework?",
+      "options": [
+        {
+          "id": "A",
+          "text": "List, Set, Queue, and Map"
+        },
+        {
+          "id": "B",
+          "text": "List, Set, and Queue"
+        },
+        {
+          "id": "C",
+          "text": "Map, Set, and List"
+        },
+        {
+          "id": "D",
+          "text": "Queue, Map, and Set"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "The main interfaces in the Java Collections Framework are List, Set, Queue, and Map, as mentioned at 00:14-00:22.",
+      "difficulty": "easy",
+      "topic": "Java Collections Framework Interfaces",
+      "reference": "00:14-00:22"
+    },
+    {
+      "question_number": 3,
+      "question_text": "What is the main difference between a Set and a List?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A Set is ordered, while a List is not"
+        },
+        {
+          "id": "B",
+          "text": "A Set allows duplicates, while a List does not"
+        },
+        {
+          "id": "C",
+          "text": "A Set does not allow duplicates, while a List does"
+        },
+        {
+          "id": "D",
+          "text": "A Set is used for storing key-value pairs, while a List is not"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "A Set does not allow duplicates, while a List does, as mentioned at 01:29-01:36.",
+      "difficulty": "medium",
+      "topic": "Sets and Lists",
+      "reference": "01:29-01:36"
+    },
+    {
+      "question_number": 4,
+      "question_text": "What is the purpose of the Queue interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To store unique elements"
+        },
+        {
+          "id": "B",
+          "text": "To store key-value pairs"
+        },
+        {
+          "id": "C",
+          "text": "To process objects in a specific order, following the First-In-First-Out principle"
+        },
+        {
+          "id": "D",
+          "text": "To store ordered collections of objects"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The Queue interface is used to process objects in a specific order, following the First-In-First-Out principle, as mentioned at 02:04-02:20.",
+      "difficulty": "medium",
+      "topic": "Queues",
+      "reference": "02:04-02:20"
+    },
+    {
+      "question_number": 5,
+      "question_text": "What is the main characteristic of a Map?",
+      "options": [
+        {
+          "id": "A",
+          "text": "It stores a collection of unique elements"
+        },
+        {
+          "id": "B",
+          "text": "It stores a collection of ordered objects"
+        },
+        {
+          "id": "C",
+          "text": "It stores pairs of objects, with a unique key associated with a value"
+        },
+        {
+          "id": "D",
+          "text": "It stores a collection of objects with no specific order"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "A Map stores pairs of objects, with a unique key associated with a value, as mentioned at 02:40-02:50.",
+      "difficulty": "medium",
+      "topic": "Maps",
+      "reference": "02:40-02:50"
+    },
+    {
+      "question_number": 6,
+      "question_text": "What is the difference between a Collection and a Map?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A Collection stores key-value pairs, while a Map does not"
+        },
+        {
+          "id": "B",
+          "text": "A Collection stores individual elements, while a Map stores pairs of objects"
+        },
+        {
+          "id": "C",
+          "text": "A Collection is used for storing unique elements, while a Map is used for storing ordered collections"
+        },
+        {
+          "id": "D",
+          "text": "A Collection is used for storing key-value pairs, while a Map is used for storing individual elements"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "A Collection stores individual elements, while a Map stores pairs of objects, as mentioned at 03:03-03:17.",
+      "difficulty": "medium",
+      "topic": "Collections and Maps",
+      "reference": "03:03-03:17"
+    },
+    {
+      "question_number": 7,
+      "question_text": "When would you use a Set?",
+      "options": [
+        {
+          "id": "A",
+          "text": "When you need to store a collection of ordered objects"
+        },
+        {
+          "id": "B",
+          "text": "When you need to store a collection of unique elements"
+        },
+        {
+          "id": "C",
+          "text": "When you need to store key-value pairs"
+        },
+        {
+          "id": "D",
+          "text": "When you need to process objects in a specific order"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "You would use a Set when you need to store a collection of unique elements, as mentioned at 01:36-01:42.",
+      "difficulty": "medium",
+      "topic": "Sets",
+      "reference": "01:36-01:42"
+    },
+    {
+      "question_number": 8,
+      "question_text": "What is an example of a real-world scenario where you would use a Queue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Storing a collection of unique user IDs"
+        },
+        {
+          "id": "B",
+          "text": "Processing a list of ordered tasks"
+        },
+        {
+          "id": "C",
+          "text": "Simulating a line of people waiting to buy a new product"
+        },
+        {
+          "id": "D",
+          "text": "Storing a collection of key-value pairs"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "An example of a real-world scenario where you would use a Queue is simulating a line of people waiting to buy a new product, as mentioned at 02:09-02:20.",
+      "difficulty": "medium",
+      "topic": "Queues",
+      "reference": "02:09-02:20"
+    },
+    {
+      "question_number": 9,
+      "question_text": "What is the purpose of the Collections class in the Java Collections Framework?",
+      "options": [
+        {
+          "id": "A",
+          "text": "To provide a set of core interfaces for storing and manipulating data"
+        },
+        {
+          "id": "B",
+          "text": "To provide a set of concrete classes for storing data"
+        },
+        {
+          "id": "C",
+          "text": "To provide a set of utility classes for common operations"
+        },
+        {
+          "id": "D",
+          "text": "To provide a set of interfaces for database interactions"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The Collections class provides a set of utility classes for common operations, as mentioned at 01:02.",
+      "difficulty": "medium",
+      "topic": "Collections Class",
+      "reference": "01:02"
+    },
+    {
+      "question_number": 10,
+      "question_text": "When would you use a Map instead of a Collection?",
+      "options": [
+        {
+          "id": "A",
+          "text": "When you need to store a collection of unique elements"
+        },
+        {
+          "id": "B",
+          "text": "When you need to store a collection of ordered objects"
+        },
+        {
+          "id": "C",
+          "text": "When you need to store relationships between objects, such as a student and their grade"
+        },
+        {
+          "id": "D",
+          "text": "When you need to process objects in a specific order"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "You would use a Map instead of a Collection when you need to store relationships between objects, such as a student and their grade, as mentioned at 03:40-03:50.",
+      "difficulty": "medium",
+      "topic": "Maps and Collections",
+      "reference": "03:40-03:50"
+    }
+  ]
+}
